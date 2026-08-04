@@ -1,0 +1,7 @@
+|-- ames/
+|---- train.csv
+|---- test.npz
+|---- train.npz
+|---- test.csv
+|---- val.csv
+|---- val.npz

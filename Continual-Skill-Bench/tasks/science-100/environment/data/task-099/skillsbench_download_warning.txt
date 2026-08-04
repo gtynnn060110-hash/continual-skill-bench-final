@@ -1,0 +1,2 @@
+Could not refresh SkillsBench environment; kept existing local copy.
+Error: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /benchflow-ai/skillsbench/main/tasks/exoplanet-detection-period/environment/skills/light-curve-preprocessing/SKILL.md (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))

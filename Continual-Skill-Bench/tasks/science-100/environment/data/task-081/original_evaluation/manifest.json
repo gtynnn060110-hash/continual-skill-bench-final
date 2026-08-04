@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-081",
+    "source_id":  "sab-1",
+    "instance_id":  1,
+    "eval_script":  "eval_programs/clintox_nn_eval.py",
+    "gold_program":  "gold_programs/clintox_nn.py",
+    "scoring_rubric":  "scoring_rubrics/clintox_nn_rubric.json",
+    "output_fname":  "pred_results/clintox_test_pred.csv",
+    "gold_results":  [
+                         "gold_results/clintox_gold.csv"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

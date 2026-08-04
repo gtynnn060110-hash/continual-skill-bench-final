@@ -1,0 +1,177 @@
+# Independent trials for office-100 subtasks
+# Usage:
+#   harbor jobs start -c /Users/gtynnn/Documents/Learning/llm_porj/Continual-Skill-Bench/experiments/configs/office_100_independent_trials.yaml
+
+job_name: claude-test
+jobs_dir: ../jobs
+n_attempts: 1
+timeout_multiplier: 1.0
+debug: true
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 1
+  quiet: false
+  retry:
+    max_retries: 0
+    include_exceptions: null
+    exclude_exceptions:
+      - VerifierTimeoutError
+      - BadRequestError
+      - RateLimitError
+    wait_multiplier: 1.0
+    min_wait_sec: 1.0
+    max_wait_sec: 60.0
+  kwargs: {}
+
+environment:
+  type: docker
+  import_path: null
+  force_build: false
+  delete: false
+  override_cpus: null
+  override_memory_mb: null
+  override_storage_mb: null
+  override_gpus: null
+  kwargs: {}
+
+verifier:
+  override_timeout_sec: null
+  max_timeout_sec: null
+  disable: false
+
+metrics: []
+
+agents:
+  # - name: codex-seq
+  #   import_path: null
+  #   model_name: openai/gpt-5.3-codex
+  #   override_timeout_sec: null
+  #   override_setup_timeout_sec: null
+  #   max_timeout_sec: null
+  #   kwargs:
+  #     reasoning_effort: medium
+  #     enable_judge_feedback: true
+  #     judge_model: openai/gpt-5.4
+  #     judge_pass_threshold: 0.6
+  #     skill_maintenance_threshold: 0.2
+  #     max_steps_per_task: 30
+  #     max_seconds_per_task: 1200
+  - name: claude-code-seq
+    import_path: null
+    model_name: anthropic/claude-opus-4.7
+    override_timeout_sec: null
+    override_setup_timeout_sec: null
+    max_timeout_sec: null
+    kwargs:
+      reasoning_effort: medium
+      enable_judge_feedback: true
+      judge_model: openai/gpt-5.4
+      judge_pass_threshold: 0.6
+      skill_maintenance_threshold: 0.2
+      max_steps_per_task: 30
+      max_seconds_per_task: 1200
+
+datasets:
+  - path: ./tasks/office-100-independent-trials
+    task_names:
+      - office-ind-001
+      - office-ind-002
+      - office-ind-003
+      - office-ind-004
+      - office-ind-005
+      - office-ind-006
+      - office-ind-007
+      - office-ind-008
+      - office-ind-009
+      - office-ind-010
+      - office-ind-011
+      - office-ind-012
+      - office-ind-013
+      - office-ind-014
+      - office-ind-015
+      - office-ind-016
+      - office-ind-017
+      - office-ind-018
+      - office-ind-019
+      - office-ind-020
+      - office-ind-021
+      - office-ind-022
+      - office-ind-023
+      - office-ind-024
+      - office-ind-025
+      - office-ind-026
+      - office-ind-027
+      - office-ind-028
+      - office-ind-029
+      - office-ind-030
+      - office-ind-031
+      - office-ind-032
+      - office-ind-033
+      - office-ind-034
+      - office-ind-035
+      - office-ind-036
+      - office-ind-037
+      - office-ind-038
+      - office-ind-039
+      - office-ind-040
+      - office-ind-041
+      - office-ind-042
+      - office-ind-043
+      - office-ind-044
+      - office-ind-045
+      - office-ind-046
+      - office-ind-047
+      - office-ind-048
+      - office-ind-049
+      - office-ind-050
+      - office-ind-051
+      - office-ind-052
+      - office-ind-053
+      - office-ind-054
+      - office-ind-055
+      - office-ind-056
+      - office-ind-057
+      - office-ind-058
+      - office-ind-059
+      - office-ind-060
+      - office-ind-061
+      - office-ind-062
+      - office-ind-063
+      - office-ind-064
+      - office-ind-065
+      - office-ind-066
+      - office-ind-067
+      - office-ind-068
+      - office-ind-069
+      - office-ind-070
+      - office-ind-071
+      - office-ind-072
+      - office-ind-073
+      - office-ind-074
+      - office-ind-075
+      - office-ind-076
+      - office-ind-077
+      - office-ind-078
+      - office-ind-079
+      - office-ind-080
+      - office-ind-081
+      - office-ind-082
+      - office-ind-083
+      - office-ind-084
+      - office-ind-085
+      - office-ind-086
+      - office-ind-087
+      - office-ind-088
+      - office-ind-089
+      - office-ind-090
+      - office-ind-091
+      - office-ind-092
+      - office-ind-093
+      - office-ind-094
+      - office-ind-095
+      - office-ind-096
+      - office-ind-097
+      - office-ind-098
+      - office-ind-099
+      - office-ind-100

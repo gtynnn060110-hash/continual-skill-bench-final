@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-083",
+    "source_id":  "sab-3",
+    "instance_id":  3,
+    "eval_script":  "eval_programs/eval_bulk_modulus.py",
+    "gold_program":  "gold_programs/predict_bulk_modulus.py",
+    "scoring_rubric":  "scoring_rubrics/predict_bulk_modulus_rubric.json",
+    "output_fname":  "pred_results/compound_bulk_modulus.csv",
+    "gold_results":  [
+                         "gold_results/compound_elastic_properties_gold.csv"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

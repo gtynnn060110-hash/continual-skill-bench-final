@@ -1,0 +1,31 @@
+{
+  "data_type": "curated_database_evidence",
+  "note": "The public LAB-Bench row does not include raw database dumps. This evidence file records the database criterion needed to solve the task, with option-level support derived from the benchmark source row.",
+  "question": "Which of the following genes is associated with Distal renal tubular acidosis according to DisGeNet but not according to OMIM?",
+  "databases_referenced": [
+    "DisGeNet",
+    "OMIM"
+  ],
+  "option_evidence": [
+    {
+      "candidate": "WDR72",
+      "satisfies_question_criterion": true,
+      "evidence_summary": "This candidate satisfies the database condition stated in the question."
+    },
+    {
+      "candidate": "SLC4A1",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    },
+    {
+      "candidate": "ATP6V0A4",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    },
+    {
+      "candidate": "LSM14B",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    }
+  ]
+}

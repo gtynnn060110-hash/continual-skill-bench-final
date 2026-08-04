@@ -1,0 +1,5 @@
+pneumonia has been managed with medication.
+The patient presents with pneumonia.
+Patient denies pneumonia but reports fever.
+pneumonia was observed during the visit.
+Symptoms include pneumonia and fever.

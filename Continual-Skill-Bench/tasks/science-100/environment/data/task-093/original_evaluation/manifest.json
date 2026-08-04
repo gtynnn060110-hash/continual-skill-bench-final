@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-093",
+    "source_id":  "sab-13",
+    "instance_id":  13,
+    "eval_script":  "eval_programs/drug_property_eval.py",
+    "gold_program":  "gold_programs/drug_property_model.py",
+    "scoring_rubric":  "scoring_rubrics/drug_property_model_rubric.json",
+    "output_fname":  "pred_results/hiv_test_pred.csv",
+    "gold_results":  [
+                         "gold_results/HIV_gold.csv"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

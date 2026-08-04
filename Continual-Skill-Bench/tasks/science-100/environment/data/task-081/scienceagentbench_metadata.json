@@ -1,0 +1,11 @@
+{
+  "instance_id": 1,
+  "domain": "Computational Chemistry",
+  "subtask_categories": "Feature Engineering, Deep Learning",
+  "github_name": "deepchem/deepchem",
+  "src_file_or_path": "examples/clintox",
+  "gold_program_name": "clintox_nn.py",
+  "output_fname": "pred_results/clintox_test_pred.csv",
+  "eval_script_name": "clintox_nn_eval.py",
+  "full_dataset_note": "The ScienceAgentBench public Hugging Face row exposes folder tree and previews, but not the complete original benchmark dataset files in this scrape."
+}

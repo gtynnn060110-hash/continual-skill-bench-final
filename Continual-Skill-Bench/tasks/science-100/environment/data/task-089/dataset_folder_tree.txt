@@ -1,0 +1,7 @@
+|-- FACTORS/
+|---- FACTORS_training_disguised_combined_full.csv
+|---- FACTORS_test1_disguised_combined.csv
+|---- FACTORS_test2_disguised_combined.csv
+|---- scripts/
+|------ FACTORS_features.py
+|------ FACTORS_datasets.py

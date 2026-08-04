@@ -1,0 +1,3915 @@
+{
+  "33f05937f10027804858b05479808312": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify the term used for a type of society from a specified paper on arXiv.org.",
+    "suggested_skill_name": "arxiv-document-comparison",
+    "testable_facts": [
+      {
+        "key": "submission_date",
+        "expected": "August 11, 2016",
+        "tolerance": null
+      }
+    ]
+  },
+  "01bb657f43c8036ce1199615e7ac6a81": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identifying nonnative occurrence locations for a specific fish species based on USGS data.",
+    "suggested_skill_name": "nonnative-species-location-identification",
+    "testable_facts": [
+      {
+        "key": "nonnative_zip_code",
+        "expected": "34689",
+        "tolerance": null
+      }
+    ]
+  },
+  "2ed0f382124dbef14219fb8e46838e97": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the missing character for Unlambda code to output a specific string.",
+    "suggested_skill_name": "unlambda-character-correction",
+    "testable_facts": []
+  },
+  "93ac986b0b7a2efa69dac73085571999": {
+    "is_law": false,
+    "domain": "",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the number of potato bags needed for a family reunion considering eating preferences and family size.",
+    "suggested_skill_name": "potato-quantity-calculation",
+    "testable_facts": [
+      {
+        "key": "number_of_bags",
+        "expected": 2,
+        "tolerance": null
+      }
+    ]
+  },
+  "09c0d34cea919b8509c7b30e48df9736": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify a command used in a VSCode blog post video to format a document.",
+    "suggested_skill_name": "vscode-command-identification",
+    "testable_facts": [
+      {
+        "key": "command_used",
+        "expected": "Format Document",
+        "tolerance": null
+      }
+    ]
+  },
+  "dfcf4aea71a49f0004db3e9b06377cb5": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine the color code of a specific cell after a series of constrained movements on an Excel grid.",
+    "suggested_skill_name": "color-pathfinding-excel",
+    "testable_facts": [
+      {
+        "key": "hex_color_code",
+        "expected": "F478A7",
+        "tolerance": null
+      }
+    ]
+  },
+  "2568c9f36b68f81c821081b7c271f271": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Analyze and process code outputs with basic arithmetic operations.",
+    "suggested_skill_name": "code-processing-and-summation",
+    "testable_facts": [
+      {
+        "key": "sum_of_third_and_fifth",
+        "expected": 47,
+        "tolerance": null
+      }
+    ]
+  },
+  "e4256d6bb5a7c099aeb35f213c989741": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Determine the final output of a Python code snippet.",
+    "suggested_skill_name": "python-code-evaluation",
+    "testable_facts": []
+  },
+  "57351a787e8212778173936c1ad053f5": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Determine the difference in the number of layers between BERT base encoder and Attention is All You Need encoder.",
+    "suggested_skill_name": "compare-model-architectures",
+    "testable_facts": [
+      {
+        "key": "difference_in_layers",
+        "expected": 6,
+        "tolerance": null
+      }
+    ]
+  },
+  "34830ab41812805b18c3d1aebf5c6795": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine the word deleted in the most recent amendment to a specific federal rule related to witnesses.",
+    "suggested_skill_name": "amendment-tracking-in-rules",
+    "testable_facts": []
+  },
+  "07312bd0c93f1dc275e5e11ed41d054c": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Extract the number of years for a percentage change in gender representation within a profession.",
+    "suggested_skill_name": "percentage-change-time-extraction",
+    "testable_facts": [
+      {
+        "key": "years_for_change",
+        "expected": 22,
+        "tolerance": null
+      }
+    ]
+  },
+  "de2eee492f20564139f638be7b24426d": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the country with the least athletes at the 1928 Olympics by IOC code.",
+    "suggested_skill_name": "olympic-country-lookup",
+    "testable_facts": []
+  },
+  "371ea44d5e7d4095576a97224c87be50": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Research Chubb Limited's 2024 asset allocation strategies and provide investment duration data.",
+    "suggested_skill_name": "insurance-investment-research",
+    "testable_facts": [
+      {
+        "key": "asset_duration_as_of_2024",
+        "expected": 5.1,
+        "tolerance": null
+      },
+      {
+        "key": "liability_duration_as_of_2024",
+        "expected": 6.9,
+        "tolerance": null
+      }
+    ]
+  },
+  "c8d0aaa83625d67a946f6cc8419af9b6": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Select a cryptocurrency trading development model and data source for an automated system.",
+    "suggested_skill_name": "crypto-trading-system-integration",
+    "testable_facts": [
+      {
+        "key": "model_score",
+        "expected": 77.2,
+        "tolerance": null
+      },
+      {
+        "key": "data_refresh",
+        "expected": "minute-level",
+        "tolerance": null
+      },
+      {
+        "key": "operation",
+        "expected": "24/7 automated",
+        "tolerance": null
+      }
+    ]
+  },
+  "8e38502c2409937c0fe096246606ab40": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze major asset performances during BOJ rate hikes post-Yield Curve Control ending.",
+    "suggested_skill_name": "boj-rate-hike-asset-analysis",
+    "testable_facts": [
+      {
+        "key": "BOJ_rate_hike_March_19_2024",
+        "expected": "0.0%–0.1%",
+        "tolerance": null
+      },
+      {
+        "key": "BOJ_surprise_rate_hike_July_31_2024",
+        "expected": "0.15%–0.25%",
+        "tolerance": null
+      },
+      {
+        "key": "BOJ_rate_hike_January_24_2025",
+        "expected": "0.50%",
+        "tolerance": null
+      },
+      {
+        "key": "Bitcoin_decline_July_31_2024",
+        "expected": -17.23,
+        "tolerance": 1.0
+      },
+      {
+        "key": "Average_VIX_increase",
+        "expected": 18.16,
+        "tolerance": 1.0
+      }
+    ]
+  },
+  "3bce1d5b355ebea5e7c439ffd79b6664": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze the macroeconomic factors and policy milestones influencing the Japanese Yen's volatility in 2025.",
+    "suggested_skill_name": "yen-exchange-rate-volatility-analysis",
+    "testable_facts": [
+      {
+        "key": "policy_rate_hike",
+        "expected": 0.75,
+        "tolerance": 0.01
+      },
+      {
+        "key": "pre_meeting_exchange_rate",
+        "expected": 155,
+        "tolerance": 0.5
+      },
+      {
+        "key": "post_meeting_exchange_rate",
+        "expected": 157,
+        "tolerance": 0.5
+      }
+    ]
+  },
+  "41405ac6fbc392dc166059c00d772b40": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 6,
+    "one_line_summary": "Understanding and calculating statutory reserves for life insurance under changing IFRS 17 guidelines.",
+    "suggested_skill_name": "life-insurance-reserve-calculation",
+    "testable_facts": []
+  },
+  "9ed47b4fed612b9f700745ed82f2fee1": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze Nexon's financial performance, focusing on divergences between operating profit and cash flow, and the impact of FX fluctuations.",
+    "suggested_skill_name": "financial-report-analysis",
+    "testable_facts": [
+      {
+        "key": "FY2025 Q3 net profit",
+        "expected": 255,
+        "tolerance": 15
+      },
+      {
+        "key": "FX gains in FY2025 Q3",
+        "expected": 61,
+        "tolerance": 20
+      },
+      {
+        "key": "FX losses in FY2024 Q3",
+        "expected": 131,
+        "tolerance": 0
+      }
+    ]
+  },
+  "483246e448fd9d6623114d7b2786ed2f": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Compare the treatment of OCI under IFRS and GAAP, focusing on available-for-sale assets and liability measurement under IFRS 17.",
+    "suggested_skill_name": "ifrs-gaap-comparison-actuarial",
+    "testable_facts": [
+      {
+        "key": "OCI_refers_to_unrealized_gains_or_losses",
+        "expected": "Unrealized gains or losses from fair value changes",
+        "tolerance": null
+      },
+      {
+        "key": "AFS_in_OCI",
+        "expected": "Current period unrealized gains or losses",
+        "tolerance": null
+      },
+      {
+        "key": "shadow_accounting_in_OCI",
+        "expected": "Shadow accounting adjustments for specific liabilities",
+        "tolerance": null
+      }
+    ]
+  },
+  "1a1a0c135e3d5c7d4e9a7249e2b9d7e9": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze risk-free arbitrage opportunities in the gold futures market using quantitative strategies.",
+    "suggested_skill_name": "futures-market-arbitrage-analysis",
+    "testable_facts": [
+      {
+        "key": "ACT/360 convention value",
+        "expected": 0.1583,
+        "tolerance": null
+      },
+      {
+        "key": "cost-of-carry rate",
+        "expected": 4.74,
+        "tolerance": null
+      },
+      {
+        "key": "theoretical no-arbitrage price",
+        "expected": 2800.26,
+        "tolerance": null
+      },
+      {
+        "key": "actual futures settlement price",
+        "expected": 2797.7,
+        "tolerance": null
+      },
+      {
+        "key": "implied annualized net convenience yield",
+        "expected": 0.58,
+        "tolerance": null
+      }
+    ]
+  },
+  "78d034c2ffdbac2f2da7aa51e53b1f8f": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze revenue growth drivers and supply chain challenges in the semiconductor foundry industry for investor guidance.",
+    "suggested_skill_name": "semiconductor-industry-analysis",
+    "testable_facts": [
+      {
+        "key": "full_year_2023_revenue",
+        "expected": 69.3,
+        "tolerance": null
+      },
+      {
+        "key": "full_year_2024_revenue",
+        "expected": 90.08,
+        "tolerance": null
+      },
+      {
+        "key": "Q1_2025_revenue",
+        "expected": 25.53,
+        "tolerance": null
+      },
+      {
+        "key": "2023_wafer_shipments",
+        "expected": 12.0,
+        "tolerance": null
+      },
+      {
+        "key": "2024_wafer_shipments",
+        "expected": 12.9,
+        "tolerance": null
+      }
+    ]
+  },
+  "3b8cac1fe853443055ff67929858d1fc": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Quantitative financial analysis of LVMH's pricing power and operating leverage using annual reports.",
+    "suggested_skill_name": "financial-attribution-analysis",
+    "testable_facts": [
+      {
+        "key": "FY2024 Reported Revenue",
+        "expected": 41060,
+        "tolerance": null
+      },
+      {
+        "key": "FY2023 Reported Revenue",
+        "expected": 42169,
+        "tolerance": null
+      },
+      {
+        "key": "FY2024 PFRO margin",
+        "expected": 37.1,
+        "tolerance": null
+      },
+      {
+        "key": "FY2023 PFRO margin",
+        "expected": 39.9,
+        "tolerance": null
+      },
+      {
+        "key": "DOL reference value",
+        "expected": 3.17,
+        "tolerance": 0.1
+      }
+    ]
+  },
+  "92918f2f59c29839174482133398003e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Conduct an attribution analysis on Nintendo's FY2025 vs FY2024 financial performance, focusing on hardware and software metrics.",
+    "suggested_skill_name": "financial-performance-analysis",
+    "testable_facts": [
+      {
+        "key": "FY2025 hardware sales",
+        "expected": 10.8,
+        "tolerance": null
+      },
+      {
+        "key": "FY2024 hardware sales",
+        "expected": 15.7,
+        "tolerance": null
+      },
+      {
+        "key": "FY2025 software sales",
+        "expected": 155.0,
+        "tolerance": null
+      },
+      {
+        "key": "FY2024 software sales",
+        "expected": 199.0,
+        "tolerance": null
+      },
+      {
+        "key": "FY2025 software attach rate",
+        "expected": 14.4,
+        "tolerance": 0.1
+      },
+      {
+        "key": "FY2025 Operating Profit",
+        "expected": 282.5,
+        "tolerance": null
+      }
+    ]
+  },
+  "0e781320735179d7689a7c8ceb910cda": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the classification of convertible preference shares under IFRS standards in the context of an IPO listing on HKEX.",
+    "suggested_skill_name": "convertible-shares-classification",
+    "testable_facts": [
+      {
+        "key": "Year 1 Net Profit",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "Year 2 Net Profit",
+        "expected": 30,
+        "tolerance": null
+      },
+      {
+        "key": "Year 3 Estimated Operating Net Profit",
+        "expected": 45,
+        "tolerance": null
+      },
+      {
+        "key": "Accumulated Profit Over 3 Years",
+        "expected": 95,
+        "tolerance": null
+      },
+      {
+        "key": "Profit in Most Recent Year",
+        "expected": 45,
+        "tolerance": null
+      },
+      {
+        "key": "Qualified IPO Price Multipler",
+        "expected": 1.5,
+        "tolerance": null
+      }
+    ]
+  },
+  "39963f327f48d96a71135a2e7f88ed92": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze Amazon's segment financial performance from FY2023 to FY2024 to assess revenue reliance and operational efficiency.",
+    "suggested_skill_name": "financial-segment-analysis",
+    "testable_facts": [
+      {
+        "key": "Net Sales 2023",
+        "expected": 352.8,
+        "tolerance": 0.1
+      },
+      {
+        "key": "Segment Operating Income 2023",
+        "expected": 14.9,
+        "tolerance": 0.1
+      },
+      {
+        "key": "Net Sales 2024",
+        "expected": 387.5,
+        "tolerance": 0.1
+      },
+      {
+        "key": "Segment Operating Income 2024",
+        "expected": 25.0,
+        "tolerance": 0.1
+      },
+      {
+        "key": "International Net Sales 2023",
+        "expected": 131.2,
+        "tolerance": 0.1
+      },
+      {
+        "key": "International Segment Operating Income 2023",
+        "expected": -2.7,
+        "tolerance": 0.1
+      },
+      {
+        "key": "International Net Sales 2024",
+        "expected": 142.9,
+        "tolerance": 0.1
+      },
+      {
+        "key": "International Segment Operating Income 2024",
+        "expected": 3.8,
+        "tolerance": 0.1
+      }
+    ]
+  },
+  "e29fc28a7f9343cb78899f6a024e7f93": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Assessing risk exposure and recalculating a break-even threshold for a convertible-bond arbitrage with conversion price reset.",
+    "suggested_skill_name": "convertible-bond-risk-assessment",
+    "testable_facts": [
+      {
+        "key": "convertible_bond_price",
+        "expected": 118.5,
+        "tolerance": null
+      },
+      {
+        "key": "stock_price",
+        "expected": 58.0,
+        "tolerance": null
+      },
+      {
+        "key": "current_conversion_price",
+        "expected": 70.0,
+        "tolerance": null
+      },
+      {
+        "key": "time_to_maturity",
+        "expected": 2.4,
+        "tolerance": null
+      },
+      {
+        "key": "risk_free_rate",
+        "expected": 2.2,
+        "tolerance": null
+      },
+      {
+        "key": "delta",
+        "expected": 0.45,
+        "tolerance": null
+      }
+    ]
+  },
+  "b1cbfe049eebe21158c2efa73bb2508f": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Perform a financial analysis of Nokia's business segments focusing on cyclical trends and revenue impacts.",
+    "suggested_skill_name": "financial-segment-analysis-nokia",
+    "testable_facts": [
+      {
+        "key": "Mobile Networks Net Sales 2025",
+        "expected": 5303,
+        "tolerance": null
+      },
+      {
+        "key": "Mobile Networks Operating Profit 2025",
+        "expected": -64,
+        "tolerance": null
+      },
+      {
+        "key": "Mobile Networks Net Sales 2024",
+        "expected": 5614,
+        "tolerance": null
+      },
+      {
+        "key": "Mobile Networks Operating Profit 2024",
+        "expected": 251,
+        "tolerance": null
+      },
+      {
+        "key": "Mobile Networks Operating Margin Change",
+        "expected": -570,
+        "tolerance": null
+      },
+      {
+        "key": "Nokia Technologies Net Sales 2025",
+        "expected": 1118,
+        "tolerance": null
+      },
+      {
+        "key": "Nokia Technologies Operating Profit 2025",
+        "expected": 810,
+        "tolerance": null
+      },
+      {
+        "key": "Nokia Technologies Net Sales 2024",
+        "expected": 1464,
+        "tolerance": null
+      },
+      {
+        "key": "Nokia Technologies Operating Profit 2024",
+        "expected": 1158,
+        "tolerance": null
+      }
+    ]
+  },
+  "91b7638ea58c47f2de1b876db78d7bbe": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze PepsiCo's annual financial reports to assess revenue quality and growth in North American food segments.",
+    "suggested_skill_name": "financial-report-analysis",
+    "testable_facts": [
+      {
+        "key": "FY2023_net_revenue_Frito_Lay",
+        "expected": 24914,
+        "tolerance": null
+      },
+      {
+        "key": "FY2023_core_operating_profit_Frito_Lay",
+        "expected": 6797,
+        "tolerance": null
+      },
+      {
+        "key": "FY2024_net_revenue_Frito_Lay",
+        "expected": 24755,
+        "tolerance": null
+      },
+      {
+        "key": "FY2023_net_revenue_Quaker",
+        "expected": 3101,
+        "tolerance": null
+      },
+      {
+        "key": "FY2023_core_operating_profit_Quaker",
+        "expected": 628,
+        "tolerance": null
+      },
+      {
+        "key": "FY2024_net_revenue_Quaker",
+        "expected": 2676,
+        "tolerance": null
+      },
+      {
+        "key": "net_revenue_yoy_change_Frito_Lay",
+        "expected": -0.6,
+        "tolerance": null
+      },
+      {
+        "key": "core_operating_margin_yoy_change_Frito_Lay",
+        "expected": -113,
+        "tolerance": null
+      },
+      {
+        "key": "effective_net_pricing_contribution_Frito_Lay",
+        "expected": 2.0,
+        "tolerance": null
+      }
+    ]
+  },
+  "25d2cd908da25456ffaffc179e3f0b3a": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Leverage credit resources to ensure loan compliance and manage risks of over-leveraging by clients.",
+    "suggested_skill_name": "loan-compliance-risk-management",
+    "testable_facts": []
+  },
+  "8b4fa550c135b465b380da97b24109c3": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a sales incentive plan for a car finance company balancing increased revenue and reduced channel rebates.",
+    "suggested_skill_name": "sales-incentive-plan-design",
+    "testable_facts": []
+  },
+  "defef4c64bb4ac3cdc608af178bfa221": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate the appropriateness of various audit procedures recorded by a CPA in audit working papers.",
+    "suggested_skill_name": "audit-procedure-evaluation",
+    "testable_facts": []
+  },
+  "af651bf37eaf1a3ac9a5de293582e8ad": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 6,
+    "one_line_summary": "Evaluate and report on the financial and risk implications of a co-lending product under deteriorating asset quality.",
+    "suggested_skill_name": "financial-risk-assessment",
+    "testable_facts": [
+      {
+        "key": "July batch MOB3 M1+ delinquency rate",
+        "expected": 1.1,
+        "tolerance": null
+      },
+      {
+        "key": "Annualized APR",
+        "expected": 16.8,
+        "tolerance": null
+      },
+      {
+        "key": "Bank's cost of funds",
+        "expected": 3.2,
+        "tolerance": null
+      },
+      {
+        "key": "Degradation of new customer group",
+        "expected": 45,
+        "tolerance": null
+      },
+      {
+        "key": "Q3 C-M1 Roll rate",
+        "expected": 1.2,
+        "tolerance": null
+      },
+      {
+        "key": "Q3 M1-M2 Roll rate",
+        "expected": 40,
+        "tolerance": null
+      }
+    ]
+  },
+  "62b5a81fa0b032e785e9dbc298b19f47": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze debt recovery and restructuring strategies within a cross-border VIE structure facing insolvency.",
+    "suggested_skill_name": "cross-border-vie-restructuring-strategy",
+    "testable_facts": [
+      {
+        "key": "OpCo_debt_amount",
+        "expected": 50,
+        "tolerance": null
+      },
+      {
+        "key": "HoldCo_debt_amount",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "HoldCo_cash_on_hand",
+        "expected": 1,
+        "tolerance": null
+      },
+      {
+        "key": "asset_liquidation_value_scenario_A",
+        "expected": 40,
+        "tolerance": null
+      },
+      {
+        "key": "enterprise_value_scenario_B",
+        "expected": 62,
+        "tolerance": null
+      }
+    ]
+  },
+  "2f78407fc8b700f58fa6d3f9be53e3d3": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Drafting private equity investment transaction documents with compliance for capital and regulatory requirements.",
+    "suggested_skill_name": "draft-private-equity-transaction-documents",
+    "testable_facts": [
+      {
+        "key": "合计投资款",
+        "expected": 2222.2222,
+        "tolerance": 0.0001
+      },
+      {
+        "key": "认购的注册资本",
+        "expected": 100,
+        "tolerance": 0.01
+      }
+    ]
+  },
+  "f0fa1b204585236a2029e39b9aa205c4": {
+    "is_law": false,
+    "domain": "corporate-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Creating a due diligence checklist for a private equity investment in a tech-focused company.",
+    "suggested_skill_name": "due-diligence-checklist-creation",
+    "testable_facts": []
+  },
+  "f115ab4c7c9c32d7e4a5282e0141532d": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Evaluate an L/C for AML risks and provide a compliance report.",
+    "suggested_skill_name": "lc-risk-evaluation",
+    "testable_facts": [
+      {
+        "key": "L/C amount",
+        "expected": 8000000,
+        "tolerance": null
+      },
+      {
+        "key": "Issue date",
+        "expected": "2024-09-15",
+        "tolerance": null
+      },
+      {
+        "key": "Receipt date",
+        "expected": "2024-09-19",
+        "tolerance": null
+      },
+      {
+        "key": "Issuing location",
+        "expected": "Honduras",
+        "tolerance": null
+      }
+    ]
+  },
+  "e02557edc722daae667a7837f3c041a5": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Determining compliance with special shareholder rights clearing prior to Hong Kong IPO submission.",
+    "suggested_skill_name": "ipo-shareholder-rights-clearance",
+    "testable_facts": []
+  },
+  "de998953774cbb6db3489164c9af67c3": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 5,
+    "one_line_summary": "Conduct a financial analysis of Lenovo Holdings' syndicated loan and shareholder structure based on provided financial statements.",
+    "suggested_skill_name": "financial-statement-analysis",
+    "testable_facts": [
+      {
+        "key": "largest_shareholder_2024",
+        "expected": "中国科学院控股有限公司",
+        "tolerance": null
+      },
+      {
+        "key": "largest_shareholder_percentage_2024",
+        "expected": 29.0,
+        "tolerance": 0.1
+      },
+      {
+        "key": "second_largest_shareholder_2024",
+        "expected": "北京联持志远管理咨询中心",
+        "tolerance": null
+      },
+      {
+        "key": "second_largest_shareholder_percentage_2024",
+        "expected": 20.4,
+        "tolerance": 0.1
+      },
+      {
+        "key": "third_largest_shareholder_2024",
+        "expected": "中国泛海控股集团有限公司",
+        "tolerance": null
+      },
+      {
+        "key": "third_largest_shareholder_percentage_2024",
+        "expected": 11.6,
+        "tolerance": 0.1
+      },
+      {
+        "key": "fourth_largest_shareholder_2024",
+        "expected": "厦门国际银行股份有限公司北京分行",
+        "tolerance": null
+      },
+      {
+        "key": "fourth_largest_shareholder_percentage_2024",
+        "expected": 5.4,
+        "tolerance": 0.1
+      },
+      {
+        "key": "total_revenue_2024",
+        "expected": 512806435,
+        "tolerance": 0.1
+      }
+    ]
+  },
+  "a10dc34528404508f8fb97de4d7b9c82": {
+    "is_law": false,
+    "domain": "corporate-law",
+    "difficulty_score": 6,
+    "one_line_summary": "Evaluate and improve an Earn-out clause for a PE fund's acquisition of a tech company, addressing its risks and accounting impacts.",
+    "suggested_skill_name": "earn-out-clause-analysis",
+    "testable_facts": []
+  },
+  "27ac06520f10ddba7ea4038db5c47a10": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Develop risk control rules and credit scoring models to identify borrowers with high default risk due to fraudulent activities.",
+    "suggested_skill_name": "loan-risk-control",
+    "testable_facts": []
+  },
+  "4a9309a64e4025a05cd7f8974195f0a6": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 6,
+    "one_line_summary": "Evaluating the correct accounting treatment for a reverse takeover under IFRS 3.",
+    "suggested_skill_name": "reverse-takeover-accounting-evaluation",
+    "testable_facts": [
+      {
+        "key": "company_valuation_difference",
+        "expected": 9.5,
+        "tolerance": null
+      }
+    ]
+  },
+  "93916ae610f31c7dee2c7df7070b17b1": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 9,
+    "one_line_summary": "Analyze the proposed C-round financing structure and its impacts on existing investors, focusing on compliance with state-owned capital regulations.",
+    "suggested_skill_name": "vc-pe-transaction-structure-analysis",
+    "testable_facts": [
+      {
+        "key": "C-round_pre_money_valuation",
+        "expected": 16,
+        "tolerance": null
+      },
+      {
+        "key": "C-round_investment_amount",
+        "expected": 4,
+        "tolerance": null
+      },
+      {
+        "key": "C-round_liquidation_preference",
+        "expected": "2x_participating",
+        "tolerance": null
+      },
+      {
+        "key": "B-round_liquidation_preference",
+        "expected": "1x_non-participating",
+        "tolerance": null
+      },
+      {
+        "key": "B-round_post_dilution_ownership",
+        "expected": 8,
+        "tolerance": null
+      }
+    ]
+  },
+  "6678efdf28f9c13a546c3010b0ebd31a": {
+    "is_law": false,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the fair pricing and share issuance for A-D investment rounds and calculate returns under given scenarios.",
+    "suggested_skill_name": "equity-financing-scenario-analysis",
+    "testable_facts": []
+  },
+  "4452da9ed9bbbdd8999ee4e8640a5972": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 6,
+    "one_line_summary": "Draft a due diligence interview outline for a potential M&A target in compliance with specific informational and procedural constraints.",
+    "suggested_skill_name": "m-and-a-due-diligence-outline",
+    "testable_facts": [
+      {
+        "key": "total_word_limit",
+        "expected": 1500,
+        "tolerance": null
+      },
+      {
+        "key": "focus_on_problems",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "exclusion_of_advanced_technology_questions",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "590f5b09ea52193d14da27a31eabd61d": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate compliance and financial risks in a B-round financing supplement agreement for a Chinese PE fund with governmental investors.",
+    "suggested_skill_name": "pe-funding-compliance-risk-evaluation",
+    "testable_facts": [
+      {
+        "key": "transaction_date",
+        "expected": "2026-01",
+        "tolerance": null
+      },
+      {
+        "key": "valuation_date",
+        "expected": "2025-12-31",
+        "tolerance": null
+      },
+      {
+        "key": "K_fund_state_owned_percentage",
+        "expected": 70,
+        "tolerance": null
+      },
+      {
+        "key": "stock_transfer_price",
+        "expected": 18,
+        "tolerance": null
+      },
+      {
+        "key": "consultant_appointment_date",
+        "expected": "2023-06",
+        "tolerance": null
+      },
+      {
+        "key": "conversion_price",
+        "expected": 15,
+        "tolerance": null
+      }
+    ]
+  },
+  "9c6d3b677138362cdb23ca93b53a761e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze SEC filings to assess Synopsys' revenue resilience in China under export control and domestic substitute pressures.",
+    "suggested_skill_name": "sec-filings-revenue-analysis",
+    "testable_facts": [
+      {
+        "key": "2024_fiscal_year_china_revenue",
+        "expected": 989.5,
+        "tolerance": null
+      },
+      {
+        "key": "2024_fiscal_year_global_revenue",
+        "expected": 6127.4,
+        "tolerance": null
+      },
+      {
+        "key": "2025_fiscal_year_china_revenue",
+        "expected": 814.3,
+        "tolerance": null
+      },
+      {
+        "key": "2025_fiscal_year_global_revenue",
+        "expected": 7054.2,
+        "tolerance": null
+      },
+      {
+        "key": "china_revenue_percentage_2024",
+        "expected": 16.15,
+        "tolerance": null
+      },
+      {
+        "key": "china_revenue_percentage_2025",
+        "expected": 11.54,
+        "tolerance": null
+      },
+      {
+        "key": "percentage_point_change",
+        "expected": -4.61,
+        "tolerance": null
+      },
+      {
+        "key": "basis_point_change",
+        "expected": -461,
+        "tolerance": null
+      }
+    ]
+  },
+  "382d2d1adf159de18733a7ac354f3947": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Identify a thyroid-related disease exclusion and related surgical strategy implications in a clinical case.",
+    "suggested_skill_name": "disease-exclusion-in-clinical-surgery",
+    "testable_facts": []
+  },
+  "06aafb07155ae9afb074dad4344922e2": {
+    "is_law": false,
+    "domain": "healthcare-medicine",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine pharmacological treatment and risk assessments for a cardiovascular patient with a history of hypertension and gastric ulcer.",
+    "suggested_skill_name": "cardiovascular-risk-and-treatment-assessment",
+    "testable_facts": [
+      {
+        "key": "patient_age",
+        "expected": 67,
+        "tolerance": null
+      },
+      {
+        "key": "st_segment_elevation",
+        "expected": [
+          "II",
+          "III",
+          "aVF"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "cardiac_troponin_i",
+        "expected": 5.04,
+        "tolerance": null
+      },
+      {
+        "key": "blood_pressure_upon_admission",
+        "expected": [
+          138,
+          89
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "bleeding_history",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "ec146919bf7c093cc2e705d2dedac08f": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Diagnosis identification and treatment implications for Bronchiolitis Obliterans Syndrome post-allo-HSCT.",
+    "suggested_skill_name": "medical-diagnosis-analysis",
+    "testable_facts": []
+  },
+  "bb2d835eb48ba20a08a2aafce0147fd8": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Design a flow cytometry staining scheme to correctly identify regulatory T cells, accounting for possible technical errors.",
+    "suggested_skill_name": "flow-cytometry-staining-scheme-design",
+    "testable_facts": []
+  },
+  "6213b342bd67635ce85460deba29f2fb": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate technical requirements and optimizations for trial deployment of 5G-Advanced NR-DC technology.",
+    "suggested_skill_name": "5g-advanced-nr-dc-deployment-technical-evaluation",
+    "testable_facts": [
+      {
+        "key": "interruption_latency",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "signaling_overhead_reduction",
+        "expected": 40,
+        "tolerance": null
+      },
+      {
+        "key": "fr2_band_scg_change_frequency",
+        "expected": 30,
+        "tolerance": null
+      }
+    ]
+  },
+  "d7125e917fe5641cb4ebd8446b6c0d23": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify and rectify performance issues in a quantized CUDA kernel for LLaMA model inference.",
+    "suggested_skill_name": "cuda-kernel-optimization",
+    "testable_facts": []
+  },
+  "fb4c153b38c60cbc0d3f93c57ecb7b9d": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Reorganize digits from an array of integers to form the smallest possible number following specific digit usage rules.",
+    "suggested_skill_name": "integer-decomposition-reorganization",
+    "testable_facts": []
+  },
+  "d28e1f54a173e3604ad2d7be5d54fbe3": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Suggest performance optimizations for Graph Convolutional Network implementation in a CPU-GPU environment.",
+    "suggested_skill_name": "gcn-performance-optimization",
+    "testable_facts": []
+  },
+  "89456cafe98fab54c461f86d496d4b78": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the requirements for evacuation doors in basement fire partition walls according to relevant fire safety standards.",
+    "suggested_skill_name": "fire-safety-evacuation-planning",
+    "testable_facts": []
+  },
+  "0f8659b916f1ccd57d4ffb4afb8263aa": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the asynchronous execution order of JavaScript code segments using a complex event and microtask queue.",
+    "suggested_skill_name": "async-javascript-execution-order",
+    "testable_facts": []
+  },
+  "154b00a4ab83f981c60cfa254aa69da9": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Provide a cost estimate and explanation for a sunroom construction in Chengdu considering climatic and technical standards.",
+    "suggested_skill_name": "construction-cost-estimation",
+    "testable_facts": [
+      {
+        "key": "annual_average_sunshine_duration",
+        "expected": "1000–1400 hours",
+        "tolerance": null
+      },
+      {
+        "key": "annual_average_humidity",
+        "expected": ">70%",
+        "tolerance": null
+      },
+      {
+        "key": "ventilation_area_requirement",
+        "expected": "0.20 square meters",
+        "tolerance": null
+      },
+      {
+        "key": "glass_standard",
+        "expected": "GB 15763.2-2020",
+        "tolerance": null
+      },
+      {
+        "key": "airtightness_rating",
+        "expected": "Level 6",
+        "tolerance": null
+      }
+    ]
+  },
+  "7eff2773c755e8d927533aea5c04b044": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a coordinated dynamic resource allocation scheme for 5G NR to enhance spectral efficiency in urban dense areas.",
+    "suggested_skill_name": "5g-nr-resource-allocation",
+    "testable_facts": []
+  },
+  "36ccd3f518efaf93b98adaa2086628dc": {
+    "is_law": false,
+    "domain": "contract-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Diagnose and mitigate complex communication faults in a metro communication network involving various technical layers and data analysis.",
+    "suggested_skill_name": "metro-network-fault-diagnosis",
+    "testable_facts": []
+  },
+  "495940561df068dcd5017f96f9fb1646": {
+    "is_law": false,
+    "domain": "telecommunications",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the impact of phase noise and quantization on radar system performance in cluttered environments.",
+    "suggested_skill_name": "radar-signal-processing-analysis",
+    "testable_facts": [
+      {
+        "key": "local_oscillator_phase_noise_at_1kHz_offset",
+        "expected": -80,
+        "tolerance": null
+      },
+      {
+        "key": "integrated_phase_noise_power_within_signal_bandwidth",
+        "expected": 0.12,
+        "tolerance": null
+      },
+      {
+        "key": "normalized_sidelobe_level_PSLR",
+        "expected": -25,
+        "tolerance": null
+      },
+      {
+        "key": "quantization_signal_to_noise_ratio_SNRq",
+        "expected": 74,
+        "tolerance": null
+      }
+    ]
+  },
+  "492676187d10dfacbbdf8fcbe6cccf79": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze the limitations of MSE in preserving high-frequency details in underwater image enhancement models.",
+    "suggested_skill_name": "image-enhancement-mse-analysis",
+    "testable_facts": []
+  },
+  "5704a0c3089c022ae1d54c2d9c91bd27": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the performance decline of a recommendation model upgrade observing CTR in A/B testing.",
+    "suggested_skill_name": "ctr-performance-analysis",
+    "testable_facts": [
+      {
+        "key": "AUC_improvement",
+        "expected": 0.015,
+        "tolerance": null
+      },
+      {
+        "key": "CTR_decrease",
+        "expected": -2.1,
+        "tolerance": null
+      },
+      {
+        "key": "request_failure_rate_increase",
+        "expected": 0.3,
+        "tolerance": null
+      }
+    ]
+  },
+  "1b060b760586b7c7ae94e0b8b719b5bb": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate and improve the effectiveness of a recommendation system's recall model using advanced sampling techniques.",
+    "suggested_skill_name": "recommendation-system-optimization",
+    "testable_facts": []
+  },
+  "b2163724a3b53c6b600e80ef1a774e37": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze UE capability fault causes and propose corrective measures for Huawei Mate60 onboarding.",
+    "suggested_skill_name": "ue-capability-fault-analysis",
+    "testable_facts": []
+  },
+  "524d9af6df41c7c3d82d1cda9a8d3896": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze and resolve technical issues in a 5G-Advanced UAV telemetry system using semantic encoding.",
+    "suggested_skill_name": "uav-telemetry-system-analysis",
+    "testable_facts": []
+  },
+  "6a292dde35552afb5df7e0cf66bd9a5f": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Optimize caching strategies for an e-commerce application to improve performance and reduce cache misses.",
+    "suggested_skill_name": "e-commerce-cache-optimization",
+    "testable_facts": []
+  },
+  "d02627f10517ca83796369ced1163611": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and resolve network communication issues in an automotive production line using Profinet IO and Modbus TCP protocols.",
+    "suggested_skill_name": "network-issue-diagnosis-profinet",
+    "testable_facts": []
+  },
+  "f5a0fe0e4399e91b78209462caff458b": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Troubleshoot and optimize a Profinet IO + industrial Ethernet ring architecture for an automotive welding shop.",
+    "suggested_skill_name": "industrial-network-troubleshooting",
+    "testable_facts": []
+  },
+  "2f186b3e907c3a578aced73cf1a5f98b": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Analyze why MSE loss function might cause overly smooth images with lost details.",
+    "suggested_skill_name": "understanding-mse-limitations-in-ml",
+    "testable_facts": []
+  },
+  "7863ab04268ab3280515da89df0eaec5": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate and improve the performance of a recommendation algorithm using advanced negative sampling techniques.",
+    "suggested_skill_name": "recommendation-algorithm-refinement",
+    "testable_facts": []
+  },
+  "9ae067442d891153c3451d006b19786f": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Advise Company A on removal from the SDN List following trade compliance violations linked to Iranian petrochemical trade.",
+    "suggested_skill_name": "sdn-list-removal-strategy",
+    "testable_facts": [
+      {
+        "key": "agreement_start_date",
+        "expected": "August 2018",
+        "tolerance": null
+      },
+      {
+        "key": "agreement_end_date",
+        "expected": "December 31, 2023",
+        "tolerance": null
+      },
+      {
+        "key": "executive_order",
+        "expected": "13846",
+        "tolerance": null
+      }
+    ]
+  },
+  "fc6eebe6073a68791b5152bd8ceebe42": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 9,
+    "one_line_summary": "Analyze jurisdiction and applicable law conflicts in a multicultural divorce and prenuptial agreement context.",
+    "suggested_skill_name": "jurisdiction-law-conflict-resolution",
+    "testable_facts": [
+      {
+        "key": "MarriageRegistrationLocation",
+        "expected": "Paris",
+        "tolerance": null
+      },
+      {
+        "key": "PrenuptialAgreementLaw",
+        "expected": "Swiss",
+        "tolerance": null
+      },
+      {
+        "key": "PrenuptialAgreementJurisdiction",
+        "expected": "Zurich",
+        "tolerance": null
+      },
+      {
+        "key": "MaritalPropertyFilingLocation",
+        "expected": "Hong Kong",
+        "tolerance": null
+      },
+      {
+        "key": "PostMarriageResidenceLocation",
+        "expected": "Japan",
+        "tolerance": null
+      }
+    ]
+  },
+  "dc69ac082128bcc45e3998ac3e572eb0": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze employee and independent contractor contributions to determine copyright ownership under work-for-hire principles.",
+    "suggested_skill_name": "work-for-hire-analysis",
+    "testable_facts": [
+      {
+        "key": "butterbear_creation_date",
+        "expected": "September 10, 2018",
+        "tolerance": null
+      },
+      {
+        "key": "soundtrack_delivery_date",
+        "expected": "February 26, 2019",
+        "tolerance": null
+      }
+    ]
+  },
+  "bff45597a556961f593ccbd58df32598": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess contractual breach and CISG Article 79 applicability for delayed steel delivery.",
+    "suggested_skill_name": "contractual-breach-assessment",
+    "testable_facts": [
+      {
+        "key": "initial_delivery_date",
+        "expected": "August 17, 2024",
+        "tolerance": null
+      },
+      {
+        "key": "alternate_delivery_date",
+        "expected": "September 28, 2024",
+        "tolerance": null
+      },
+      {
+        "key": "actual_delivery_period",
+        "expected": "May to June 2025",
+        "tolerance": null
+      }
+    ]
+  },
+  "f89d6c2c54c989e29107a8701d3271ae": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze legal risks in cross-border equity investment under OHADA law and propose risk mitigation.",
+    "suggested_skill_name": "cross-border-equity-investment-analysis",
+    "testable_facts": [
+      {
+        "key": "incorporation_date",
+        "expected": 2020,
+        "tolerance": null
+      },
+      {
+        "key": "registered_capital",
+        "expected": 10000000,
+        "tolerance": null
+      },
+      {
+        "key": "capital_contribution_deadline",
+        "expected": "December 31, 2024",
+        "tolerance": null
+      },
+      {
+        "key": "shareholder_A_percentage",
+        "expected": 51,
+        "tolerance": null
+      },
+      {
+        "key": "shareholder_B_percentage",
+        "expected": 49,
+        "tolerance": null
+      },
+      {
+        "key": "registration_date",
+        "expected": "May 25, 2021",
+        "tolerance": null
+      },
+      {
+        "key": "cash_contribution_A_date",
+        "expected": "December 1, 2024",
+        "tolerance": null
+      },
+      {
+        "key": "cash_contribution_B_date",
+        "expected": "December 20, 2024",
+        "tolerance": null
+      }
+    ]
+  },
+  "13618f95a223eb15df2a9abd0c651428": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze forum selection and governing law clauses in a transnational contract dispute case.",
+    "suggested_skill_name": "forum-selection-clause-analysis",
+    "testable_facts": [
+      {
+        "key": "governing_law",
+        "expected": "Ohio",
+        "tolerance": null
+      },
+      {
+        "key": "chosen_forum",
+        "expected": "courts of Ohio",
+        "tolerance": null
+      },
+      {
+        "key": "plaintiff_nationality",
+        "expected": "United States",
+        "tolerance": null
+      },
+      {
+        "key": "defendant_nationality",
+        "expected": "Singapore",
+        "tolerance": null
+      }
+    ]
+  },
+  "0c9809b9a7a56721cb56ab4ef8ee92f8": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the investment, governance, and compliance requirements for a Chinese company's joint venture in Vietnam's solar power sector.",
+    "suggested_skill_name": "vietnamese-corporate-governance-investment",
+    "testable_facts": [
+      {
+        "key": "IRC requirement",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "ERC issuance time",
+        "expected": 3,
+        "tolerance": null
+      },
+      {
+        "key": "charter capital payment deadline",
+        "expected": 90,
+        "tolerance": null
+      },
+      {
+        "key": "ordinary resolution threshold",
+        "expected": 65,
+        "tolerance": null
+      },
+      {
+        "key": "special resolution threshold",
+        "expected": 75,
+        "tolerance": null
+      }
+    ]
+  },
+  "980962e87e92302b931dd75ca4232ee8": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate P's liability for negligent homicide in a motorcycle race under German law.",
+    "suggested_skill_name": "negligent-homicide-defense-analysis",
+    "testable_facts": [
+      {
+        "key": "distance_from_destination_when_P_initiated_overtaking",
+        "expected": 1.016,
+        "tolerance": null
+      },
+      {
+        "key": "Q's_blood_alcohol_concentration",
+        "expected": 1.5,
+        "tolerance": null
+      }
+    ]
+  },
+  "0d2ac020da100e008efd4d019942348b": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Legal analysis of BAC thresholds and their implications for a drunk driving defense in German law.",
+    "suggested_skill_name": "bac-threshold-legal-analysis",
+    "testable_facts": [
+      {
+        "key": "post-accident BAC",
+        "expected": 1.1,
+        "tolerance": null
+      },
+      {
+        "key": "calculated BAC at time of accident",
+        "expected": 1.24,
+        "tolerance": null
+      }
+    ]
+  },
+  "6d1e72c415b9a1728acb7b8c41bcf6a0": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Draft a Compliance Plan for modifying the assumed interest rate of insurance policies in line with Japanese laws to prevent bankruptcy.",
+    "suggested_skill_name": "insurance-policy-interest-rate-compliance",
+    "testable_facts": [
+      {
+        "key": "previous_assumed_interest_rate",
+        "expected": 5.0,
+        "tolerance": null
+      },
+      {
+        "key": "current_statutory_minimum_interest_rate",
+        "expected": 2.0,
+        "tolerance": null
+      }
+    ]
+  },
+  "2ae4cb08c610ad9a0eb84ed10fbadf89": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Analysis of legal challenges and compliance issues for a China-based education group investing in a Thai international school.",
+    "suggested_skill_name": "cross-border-education-investment-compliance",
+    "testable_facts": [
+      {
+        "key": "maximum_foreign_shareholding",
+        "expected": 50,
+        "tolerance": null
+      },
+      {
+        "key": "minimum_registered_capital",
+        "expected": 2000000,
+        "tolerance": null
+      },
+      {
+        "key": "land_use_lease_term_requirement",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "land_use_transfer_deadline_days",
+        "expected": 120,
+        "tolerance": null
+      }
+    ]
+  },
+  "495f9c19a4a087930ada6ff0ff5ccc1c": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate legal constraints under PRC law for pledges/mortgages in a syndicated loan for a Hong Kong company.",
+    "suggested_skill_name": "prc-law-pledge-analysis",
+    "testable_facts": [
+      {
+        "key": "Loan principal amount",
+        "expected": "USD 70–100 million",
+        "tolerance": null
+      },
+      {
+        "key": "Loan interest rate",
+        "expected": 4.5,
+        "tolerance": null
+      },
+      {
+        "key": "Borrower's stake in listed company",
+        "expected": "24.49%",
+        "tolerance": null
+      }
+    ]
+  },
+  "74e890b42e496672dda10a3b90f1bd44": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate the legal framework permitting the Nigerian President to establish a National Tribunal of Inquiry on religious extremism.",
+    "suggested_skill_name": "establishing-national-inquiries",
+    "testable_facts": []
+  },
+  "a71bb83adeeef04a9669a93995e302dd": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Amend contract to address industry-specific requirements for voice actor recordings in paid advertising.",
+    "suggested_skill_name": "contract-amendment-for-industry-customs",
+    "testable_facts": []
+  },
+  "07b8b2904c12335efbad5f97e9faf3e5": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze contract termination due to force majeure or change of circumstances under tariff policy impact.",
+    "suggested_skill_name": "force-majeure-contract-termination",
+    "testable_facts": []
+  },
+  "02325dac1ebe65f3db2f6c806fd2567b": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Legal analysis of international criminal proceedings regarding drone strikes and victim representation disputes.",
+    "suggested_skill_name": "international-criminal-proceedings-analysis",
+    "testable_facts": [
+      {
+        "key": "Ibin accession date to Rome Statute",
+        "expected": "August 15, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "Population of Quas",
+        "expected": 2000000,
+        "tolerance": null
+      },
+      {
+        "key": "Population of Ibin",
+        "expected": 100000000,
+        "tolerance": null
+      },
+      {
+        "key": "Number of deaths in October 2020 drone strikes",
+        "expected": 1000,
+        "tolerance": null
+      }
+    ]
+  },
+  "51f71841000ab2646c89f742d3e6a46a": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze whether a federal court will grant a motion to remand in a diversity jurisdiction case involving a forum-selection clause.",
+    "suggested_skill_name": "diversity-jurisdiction-removal-analysis",
+    "testable_facts": [
+      {
+        "key": "amount_in_controversy",
+        "expected": 1000000,
+        "tolerance": null
+      },
+      {
+        "key": "forum_selection_clause",
+        "expected": "Texas",
+        "tolerance": null
+      },
+      {
+        "key": "retailer_citizenship",
+        "expected": "California",
+        "tolerance": null
+      },
+      {
+        "key": "manufacturer_citizenship",
+        "expected": "Texas",
+        "tolerance": null
+      }
+    ]
+  },
+  "ebb34686d5bb21cf5f9a1ce01f4eb71b": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate Btoy's standing to sue for copyright infringement and potential for claiming statutory damages in the U.S.",
+    "suggested_skill_name": "international-copyright-enforcement",
+    "testable_facts": [
+      {
+        "key": "creation_date",
+        "expected": "February 5, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "copyright_application_date",
+        "expected": "March 5, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "first_public_sale_date",
+        "expected": "May 5, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "us_infringement_discovery_date",
+        "expected": "June 10, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "amazon_complaint_date",
+        "expected": "June 12, 2020",
+        "tolerance": null
+      },
+      {
+        "key": "amazon_response_date",
+        "expected": "July 2, 2020",
+        "tolerance": null
+      }
+    ]
+  },
+  "ceb037a55a346889dc599863fdf39cb1": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Assess whether export of AI servers from China to Singapore complies with U.S. EAR regulations.",
+    "suggested_skill_name": "international-trade-compliance-review",
+    "testable_facts": [
+      {
+        "key": "ECCN",
+        "expected": "3A090",
+        "tolerance": null
+      }
+    ]
+  },
+  "11845d748cc3173a8814bb2a17faf46e": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Understanding EU and Chinese data protection laws and cross-border implications for a Chinese company expanding into the European market.",
+    "suggested_skill_name": "cross-border-data-protection",
+    "testable_facts": [
+      {
+        "key": "EU GDPR Article",
+        "expected": 33,
+        "tolerance": null
+      },
+      {
+        "key": "Chinese Data Security Law Article",
+        "expected": 29,
+        "tolerance": null
+      },
+      {
+        "key": "Regulations on Security Protection Article",
+        "expected": 14,
+        "tolerance": null
+      },
+      {
+        "key": "GDPR Notification Article",
+        "expected": 34,
+        "tolerance": null
+      },
+      {
+        "key": "Chinese Criminal Law Article",
+        "expected": 253.1,
+        "tolerance": null
+      }
+    ]
+  },
+  "b509085f12895e6f47267d1955ee3a14": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the appropriate court for a tort lawsuit considering jurisdictional requirements and legal precedents.",
+    "suggested_skill_name": "jurisdictional-analysis-in-tort-cases",
+    "testable_facts": [
+      {
+        "key": "State of Defendant Company A",
+        "expected": "Texas",
+        "tolerance": null
+      },
+      {
+        "key": "Plaintiff Damages Amount",
+        "expected": 70000,
+        "tolerance": null
+      },
+      {
+        "key": "Federal Jurisdiction Amount Threshold",
+        "expected": 75000,
+        "tolerance": null
+      }
+    ]
+  },
+  "80c81b973515729eb58015c80b4669a1": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Advise on privatization strategies under Singapore law for a company with a controlling shareholder.",
+    "suggested_skill_name": "corporate-privatization-advisory",
+    "testable_facts": [
+      {
+        "key": "sandy_voting_shares_percentage",
+        "expected": 57,
+        "tolerance": null
+      },
+      {
+        "key": "shares_price_before",
+        "expected": 40,
+        "tolerance": null
+      },
+      {
+        "key": "shares_price_after",
+        "expected": 20,
+        "tolerance": null
+      }
+    ]
+  },
+  "4cff177bc1f0f5aa32c7a8c0e7fcf595": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Conduct and report on legal due diligence for acquisition of a Hong Kong company, identifying risk areas and necessary contract clauses.",
+    "suggested_skill_name": "hong-kong-m&a-due-diligence",
+    "testable_facts": []
+  },
+  "560c2c9d4e7de89147803f9ebb770640": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze property ownership and claims following a registration error and subsequent possession actions.",
+    "suggested_skill_name": "property-ownership-and-claims-analysis",
+    "testable_facts": [
+      {
+        "key": "plots_value",
+        "expected": 10000,
+        "tolerance": null
+      },
+      {
+        "key": "appreciation_value",
+        "expected": 20000,
+        "tolerance": null
+      },
+      {
+        "key": "error_discovery_year",
+        "expected": 2012,
+        "tolerance": null
+      },
+      {
+        "key": "construction_year",
+        "expected": 1965,
+        "tolerance": null
+      }
+    ]
+  },
+  "ef7b18e6d9f2a580d7679aee3de6b9c2": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate legal risks associated with generative AI and infrastructure development for multinational clients across varying legal systems.",
+    "suggested_skill_name": "global-legal-risk-analysis",
+    "testable_facts": []
+  },
+  "dc31b78dce59152615c55d69c7401e0e": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the validity and enforceability of a servitude contract and a land transfer restriction agreement under Taiwanese Civil Code.",
+    "suggested_skill_name": "contract-servitude-evaluation",
+    "testable_facts": [
+      {
+        "key": "servitude_contract_registration_date",
+        "expected": "March 1, 2023",
+        "tolerance": null
+      },
+      {
+        "key": "servitude_contract_clause",
+        "expected": "no establishment of any catering business operations",
+        "tolerance": null
+      }
+    ]
+  },
+  "825e3db006284b9929e3a692a02df475": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze legal compliance of employment contracts and product labeling in a cross-border corporate acquisition.",
+    "suggested_skill_name": "cross-border-employment-compliance",
+    "testable_facts": [
+      {
+        "key": "R&D_department_employees",
+        "expected": 2,
+        "tolerance": null
+      },
+      {
+        "key": "back_office_salary",
+        "expected": 1800,
+        "tolerance": null
+      }
+    ]
+  },
+  "45741153cce447bf1c18d5aa353d5eb8": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Conduct legal due diligence for cross-border M&A acquisition of a winery, focusing on property rights, regulatory compliance, and operational continuity.",
+    "suggested_skill_name": "cross-border-m-and-a-due-diligence",
+    "testable_facts": [
+      {
+        "key": "total_area",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "certified_area",
+        "expected": 18,
+        "tolerance": null
+      },
+      {
+        "key": "cabernet_sauvignon_area",
+        "expected": 12.74,
+        "tolerance": null
+      },
+      {
+        "key": "colombard_b_area",
+        "expected": 6.2,
+        "tolerance": null
+      },
+      {
+        "key": "castets_n_area",
+        "expected": 1.06,
+        "tolerance": null
+      },
+      {
+        "key": "planting_density",
+        "expected": 3200,
+        "tolerance": null
+      },
+      {
+        "key": "red_wine_yield",
+        "expected": 8000,
+        "tolerance": null
+      },
+      {
+        "key": "white_wine_yield",
+        "expected": 7000,
+        "tolerance": null
+      }
+    ]
+  },
+  "71f8ecbbe43a4d4233196818b26309f6": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate regulatory compliance and notification obligations for an AI startup's new financing round with foreign investors.",
+    "suggested_skill_name": "international-financing-compliance-analysis",
+    "testable_facts": []
+  },
+  "bf958b56232832a9e189e7fd57494330": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze legal risks and provide recommendations for a Chinese firm's equity investment in a target company in Uzbekistan.",
+    "suggested_skill_name": "cross-border-investment-due-diligence",
+    "testable_facts": [
+      {
+        "key": "establishment_year",
+        "expected": 2023,
+        "tolerance": null
+      },
+      {
+        "key": "shareholders_approval",
+        "expected": 3,
+        "tolerance": null
+      },
+      {
+        "key": "water_usage",
+        "expected": 1350,
+        "tolerance": null
+      }
+    ]
+  },
+  "15389122776a7488dda831934ce41f50": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 9,
+    "one_line_summary": "Analysis of incitement to genocide liability under international law, focusing on online platform responsibility.",
+    "suggested_skill_name": "incitement-genocide-online-liability",
+    "testable_facts": [
+      {
+        "key": "victimization_figures.deaths",
+        "expected": 1500,
+        "tolerance": null
+      },
+      {
+        "key": "victimization_figures.refugees",
+        "expected": 50000,
+        "tolerance": null
+      }
+    ]
+  },
+  "9aa22d8ec82e8a6b9d2c5e95b4e3d536": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 6,
+    "one_line_summary": "Evaluate whether the incident constitutes an 'accident' under Article 17 of the Montreal Convention based on airline personnel conduct.",
+    "suggested_skill_name": "montreal-convention-accident-assessment",
+    "testable_facts": [
+      {
+        "key": "nationality",
+        "expected": "Portuguese",
+        "tolerance": null
+      },
+      {
+        "key": "country_of_origin",
+        "expected": "Portugal",
+        "tolerance": null
+      },
+      {
+        "key": "destination",
+        "expected": "Beijing, China",
+        "tolerance": null
+      },
+      {
+        "key": "airline_nationality",
+        "expected": "Portuguese",
+        "tolerance": null
+      },
+      {
+        "key": "legal_reference",
+        "expected": "Article 17 of the Montreal Convention",
+        "tolerance": null
+      }
+    ]
+  },
+  "852ec3123de52e20c85c3509180efd61": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine the validity of lease termination under Taiwan Civil Code and contract terms.",
+    "suggested_skill_name": "lease-termination-dispute-resolution",
+    "testable_facts": [
+      {
+        "key": "company_a_name",
+        "expected": "Company A",
+        "tolerance": null
+      },
+      {
+        "key": "company_b_branch",
+        "expected": "Kaohsiung",
+        "tolerance": null
+      },
+      {
+        "key": "lease_start_date",
+        "expected": "January 15, 2013",
+        "tolerance": null
+      },
+      {
+        "key": "lease_duration",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "initial_annual_rent",
+        "expected": 3200000,
+        "tolerance": null
+      },
+      {
+        "key": "first_rent_increase",
+        "expected": 3360000,
+        "tolerance": null
+      },
+      {
+        "key": "subsequent_rent_increase",
+        "expected": 5,
+        "tolerance": null
+      }
+    ]
+  },
+  "28079df01c3edb261f1b2e120116464a": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the validity of mortgage agreements and easement rights under Taiwan's Civil Code.",
+    "suggested_skill_name": "taiwan-mortgage-easement-analysis",
+    "testable_facts": [
+      {
+        "key": "parcel_location",
+        "expected": "No. 88, Wenshan Road, Wufeng District, Taichung City",
+        "tolerance": null
+      },
+      {
+        "key": "parcel_area",
+        "expected": 1200,
+        "tolerance": null
+      },
+      {
+        "key": "mortgage_amount_c",
+        "expected": 2000000,
+        "tolerance": null
+      },
+      {
+        "key": "mortgage_amount_d",
+        "expected": 5000000,
+        "tolerance": null
+      },
+      {
+        "key": "mortgage_amount_e",
+        "expected": 20000000,
+        "tolerance": null
+      },
+      {
+        "key": "easement_date",
+        "expected": "2023-03-15",
+        "tolerance": null
+      }
+    ]
+  },
+  "736865b67adda4115d25db18b1d58b67": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Draft a legal opinion and defense motion addressing jurisdiction and contract dispute issues for a court case.",
+    "suggested_skill_name": "jurisdiction-and-contract-defense",
+    "testable_facts": [
+      {
+        "key": "jurisdiction_issue",
+        "expected": "Görlitz Local Court",
+        "tolerance": null
+      },
+      {
+        "key": "section_cited",
+        "expected": "§ 29a German Code",
+        "tolerance": null
+      },
+      {
+        "key": "surcharge_claim_timing",
+        "expected": "exceeds 12-month preclusion",
+        "tolerance": null
+      },
+      {
+        "key": "rent_claim_resolution",
+        "expected": "§ 407 (1) BGB",
+        "tolerance": null
+      }
+    ]
+  },
+  "3ad7a93217b451570203cc4e64dbfbdb": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze defenses and claims under a bilateral investment treaty in a WTO context involving expropriation and arbitration.",
+    "suggested_skill_name": "investment-treaty-arbitration-analysis",
+    "testable_facts": []
+  },
+  "7d63f450b633ad429372f1aa0d8c01a7": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess Company A's BIS Entity List status for HKEX's sanctions risk and provide compliance guidance.",
+    "suggested_skill_name": "hkex-sanctions-risk-analysis",
+    "testable_facts": []
+  },
+  "1085c9cae5f690e30eab63124a6b23f6": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Legal evaluation of GDPR compliance in cross-border data transfer by a social network.",
+    "suggested_skill_name": "gdpr-cross-border-data-transfer-evaluation",
+    "testable_facts": [
+      {
+        "key": "jurisdiction",
+        "expected": "German Regional Court",
+        "tolerance": null
+      },
+      {
+        "key": "user_consent_changeable",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "user_data_transfer",
+        "expected": "United States",
+        "tolerance": null
+      }
+    ]
+  },
+  "8f89d62a170a1c6c5b1871d1b769b8d6": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 6,
+    "one_line_summary": "Legal analysis of a civil tort case involving a traffic accident and damage compensation claim.",
+    "suggested_skill_name": "tort-litigation-analysis",
+    "testable_facts": [
+      {
+        "key": "accident_date",
+        "expected": "December 15, 2013",
+        "tolerance": null
+      },
+      {
+        "key": "accident_time",
+        "expected": "23:00",
+        "tolerance": null
+      },
+      {
+        "key": "compensation_amount",
+        "expected": 7099.66,
+        "tolerance": null
+      },
+      {
+        "key": "court_location",
+        "expected": "Regional Court of Düsseldorf",
+        "tolerance": null
+      }
+    ]
+  },
+  "9035d3c74c1a6057609eeee2d3961f50": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the legal implications of purchasing household goods using estate property under German civil law.",
+    "suggested_skill_name": "contractual-household-purchase-analysis",
+    "testable_facts": [
+      {
+        "key": "second_son_birthdate",
+        "expected": "February 1, 1992",
+        "tolerance": null
+      }
+    ]
+  },
+  "a9f15ba953048d563b7bb25277225a14": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the applicability of fraud charges in misuse of e-commerce new user coupons using fraudulent identities.",
+    "suggested_skill_name": "fraudulent-use-of-personal-identity",
+    "testable_facts": [
+      {
+        "key": "coupon_face_value",
+        "expected": 700000,
+        "tolerance": null
+      }
+    ]
+  },
+  "2281d47f7b2c1577a9a8fa9aa5cf406c": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze criminal liability for environmental pollution due to unlicensed hazardous waste handling.",
+    "suggested_skill_name": "environmental-compliance-criminal-liability",
+    "testable_facts": [
+      {
+        "key": "lead_battery_mass",
+        "expected": 2.3,
+        "tolerance": 0.0
+      },
+      {
+        "key": "waste_oil_bottle_mass",
+        "expected": 2.1,
+        "tolerance": 0.0
+      },
+      {
+        "key": "waste_oil_filter_mass",
+        "expected": 0.7,
+        "tolerance": 0.0
+      },
+      {
+        "key": "total_mass",
+        "expected": 5.1,
+        "tolerance": 0.0
+      }
+    ]
+  },
+  "11e1a8ce9cb6cbcfd76bf504bbc143bf": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 9,
+    "one_line_summary": "Assess the validity and enforceability of multiple complex real estate and construction contracts involving procedural compliance and dispute jurisdiction.",
+    "suggested_skill_name": "real-estate-contract-compliance",
+    "testable_facts": [
+      {
+        "key": "land_acquisition_date",
+        "expected": "2019-10-10",
+        "tolerance": null
+      },
+      {
+        "key": "planning_permit_obtained",
+        "expected": false,
+        "tolerance": null
+      },
+      {
+        "key": "construction_company",
+        "expected": "弘毅建筑公司",
+        "tolerance": null
+      },
+      {
+        "key": "lawsuit_filed_by_li_guangnian",
+        "expected": "against 崔某",
+        "tolerance": null
+      },
+      {
+        "key": "nanjing_property_project",
+        "expected": "纳尔达斯",
+        "tolerance": null
+      },
+      {
+        "key": "王某_loan_amount",
+        "expected": 5670000,
+        "tolerance": 0
+      },
+      {
+        "key": "share_price_transfer",
+        "expected": 2000000,
+        "tolerance": 0
+      },
+      {
+        "key": "share_completion_due_date",
+        "expected": "2026-10-01",
+        "tolerance": null
+      },
+      {
+        "key": "court_forced_execution_date",
+        "expected": "2025-01",
+        "tolerance": null
+      }
+    ]
+  },
+  "370b42f1dc73109dfdaf7f156e2348e2": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the legal characterization of deliberate injury followed by extortion under coercion.",
+    "suggested_skill_name": "deliberate-injury-extortion-assessment",
+    "testable_facts": [
+      {
+        "key": "incident_date",
+        "expected": "2023-02-05",
+        "tolerance": null
+      },
+      {
+        "key": "injury_severity",
+        "expected": "轻伤一级",
+        "tolerance": null
+      },
+      {
+        "key": "compensation_amount",
+        "expected": 5000,
+        "tolerance": null
+      },
+      {
+        "key": "transferred_amounts",
+        "expected": [
+          2000,
+          2000,
+          1000
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "cfefdb16d79ba96a24dee44092165f58": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze the criminal liability from aiding in online fraud to committing property crime in a 'black eats black' scenario.",
+    "suggested_skill_name": "criminal-liability-analysis",
+    "testable_facts": [
+      {
+        "key": "crime_date",
+        "expected": "2023-10-18",
+        "tolerance": null
+      },
+      {
+        "key": "remaining_amount_stolen",
+        "expected": 100000,
+        "tolerance": null
+      }
+    ]
+  },
+  "be8fa78b81f27a4d2145d62fb9b26563": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess legal grounds for self-prosecution and review the prosecutor’s actions regarding detention requests in a criminal injury case.",
+    "suggested_skill_name": "self-prosecution-feasibility-assessment",
+    "testable_facts": [
+      {
+        "key": "incident_date",
+        "expected": "2020-07-07",
+        "tolerance": null
+      },
+      {
+        "key": "initial_police_report_time",
+        "expected": "11:29",
+        "tolerance": null
+      },
+      {
+        "key": "collision_time",
+        "expected": "11:55:54",
+        "tolerance": null
+      },
+      {
+        "key": "car_speed_pre_collision",
+        "expected": 81,
+        "tolerance": 0.1
+      },
+      {
+        "key": "area_speed_limit",
+        "expected": 50,
+        "tolerance": 0.1
+      },
+      {
+        "key": "prosecution_filing_date",
+        "expected": "2020-08-20",
+        "tolerance": null
+      }
+    ]
+  },
+  "536f4daf3736f84a2c3dae0c40bc887e": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the validity of an inheritance-related agreement and the entitlements of successors.",
+    "suggested_skill_name": "inheritance-agreement-evaluation",
+    "testable_facts": []
+  },
+  "44d01c4ad5abcd39955b412e57caab82": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 9,
+    "one_line_summary": "Assess Lili's criminal liability under the Criminal Law for her abusive conduct towards Xiaohong.",
+    "suggested_skill_name": "criminal-liability-assessment",
+    "testable_facts": []
+  },
+  "ff044219210cfaa4e6fc55ce8705242c": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze compliance and pricing constraints under concession and integration contracts for a jointly bid infrastructure project.",
+    "suggested_skill_name": "infrastructure-contract-compliance-analysis",
+    "testable_facts": [
+      {
+        "key": "合同签约价格上限",
+        "expected": "中标价格",
+        "tolerance": null
+      },
+      {
+        "key": "总集成合同暂定金额",
+        "expected": "约2亿",
+        "tolerance": null
+      },
+      {
+        "key": "项目公司股权分配",
+        "expected": {
+          "B公司": 40,
+          "C公司": 30,
+          "D公司": 12,
+          "我司": 18
+        },
+        "tolerance": null
+      },
+      {
+        "key": "二次招标的中标价格与《总集成合同》价格差额",
+        "expected": "约2000万",
+        "tolerance": null
+      },
+      {
+        "key": "A项目正式投入使用时间",
+        "expected": "2024年5月",
+        "tolerance": null
+      }
+    ]
+  },
+  "3709ffb773d2dba6a8043cf797ebf3b6": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate scenarios where apologies can serve as a remedy for copyright infringement of proprietary rights.",
+    "suggested_skill_name": "copyright-infringement-apology-remedies",
+    "testable_facts": []
+  },
+  "232cebeea0b3c1d25f9eda6d43c3b89f": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the legal obligations for an employer to pay an annual bonus under labor law and employment contract guidelines.",
+    "suggested_skill_name": "annual-bonus-eligibility-evaluation",
+    "testable_facts": [
+      {
+        "key": "employment_start_date",
+        "expected": "2018-03-22",
+        "tolerance": null
+      },
+      {
+        "key": "monthly_salary",
+        "expected": 27450,
+        "tolerance": null
+      },
+      {
+        "key": "claimed_bonus_amount",
+        "expected": 61875,
+        "tolerance": null
+      },
+      {
+        "key": "arbitration_bonus_amount",
+        "expected": 20625,
+        "tolerance": null
+      }
+    ]
+  },
+  "496a4b5854b84f433f71e74d1af019af": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate the legitimacy of a work injury claim involving a transportation accident and potential late filing of the injury claim.",
+    "suggested_skill_name": "work-injury-claim-evaluation",
+    "testable_facts": [
+      {
+        "key": "accident_time",
+        "expected": "2017-04-04 07:51",
+        "tolerance": null
+      },
+      {
+        "key": "injury_claim_submission",
+        "expected": "2018-04-23",
+        "tolerance": null
+      },
+      {
+        "key": "accident_liability_ratio",
+        "expected": "equal liability",
+        "tolerance": null
+      }
+    ]
+  },
+  "9434e7e7854d76e1089f9033f5b28819": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the ownership of patent rights for a collaborative invention involving multiple university-affiliated inventors.",
+    "suggested_skill_name": "patent-ownership-determination",
+    "testable_facts": [
+      {
+        "key": "patent_application_number",
+        "expected": "202510123456.5",
+        "tolerance": null
+      },
+      {
+        "key": "application_date",
+        "expected": "2025-01-01",
+        "tolerance": null
+      },
+      {
+        "key": "inventors",
+        "expected": [
+          "甲",
+          "乙",
+          "丙",
+          "丁",
+          "戊",
+          "己"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "universities_involved",
+        "expected": [
+          "A大学",
+          "B大学"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "909f6750fbd98279fea81118f11daf9d": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate compliance risks for a tech platform integrating generative AI models under Chinese law.",
+    "suggested_skill_name": "generative-ai-platform-compliance",
+    "testable_facts": []
+  },
+  "4c8918e3ca5263bb464af1e7322ab4e6": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 7,
+    "one_line_summary": "Generate a litigation strategy analysis for a trade company involved in a labor dispute regarding the recognition of employment relationships across borders.",
+    "suggested_skill_name": "cross-border-employment-litigation-strategy",
+    "testable_facts": [
+      {
+        "key": "jurisdiction_reference",
+        "expected": "《劳动争议调解仲裁法》第21条",
+        "tolerance": null
+      },
+      {
+        "key": "labor_relation_reference",
+        "expected": "《关于确立劳动关系有关事项的通知》第一条或第二条",
+        "tolerance": null
+      }
+    ]
+  },
+  "6abc7808743e6f5e6e4b72645c7d0127": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze a real estate purchase contract dispute regarding water damage and advise on legal strategy.",
+    "suggested_skill_name": "real-estate-contract-dispute-analysis",
+    "testable_facts": [
+      {
+        "key": "warranty_period_roof",
+        "expected": 5,
+        "tolerance": null
+      },
+      {
+        "key": "warranty_period_plumbing",
+        "expected": 2,
+        "tolerance": null
+      },
+      {
+        "key": "repair_costs",
+        "expected": 20000,
+        "tolerance": null
+      }
+    ]
+  },
+  "25999c503df1097a44f17e90c28a212f": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluating contract claims, damages, and legal jurisdiction in a multi-party construction and material supply dispute.",
+    "suggested_skill_name": "multi-party-contractual-dispute-resolution",
+    "testable_facts": [
+      {
+        "key": "court_jurisdiction",
+        "expected": "合肥瑶海区法院",
+        "tolerance": null
+      },
+      {
+        "key": "claim_type",
+        "expected": "交付其他标的",
+        "tolerance": null
+      },
+      {
+        "key": "continued_trial_finding",
+        "expected": "错误",
+        "tolerance": null
+      },
+      {
+        "key": "damage_claim_compensation",
+        "expected": 200000,
+        "tolerance": null
+      },
+      {
+        "key": "price_increase_damages",
+        "expected": 10000,
+        "tolerance": null
+      }
+    ]
+  },
+  "fefc9f65777e2ea345d596dcf129a62f": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the legal implications of an endorsement on a commercial draft returned and whether it affects C company's liability.",
+    "suggested_skill_name": "commercial-draft-endorsement-analysis",
+    "testable_facts": []
+  },
+  "ff34ce5cd561718169a91ef607092186": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the criminal charges applicable to a case involving 'loan sharking' practices and evaluate differing legal opinions on applicable offenses.",
+    "suggested_skill_name": "criminal-case-analysis",
+    "testable_facts": []
+  },
+  "50dbfb8641223bb1d86a5af12f2311b7": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Review and modify insurance clauses in a service agreement governed by Hong Kong law.",
+    "suggested_skill_name": "contract-insurance-review",
+    "testable_facts": [
+      {
+        "key": "professional_indemnity_limit",
+        "expected": 5000000,
+        "tolerance": null
+      },
+      {
+        "key": "insurance_currency",
+        "expected": "SGD",
+        "tolerance": null
+      }
+    ]
+  },
+  "91624fadf539b15f417e01a4be6ac364": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess the validity of a supplementary agreement under corporate law and statutory obligations.",
+    "suggested_skill_name": "contract-validity-analysis",
+    "testable_facts": [
+      {
+        "key": "agreement_date",
+        "expected": "2020年3月3日",
+        "tolerance": null
+      },
+      {
+        "key": "deposit_amount",
+        "expected": "人民币6亿元",
+        "tolerance": null
+      },
+      {
+        "key": "trust_principal",
+        "expected": "5亿元",
+        "tolerance": null
+      },
+      {
+        "key": "interest_rate",
+        "expected": "6.4%",
+        "tolerance": null
+      },
+      {
+        "key": "security_article",
+        "expected": "《中华人民共和国民法典》第153条第1款",
+        "tolerance": null
+      },
+      {
+        "key": "insurance_law_article",
+        "expected": "《中华人民共和国保险法》第106条",
+        "tolerance": null
+      }
+    ]
+  },
+  "404e80a597cd038fa93b5ebe4c00c7e6": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 9,
+    "one_line_summary": "Assess the legitimacy of set-off rights and applicability of 'lease survives sale' principle in a post-sale leaseback bankruptcy scenario.",
+    "suggested_skill_name": "bankruptcy-setoff-rights-analysis",
+    "testable_facts": [
+      {
+        "key": "甲欠乙租金",
+        "expected": 500,
+        "tolerance": null
+      },
+      {
+        "key": "乙欠甲装修改造配合款",
+        "expected": 100,
+        "tolerance": null
+      },
+      {
+        "key": "丙预付租金",
+        "expected": 200,
+        "tolerance": null
+      },
+      {
+        "key": "破产申请日期",
+        "expected": "2023年10月",
+        "tolerance": null
+      }
+    ]
+  },
+  "3691fcc628387c4f71384a3193892d4a": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess the enforceability and implications of a buyback clause in an investment agreement under Chinese Corporate Law revisions.",
+    "suggested_skill_name": "vam-buyback-enforcement",
+    "testable_facts": [
+      {
+        "key": "investment_amount",
+        "expected": 5000,
+        "tolerance": null
+      },
+      {
+        "key": "share_percentage",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "ipo_deadline",
+        "expected": "2024-06-30",
+        "tolerance": null
+      },
+      {
+        "key": "equity_buyback_amount",
+        "expected": 6500,
+        "tolerance": null
+      },
+      {
+        "key": "net_assets",
+        "expected": 8000,
+        "tolerance": null
+      }
+    ]
+  },
+  "9a25b7e5028be88a23dc0fb5db296e2f": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the disciplinary decision regarding fund misallocation and suggest lawful payment routes under Chinese securities regulation.",
+    "suggested_skill_name": "disciplinary-decision-analysis",
+    "testable_facts": [
+      {
+        "key": "decision_date",
+        "expected": "2023-05-12",
+        "tolerance": null
+      },
+      {
+        "key": "violated_article",
+        "expected": "《私募投资基金募集行为管理办法》第十二条",
+        "tolerance": null
+      }
+    ]
+  },
+  "b40bd0e0712a382cfa0a929e6dc409c3": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate the legal risks of the board decision to distribute remaining profits in light of potential violations of corporate governance regulations.",
+    "suggested_skill_name": "evaluate-corporate-governance-resolutions",
+    "testable_facts": []
+  },
+  "bbee625b0132cf11d13992b18d478d0f": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine if the breach of a commercial lease warrants contract termination.",
+    "suggested_skill_name": "lease-contract-termination-analysis",
+    "testable_facts": [
+      {
+        "key": "lease_start_date",
+        "expected": "September 24, 2019",
+        "tolerance": null
+      },
+      {
+        "key": "lease_duration",
+        "expected": "10 years",
+        "tolerance": null
+      },
+      {
+        "key": "rent_due_date",
+        "expected": "10 days before the end of the rent period",
+        "tolerance": null
+      },
+      {
+        "key": "breach_date",
+        "expected": "2023-01-18",
+        "tolerance": null
+      },
+      {
+        "key": "delayed_payment_length",
+        "expected": "20 days",
+        "tolerance": null
+      },
+      {
+        "key": "payment_made",
+        "expected": "January 19, 2023",
+        "tolerance": null
+      },
+      {
+        "key": "court_decision",
+        "expected": "support termination",
+        "tolerance": null
+      }
+    ]
+  },
+  "12a3679b9b18c5ab864fed594fd9e9e5": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze whether imposed fines and restitution align with efforts to mitigate losses under assessed diligence obligations.",
+    "suggested_skill_name": "diligence-obligation-analysis",
+    "testable_facts": [
+      {
+        "key": "fine_amount",
+        "expected": 1000000,
+        "tolerance": null
+      },
+      {
+        "key": "restitution_amount",
+        "expected": 40000000,
+        "tolerance": null
+      },
+      {
+        "key": "contract_date",
+        "expected": "2022-07-06",
+        "tolerance": null
+      }
+    ]
+  },
+  "0911008e5dc00a027c9e0778b30c7d18": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze the multi-layer investment structure and compliance with financial regulations.",
+    "suggested_skill_name": "financial-investment-compliance-analysis",
+    "testable_facts": []
+  },
+  "c886c20643bd5a592d40f918fe4e8f1a": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate A Company's eligibility for rent reduction due to COVID-19 restrictions on using a residential property for business purposes.",
+    "suggested_skill_name": "covid-rent-dispute-analysis",
+    "testable_facts": []
+  },
+  "652faffc089d6b2694dfeefea8192d14": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess the validity of claims and defenses in a multi-defendant case involving loan contracts and guarantees.",
+    "suggested_skill_name": "loan-contract-litigation-analysis",
+    "testable_facts": []
+  },
+  "256632958745097bbf273988954dccbf": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze a bribery case involving corporate stock manipulation and unlawful benefits by a state official.",
+    "suggested_skill_name": "bribery-case-analysis",
+    "testable_facts": [
+      {
+        "key": "requested_shares",
+        "expected": 1000000,
+        "tolerance": null
+      },
+      {
+        "key": "shares_cashed_out_zhang",
+        "expected": 5700000,
+        "tolerance": null
+      },
+      {
+        "key": "shares_cashed_out_li_long",
+        "expected": 4980000,
+        "tolerance": null
+      },
+      {
+        "key": "tax_paid",
+        "expected": 2785700,
+        "tolerance": null
+      }
+    ]
+  },
+  "4ce423f2dcf07e44c242bb3dc29d2249": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze whether the defendant Wang's actions constitute the crime of transformed robbery.",
+    "suggested_skill_name": "transformed-robbery-analysis",
+    "testable_facts": [
+      {
+        "key": "total_value",
+        "expected": 20448,
+        "tolerance": null
+      },
+      {
+        "key": "cash_stolen",
+        "expected": 60,
+        "tolerance": null
+      },
+      {
+        "key": "silver_necklaces_stolen",
+        "expected": 4,
+        "tolerance": null
+      },
+      {
+        "key": "return_attempt",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "physical_obstruction",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "contact",
+        "expected": false,
+        "tolerance": null
+      }
+    ]
+  },
+  "df5565ad5d4684daccc61f672a4a366b": {
+    "is_law": true,
+    "domain": "financial-regulation",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze legal risks in A company's lease, employee benefits, and outsourcing practices based on IPO regulations.",
+    "suggested_skill_name": "ipo-legal-risk-analysis",
+    "testable_facts": []
+  },
+  "a12a97c470a43851a026ad60f6b31ae0": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess if providing GDS files to a Taiwan-based Chinese foundry for 7nm chips breaches US Export Administration Regulations.",
+    "suggested_skill_name": "ear-compliance-assessment",
+    "testable_facts": [
+      {
+        "key": "section_number",
+        "expected": "734.9",
+        "tolerance": null
+      },
+      {
+        "key": "section_number",
+        "expected": "744.23",
+        "tolerance": null
+      }
+    ]
+  },
+  "c74b52b22eef2c0365aa565b893dd43b": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the legality and requirements of transferring an employee between affiliated companies under labor law.",
+    "suggested_skill_name": "employee-transfer-consent-requirements",
+    "testable_facts": []
+  },
+  "851e17b70db945cfc7e1615116cfbebb": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate compliance issues in private fund management and provide recommendations for risk mitigation.",
+    "suggested_skill_name": "private-fund-compliance-review",
+    "testable_facts": [
+      {
+        "key": "王某的刑事犯罪纪录",
+        "expected": "三年内因刑事犯罪被处罚",
+        "tolerance": null
+      },
+      {
+        "key": "合同状态",
+        "expected": "未签署书面合同",
+        "tolerance": null
+      },
+      {
+        "key": "销售渠道",
+        "expected": "抖音平台",
+        "tolerance": null
+      },
+      {
+        "key": "资金销售额度",
+        "expected": 50000000,
+        "tolerance": null
+      }
+    ]
+  },
+  "dd282f2ac875344a3f6872d5c7745df7": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze the legal standing of mortgage rights and ownership claims according to the Civil Code.",
+    "suggested_skill_name": "ownership-mortgage-dispute-analysis",
+    "testable_facts": [
+      {
+        "key": "loan_amount",
+        "expected": 3000000,
+        "tolerance": null
+      },
+      {
+        "key": "original_value_of_item",
+        "expected": 5000000,
+        "tolerance": null
+      },
+      {
+        "key": "sale_price_to_third_party",
+        "expected": 4800000,
+        "tolerance": null
+      },
+      {
+        "key": "Civil Code Article for good faith acquisition",
+        "expected": 311,
+        "tolerance": null
+      },
+      {
+        "key": "Civil Code Article for chattel mortgage registration",
+        "expected": 403,
+        "tolerance": null
+      },
+      {
+        "key": "Civil Code Article for extinguishing prior rights upon good faith acquisition",
+        "expected": 313,
+        "tolerance": null
+      }
+    ]
+  },
+  "af9a3c5d38f10c1a60ed0e2d5e1bbc49": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine whether city government should disclose a reform plan document under public information laws.",
+    "suggested_skill_name": "government-information-disclosure-analysis",
+    "testable_facts": [
+      {
+        "key": "document_nature",
+        "expected": "党务信息",
+        "tolerance": null
+      },
+      {
+        "key": "law_reference",
+        "expected": "政府信息公开条例第二条",
+        "tolerance": null
+      }
+    ]
+  },
+  "35c1ef469e250e9f8b62c10138632247": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine if W company's use of 'Hengjing' constitutes trademark infringement and unfair competition.",
+    "suggested_skill_name": "trademark-infringement-analysis",
+    "testable_facts": [
+      {
+        "key": "trademark_registration_dates",
+        "expected": [
+          "2003-05",
+          "2005-06"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "W_company_establishment_date",
+        "expected": "2002-11-26",
+        "tolerance": null
+      },
+      {
+        "key": "litigation_initiation_year",
+        "expected": 2016,
+        "tolerance": null
+      }
+    ]
+  },
+  "1d182fb168768a4ae13f4077dfbae691": {
+    "is_law": true,
+    "domain": "litigation-arbitration",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the legal nature of land registration between parties and if it constitutes a gift or '借名登记' (nominee registration).",
+    "suggested_skill_name": "taiwan-land-ownership-dispute",
+    "testable_facts": [
+      {
+        "key": "transfer_year",
+        "expected": 2000,
+        "tolerance": null
+      },
+      {
+        "key": "claimed_transfer_reason",
+        "expected": "gift",
+        "tolerance": null
+      },
+      {
+        "key": "court_verdict",
+        "expected": "nominee_registration",
+        "tolerance": null
+      },
+      {
+        "key": "land_possession_duration_years",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "court_ruling",
+        "expected": "overturn_second_instance",
+        "tolerance": null
+      }
+    ]
+  },
+  "76f9554173fe75f3929615ad93863b99": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 8,
+    "one_line_summary": "Optimize multi-UAV path planning in a post-disaster scenario using QUBO formulation.",
+    "suggested_skill_name": "multi-uav-path-planning-optimization",
+    "testable_facts": []
+  },
+  "429d73ac83b4d6e73cc8386ce8696006": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the rotaxane-mediated interfacial polymerization (RMIP) for improved COF membranes.",
+    "suggested_skill_name": "rotaxane-interfacial-polymerization-analysis",
+    "testable_facts": []
+  },
+  "26572b6570eafb92915b9edd7064b5f4": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analysis of CO₂ flux response to heat and drought in different forest ecosystems using Earth System Models.",
+    "suggested_skill_name": "ecosystem-climate-interaction-analysis",
+    "testable_facts": []
+  },
+  "b7221ba3f74ec83ae02a7139dc48cfb2": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze the chemical kinetics and film formation mechanisms of a novel nanolithography system.",
+    "suggested_skill_name": "nanoscale-lithography-chemistry-analysis",
+    "testable_facts": []
+  },
+  "1abd0a749375bcf17d9a9b9911be556c": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Design an experimental protocol to distinguish Protein X activation from canonical EGFR ligand pathway.",
+    "suggested_skill_name": "experiment-design-protein-pathways",
+    "testable_facts": []
+  },
+  "0dfc9e49748597617687615dbfb6af9b": {
+    "is_law": false,
+    "domain": "natural-sciences",
+    "difficulty_score": 8,
+    "one_line_summary": "Derive the resistivity function for a delafossite metal channel using electron fluid dynamics and experimental data.",
+    "suggested_skill_name": "electron-fluid-dynamics-derive-resistivity",
+    "testable_facts": [
+      {
+        "key": "W",
+        "expected": 0.7,
+        "tolerance": null
+      },
+      {
+        "key": "rho_0",
+        "expected": 8,
+        "tolerance": null
+      },
+      {
+        "key": "FS_model_resistivity",
+        "expected": 10.3,
+        "tolerance": null
+      },
+      {
+        "key": "experimental_resistivity",
+        "expected": 15.5,
+        "tolerance": null
+      },
+      {
+        "key": "ell_MR_at_2K",
+        "expected": 18.5,
+        "tolerance": null
+      },
+      {
+        "key": "dynamic_viscosity_eta",
+        "expected": 0.000261,
+        "tolerance": 1e-06
+      },
+      {
+        "key": "ell_MC",
+        "expected": 48.7,
+        "tolerance": 0.5
+      }
+    ]
+  },
+  "ac4b8be96c4462bec9be3832b900b664": {
+    "is_law": false,
+    "domain": "natural-sciences",
+    "difficulty_score": 6,
+    "one_line_summary": "Conduct a mutational analysis to determine the molecular consequences of a base substitution in the NXF1 gene.",
+    "suggested_skill_name": "genetic-mutation-analysis",
+    "testable_facts": [
+      {
+        "key": "mutation_type",
+        "expected": "single base substitution",
+        "tolerance": null
+      },
+      {
+        "key": "base_change",
+        "expected": "A to U in mRNA (A to T in DNA)",
+        "tolerance": null
+      },
+      {
+        "key": "wild_type_codon",
+        "expected": "AAG",
+        "tolerance": null
+      },
+      {
+        "key": "wild_type_amino_acid",
+        "expected": "Lysine",
+        "tolerance": null
+      },
+      {
+        "key": "mutant_codon",
+        "expected": "UAG",
+        "tolerance": null
+      },
+      {
+        "key": "mutation_consequence",
+        "expected": "premature stop codon",
+        "tolerance": null
+      }
+    ]
+  },
+  "915ed0078c6cfe3f68e01a3cd79d559e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze the core physical and chemical mechanisms behind the anomalous right shift in optimal temperature (T_p) in a hot-humid ecosystem during drought and high temperatures.",
+    "suggested_skill_name": "ecosystem-temperature-response-analysis",
+    "testable_facts": []
+  },
+  "6ff99560595998a09f632fcc3c57dbb2": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Process customer complaints with CRM verification and compensation approval logic.",
+    "suggested_skill_name": "email-complaint-resolution",
+    "testable_facts": []
+  },
+  "900844c199665378bff7c276f4f5d721": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Process customer complaint emails with compensation rules and anomaly detection.",
+    "suggested_skill_name": "complaint-email-processing",
+    "testable_facts": []
+  },
+  "a8e18e37ccd4a72d497e2020ea92307e": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Conduct research on payment gateway outage impact and compliance requirements.",
+    "suggested_skill_name": "payment-gateway-outage-impact-analysis",
+    "testable_facts": []
+  },
+  "f82ff5dbb455ab516357819f11f3b025": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Research and analyze the impact of a payment gateway outage on compliance and business operations.",
+    "suggested_skill_name": "payment-gateway-outage-research",
+    "testable_facts": []
+  },
+  "c432cf9a6108a262c713fc61b7e7a7b7": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Conduct a comprehensive security vulnerability assessment for Apache Log4j, focusing on CVE-2021-44228.",
+    "suggested_skill_name": "log4j-security-vulnerability-assessment",
+    "testable_facts": [
+      {
+        "key": "CVE_number",
+        "expected": "CVE-2021-44228",
+        "tolerance": null
+      },
+      {
+        "key": "CVSS_score",
+        "expected": "<value>",
+        "tolerance": null
+      },
+      {
+        "key": "affected_versions",
+        "expected": "<versions>",
+        "tolerance": null
+      },
+      {
+        "key": "remediation",
+        "expected": "<fix_version>",
+        "tolerance": null
+      }
+    ]
+  },
+  "f346bdab513c5b7e80d6c10a1a5adad8": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Conduct comprehensive security assessment for Log4j vulnerabilities including CVE analysis, technical exploit details, and compliance review.",
+    "suggested_skill_name": "log4j-security-assessment",
+    "testable_facts": [
+      {
+        "key": "CVE_ID",
+        "expected": "CVE-2021-44228",
+        "tolerance": null
+      }
+    ]
+  },
+  "241f08e4ef11cf99acb402fc8306965e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Conduct a technical evaluation of migrating from Redis to Valkey following Redis's license change.",
+    "suggested_skill_name": "technical-migration-evaluation",
+    "testable_facts": []
+  },
+  "8af03fc50567ddf4de802e2f669814d5": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Research EU AI Act compliance for AI customer service systems in Europe.",
+    "suggested_skill_name": "eu-ai-act-compliance-research",
+    "testable_facts": []
+  },
+  "85fb48758e4dd97e1fe1c92ab5cbd7dc": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 8,
+    "one_line_summary": "Research EU AI Act compliance requirements for a customer service AI system.",
+    "suggested_skill_name": "eu-ai-act-compliance-research",
+    "testable_facts": []
+  },
+  "6fdf4ad4de028d3a5d58c1e6b8c203d5": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze Synopsys's revenue resilience in China using SEC filings under export control and domestic substitution pressures.",
+    "suggested_skill_name": "revenue-resilience-analysis",
+    "testable_facts": [
+      {
+        "key": "2024_china_revenue",
+        "expected": "<value>",
+        "tolerance": null
+      },
+      {
+        "key": "2024_global_revenue",
+        "expected": "<value>",
+        "tolerance": null
+      },
+      {
+        "key": "2025_china_revenue",
+        "expected": "<value>",
+        "tolerance": null
+      },
+      {
+        "key": "2025_global_revenue",
+        "expected": "<value>",
+        "tolerance": null
+      }
+    ]
+  },
+  "88d9afdb5f0395aba1aed1b863af7caf": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Extract specific information from a PDF document about skills and categories.",
+    "suggested_skill_name": "pdf-document-analysis",
+    "testable_facts": []
+  },
+  "cbb37a0d3c5d1dbcb6ee8c423cfbbe42": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Extract specific details from a stored memory note.",
+    "suggested_skill_name": "memory-extraction",
+    "testable_facts": []
+  },
+  "c65702044490b1ea419db5c4ba27483e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Encode a binary file to match a text output under size constraints.",
+    "suggested_skill_name": "binary-encoding-with-size-constraint",
+    "testable_facts": [
+      {
+        "key": "encoded.dat_max_size",
+        "expected": 60,
+        "tolerance": null
+      }
+    ]
+  },
+  "3eb2ff6f29ef29876aba89e919d5d433": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 6,
+    "one_line_summary": "Create a Python script to sanitize HTML files by removing XSS vectors while preserving legitimate structure.",
+    "suggested_skill_name": "html-xss-sanitization",
+    "testable_facts": []
+  },
+  "44e5406cc569ac64ee0016b5f15882d6": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Parse and decode protocol packets from a binary file using a protocol specification.",
+    "suggested_skill_name": "protocol-packet-decoding",
+    "testable_facts": []
+  },
+  "7b2bfc106288cce8399762884b41d441": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze and prioritize customer work orders based on CRM details and SLA standards.",
+    "suggested_skill_name": "customer-work-order-analysis",
+    "testable_facts": []
+  },
+  "74471617e10c1e7c73750843014e4496": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze customer support tickets for priority re-evaluation and routing recommendations.",
+    "suggested_skill_name": "customer-ticket-analysis",
+    "testable_facts": []
+  },
+  "2d4860f3f723ef4abe32ab4619073fa2": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Investigate customer complaints by verifying claims and suggesting resolutions.",
+    "suggested_skill_name": "customer-complaint-investigation",
+    "testable_facts": []
+  },
+  "1d8ca0b9c032aaf5c642e4f585052e2e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Investigate customer complaints using CRM and finance records and draft responses.",
+    "suggested_skill_name": "customer-complaint-investigation",
+    "testable_facts": []
+  },
+  "dd653cc804020988da38d23c4e6abee9": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Check contract expiry for customers and draft renewal reminders for VIPs.",
+    "suggested_skill_name": "contract-renewal-monitoring",
+    "testable_facts": []
+  },
+  "12d72c0dc512bbe18947f79a3cd1e3bb": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify and handle contract renewals for customers with expiring contracts within 60 days.",
+    "suggested_skill_name": "contract-renewal-management",
+    "testable_facts": []
+  },
+  "5c4d961bc0d4cc26ba66e63d56b06461": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Conduct an SLA compliance review by analyzing response times and automation statuses.",
+    "suggested_skill_name": "sla-compliance-check",
+    "testable_facts": []
+  },
+  "7717a2837134afab62f4bcd8fc9833ad": {
+    "is_law": false,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze system performance against SLA response time standards for compliance.",
+    "suggested_skill_name": "sla-compliance-audit",
+    "testable_facts": []
+  },
+  "329033de2fb22a7c054ddbec19d68293": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Perform a quarterly business analysis using financial, CRM, and industry data.",
+    "suggested_skill_name": "quarterly-business-analysis",
+    "testable_facts": []
+  },
+  "331763aa6a8da0de6062652bf68feece": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Generate a quarterly business analysis report based on revenue data and market trends.",
+    "suggested_skill_name": "quarterly-business-analysis",
+    "testable_facts": []
+  },
+  "34d6763969466a03d9eb64e793f0cd03": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Understanding and explaining the specifics of Meta Queries' network interaction mechanisms and training objectives in non-technical terms.",
+    "suggested_skill_name": "document-explanation-simplification",
+    "testable_facts": []
+  },
+  "25e384d1cde082747d26bfa79f98443e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze a video clip to enumerate and describe specific tennis events.",
+    "suggested_skill_name": "tennis-video-analysis",
+    "testable_facts": []
+  },
+  "4479a250495db6526c7b416aa43b03e7": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Extract specific actions and outcomes from a badminton match video.",
+    "suggested_skill_name": "video-analysis-badminton-match",
+    "testable_facts": []
+  },
+  "1140abe584c29a969c2b2dda5b6fb3a5": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Determine the number of times each player hit the shuttlecock into the net during a specific game segment.",
+    "suggested_skill_name": "shuttlecock-net-hits-analysis",
+    "testable_facts": []
+  },
+  "0580cc0c341db78b8748ad4184fb33ed": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify a specific point in a video where 10 shots are hit and determine the outcome.",
+    "suggested_skill_name": "video-point-analysis",
+    "testable_facts": []
+  },
+  "65ad9562695d73dd12c4dc46c6d9d122": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Extract and compare benchmark scores from a research paper's table.",
+    "suggested_skill_name": "benchmark-score-extraction",
+    "testable_facts": []
+  },
+  "efa837c71884668b94a79493fd08ba6e": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Extract and compare test accuracy scores for two AI models over specific benchmarks from PDFs.",
+    "suggested_skill_name": "extract-and-compare-ai-benchmark-scores",
+    "testable_facts": []
+  },
+  "61015b7a1c1d2440e9a2e6958f83cb47": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 6,
+    "one_line_summary": "Understanding the burden of proof reversal in labor arbitration cases when employer's documentation is incomplete.",
+    "suggested_skill_name": "burden-of-proof-in-labor-arbitration",
+    "testable_facts": []
+  },
+  "e823fb0f253f957cbabd10d576f223f8": {
+    "is_law": true,
+    "domain": "ip-data-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Assess the legal requirements for data transfer under GDPR, including the use of SCCs.",
+    "suggested_skill_name": "gdpr-data-transfer-requirements",
+    "testable_facts": []
+  },
+  "45c95320c206f0ee105a7401f21831f7": {
+    "is_law": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Determine updates in building code relevant to cantilever projections and moment-resisting connections for facade design.",
+    "suggested_skill_name": "building-code-update-check",
+    "testable_facts": []
+  },
+  "5eb60477d175df50ee898b1ea49fdd58": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine the minimum width of evacuation passageways in commercial building renovations according to GB50016 standards.",
+    "suggested_skill_name": "evacuation-passages-width-compliance",
+    "testable_facts": []
+  },
+  "e1a928452085651dc15c6407efc88fca": {
+    "is_law": true,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Identify the lowest recorded rents and royalties for OCS in 2016.",
+    "suggested_skill_name": "ocs-rents-royalties-extraction",
+    "testable_facts": [
+      {
+        "key": "lowest_recorded_rents_royalties_2016",
+        "expected": 56,
+        "tolerance": null
+      }
+    ]
+  },
+  "7123b9240446376483393216358e54d5": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze an NDA to categorize clauses and assess their risk levels.",
+    "suggested_skill_name": "nda-clause-analysis",
+    "testable_facts": [
+      {
+        "key": "total_clauses",
+        "expected": 12,
+        "tolerance": null
+      },
+      {
+        "key": "risk_summary.low",
+        "expected": 5,
+        "tolerance": null
+      },
+      {
+        "key": "risk_summary.medium",
+        "expected": 4,
+        "tolerance": null
+      },
+      {
+        "key": "risk_summary.high",
+        "expected": 3,
+        "tolerance": null
+      }
+    ]
+  },
+  "d827eb8f8d77e614749523d627b5dff9": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Extract key obligations and risk clauses from a commercial lease agreement.",
+    "suggested_skill_name": "commercial-lease-obligation-extraction",
+    "testable_facts": [
+      {
+        "key": "base_rent",
+        "expected": "<string format>",
+        "tolerance": null
+      },
+      {
+        "key": "cam_charges",
+        "expected": "<string format>",
+        "tolerance": null
+      },
+      {
+        "key": "escalation_rate",
+        "expected": "<string format>",
+        "tolerance": null
+      },
+      {
+        "key": "lease_term",
+        "expected": "<string format>",
+        "tolerance": null
+      },
+      {
+        "key": "renewal_options",
+        "expected": "<string format>",
+        "tolerance": null
+      },
+      {
+        "key": "termination_clauses",
+        "expected": "<string format>",
+        "tolerance": null
+      }
+    ]
+  },
+  "b1309a0972b68185ad0018afa70d8ee2": {
+    "is_law": true,
+    "domain": "labor-employment",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine employment contract compliance with specified labor law requirements.",
+    "suggested_skill_name": "employment-contract-compliance-check",
+    "testable_facts": []
+  },
+  "669ffe52b8fe3d1251e71e5be500db64": {
+    "is_law": true,
+    "domain": "contract-law",
+    "difficulty_score": 4,
+    "one_line_summary": "Analyze a software license agreement for specific permissions and restrictions related to intellectual property rights.",
+    "suggested_skill_name": "software-license-analysis",
+    "testable_facts": []
+  },
+  "901942cdccb65128095ebd528f3514d5": {
+    "is_law": true,
+    "domain": "corporate-law",
+    "difficulty_score": 5,
+    "one_line_summary": "Extract and organize key legal sections from a merger agreement document.",
+    "suggested_skill_name": "m&a-due-diligence-extraction",
+    "testable_facts": []
+  },
+  "06f8f57801565def9efa0ff7b3d9760d": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate data processing records for GDPR compliance based on lawful basis and retention rules.",
+    "suggested_skill_name": "gdpr-data-processing-audit",
+    "testable_facts": [
+      {
+        "key": "lawful_basis",
+        "expected": "consent|contract|legal_obligation|legitimate_interest|vital_interest",
+        "tolerance": null
+      },
+      {
+        "key": "consent_obtained",
+        "expected": "yes",
+        "tolerance": null
+      },
+      {
+        "key": "retention_days",
+        "expected": 1095,
+        "tolerance": null
+      },
+      {
+        "key": "third_party_sharing_has_lawful_basis",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "72cb756f498e79562629e00535b6bf7b": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Classify internal controls under COSO components and assess effectiveness for SOX compliance.",
+    "suggested_skill_name": "sox-internal-controls-assessment",
+    "testable_facts": []
+  },
+  "a76878b226907e1f1f5be84e0d7a17fb": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Screen financial transactions for AML compliance by identifying high-risk countries and structuring activities.",
+    "suggested_skill_name": "aml-transaction-screening",
+    "testable_facts": [
+      {
+        "key": "high-risk_countries",
+        "expected": "['XYZ', 'ABC', 'DEF', 'GHI']",
+        "tolerance": null
+      }
+    ]
+  },
+  "2544f4957e0ba53b3098331c0857114d": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 4,
+    "one_line_summary": "Assess system configuration against HIPAA security requirements for compliance status.",
+    "suggested_skill_name": "hipaa-system-compliance-check",
+    "testable_facts": []
+  },
+  "d08f068e985d9511da1c408634f1c663": {
+    "is_law": true,
+    "domain": "compliance",
+    "difficulty_score": 5,
+    "one_line_summary": "Determine facility emissions compliance based on pollutant data against legal limits.",
+    "suggested_skill_name": "epa-emissions-compliance-check",
+    "testable_facts": []
+  }
+}

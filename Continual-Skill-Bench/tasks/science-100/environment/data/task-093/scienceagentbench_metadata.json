@@ -1,0 +1,11 @@
+{
+  "instance_id": 13,
+  "domain": "Bioinformatics",
+  "subtask_categories": "Feature Engineering, Deep Learning",
+  "github_name": "kexinhuang12345/DeepPurpose",
+  "src_file_or_path": "Tutorial_2_Drug_Property_Pred_Assay_Data.ipynb",
+  "gold_program_name": "drug_property_model.py",
+  "output_fname": "pred_results/hiv_test_pred.csv",
+  "eval_script_name": "drug_property_eval.py",
+  "full_dataset_note": "The ScienceAgentBench public Hugging Face row exposes folder tree and previews, but not the complete original benchmark dataset files in this scrape."
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": 97,
+  "source": "SkillsBench",
+  "source_id": "earthquake-phase-association",
+  "source_url": "https://www.skillsbench.ai/tasks",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/earthquake-phase-association",
+  "category": "seismology",
+  "difficulty": "hard",
+  "unit": "",
+  "original_payload": {
+    "benchmark": "SkillsBench",
+    "title": "earthquake-phase-association",
+    "description": "You have some earthquake traces stored at `/root/data/wave.mseed`, and station information stored at `/root/data/stations.csv`.",
+    "difficulty": "hard",
+    "category": "seismology",
+    "tags": "science, earth-science, seismology",
+    "task_id": "earthquake-phase-association",
+    "url": "https://www.skillsbench.ai/tasks/earthquake-phase-association",
+    "source_url": "https://www.skillsbench.ai/tasks",
+    "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/earthquake-phase-association",
+    "scraped_time": "2026-05-20T14:55:14.009980"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "inclusion": {
+    "age": {
+      "min": 18,
+      "max": 65
+    },
+    "gender": [
+      "M",
+      "F"
+    ],
+    "diagnosis": [
+      "diabetes",
+      "hypertension"
+    ],
+    "lab_values": {
+      "HbA1c": {
+        "max": 7.0
+      },
+      "Cholesterol": {
+        "max": 240
+      },
+      "BloodPressure": {
+        "max": 140
+      }
+    }
+  },
+  "exclusion": {
+    "diagnosis": [
+      "cancer"
+    ],
+    "lab_values": {
+      "Creatinine": {
+        "max": 1.5
+      }
+    }
+  }
+}

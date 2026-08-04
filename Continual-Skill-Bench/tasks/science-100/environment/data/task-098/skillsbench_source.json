@@ -1,0 +1,5 @@
+{
+  "task_name": "earthquake-plate-calculation",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/earthquake-plate-calculation",
+  "note": "Downloaded source environment directory when available. Look under skillsbench_environment/ for data files."
+}

@@ -1,0 +1,12 @@
+|-- Flooding/
+|---- StudyAreaBuildings.cpg
+|---- Elevation_2050.tif.aux.xml
+|---- Elevation_2050.tif
+|---- Elevation_2050.tfw
+|---- StudyAreaBuildings.dbf
+|---- StudyAreaBuildings.prj
+|---- StudyAreaBuildings.sbx
+|---- StudyAreaBuildings.sbn
+|---- StudyAreaBuildings.shx
+|---- StudyAreaBuildings.shp.xml
+|---- StudyAreaBuildings.shp

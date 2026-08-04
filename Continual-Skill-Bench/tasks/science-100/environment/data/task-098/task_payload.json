@@ -1,0 +1,23 @@
+{
+  "task_id": 98,
+  "source": "SkillsBench",
+  "source_id": "earthquake-plate-calculation",
+  "source_url": "https://www.skillsbench.ai/tasks",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/earthquake-plate-calculation",
+  "category": "geophysics",
+  "difficulty": "medium",
+  "unit": "",
+  "original_payload": {
+    "benchmark": "SkillsBench",
+    "title": "earthquake-plate-calculation",
+    "description": "You are a geospatial analyst with expertise in plate tectonics and earthquake analysis. I want to find the earthquake that occurred furthest from the Pacific plate boundary within the Pacific plate itself. Use GeoPandas projections. Output the result to `/root/answer.json` as a JSON file with the fo",
+    "difficulty": "medium",
+    "category": "geophysics",
+    "tags": "geophysics, spatial-analysis, gis",
+    "task_id": "earthquake-plate-calculation",
+    "url": "https://www.skillsbench.ai/tasks/earthquake-plate-calculation",
+    "source_url": "https://www.skillsbench.ai/tasks",
+    "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/earthquake-plate-calculation",
+    "scraped_time": "2026-05-20T14:55:14.010490"
+  }
+}

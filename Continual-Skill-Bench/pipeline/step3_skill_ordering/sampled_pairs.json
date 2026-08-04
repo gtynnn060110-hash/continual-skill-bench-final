@@ -1,0 +1,2193 @@
+[
+  {
+    "task_a": 9,
+    "task_b": 67,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical legal research and document retrieval from archives, while Task B requires sales data analysis and business report writing; these tasks involve completely different domains, information sources, and analytical methodologies with no transferable skills."
+  },
+  {
+    "task_a": 2,
+    "task_b": 10,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data formatting and calendar management, while Task B requires financial data research and numerical reporting; these domains share no transferable skills."
+  },
+  {
+    "task_a": 26,
+    "task_b": 31,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "extracting numerical data from historical records",
+      "calculating percentage changes",
+      "interpreting statistical/financial tables",
+      "precise arithmetic computation"
+    ],
+    "reason": "Both tasks require locating specific numerical values in historical databases and performing arithmetic calculations (differences, percentages, changes), but Task A's percentage difference calculation is more directly transferable to Task B's simpler percentage-based reporting than vice versa."
+  },
+  {
+    "task_a": 22,
+    "task_b": 82,
+    "a_helps_b": "NO",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "data extraction from financial documents",
+      "numerical analysis",
+      "financial metric interpretation"
+    ],
+    "reason": "Task B's practice with multi-source financial data aggregation and comparative analysis of complex financial metrics provides useful preparation for Task A's document navigation and precise financial figure extraction, but Task A is narrower and more specialized, offering limited reverse transfer."
+  },
+  {
+    "task_a": 20,
+    "task_b": 59,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data lookup",
+      "numerical comparison"
+    ],
+    "reason": "Task A requires finding and comparing specific numerical values from historical financial tables, while Task B requires synthesizing qualitative and quantitative data into a structured analytical report; the skills are contextually distinct despite both involving numbers."
+  },
+  {
+    "task_a": 12,
+    "task_b": 34,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires domain-specific financial data lookup and numeric extraction from government reports, while Task B requires JSON parsing, data grouping, and markdown formatting—these involve entirely different skill domains with no meaningful transfer."
+  },
+  {
+    "task_a": 8,
+    "task_b": 84,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires chart reading and date identification from financial data, while Task B requires understanding technical construction standards and drafting contractual language—these involve entirely different domains and cognitive processes with no transferable skills."
+  },
+  {
+    "task_a": 68,
+    "task_b": 82,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "financial ratio analysis",
+      "time-series data interpretation",
+      "market context evaluation",
+      "performance benchmarking",
+      "quantitative data extraction and synthesis"
+    ],
+    "reason": "Task A requires deeper financial analysis (balance sheet decomposition, liquidity assessment, improvement quantification) making it a more complex application of shared analytical skills, while Task B focuses narrowly on index/fund performance tracking; Task B provides foundational practice in reading financial metrics and comparing performance data that directly supports Task A's more demanding requirements."
+  },
+  {
+    "task_a": 7,
+    "task_b": 48,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating numerical data in historical tables",
+      "reading and interpreting government financial records",
+      "unit conversion and understanding nominal values",
+      "aggregating or identifying specific financial figures"
+    ],
+    "reason": "Both tasks require finding and extracting specific numerical data from U.S. government historical financial records, with Task B's simpler aggregation structure providing useful practice for Task A's more direct lookup, making the transfer primarily B→A."
+  },
+  {
+    "task_a": 84,
+    "task_b": 92,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "document structure organization",
+      "hierarchical information presentation",
+      "professional writing",
+      "stakeholder communication"
+    ],
+    "reason": "While both tasks involve organizing complex information into structured documents for professional audiences, they operate in entirely different domains (construction contracts vs. sales reporting) with different information types (regulatory standards vs. market data), limiting meaningful skill transfer beyond generic document composition."
+  },
+  {
+    "task_a": 44,
+    "task_b": 91,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "financial metric interpretation",
+      "year-over-year comparison analysis",
+      "percentage/decimal calculation"
+    ],
+    "reason": "Task A requires precise financial data extraction and percentage calculations that are foundational sub-skills for Task B's more complex narrative task of synthesizing financial data into a persuasive script, making B→A stronger than A→B."
+  },
+  {
+    "task_a": 2,
+    "task_b": 66,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data formatting and JSON output generation, while Task B requires marketing content creation and product information synthesis; these tasks exercise fundamentally different cognitive and technical skills with no meaningful transferable overlap."
+  },
+  {
+    "task_a": 2,
+    "task_b": 50,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires structured data formatting and file output, while Task B requires data retrieval, filtering, and numerical aggregation from financial records; these involve fundamentally different skills with no meaningful transfer."
+  },
+  {
+    "task_a": 8,
+    "task_b": 12,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial charts/tables",
+      "parsing government fiscal documents",
+      "extracting numeric data from official reports",
+      "interpreting budget/fiscal terminology"
+    ],
+    "reason": "Both tasks require extracting specific numeric data from official U.S. government fiscal documents and charts, with Task B being more narrowly scoped (specific data point extraction) making it a useful prerequisite for the broader chart interpretation required in Task A."
+  },
+  {
+    "task_a": 20,
+    "task_b": 22,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading tabular financial data",
+      "interpreting numerical datasets",
+      "locating specific values in complex tables",
+      "understanding date formats"
+    ],
+    "reason": "Both tasks require extracting specific numerical values from financial tables and understanding temporal/date information, though Task A involves comparative analysis while Task B requires direct value identification."
+  },
+  {
+    "task_a": 21,
+    "task_b": 58,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "document parsing",
+      "structured data extraction"
+    ],
+    "reason": "Task A requires domain-specific research into historical documents and cross-referencing publications, while Task B requires programmatic text parsing and JSON formatting—different cognitive domains with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 59,
+    "task_b": 69,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from tables",
+      "percentage calculation",
+      "numerical analysis",
+      "identifying relevant metrics"
+    ],
+    "reason": "Both tasks require extracting numerical data from structured information and performing percentage calculations, but Task A involves qualitative analysis and report writing while Task B is purely quantitative, making B a useful foundational skill for A but A does not fully prepare one for B's specific numerical focus."
+  },
+  {
+    "task_a": 93,
+    "task_b": 96,
+    "a_helps_b": "YES",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "research methodology and data collection",
+      "data analysis and interpretation",
+      "translating findings into actionable recommendations",
+      "professional report writing for executive audiences",
+      "structured argumentation with evidence support",
+      "audience-appropriate communication"
+    ],
+    "reason": "Task A teaches systematic research design and data-driven decision making that directly enables the evidence-based strategic recommendations required in Task B, while Task B's focus on executive communication and strategic synthesis provides supplementary practice but less foundational support for Task A's technical research methodology."
+  },
+  {
+    "task_a": 2,
+    "task_b": 23,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data formatting and JSON generation, while Task B requires historical research and numerical data retrieval; these tasks share no overlapping skills or cognitive processes."
+  },
+  {
+    "task_a": 72,
+    "task_b": 98,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires statistical calculation and data retrieval from historical records, while Task B requires string parsing and template engine implementation; these are entirely distinct skill domains with no transferable knowledge."
+  },
+  {
+    "task_a": 17,
+    "task_b": 99,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires data lookup and numerical extraction from tables, while Task B requires algorithmic conflict resolution and JSON file manipulation—these are fundamentally different cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 68,
+    "task_b": 79,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "Financial ratio calculation and interpretation",
+      "Balance sheet and liability analysis",
+      "Year-over-year financial comparison",
+      "Data extraction from financial statements",
+      "Risk assessment from financial metrics",
+      "Writing formal financial analysis reports",
+      "Structuring multi-section analytical narratives"
+    ],
+    "reason": "Both tasks require financial statement analysis and report writing, but Task A (debt analysis) is narrower and more specialized, making Task B (comprehensive insurance company analysis) provide broader transferable practice in financial data interpretation, ratio analysis, and professional reporting that directly supports Task A's execution."
+  },
+  {
+    "task_a": 44,
+    "task_b": 71,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from structured sources",
+      "percentage/ratio calculation",
+      "multi-step numerical computation",
+      "rounding to specified decimal places",
+      "parsing financial/government datasets"
+    ],
+    "reason": "Both tasks require extracting specific numerical data from complex financial documents and performing percentage calculations with precise rounding, but Task B involves more complex multi-part queries and filtering by investor type, making Task B's practice more broadly transferable to Task A than vice versa."
+  },
+  {
+    "task_a": 20,
+    "task_b": 36,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data analysis and comparison of numerical values from historical records, while Task B requires data structure manipulation and sorting algorithms; these are entirely distinct domains with no overlapping sub-skills or transferable knowledge."
+  },
+  {
+    "task_a": 49,
+    "task_b": 54,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "financial metric interpretation",
+      "rounding and aggregation",
+      "data synthesis from multiple sources"
+    ],
+    "reason": "Task A requires precise financial data extraction and aggregation with rounding, which are simpler prerequisite skills for Task B's more complex financial analysis involving growth calculations, trend interpretation, and multi-dimensional business performance synthesis."
+  },
+  {
+    "task_a": 83,
+    "task_b": 97,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "information organization",
+      "document structure understanding",
+      "reading comprehension"
+    ],
+    "reason": "Task B's skill in restructuring disorganized content and organizing information hierarchically provides direct practice for Task A's requirement to synthesize tabular data into a well-structured narrative report, but Task A's domain-specific analysis does not transfer to Task B's general reorganization skill."
+  },
+  {
+    "task_a": 26,
+    "task_b": 56,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires quantitative data analysis and statistical calculation from historical records, while Task B requires qualitative writing, resume interpretation, and persuasive communication—these draw on entirely different cognitive skill sets with no meaningful transfer."
+  },
+  {
+    "task_a": 0,
+    "task_b": 54,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "reading and interpreting financial/numerical documents",
+      "understanding historical/time-series data"
+    ],
+    "reason": "Task B requires all the basic numerical comprehension skills needed for Task A (extracting specific figures from text, understanding time periods, reading tables), making B a stronger prerequisite for A, while A offers no unique skills that would help with B's more complex analytical requirements."
+  },
+  {
+    "task_a": 14,
+    "task_b": 27,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and text formatting operations, while Task B requires research/data lookup of specific Treasury financial data; these are entirely different skill domains with no transferable overlap."
+  },
+  {
+    "task_a": 44,
+    "task_b": 97,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "reading structured data",
+      "parsing text"
+    ],
+    "reason": "Task A requires numerical extraction and calculation from tabular data, while Task B requires organizational restructuring and content mapping—these involve fundamentally different cognitive operations with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 33,
+    "task_b": 82,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction from text",
+      "reading and interpreting financial/statistical tables",
+      "working with percentages and financial metrics",
+      "analyzing time-series data"
+    ],
+    "reason": "Task A requires simpler numerical extraction and basic arithmetic that are prerequisite sub-skills for Task B's more complex financial analysis involving multiple data sources, percentage calculations, and comparative interpretation of investment metrics."
+  },
+  {
+    "task_a": 26,
+    "task_b": 54,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "percentage calculation",
+      "comparative analysis",
+      "data interpretation"
+    ],
+    "reason": "Task B requires all sub-skills of Task A (extracting figures, computing percentages, comparing metrics) but at greater scale and complexity, making A a useful prerequisite foundation for B's more demanding analytical requirements."
+  },
+  {
+    "task_a": 13,
+    "task_b": 78,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "text parsing",
+      "data processing"
+    ],
+    "reason": "Task A involves structured text manipulation with exact string matching and sequential operations, while Task B requires analytical writing, data interpretation, and economic reasoning—fundamentally different cognitive processes with minimal transferable skills."
+  },
+  {
+    "task_a": 19,
+    "task_b": 73,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating numerical data in historical/official documents",
+      "unit conversion and scaling (billions/millions)",
+      "rounding to specified decimal places",
+      "financial/economic data interpretation"
+    ],
+    "reason": "Both tasks require finding specific numerical values in authoritative sources, performing unit conversions, and rounding to precise decimal places, but Task B adds complexity with currency exchange rates and multi-step calculations, making Task B a stronger prerequisite for Task A."
+  },
+  {
+    "task_a": 33,
+    "task_b": 52,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data retrieval from financial tables",
+      "numerical computation with large figures",
+      "rounding to specified precision",
+      "understanding financial/economic metrics"
+    ],
+    "reason": "Both tasks require locating specific financial data from government sources and performing arithmetic operations on large numerical values, but Task B's YoY growth rate calculation (a more complex derivative computation) subsumes the simpler averaging skills in Task A."
+  },
+  {
+    "task_a": 8,
+    "task_b": 82,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading numerical data from charts/tables",
+      "interpreting time-series financial data",
+      "extracting specific values from complex data presentations",
+      "understanding fiscal/financial contexts"
+    ],
+    "reason": "Both tasks require extracting and interpreting specific numerical information from financial data sources, but Task B is more complex (multi-source analysis with comparative reasoning) while Task A is simpler (single chart lookup), making B→A stronger preparation than A→B."
+  },
+  {
+    "task_a": 7,
+    "task_b": 95,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data retrieval",
+      "numerical interpretation"
+    ],
+    "reason": "Task A requires factual lookup of historical financial data with minimal analysis, while Task B requires synthesizing complex policy information into strategic recommendations for executives; they exercise fundamentally different cognitive processes despite both involving numbers."
+  },
+  {
+    "task_a": 38,
+    "task_b": 92,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data filtering and sorting with precise logical conditions, while Task B involves qualitative business writing and synthesis of market analysis—these require fundamentally different cognitive processes with no meaningful skill transfer."
+  },
+  {
+    "task_a": 8,
+    "task_b": 37,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires chart reading and temporal data extraction from financial visualizations, while Task B requires text classification and categorical reasoning from email content—these involve distinct data modalities and analytical approaches with no meaningful skill transfer."
+  },
+  {
+    "task_a": 36,
+    "task_b": 43,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data parsing and aggregation from JSON; Task B requires finding and interpreting historical economic data from U.S. Treasury sources—fundamentally different information retrieval and domain contexts with no overlapping sub-skills."
+  },
+  {
+    "task_a": 34,
+    "task_b": 47,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves parsing structured JSON data and formatting markdown output, while Task B requires locating specific numerical data points in a historical dataset and performing percentage calculations—these are entirely different domains with no transferable skills."
+  },
+  {
+    "task_a": 96,
+    "task_b": 98,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires strategic business writing and HR knowledge, while Task B requires template parsing and data manipulation logic; these domains share no transferable cognitive skills."
+  },
+  {
+    "task_a": 24,
+    "task_b": 91,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "numerical data extraction",
+      "percentage/ratio calculation"
+    ],
+    "reason": "While both tasks involve extracting financial data and performing calculations, Task A requires locating specific historical document references and performing simple arithmetic on isolated data points, whereas Task B requires synthesizing large datasets into narrative form with strategic interpretation—these represent fundamentally different cognitive processes with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 3,
+    "task_b": 65,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured file manipulation and JSON parsing for calendar data, while Task B requires market research analysis and competitive business reporting with no overlapping technical or analytical skills."
+  },
+  {
+    "task_a": 50,
+    "task_b": 89,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "structured information extraction"
+    ],
+    "reason": "Task A requires numerical aggregation from financial tables while Task B requires qualitative content creation and framework application; they exercise fundamentally different cognitive processes (calculation vs. composition) with minimal transferable skill overlap despite both involving data handling."
+  },
+  {
+    "task_a": 66,
+    "task_b": 70,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data extraction",
+      "numerical conversion"
+    ],
+    "reason": "Task A requires persuasive marketing communication and presentation design, while Task B requires financial data lookup and currency conversion calculation; these represent fundamentally different cognitive domains with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 10,
+    "task_b": 88,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data retrieval and numerical reporting, while Task B requires strategic planning, marketing design, and organizational thinking; these involve fundamentally different cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 38,
+    "task_b": 80,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data parsing",
+      "filtering structured information"
+    ],
+    "reason": "Task A involves filtering and sorting structured JSON data by simple criteria, while Task B requires financial analysis, trend interpretation, and narrative synthesis—fundamentally different cognitive tasks with minimal transferable skills despite both processing data."
+  },
+  {
+    "task_a": 6,
+    "task_b": 73,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific data in official government financial documents",
+      "reading and interpreting tables",
+      "extracting numerical values from complex reports",
+      "understanding financial terminology and report structure"
+    ],
+    "reason": "Both tasks require navigating dense government financial reports to locate and extract specific numerical data, though Task B adds a currency conversion and calculation layer that Task A does not require."
+  },
+  {
+    "task_a": 70,
+    "task_b": 78,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical conversion"
+    ],
+    "reason": "Task A requires precise financial data lookup and currency conversion with mathematical computation, while Task B requires analytical writing and synthesis of economic data into narrative form; these demand distinct cognitive processes with minimal overlap in practical transferable skills."
+  },
+  {
+    "task_a": 28,
+    "task_b": 36,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction",
+      "aggregation",
+      "sorting"
+    ],
+    "reason": "Task B exercises fundamental data processing skills (grouping, counting, sorting) that are prerequisite competencies for the more complex historical research and numerical analysis required in Task A, but Task A's domain-specific knowledge does not transfer to Task B."
+  },
+  {
+    "task_a": 36,
+    "task_b": 65,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data parsing and aggregation with no overlap to Task B, which is a market research and competitive analysis writing task requiring domain knowledge synthesis."
+  },
+  {
+    "task_a": 78,
+    "task_b": 89,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and synthesis",
+      "structuring complex information into coherent narratives",
+      "professional business writing",
+      "extracting insights from quantitative data",
+      "stakeholder communication"
+    ],
+    "reason": "Both tasks require synthesizing data sources into structured, professional written analyses for business audiences, but Task B's user profiling methodology (data collection, framework application, dimensional analysis) provides foundational data literacy skills that strengthen Task A's statistical analysis work."
+  },
+  {
+    "task_a": 17,
+    "task_b": 46,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial tables",
+      "extracting numerical data from documents",
+      "comparing values across time periods",
+      "converting to standardized units",
+      "identifying relevant data rows in complex datasets"
+    ],
+    "reason": "Both tasks require locating and extracting specific numerical values from historical financial documents and performing comparisons, but Task B adds the complexity of temporal comparison across two fiscal periods, making Task B a stronger prerequisite for Task A."
+  },
+  {
+    "task_a": 5,
+    "task_b": 90,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical data retrieval and financial record interpretation, while Task B requires strategic analysis, writing, and organizational problem-solving; these tasks involve entirely different cognitive domains with no transferable sub-skills."
+  },
+  {
+    "task_a": 3,
+    "task_b": 85,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and JSON manipulation on a simple calendar structure, while Task B requires complex data analysis, statistical reasoning, and business report writing—these are fundamentally different cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 20,
+    "task_b": 97,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data lookup and comparison in financial tables; Task B requires document parsing, content reorganization, and structural mapping—no overlapping sub-skills or shared underlying competencies."
+  },
+  {
+    "task_a": 27,
+    "task_b": 76,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data retrieval and interpretation from official sources, while Task B requires vendor evaluation and contract drafting based on product/company information; these involve completely different domains (finance vs. procurement) with no transferable sub-skills."
+  },
+  {
+    "task_a": 6,
+    "task_b": 81,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "information search",
+      "data interpretation"
+    ],
+    "reason": "Task A requires locating specific historical financial data in archival documents, while Task B requires analyzing contemporary investment opportunities and market trends; these represent fundamentally different domains with minimal transferable skill value despite both involving data interpretation."
+  },
+  {
+    "task_a": 21,
+    "task_b": 60,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "professional writing"
+    ],
+    "reason": "Task A requires archival research and document navigation skills, while Task B requires survey data analysis and report synthesis skills; these are distinct enough that proficiency in one provides minimal advantage for the other."
+  },
+  {
+    "task_a": 8,
+    "task_b": 72,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial charts/tables",
+      "extracting numerical data from documents",
+      "interpreting time-series data",
+      "understanding fiscal/financial terminology"
+    ],
+    "reason": "Both tasks require extracting specific numerical data from financial charts and performing temporal analysis, but Task B additionally requires statistical calculation (geometric mean), making Task B a more foundational skill prerequisite for Task A."
+  },
+  {
+    "task_a": 38,
+    "task_b": 93,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data filtering and sorting operations, while Task B requires long-form analytical writing and research communication—these are fundamentally distinct cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 26,
+    "task_b": 55,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "percentage calculation",
+      "data extraction from text",
+      "comparative analysis",
+      "numerical reasoning"
+    ],
+    "reason": "Both tasks require extracting numerical data and performing percentage-based calculations, but Task B is significantly more complex, making Task A useful prerequisite practice for the quantitative skills needed in Task B."
+  },
+  {
+    "task_a": 49,
+    "task_b": 89,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data aggregation",
+      "summarization"
+    ],
+    "reason": "Task A requires numerical data extraction and arithmetic aggregation from structured financial documents, while Task B requires qualitative research synthesis and long-form technical writing about user research methodologies; these represent fundamentally different cognitive domains (quantitative finance vs. qualitative business analysis) with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 36,
+    "task_b": 91,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a structured data aggregation and sorting task requiring JSON parsing and simple counting logic, while Task B is a creative business communication task requiring financial analysis, narrative synthesis, and persuasive writing—these involve fundamentally different cognitive and technical skills with no meaningful transfer."
+  },
+  {
+    "task_a": 14,
+    "task_b": 52,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and text formatting while Task B requires financial data analysis and percentage calculation; these are entirely distinct skill domains with no meaningful overlap."
+  },
+  {
+    "task_a": 37,
+    "task_b": 73,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a text classification problem requiring natural language understanding and categorization, while Task B is a financial data lookup and arithmetic problem requiring numerical analysis of Treasury records—these involve entirely different skill domains with no meaningful transfer."
+  },
+  {
+    "task_a": 35,
+    "task_b": 76,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from structured formats",
+      "organizing information hierarchically",
+      "formatting technical documents",
+      "vendor/supplier information processing"
+    ],
+    "reason": "Task A involves extracting and formatting structured business data (invoices), while Task B requires similar skills of extracting vendor and product information to draft a contract; Task B is less structured and would benefit from the systematic data organization practice gained in Task A."
+  },
+  {
+    "task_a": 19,
+    "task_b": 26,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "historical data lookup",
+      "numerical extraction from tables",
+      "unit conversion and rounding",
+      "percentage/ratio calculation",
+      "finding specific historical records"
+    ],
+    "reason": "Both tasks require locating specific historical/statistical data, extracting numerical values, and performing quantitative operations (rounding, percentage calculation), with Task B's simpler calculation structure making it a useful prerequisite for Task A's more complex multi-step computation."
+  },
+  {
+    "task_a": 25,
+    "task_b": 38,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical financial data lookup and numerical retrieval, while Task B requires JSON filtering, date range comparison, and sorting—these are fundamentally distinct skill domains with no meaningful transfer between them."
+  },
+  {
+    "task_a": 6,
+    "task_b": 12,
+    "a_helps_b": "YES",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific data in government financial documents",
+      "reading and extracting numerical values from tables",
+      "parsing historical Treasury reports",
+      "identifying relevant sections in long documents"
+    ],
+    "reason": "Both tasks require locating specific numerical data within historical U.S. Treasury documents and extracting precise values from tables or reports, making them directly transferable skills in document navigation and data extraction."
+  },
+  {
+    "task_a": 15,
+    "task_b": 37,
+    "a_helps_b": "YES",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "JSON output generation",
+      "email field extraction",
+      "structured data handling",
+      "parsing semi-structured text"
+    ],
+    "reason": "Task A teaches email header parsing and JSON structuring which directly supports Task B's email classification, though B's content analysis and categorization logic is more complex than A's field extraction."
+  },
+  {
+    "task_a": 65,
+    "task_b": 86,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data analysis and interpretation",
+      "competitive benchmarking",
+      "market trend analysis",
+      "extracting insights from structured data",
+      "comparative performance evaluation"
+    ],
+    "reason": "Both tasks require analyzing market data to identify trends and competitive positioning, but Task B is more concrete and operationally focused (with specific pricing/sales metrics) making it a stronger prerequisite for the higher-level strategic analysis in Task A."
+  },
+  {
+    "task_a": 22,
+    "task_b": 81,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires specific financial data extraction and calculation from government documents, while Task B requires investment analysis and market research synthesis; these tasks involve fundamentally different domains and skill sets with no meaningful overlap."
+  },
+  {
+    "task_a": 14,
+    "task_b": 58,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "text parsing",
+      "file I/O",
+      "structured data extraction",
+      "string manipulation"
+    ],
+    "reason": "Both tasks involve reading text files and extracting structured information, but Task B adds complexity with pattern matching and JSON serialization, making B→A a stronger prerequisite for learning the foundational skills."
+  },
+  {
+    "task_a": 51,
+    "task_b": 64,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction from structured sources",
+      "arithmetic computation and aggregation",
+      "rounding and formatting numerical results",
+      "reading and interpreting tabular financial data"
+    ],
+    "reason": "Both tasks require extracting numerical data from financial documents and performing calculations, but Task B is broader (requiring trend analysis and narrative synthesis) while Task A is narrower (requiring only mean calculation), making B→A a stronger prerequisite than A→B."
+  },
+  {
+    "task_a": 38,
+    "task_b": 88,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data filtering and sorting operations on JSON objects, while Task B requires strategic planning, marketing analysis, and creative business communication—these are fundamentally different cognitive domains with no transferable technical or methodological overlap."
+  },
+  {
+    "task_a": 25,
+    "task_b": 62,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical financial data retrieval and numerical precision, while Task B requires policy document comprehension and business communication synthesis—these involve fundamentally different skill sets with no meaningful transfer between them."
+  },
+  {
+    "task_a": 71,
+    "task_b": 90,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data extraction and quantitative calculation from structured documents, while Task B requires qualitative analysis, strategic thinking, and written composition about organizational problems—these are fundamentally different cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 20,
+    "task_b": 30,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading numerical tables",
+      "locating specific data points",
+      "arithmetic calculation",
+      "interpreting financial/economic data"
+    ],
+    "reason": "Both tasks require locating specific numerical values in tables and performing arithmetic operations, but Task A additionally requires comparison logic across multiple columns, making it the more complex task."
+  },
+  {
+    "task_a": 31,
+    "task_b": 84,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data extraction and arithmetic calculation from financial records, while Task B requires comprehension of regulatory standards and contract drafting expertise; these are entirely distinct domains with no overlapping cognitive skills or methodologies."
+  },
+  {
+    "task_a": 4,
+    "task_b": 73,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data manipulation and JSON file editing, while Task B requires financial data lookup, currency conversion, and numerical computation—these are entirely distinct cognitive domains with no overlapping skills."
+  },
+  {
+    "task_a": 21,
+    "task_b": 29,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "document navigation",
+      "locating specific data in tables",
+      "reading numerical values from financial documents",
+      "understanding U.S. Treasury bulletin structure"
+    ],
+    "reason": "Both tasks require navigating U.S. Treasury documents and extracting specific numerical or bibliographic data from tables, with Task B being a simpler extraction task that builds prerequisite skills for the more complex cross-referencing required in Task A."
+  },
+  {
+    "task_a": 2,
+    "task_b": 68,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data formatting and JSON file creation, while Task B requires financial analysis, data interpretation, and report writing; these tasks operate in entirely different domains with no transferable skills."
+  },
+  {
+    "task_a": 30,
+    "task_b": 80,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "multi-year financial comparison",
+      "unit conversion",
+      "arithmetic operations"
+    ],
+    "reason": "Both tasks require extracting numerical data from text and performing calculations across time periods, but Task B is substantially more complex (requiring synthesis, analysis, and report writing), making Task A a useful foundational prerequisite while Task B offers limited reciprocal value."
+  },
+  {
+    "task_a": 41,
+    "task_b": 89,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data extraction and JSON transformation, while Task B requires long-form research writing and analytical composition—these are fundamentally different cognitive and technical domains with no overlapping sub-skills or transferable practice."
+  },
+  {
+    "task_a": 25,
+    "task_b": 44,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from tables",
+      "numerical computation",
+      "percentage/ratio calculation",
+      "reading technical documentation",
+      "rounding to specified precision"
+    ],
+    "reason": "Both tasks require extracting numerical data from complex financial sources and performing calculations with precise formatting requirements, but Task B's simpler percentage-change calculation provides foundational practice for Task A's more complex weighted-average valuation concept."
+  },
+  {
+    "task_a": 5,
+    "task_b": 63,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "document parsing",
+      "information extraction"
+    ],
+    "reason": "While both tasks require extracting specific information from structured documents, Task A demands historical data lookup and numerical specificity from archival sources, whereas Task B requires synthesizing policy content into analytical frameworks—different enough that skill transfer is minimal."
+  },
+  {
+    "task_a": 19,
+    "task_b": 38,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical research and numerical precision in data lookup, while Task B requires data filtering, date parsing, and sorting algorithms—these represent entirely different cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 74,
+    "task_b": 96,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a statistical/mathematical computation task requiring regression analysis, while Task B is a qualitative business writing and strategic analysis task; they share no overlapping sub-skills or underlying competencies."
+  },
+  {
+    "task_a": 30,
+    "task_b": 73,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating numerical data in authoritative sources",
+      "calculating absolute differences between values",
+      "unit conversion and handling",
+      "precise numerical reporting with specified rounding"
+    ],
+    "reason": "Both tasks require finding specific numerical data from official sources, performing absolute difference calculations, and reporting results with precise formatting, but Task B adds complexity through currency conversion and exchange rate application, making Task A a simpler prerequisite."
+  },
+  {
+    "task_a": 19,
+    "task_b": 51,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "historical financial data retrieval",
+      "numerical extraction from tables",
+      "rounding to specified decimal places",
+      "arithmetic calculation"
+    ],
+    "reason": "Both tasks require locating specific historical financial data from archival sources, extracting numerical values, and performing precise arithmetic with rounding; Task B's focus on table navigation and multi-value averaging is slightly more complex than Task A's single-value lookup, making B→A a stronger prerequisite."
+  },
+  {
+    "task_a": 58,
+    "task_b": 59,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data extraction",
+      "structured output formatting"
+    ],
+    "reason": "Task A extracts hierarchical markdown structure into JSON with slug generation, while Task B analyzes tabular business data with aggregations and summaries—different parsing requirements, data models, and output purposes with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 41,
+    "task_b": 44,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves JSON parsing and string extraction; Task B requires statistical data analysis and percentage calculations—these are fundamentally different cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 50,
+    "task_b": 84,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data extraction and aggregation while Task B requires document interpretation and contract drafting with compliance procedures—these are fundamentally different cognitive domains with no transferable sub-skills."
+  },
+  {
+    "task_a": 12,
+    "task_b": 61,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from structured tables",
+      "numerical aggregation and calculation",
+      "reading and interpreting financial/business reports",
+      "organizing multi-dimensional data"
+    ],
+    "reason": "Both tasks require extracting specific numerical values from structured tabular data and performing calculations, but Task B demands more complex multi-level aggregation and synthesis, making Task B a stronger prerequisite for Task A's simpler lookup requirement."
+  },
+  {
+    "task_a": 24,
+    "task_b": 94,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires document navigation and quantitative analysis of financial data, while Task B requires qualitative writing, narrative structure, and HR/recruitment domain knowledge—these are entirely distinct skill domains with no transferable overlap."
+  },
+  {
+    "task_a": 22,
+    "task_b": 96,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data extraction and numerical computation from government documents, while Task B requires strategic writing, organizational analysis, and business communication—these are fundamentally different cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 72,
+    "task_b": 99,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires statistical/mathematical computation on numerical data, while Task B requires data structure manipulation, conflict detection, and file I/O—these are distinct cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 66,
+    "task_b": 93,
+    "a_helps_b": "NO",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "audience analysis",
+      "information synthesis",
+      "clear communication of complex information",
+      "structuring content for specific contexts"
+    ],
+    "reason": "Task B's requirement to research, synthesize evidence, and explain complex concepts clearly to a professional audience provides foundational communication and analytical skills that partially support Task A's pitch-building task, but Task A's focused sales messaging approach does not meaningfully transfer to Task B's in-depth analytical writing."
+  },
+  {
+    "task_a": 24,
+    "task_b": 77,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical analysis"
+    ],
+    "reason": "While both tasks involve analyzing numerical data, Task A requires precise extraction from a specific historical document with calculation skills, whereas Task B requires synthesis, interpretation, and long-form writing from provided datasets—fundamentally different cognitive operations with minimal transfer value."
+  },
+  {
+    "task_a": 81,
+    "task_b": 91,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "financial data interpretation",
+      "investment opportunity analysis",
+      "market trend evaluation",
+      "numerical reasoning",
+      "persuasive communication using financial metrics",
+      "connecting business performance to growth narratives"
+    ],
+    "reason": "Task B requires all the financial analysis and interpretation skills from Task A (reading statements, ratio analysis, market assessment) plus additional communication/narrative skills, making A a partial prerequisite; conversely, practicing B's narrative construction and stakeholder communication strengthens the persuasion and analysis framing needed for A."
+  },
+  {
+    "task_a": 45,
+    "task_b": 90,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data retrieval and calculation while Task B requires qualitative analysis, writing, and domain expertise in recruitment strategy—these are fundamentally different cognitive domains with no transferable sub-skills."
+  },
+  {
+    "task_a": 81,
+    "task_b": 83,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data analysis",
+      "financial metrics calculation",
+      "trend identification",
+      "structured reporting"
+    ],
+    "reason": "Task B requires concrete data analysis and financial reporting skills that directly transfer to Task A's investment analysis, but Task A's conceptual stock market knowledge does not transfer to Task B's operational business reporting."
+  },
+  {
+    "task_a": 41,
+    "task_b": 74,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves text parsing and JSON manipulation while Task B requires statistical computation and linear regression—these are fundamentally different cognitive domains with no overlapping sub-skills."
+  },
+  {
+    "task_a": 36,
+    "task_b": 68,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves simple data aggregation and sorting from structured JSON, while Task B requires complex financial analysis, comparative reasoning, and narrative report generation—these are fundamentally different cognitive domains with no transferable skills."
+  },
+  {
+    "task_a": 20,
+    "task_b": 27,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "locating financial data in official sources",
+      "reading numerical tables",
+      "interpreting date formats"
+    ],
+    "reason": "While both tasks require finding specific numerical data from U.S. Treasury sources and understanding financial terminology, they involve entirely different financial instruments (Treasury bills vs. currency positions) with no overlapping conceptual knowledge that would transfer between them."
+  },
+  {
+    "task_a": 12,
+    "task_b": 24,
+    "a_helps_b": "YES",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "document navigation and page location",
+      "table/chart reading and interpretation",
+      "financial data extraction",
+      "numerical value identification and reporting",
+      "U.S. Treasury document comprehension"
+    ],
+    "reason": "Both tasks require locating specific financial data within U.S. Treasury official documents, reading tables or charts, extracting numerical values, and reporting them in a specified format, making them highly transferable."
+  },
+  {
+    "task_a": 60,
+    "task_b": 65,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and analysis",
+      "professional report writing",
+      "structured organization of findings",
+      "audience targeting for business stakeholders",
+      "synthesizing multiple information sources"
+    ],
+    "reason": "Task A requires interpreting quantitative data and writing formal reports for management audiences, which provides foundational skills for Task B's competitive analysis; conversely, Task B's simpler data synthesis (market facts without deep analysis) serves as useful prerequisite practice for Task A's more complex analytical reporting."
+  },
+  {
+    "task_a": 56,
+    "task_b": 95,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "professional writing",
+      "structured communication",
+      "information organization"
+    ],
+    "reason": "While both tasks involve professional writing and organizing information, Task A focuses on personal narrative and self-presentation in a specific resume-based format, while Task B requires analytical, research-based financial writing with different structural and content demands that do not meaningfully transfer between them."
+  },
+  {
+    "task_a": 7,
+    "task_b": 80,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "currency conversion",
+      "year-over-year comparison",
+      "financial metric interpretation"
+    ],
+    "reason": "Task B subsumes Task A's skills by requiring more complex financial analysis and multi-year data synthesis, making Task B practice more transferable to A than vice versa, though both involve extracting and comparing financial figures across time periods."
+  },
+  {
+    "task_a": 3,
+    "task_b": 95,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and data structure manipulation (JSON parsing/filtering), while Task B requires research synthesis, financial analysis, and professional writing—these skill sets are entirely distinct with no meaningful transfer between them."
+  },
+  {
+    "task_a": 9,
+    "task_b": 53,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data extraction from structured sources",
+      "numerical interpretation"
+    ],
+    "reason": "While both tasks involve extracting and interpreting numerical data, Task A requires historical legal database research with precise date-range filtering, whereas Task B requires financial analysis and business synthesis with no overlap in domain knowledge, methodology, or transferable analytical frameworks."
+  },
+  {
+    "task_a": 13,
+    "task_b": 57,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "text file I/O",
+      "string pattern matching and manipulation",
+      "sequential processing of transformation rules",
+      "output file writing"
+    ],
+    "reason": "Both tasks involve reading input files, applying sequential text transformations, and writing output files, but Task B adds complexity through parsing structured Markdown syntax and generating formatted HTML, making Task A a simpler prerequisite that builds foundational file handling and text manipulation skills."
+  },
+  {
+    "task_a": 14,
+    "task_b": 30,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "parsing structured data"
+    ],
+    "reason": "Task A involves file I/O and text formatting while Task B requires numerical analysis and data lookup; they share only minimal data parsing overlap with no meaningful transfer benefit."
+  },
+  {
+    "task_a": 44,
+    "task_b": 93,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical reasoning"
+    ],
+    "reason": "Task A requires quantitative analysis of financial data with precise numerical calculation, while Task B requires qualitative research methodology and long-form technical writing; these represent fundamentally different skill domains with minimal transferable learning."
+  },
+  {
+    "task_a": 88,
+    "task_b": 90,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "stakeholder analysis",
+      "problem identification and diagnosis",
+      "strategic planning",
+      "communication of complex initiatives",
+      "audience segmentation",
+      "resource allocation and budgeting"
+    ],
+    "reason": "Task B's recruitment challenge analysis provides concrete organizational context and stakeholder understanding that strengthens Task A's promotional planning, while Task A's multi-channel strategy framework offers partial transferable structure for Task B's talent attraction recommendations, but the domains differ significantly in execution specifics."
+  },
+  {
+    "task_a": 5,
+    "task_b": 41,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data extraction",
+      "structured information parsing"
+    ],
+    "reason": "While both tasks involve extracting and organizing specific information from sources, Task A requires historical research and financial calculation with domain-specific accounting rules, whereas Task B requires technical JSON file manipulation and string identification—these represent fundamentally different skill domains with minimal transferable learning value."
+  },
+  {
+    "task_a": 39,
+    "task_b": 72,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O, JSON parsing, and data aggregation; Task B requires statistical calculation (geometric mean) and domain knowledge of US judiciary budgets—these are fundamentally different skill domains with no meaningful overlap."
+  },
+  {
+    "task_a": 39,
+    "task_b": 46,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data extraction",
+      "numerical comparison"
+    ],
+    "reason": "Task A involves parsing structured JSON and aggregating metadata, while Task B requires locating specific values in historical financial documents and performing arithmetic; the data formats, sources, and operations are fundamentally different with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 87,
+    "task_b": 97,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "document organization and structure",
+      "content categorization and placement",
+      "identifying hierarchical relationships",
+      "synthesizing information into coherent sections",
+      "maintaining content completeness and accuracy"
+    ],
+    "reason": "Task B (restructuring unorganized content into a defined structure) develops foundational document organization skills that transfer to Task A (composing well-structured meeting minutes with clear section hierarchy), while Task A's complexity subsumes B's requirements."
+  },
+  {
+    "task_a": 52,
+    "task_b": 65,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical computation and time-series data analysis, while Task B requires qualitative market research synthesis and competitive positioning analysis with no overlapping sub-skills or methodologies."
+  },
+  {
+    "task_a": 64,
+    "task_b": 79,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "financial data interpretation",
+      "ratio calculation and analysis",
+      "year-on-year growth computation",
+      "structured financial reporting",
+      "multi-period comparative analysis",
+      "extracting insights from numerical data"
+    ],
+    "reason": "Task A provides foundational practice in reading financial tables, computing growth metrics, and structuring comparative analysis across periods, which are prerequisite skills for Task B's more complex multi-dimensional financial analysis; Task B builds on these core competencies with greater sophistication (solvency ratios, insurance-specific metrics, investment yield analysis) but uses the same underlying data interpretation and analytical frameworks."
+  },
+  {
+    "task_a": 23,
+    "task_b": 59,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from structured sources",
+      "numerical aggregation and summation",
+      "currency value interpretation",
+      "reading tables and datasets",
+      "report writing and synthesis"
+    ],
+    "reason": "Both tasks require extracting numerical data from structured sources and aggregating values, but Task B additionally requires categorical analysis and narrative report writing, making Task B a valuable prerequisite that builds foundational data handling skills applicable to Task A's simpler numerical lookup."
+  },
+  {
+    "task_a": 70,
+    "task_b": 88,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data retrieval and numerical conversion while Task B requires strategic planning and promotional content design; these tasks involve entirely distinct skill domains with no overlapping sub-skills or transferable knowledge."
+  },
+  {
+    "task_a": 0,
+    "task_b": 95,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a simple factual lookup requiring no transferable skills to Task B, while Task B requires complex research synthesis, strategic analysis, and professional writing that have no relevance to finding a historical statistic."
+  },
+  {
+    "task_a": 9,
+    "task_b": 93,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a narrow historical data lookup task requiring document scanning and record counting, while Task B is a comprehensive long-form writing and research methodology task; they share no overlapping prerequisite sub-skills or underlying competencies."
+  },
+  {
+    "task_a": 66,
+    "task_b": 76,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "information extraction",
+      "document parsing",
+      "structured data organization"
+    ],
+    "reason": "Task B requires extracting and organizing detailed product/vendor specifications from unstructured text, which is a foundational skill that supports Task A's requirement to synthesize and present product information persuasively, but Task A's persuasive presentation skills do not transfer well to Task B's procurement documentation task."
+  },
+  {
+    "task_a": 25,
+    "task_b": 36,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data lookup and numerical comprehension from historical documents, while Task B requires JSON parsing, data aggregation, and sorting—these are entirely distinct skill domains with no transferable components."
+  },
+  {
+    "task_a": 33,
+    "task_b": 81,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical analysis"
+    ],
+    "reason": "Task A involves precise numerical computation with historical financial data, while Task B requires qualitative investment analysis and market research; they have minimal skill overlap despite both touching finance, as A is mechanical calculation and B is conceptual reasoning."
+  },
+  {
+    "task_a": 9,
+    "task_b": 68,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical legal database searching with date-range filtering; Task B requires financial data analysis, ratio calculation, and report writing—these involve entirely different domains, data sources, and analytical methodologies with no transferable skills."
+  },
+  {
+    "task_a": 28,
+    "task_b": 39,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical data lookup and arithmetic calculation on government expenditure figures, while Task B requires file I/O, JSON parsing, and data aggregation—these are entirely distinct skill domains with no transferable overlap."
+  },
+  {
+    "task_a": 46,
+    "task_b": 89,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical analysis"
+    ],
+    "reason": "Task A requires extracting and comparing specific numerical values from historical financial documents, while Task B requires writing a long-form analytical article about fintech research methodology; these involve fundamentally different cognitive processes (data lookup vs. structured writing/synthesis) with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 14,
+    "task_b": 15,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "text parsing",
+      "file I/O",
+      "structured data extraction",
+      "header/metadata identification"
+    ],
+    "reason": "Both tasks involve reading files, parsing structured text, and extracting specific information into a formatted output; Task B's simpler parsing of a single email with clear delimiters is a useful prerequisite for Task A's multi-file orchestration and formatting logic."
+  },
+  {
+    "task_a": 49,
+    "task_b": 91,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "financial data extraction",
+      "numerical interpretation",
+      "currency conversion understanding",
+      "multi-source data synthesis"
+    ],
+    "reason": "Task A's practice with extracting and aggregating specific financial figures from structured data provides useful foundation for Task B's requirement to reference and interpret financial metrics, but Task B's narrative and persuasive writing demands are substantially different and don't transfer back to Task A's precision-focused data aggregation."
+  },
+  {
+    "task_a": 0,
+    "task_b": 27,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating numerical data in official sources",
+      "parsing financial/budget documents",
+      "unit conversion and currency handling",
+      "interpreting government records"
+    ],
+    "reason": "Both tasks require finding specific numerical values in U.S. government financial documents, but Task B involves additional complexity with currency positions and option considerations, making Task B experience more directly applicable to Task A than vice versa."
+  },
+  {
+    "task_a": 24,
+    "task_b": 82,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "numerical data interpretation",
+      "percentage/ratio calculation"
+    ],
+    "reason": "While both tasks involve reading numerical data and performing calculations, Task A requires locating and extracting specific chart data from a historical document, whereas Task B requires synthesizing and analyzing trend patterns across multiple financial datasets—these represent distinct document navigation and analytical reasoning skills with minimal transferable overlap."
+  },
+  {
+    "task_a": 58,
+    "task_b": 70,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured text parsing and JSON formatting of document metadata, while Task B requires financial data retrieval, currency conversion calculation, and numerical formatting—these are entirely distinct skill domains with no transferable components."
+  },
+  {
+    "task_a": 15,
+    "task_b": 99,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "JSON parsing and generation",
+      "structured data extraction",
+      "file I/O operations",
+      "data validation"
+    ],
+    "reason": "Both tasks involve reading structured data from files, extracting/transforming information, and writing validated JSON output; Task B's simpler file merging logic provides good foundational practice for Task A's parsing requirements."
+  },
+  {
+    "task_a": 59,
+    "task_b": 88,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data organization",
+      "structured writing",
+      "stakeholder communication"
+    ],
+    "reason": "Task A focuses on quantitative analysis and diagnostic reporting of historical data, while Task B requires creative strategic planning and promotional design; they address fundamentally different cognitive domains (analytical vs. creative) with minimal transferable depth despite surface-level organizational similarities."
+  },
+  {
+    "task_a": 9,
+    "task_b": 26,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading historical data tables",
+      "filtering data by date range",
+      "counting/aggregating records",
+      "parsing numerical data from structured sources",
+      "understanding legal/administrative terminology"
+    ],
+    "reason": "Both tasks require extracting and aggregating numerical data from historical legal/tax agency records within specific date ranges, with Task B adding the complexity of percentage calculations and comparative analysis, making Task A a simpler prerequisite that shares core data extraction skills."
+  },
+  {
+    "task_a": 28,
+    "task_b": 79,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading numerical tables",
+      "extracting financial data from structured text",
+      "comparing figures across time periods",
+      "understanding financial reporting conventions"
+    ],
+    "reason": "Both tasks require extracting and comparing financial figures from reports, but Task B is more complex (requiring synthesis of multiple metrics and business analysis) while Task A is simpler (requiring single metric extraction), making Task B practice more broadly applicable than Task A practice."
+  },
+  {
+    "task_a": 18,
+    "task_b": 19,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating historical financial data",
+      "unit conversion and scaling",
+      "parsing technical definitions",
+      "numerical precision and formatting"
+    ],
+    "reason": "Both tasks require finding and interpreting specific historical US financial statistics with precise unit conversions (millions vs billions) and careful attention to definitions and time periods, with Task B being slightly simpler and providing useful foundational practice for the more complex data-sourcing requirements of Task A."
+  },
+  {
+    "task_a": 38,
+    "task_b": 43,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data filtering, sorting, and JSON manipulation, while Task B requires historical research, data lookup, and numerical aggregation from external sources—these are fundamentally different skill domains with no meaningful transfer."
+  },
+  {
+    "task_a": 14,
+    "task_b": 43,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and document formatting while Task B requires historical data lookup and statistical calculation; these are entirely distinct skill domains with no transferable components."
+  },
+  {
+    "task_a": 66,
+    "task_b": 96,
+    "a_helps_b": "NO",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "structured information synthesis",
+      "audience-appropriate communication",
+      "persuasive presentation of key value propositions"
+    ],
+    "reason": "Task B requires deeper research, logical argumentation, and comprehensive report structure that could improve Task A's pitch quality, but Task A's product-focused pitch offers minimal transferable value for Task B's strategic HR analysis."
+  },
+  {
+    "task_a": 64,
+    "task_b": 89,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and analysis",
+      "numerical reasoning and metric calculation",
+      "structured report writing",
+      "deriving actionable insights from quantitative data"
+    ],
+    "reason": "Task A trains foundational data analysis and numerical interpretation skills (reading tables, computing growth rates, trend analysis) that are prerequisite sub-skills for Task B's more complex user profiling research, which requires synthesizing multiple data sources and dimensional analysis; conversely, Task B's broader research methodology and multi-source data integration practices would strengthen Task A's analytical depth."
+  },
+  {
+    "task_a": 0,
+    "task_b": 5,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading historical financial tables",
+      "locating specific numerical data in government records",
+      "understanding nominal dollar values",
+      "parsing budget/expenditure documentation",
+      "distinguishing relevant from irrelevant budget categories"
+    ],
+    "reason": "Both tasks require finding specific historical U.S. government expenditure figures from archival sources, but Task B is more constrained (specific agency, fiscal year, with exclusions) while Task A is broader, making Task B a useful prerequisite that builds foundational skills for Task A."
+  },
+  {
+    "task_a": 90,
+    "task_b": 92,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data analysis and interpretation",
+      "structured report writing",
+      "identifying and presenting problems/challenges",
+      "professional business communication",
+      "formatting complex information for executive audiences"
+    ],
+    "reason": "Both tasks require analyzing organizational problems, structuring multi-section reports with data/evidence, and communicating findings professionally to management; Task B's simpler market data analysis provides prerequisite practice for Task A's more complex multi-factor problem synthesis and narrative construction."
+  },
+  {
+    "task_a": 31,
+    "task_b": 83,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction from tables",
+      "time-period comparison",
+      "arithmetic calculations"
+    ],
+    "reason": "Task B requires all prerequisite skills of Task A (table reading, multi-period data comparison, arithmetic) plus additional narrative synthesis skills, making B→A transfer useful but A→B transfer minimal."
+  },
+  {
+    "task_a": 55,
+    "task_b": 98,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data parsing",
+      "structured information organization"
+    ],
+    "reason": "Task A requires domain-specific analysis and synthesis skills (market interpretation, trend identification), while Task B requires templating and string substitution logic; the skills are distinct with minimal transferability despite both involving structured data."
+  },
+  {
+    "task_a": 1,
+    "task_b": 62,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical data retrieval and numeric lookup from tax records, while Task B requires policy document comprehension and executive briefing synthesis; these involve fundamentally different information processing and communication objectives with minimal overlapping transferable skills."
+  },
+  {
+    "task_a": 9,
+    "task_b": 71,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "numerical data retrieval",
+      "historical record lookup"
+    ],
+    "reason": "While both tasks require finding specific numerical data from historical sources, Task A requires simple counting of discrete cases whereas Task B requires complex financial calculations (percentage computations, currency conversions, multi-part aggregations) that are distinct skill sets with minimal transfer value between them."
+  },
+  {
+    "task_a": 36,
+    "task_b": 76,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A is a structured data processing task (parsing JSON, aggregating, sorting) while Task B is a procurement contract drafting task (legal document creation, vendor evaluation); they require entirely different skill sets with no meaningful transfer."
+  },
+  {
+    "task_a": 29,
+    "task_b": 84,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data extraction and arithmetic from historical financial documents, while Task B requires legal/technical document comprehension and contract drafting expertise; these are entirely distinct skill domains with no transferable components."
+  },
+  {
+    "task_a": 22,
+    "task_b": 37,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical data extraction and arithmetic from financial documents, while Task B requires text classification and content understanding of emails; these involve fundamentally different skill domains with no transferable overlap."
+  },
+  {
+    "task_a": 4,
+    "task_b": 89,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file manipulation and JSON editing (technical/structural), while Task B requires research analysis, writing, and knowledge synthesis (analytical/creative); these are fundamentally different cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 22,
+    "task_b": 49,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating numerical data in financial documents",
+      "parsing government financial reports",
+      "rounding to nearest whole number",
+      "unit conversion and aggregation"
+    ],
+    "reason": "Both tasks require finding specific numerical values in complex government financial documents and rounding to whole numbers, but Task B involves additional complexity of combining multiple data sources and converting to millions, making Task B experience more transferable to Task A than vice versa."
+  },
+  {
+    "task_a": 74,
+    "task_b": 97,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires numerical computation and statistical modeling while Task B requires document parsing, content organization, and structural restructuring—these are fundamentally different cognitive domains with no meaningful skill transfer between them."
+  },
+  {
+    "task_a": 7,
+    "task_b": 37,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires factual data retrieval and numerical lookup from historical records, while Task B requires text classification and categorical reasoning; these involve fundamentally different cognitive processes with no meaningful skill transfer."
+  },
+  {
+    "task_a": 55,
+    "task_b": 77,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and analysis",
+      "quantitative reasoning with percentages and trends",
+      "multi-dimensional data organization",
+      "narrative synthesis from structured data",
+      "insight extraction from statistical tables",
+      "comparative analysis across categories"
+    ],
+    "reason": "Both tasks require synthesizing structured numerical data into comprehensive reports with trend analysis and strategic insights, but Task A involves more complex multi-layered comparisons (regional, categorical, temporal) making it partially helpful for Task B, while Task B's focused statistical analysis serves as useful foundational practice for Task A's more complex analytical work."
+  },
+  {
+    "task_a": 5,
+    "task_b": 87,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires historical financial data retrieval and numerical interpretation, while Task B requires synthesis of meeting discussion into structured organizational documentation with strategic context—fundamentally different cognitive domains with no transferable sub-skills."
+  },
+  {
+    "task_a": 65,
+    "task_b": 74,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "numerical analysis"
+    ],
+    "reason": "Task A requires qualitative market analysis and business intelligence synthesis, while Task B requires quantitative time-series regression modeling; these represent distinct analytical domains with minimal skill transfer despite both involving data."
+  },
+  {
+    "task_a": 10,
+    "task_b": 96,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires factual data retrieval and numerical reporting, while Task B requires strategic writing, organizational analysis, and qualitative synthesis—these are fundamentally different cognitive domains with no meaningful skill transfer."
+  },
+  {
+    "task_a": 11,
+    "task_b": 29,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating financial data in government documents",
+      "reading statistical tables",
+      "unit conversion",
+      "rounding numerical results",
+      "interpreting tax revenue statistics"
+    ],
+    "reason": "Both tasks require finding specific tax revenue figures from U.S. government financial records and performing unit conversions and rounding, with Task B being a simpler historical variant that builds foundational skills for the more recent Task A."
+  },
+  {
+    "task_a": 53,
+    "task_b": 78,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "financial data interpretation",
+      "year-on-year comparison analysis",
+      "professional business writing",
+      "multi-segment data synthesis",
+      "trend identification from statistical data"
+    ],
+    "reason": "Both tasks require interpreting numerical data, conducting comparative analysis, and synthesizing findings into professional briefings; Task B's simpler macroeconomic analysis provides foundational practice for Task A's more complex multi-segment financial analysis."
+  },
+  {
+    "task_a": 69,
+    "task_b": 88,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires quantitative financial data analysis and calculation skills, while Task B requires qualitative strategic planning and promotional design skills with no meaningful overlap."
+  },
+  {
+    "task_a": 14,
+    "task_b": 72,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves file I/O and text formatting operations, while Task B requires statistical calculation and data lookup; these tasks share no overlapping skills or methodologies."
+  },
+  {
+    "task_a": 24,
+    "task_b": 96,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires document navigation and numerical calculation from financial data, while Task B requires strategic writing, organizational analysis, and persuasive communication—these are entirely distinct skill domains with no meaningful transfer between them."
+  },
+  {
+    "task_a": 64,
+    "task_b": 67,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from tables",
+      "trend analysis and growth calculation",
+      "financial metrics interpretation",
+      "comparative period-over-period analysis",
+      "report writing and data summarization"
+    ],
+    "reason": "Both tasks require extracting data from tables, calculating growth metrics, analyzing trends, and writing analytical reports; Task A is more complex (macroeconomic analysis) so completing B first provides valuable foundational practice for A's higher-level financial analysis."
+  },
+  {
+    "task_a": 45,
+    "task_b": 47,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data table navigation",
+      "financial data interpretation",
+      "unit conversion",
+      "rounding to specified decimal places",
+      "numerical calculation"
+    ],
+    "reason": "Both tasks require locating specific financial data in historical records, performing numerical calculations, and applying precise rounding conventions, with Task B being simpler (monthly data vs. bilateral accounting) making it valuable prerequisite practice for Task A."
+  },
+  {
+    "task_a": 19,
+    "task_b": 45,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "historical data lookup",
+      "financial table parsing",
+      "rounding to hundredths",
+      "unit conversion to billions",
+      "numerical precision"
+    ],
+    "reason": "Both tasks require locating specific historical financial data in tables, converting to billions, and rounding to hundredths place; Task B is more straightforward (bilateral debt record) while Task A is more complex (requires identifying WW2 start date and prior year), making Task B better foundational practice for Task A."
+  },
+  {
+    "task_a": 66,
+    "task_b": 95,
+    "a_helps_b": "NO",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "information synthesis",
+      "structured communication",
+      "business context understanding"
+    ],
+    "reason": "Task B requires deeper analytical and research skills that would strengthen Task A's quality, but Task A's pitch-focused brevity offers minimal benefit to Task B's comprehensive briefing requirements."
+  },
+  {
+    "task_a": 18,
+    "task_b": 37,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data lookup and numerical extraction from government records, while Task B requires text classification and categorical reasoning from email content; these involve fundamentally different domains, data sources, and cognitive processes with no meaningful skill transfer."
+  },
+  {
+    "task_a": 30,
+    "task_b": 49,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial tables",
+      "locating specific numerical data",
+      "unit conversion and denomination handling",
+      "rounding to nearest whole number",
+      "aggregating numerical values"
+    ],
+    "reason": "Both tasks require locating specific financial data from reference sources, performing basic arithmetic operations (subtraction in A, addition in B), and rounding results, with Task B being slightly simpler in computational complexity, making it useful practice for Task A."
+  },
+  {
+    "task_a": 41,
+    "task_b": 71,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured JSON parsing and string extraction with formatting, while Task B requires financial data lookup, arithmetic calculations (summing dollar values and computing percentages), and domain-specific knowledge of Treasury auctions—these are entirely distinct skill domains with no transferable overlap."
+  },
+  {
+    "task_a": 38,
+    "task_b": 39,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "JSON parsing",
+      "file I/O operations",
+      "array filtering and transformation",
+      "data structure navigation"
+    ],
+    "reason": "Both tasks involve reading JSON files, extracting specific fields, and writing transformed JSON output, but Task A adds filtering/sorting logic while Task B focuses on multi-file aggregation, making B a useful prerequisite for the core JSON manipulation skills needed in A."
+  },
+  {
+    "task_a": 47,
+    "task_b": 64,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data interpretation",
+      "percentage calculation",
+      "year-over-year comparison",
+      "data organization"
+    ],
+    "reason": "Task B requires all the numerical and percentage calculation skills from Task A but adds complex financial analysis and narrative reporting, making B a superset of A; practicing B provides stronger preparation for A than vice versa."
+  },
+  {
+    "task_a": 61,
+    "task_b": 92,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and analysis",
+      "numerical aggregation and calculation",
+      "multi-dimensional data organization",
+      "business narrative construction from quantitative data",
+      "professional report writing for management audiences"
+    ],
+    "reason": "Both tasks require converting structured numerical data into professional management reports through analysis and narrative synthesis; Task A provides simpler practice with foundational data analysis skills that transfer to Task B's more complex multi-section report structure, while Task B's broader framework helps refine the analytical approach needed for Task A."
+  },
+  {
+    "task_a": 49,
+    "task_b": 73,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial tables",
+      "locating data from government reports",
+      "unit conversion",
+      "arithmetic calculation",
+      "rounding/precision handling",
+      "interpreting official financial documentation"
+    ],
+    "reason": "Both tasks require extracting specific numerical data from official U.S. government financial reports, performing calculations, and applying appropriate rounding conventions, with Task B's simpler single-calculation structure making it useful prerequisite practice for Task A's multi-component aggregation."
+  },
+  {
+    "task_a": 10,
+    "task_b": 57,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A requires financial data research and numerical reporting while Task B requires text parsing and format conversion; these tasks exercise entirely different cognitive domains with no overlapping sub-skills."
+  },
+  {
+    "task_a": 23,
+    "task_b": 30,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data table navigation",
+      "numerical value extraction",
+      "unit conversion",
+      "arithmetic calculation",
+      "identifying specific time periods in datasets"
+    ],
+    "reason": "Both tasks require locating specific numerical data within structured datasets (tables/records) organized by time periods and performing arithmetic operations, with Task B being more straightforward (simpler arithmetic, clearer numerical format) making it a useful prerequisite for the more geopolitically complex Task A."
+  },
+  {
+    "task_a": 20,
+    "task_b": 71,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "reading financial tables",
+      "parsing U.S. Treasury data",
+      "comparing numerical values",
+      "formatting dates and numerical outputs"
+    ],
+    "reason": "Both tasks require navigating U.S. Treasury financial data and extracting specific numerical information from tables, but Task B adds complexity by requiring calculation of percentages and handling multiple data points simultaneously, making B→A a stronger prerequisite."
+  },
+  {
+    "task_a": 5,
+    "task_b": 45,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific numerical data in government financial records",
+      "reading and interpreting official financial tables",
+      "unit conversion and numerical precision",
+      "filtering out excluded categories from totals"
+    ],
+    "reason": "Both tasks require finding precise historical U.S. government financial figures from official sources with specific exclusion criteria, though Task B involves simpler single-country liability lookup while Task A requires more complex categorization filtering."
+  },
+  {
+    "task_a": 33,
+    "task_b": 64,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data extraction",
+      "arithmetic operations",
+      "data interpretation",
+      "rounding and precision"
+    ],
+    "reason": "Both tasks require extracting numerical data and performing calculations, but Task B is substantially more complex, requiring comparative analysis and synthesis across multiple metrics, making Task A a useful prerequisite for basic numerical handling."
+  },
+  {
+    "task_a": 1,
+    "task_b": 75,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific numerical data in historical financial documents",
+      "reading and interpreting tabular data",
+      "identifying relevant time periods and categories",
+      "extracting nominal dollar values"
+    ],
+    "reason": "Both tasks require locating and extracting specific numerical values from historical U.S. financial documents, but Task B additionally requires calculating ratios and percentage point changes, making it more complex; Task A provides foundational practice in data location that transfers to Task B, while Task B's additional computational requirements don't directly help with Task A's simpler extraction task."
+  },
+  {
+    "task_a": 83,
+    "task_b": 89,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data interpretation and analysis",
+      "extracting insights from datasets",
+      "structuring complex information into coherent narratives",
+      "identifying patterns and trends",
+      "business context understanding"
+    ],
+    "reason": "Task A trains foundational data analysis skills (reading tables, calculating metrics, identifying patterns) that directly support Task B's more complex requirement of synthesizing data into user profiles, while Task B's rigorous analytical framework would strengthen the depth of insights in Task A's summary report."
+  },
+  {
+    "task_a": 70,
+    "task_b": 93,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "information retrieval"
+    ],
+    "reason": "Task A requires quantitative financial data lookup and currency conversion while Task B requires qualitative research synthesis and long-form technical writing; these represent distinct cognitive domains with minimal transferable skill overlap."
+  },
+  {
+    "task_a": 21,
+    "task_b": 38,
+    "a_helps_b": "NO",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "filtering data by criteria",
+      "parsing structured documents",
+      "date handling"
+    ],
+    "reason": "Task B's filtering and date-range logic are foundational skills that transfer to Task A's requirement to locate and parse a specific document by date, but Task A's document retrieval focus offers minimal help for Task B's computational filtering task."
+  },
+  {
+    "task_a": 83,
+    "task_b": 90,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data interpretation",
+      "written communication",
+      "structured reporting"
+    ],
+    "reason": "While both tasks require clear written communication and data interpretation, Task A focuses on quantitative financial analysis of sales data whereas Task B focuses on qualitative business writing about recruitment strategy; the cognitive demands and content domains are fundamentally distinct with minimal transferable skill practice."
+  },
+  {
+    "task_a": 20,
+    "task_b": 35,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "data lookup",
+      "numerical comparison"
+    ],
+    "reason": "Task A requires searching historical financial data and comparing rates; Task B requires data parsing and document formatting—these are fundamentally different workflows with minimal skill overlap despite both involving numerical data."
+  },
+  {
+    "task_a": 0,
+    "task_b": 59,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [
+      "numerical data extraction",
+      "aggregation and summation"
+    ],
+    "reason": "Task A requires historical data retrieval from sources, while Task B requires analysis and synthesis of already-provided structured data; the minimal overlap in numerical processing is insufficient for meaningful skill transfer."
+  },
+  {
+    "task_a": 6,
+    "task_b": 9,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "historical document navigation",
+      "locating specific numerical data in archival sources",
+      "parsing official government records",
+      "reading tabular data"
+    ],
+    "reason": "Both tasks require locating specific numerical information within historical U.S. government documents from the 1930s-1940s, but Task B is simpler (single count statistic) while Task A is more complex (requires identifying a specific table and page number), making Task B a useful prerequisite for the document-searching skills needed in Task A."
+  },
+  {
+    "task_a": 4,
+    "task_b": 97,
+    "a_helps_b": "NO",
+    "b_helps_a": "PARTIAL",
+    "shared_skills": [
+      "JSON file parsing",
+      "file I/O operations",
+      "preserving unmodified data while updating specific elements"
+    ],
+    "reason": "Both tasks involve reading and writing JSON/structured files with selective modifications, but Task B's complexity in content reorganization and contextual understanding provides useful preparation for Task A's more straightforward targeted update."
+  },
+  {
+    "task_a": 21,
+    "task_b": 28,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "document navigation",
+      "historical data location",
+      "reading tables",
+      "numerical extraction",
+      "parsing structured government documents"
+    ],
+    "reason": "Both tasks require locating specific numerical information within historical U.S. government documents and extracting data from tables, but Task B adds the complexity of multi-year comparison and unit conversion, making Task A's foundational skills helpful for Task B while Task B's more demanding extraction practice better prepares for Task A."
+  },
+  {
+    "task_a": 5,
+    "task_b": 73,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific numerical data in government financial documents",
+      "parsing complex financial terminology and exclusions",
+      "unit conversion and precise calculation",
+      "reading structured financial tables"
+    ],
+    "reason": "Both tasks require extracting specific numerical values from authoritative government financial documents with complex criteria and performing calculations, but Task B adds exchange rate conversion and precision demands that make Task B more advanced, so practicing B first better prepares for A's complexity."
+  },
+  {
+    "task_a": 2,
+    "task_b": 63,
+    "a_helps_b": "NO",
+    "b_helps_a": "NO",
+    "shared_skills": [],
+    "reason": "Task A involves structured data formatting and JSON file output, while Task B requires document analysis, policy interpretation, and business recommendations—these are fundamentally different cognitive and technical skill domains with no meaningful overlap."
+  },
+  {
+    "task_a": 32,
+    "task_b": 67,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "data extraction from tables",
+      "numerical comparison and subtraction",
+      "reading structured financial/business data",
+      "calculating differences between time periods"
+    ],
+    "reason": "Both tasks require extracting numerical data from tables and performing period-over-period comparisons, but Task B is more complex (multi-dimensional analysis with narrative context), so Task A's simpler structure provides useful foundational practice for Task B while Task B's practice with multi-variable analysis strengthens core skills applicable to Task A."
+  },
+  {
+    "task_a": 6,
+    "task_b": 8,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "locating specific data in historical documents",
+      "reading charts and tables",
+      "identifying numerical values from visual sources",
+      "interpreting financial/fiscal data"
+    ],
+    "reason": "Both tasks require finding and extracting specific numerical information from historical government financial documents, with Task B being simpler (chart reading) and Task A being more complex (multi-step document navigation), making B→A a useful prerequisite."
+  },
+  {
+    "task_a": 61,
+    "task_b": 64,
+    "a_helps_b": "PARTIAL",
+    "b_helps_a": "YES",
+    "shared_skills": [
+      "numerical data interpretation",
+      "multi-period trend analysis",
+      "financial metric calculation",
+      "structured report writing",
+      "stakeholder communication",
+      "data aggregation and summarization"
+    ],
+    "reason": "Both tasks require extracting insights from numerical financial data and writing executive summaries, but Task B involves more complex year-over-year comparative analysis and financial ratios, while Task A focuses on single-period channel/category breakdown; Task B's more sophisticated analytical patterns provide stronger preparation for Task A than vice versa."
+  }
+]

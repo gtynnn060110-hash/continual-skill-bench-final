@@ -1,0 +1,5 @@
+{
+  "task_name": "find-topk-similiar-chemicals",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/find-topk-similiar-chemicals",
+  "note": "Downloaded source environment directory when available. Look under skillsbench_environment/ for data files."
+}

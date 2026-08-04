@@ -1,0 +1,8 @@
+{
+  "data_type": "figure",
+  "source": "https://doi.org/10.1016/j.cell.2019.11.025",
+  "figure_path_in_source_repo": "/home/runner/work/LAB-Bench/LAB-Bench/FigQA/figs/033.jpg",
+  "figure_url": "https://datasets-server.huggingface.co/cached-assets/futurehouse/lab-bench/--/749fc1f31857c7e621275ffdcf6679021fbb8f0a/--/FigQA/train/4/figure/image.jpg?Expires=1779343269&Signature=k54M~8ETd5Z9QG~Xqmw2MIAvGnsuaErKAOpHl8xZKFaqicU1tVOo6AsaWBn2S2~9YXZS1pp1qWeAeCGfBr4j0ucCrOETYl~zoAu3HtykKkxiTX~w4PtyPS3dldfdnm1FJOvKliwo6TEbS80D8gDA1pL7He928rvW10ctD67zFVs-cX-n5A9yXW548G~j53YRHsMaluZcKTLDrvKiRERmNaFOyBzRofqnZR6m0m~A5gdd4u9cYwsWNSA3UaM8AiCkdUyoLgKljsLcn55HAdoGhOm1v2M~s~wdQL631jhvsbVi8W6zAAAFXT1uwDS1sslTFx0L2f9x-uVnUTF8y~Gfmg__&Key-Pair-Id=K204OQ5RWQVDLD",
+  "width": 3676,
+  "height": 3596
+}

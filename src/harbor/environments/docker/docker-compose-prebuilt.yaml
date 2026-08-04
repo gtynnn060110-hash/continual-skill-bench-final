@@ -1,0 +1,13 @@
+services:
+  main:
+    image: ${PREBUILT_IMAGE_NAME}
+    command: [ "sh", "-c", "sleep infinity" ]
+    network_mode: host
+
+    environment:
+      HTTP_PROXY: "http://host.docker.internal:7897"
+      HTTPS_PROXY: "http://host.docker.internal:7897"
+      http_proxy: "http://host.docker.internal:7897"
+      https_proxy: "http://host.docker.internal:7897"
+      NO_PROXY: "localhost,127.0.0.1,host.docker.internal"
+      no_proxy: "localhost,127.0.0.1,host.docker.internal"

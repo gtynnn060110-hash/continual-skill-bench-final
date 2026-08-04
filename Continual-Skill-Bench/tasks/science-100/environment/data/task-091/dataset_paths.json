@@ -1,0 +1,8 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "BBBC002/train",
+    "BBBC002/test"
+  ],
+  "official_output": "pred_results/cell-count_pred.csv"
+}

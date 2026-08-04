@@ -1,0 +1,12 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "ames/train.csv",
+    "ames/val.csv",
+    "ames/test.csv",
+    "ames/train.npz",
+    "ames/val.npz",
+    "ames/test.npz"
+  ],
+  "official_output": "pred_results/aai_preds.csv"
+}

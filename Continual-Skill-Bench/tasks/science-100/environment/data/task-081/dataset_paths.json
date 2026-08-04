@@ -1,0 +1,8 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "clintox/clintox_train.csv",
+    "clintox/clintox_test.csv"
+  ],
+  "official_output": "pred_results/clintox_test_pred.csv"
+}

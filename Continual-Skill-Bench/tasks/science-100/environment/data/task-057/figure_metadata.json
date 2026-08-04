@@ -1,0 +1,8 @@
+{
+  "data_type": "figure",
+  "source": "http://doi.org/10.1016/j.neuron.2016.01.024",
+  "figure_path_in_source_repo": "/home/runner/work/LAB-Bench/LAB-Bench/FigQA/figs/030.jpg",
+  "figure_url": "https://datasets-server.huggingface.co/cached-assets/futurehouse/lab-bench/--/749fc1f31857c7e621275ffdcf6679021fbb8f0a/--/FigQA/train/0/figure/image.jpg?Expires=1779343243&Signature=n-vgpmqcTpVWjDdJlVJhuToFsBxl07rJrUJTGZNv9BpnbBMBF2rKicLxQyb2ei9iFuYm3VeXyUC4g9Gn9rpVJir8L2dMGi60n44F2rYGNq-1A5EUpRnxlbpFRQ2wVh3HYr1Le8SJ3q7DzYZrHCQIcwx3Cq35d~z-A6eLRhmc3guo9O-ALvHg2glPpFyIAcjGPkyIwVoSJEEPAixQylJTS2BBxkZPORwjPjhVrKk7TRyYcCHKrKUgdfxoWI~tSOGEoU-5Vt~n6yLwthKdEt1Qr96aLO-gfEl~CHVnywVjxpnxIJKW3WRbux4YFI~oVWl80RA38J78Q9fq2EIbIHRolQ__&Key-Pair-Id=K204OQ5RWQVDLD",
+  "width": 2738,
+  "height": 1888
+}

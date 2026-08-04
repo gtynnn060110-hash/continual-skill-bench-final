@@ -1,0 +1,8 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "crystalline_compound/compound_elastic_properties_train.csv",
+    "crystalline_compound/compound_elastic_properties_test.csv"
+  ],
+  "official_output": "pred_results/compound_bulk_modulus.csv"
+}

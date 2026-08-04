@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-090",
+    "source_id":  "sab-10",
+    "instance_id":  10,
+    "eval_script":  "eval_programs/eval_toronto_fire.py",
+    "gold_program":  "gold_programs/toronto_new.py",
+    "scoring_rubric":  "scoring_rubrics/toronto_new_rubric.json",
+    "output_fname":  "pred_results/Fire_Service_Analysis.png",
+    "gold_results":  [
+                         "gold_results/Fire_Service_Analysis_gold.png"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

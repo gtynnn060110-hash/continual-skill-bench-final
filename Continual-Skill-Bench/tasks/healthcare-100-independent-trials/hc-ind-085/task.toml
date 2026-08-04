@@ -1,0 +1,24 @@
+version = "1.0"
+
+[metadata]
+author_name = "ContinualSkillBench Healthcare"
+author_email = "gtynnn060110@gmail.com"
+difficulty = "hard"
+category = "healthcare"
+tags = ["healthcare", "multi-task", "clinical-reasoning", "diagnostics", 
+    "medical-guidelines", "ehr-analysis", "llm-judge"]
+
+[verifier]
+timeout_sec = 7200.0
+
+[agent]
+timeout_sec = 14400.0
+
+[environment]
+docker_image = "hb-healthcare"
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 8192
+storage_mb = 30720
+gpus = 0
+allow_internet = true

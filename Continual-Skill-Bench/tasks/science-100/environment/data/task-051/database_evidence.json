@@ -1,0 +1,31 @@
+{
+  "data_type": "curated_database_evidence",
+  "note": "The public LAB-Bench row does not include raw database dumps. This evidence file records the database criterion needed to solve the task, with option-level support derived from the benchmark source row.",
+  "question": "Which of the following genes is associated with Currarino syndrome (Currarino triad) according to DisGeNet but not according to OMIM?",
+  "databases_referenced": [
+    "DisGeNet",
+    "OMIM"
+  ],
+  "option_evidence": [
+    {
+      "candidate": "MNX1-AS2",
+      "satisfies_question_criterion": true,
+      "evidence_summary": "This candidate satisfies the database condition stated in the question."
+    },
+    {
+      "candidate": "MNX1",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    },
+    {
+      "candidate": "MCTP1",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    },
+    {
+      "candidate": "PKLR",
+      "satisfies_question_criterion": false,
+      "evidence_summary": "This candidate is a distractor in the source row and does not satisfy the stated criterion."
+    }
+  ]
+}

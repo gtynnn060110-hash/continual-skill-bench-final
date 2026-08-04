@@ -1,0 +1,5 @@
+{
+  "task_name": "crystallographic-wyckoff-position-analysis",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/crystallographic-wyckoff-position-analysis",
+  "note": "Downloaded source environment directory when available. Look under skillsbench_environment/ for data files."
+}

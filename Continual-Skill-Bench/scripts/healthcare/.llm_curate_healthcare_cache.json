@@ -1,0 +1,3655 @@
+{
+  "01bb657f43c8036ce1199615e7ac6a81": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify locations where a specific fish species became invasive after being released from captivity.",
+    "suggested_skill_name": "invasive-species-location-identification",
+    "testable_facts": [
+      {
+        "key": "nonnative_species_zip_codes",
+        "expected": "34689",
+        "tolerance": null
+      }
+    ]
+  },
+  "7c53fe99554041f1f25e777c1bae1bf1": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Determine the percentage of food standards superseded since 1959.",
+    "suggested_skill_name": "food-standard-updates",
+    "testable_facts": [
+      {
+        "key": "superseded_percentage",
+        "expected": 86,
+        "tolerance": null
+      }
+    ]
+  },
+  "85f5a0f4ccf6d339c6dc7787d70db828": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify the EC numbers of chemicals used in viral testing methodology.",
+    "suggested_skill_name": "virus-testing-chemical-ec-numbers",
+    "testable_facts": [
+      {
+        "key": "EC_number_1",
+        "expected": "1.11.1.7",
+        "tolerance": null
+      },
+      {
+        "key": "EC_number_2",
+        "expected": "3.1.3.1",
+        "tolerance": null
+      }
+    ]
+  },
+  "102f20928bb80682c7c59667f8d54371": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the Prime Minister of the first location mentioned in the Book of Esther in 1977.",
+    "suggested_skill_name": "historical-leader-lookup",
+    "testable_facts": []
+  },
+  "7b6a7a95f8ccb0cdf2f69d3cd755e203": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculates the average number of pre-2020 publications for researchers.",
+    "suggested_skill_name": "average-researcher-publications",
+    "testable_facts": [
+      {
+        "key": "average_pre_2020_publications",
+        "expected": 26.4,
+        "tolerance": 0.1
+      }
+    ]
+  },
+  "db77a74d698100fdb21f154a6d3c65dc": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the name of the setting in a Doctor Who episode script.",
+    "suggested_skill_name": "script-location-identification",
+    "testable_facts": []
+  },
+  "93fb6974bf0f68d59753a97c6f52f5ae": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify the person who failed to give a gift in a Secret Santa exchange based on document information.",
+    "suggested_skill_name": "gift-exchange-audit",
+    "testable_facts": [
+      {
+        "key": "missing_gift_giver",
+        "expected": "Fred",
+        "tolerance": null
+      }
+    ]
+  },
+  "0ddc121b0b8fca7a94b6d971172d251f": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine if a path exists through specific plot ownership without revisiting plots.",
+    "suggested_skill_name": "plot-ownership-path-navigation",
+    "testable_facts": []
+  },
+  "93ac986b0b7a2efa69dac73085571999": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the number of potato bags needed for a family reunion based on attendee consumption.",
+    "suggested_skill_name": "calculate-food-requirements",
+    "testable_facts": []
+  },
+  "9f308347301c9d2a1eb06ea7901f0dc0": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify the consecrator of a bishop who never became pope from a portrait's subject.",
+    "suggested_skill_name": "art-portrait-contextual-reasoning",
+    "testable_facts": []
+  },
+  "4e9c96b663fd0b572052decce43d5b2c": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the nominator of a Featured Article on Wikipedia about a dinosaur from November 2016.",
+    "suggested_skill_name": "wikipedia-featured-article-nominator",
+    "testable_facts": [
+      {
+        "key": "nominator",
+        "expected": "FunkMonk",
+        "tolerance": null
+      }
+    ]
+  },
+  "3221bf31cc6cfcbbad18d22470ed2466": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Solve a mathematical equation using historical and statistical data.",
+    "suggested_skill_name": "historical-statistics-math-problem",
+    "testable_facts": []
+  },
+  "ce3828061d2b2d221cd6167977e5d09f": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine age using a coded message in sheet music.",
+    "suggested_skill_name": "musical-age-decoding",
+    "testable_facts": []
+  },
+  "999173447ccb29c57b46b2190895dcfc": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 5,
+    "one_line_summary": "Calculate reaction velocity using the Michaelis-Menten equation data.",
+    "suggested_skill_name": "reaction-velocity-calculation",
+    "testable_facts": [
+      {
+        "key": "reaction_velocity",
+        "expected": 0.0424,
+        "tolerance": null
+      }
+    ]
+  },
+  "0ccc40e5f0af93f235c6d4d9116cfee5": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the minimum number of cell phone towers required to cover all houses along a road.",
+    "suggested_skill_name": "cell-tower-coverage-calculation",
+    "testable_facts": []
+  },
+  "af282e46bfd25686f52e7500415662e7": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the composer of a song performed by different animated characters.",
+    "suggested_skill_name": "animated-song-composer-identification",
+    "testable_facts": []
+  },
+  "d98f4664b1dc542875a891a717e95aa4": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify and categorize vegetables from a grocery list ensuring botanical accuracy.",
+    "suggested_skill_name": "vegetable-categorization",
+    "testable_facts": [
+      {
+        "key": "vegetables_list",
+        "expected": [
+          "broccoli",
+          "celery",
+          "fresh basil",
+          "lettuce",
+          "sweet potatoes"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "4bf47d1b035b824e087e0176c81554e1": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify actor roles from TV shows for a trivia task.",
+    "suggested_skill_name": "actor-role-identification",
+    "testable_facts": []
+  },
+  "a00fea6d53dc18baaeafa8d85cfd74fc": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 3,
+    "one_line_summary": "Identify the geographic location of universities from bachelor degrees of US Secretaries of Homeland Security.",
+    "suggested_skill_name": "university-location-comparison",
+    "testable_facts": []
+  },
+  "07312bd0c93f1dc275e5e11ed41d054c": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Determine the time taken for a demographic change in the percentage of women computer scientists.",
+    "suggested_skill_name": "demographic-change-duration",
+    "testable_facts": [
+      {
+        "key": "percentage_change",
+        "expected": 13,
+        "tolerance": null
+      },
+      {
+        "key": "starting_percentage",
+        "expected": 37,
+        "tolerance": null
+      },
+      {
+        "key": "years_taken",
+        "expected": 22,
+        "tolerance": null
+      }
+    ]
+  },
+  "32a66e3ae15ec5ee5495094e0fd2632e": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the winner of a reality TV show born in a specific month.",
+    "suggested_skill_name": "reality-tv-birthdate-query",
+    "testable_facts": []
+  },
+  "1b60f993a4f452d047094ec47c466218": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate deviation from US standards for butterfat content in ice cream.",
+    "suggested_skill_name": "butterfat-compliance-assessment",
+    "testable_facts": []
+  },
+  "640e313c27c0e07fa91c03643569b31e": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the gender disparity in tertiary education completion from 2011 Bulgarian census data.",
+    "suggested_skill_name": "gender-education-disparity",
+    "testable_facts": []
+  },
+  "4fcef4cd1c3ddd792d37fbc74b4b045c": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 3,
+    "one_line_summary": "Retrieve actual enrollment count for a specific clinical trial on H. pylori and acne vulgaris.",
+    "suggested_skill_name": "clinical-trial-enrollment-retrieval",
+    "testable_facts": [
+      {
+        "key": "enrollment_count",
+        "expected": 90,
+        "tolerance": null
+      }
+    ]
+  },
+  "237b932530dc4c5c2a937568ce3aeaa4": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Requires retrieving specific numeric data from astrophysics papers.",
+    "suggested_skill_name": "numeric-data-retrieval",
+    "testable_facts": []
+  },
+  "4c397c3ae2e222c29748c5ca9fd112df": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify pitchers based on their sequence numbers relative to Taishō Tamai as of a specific date.",
+    "suggested_skill_name": "sports-sequence-identification",
+    "testable_facts": []
+  },
+  "ad962c56094d13ba22bb13359cc4b63a": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify a historical figure based on specific competition criteria.",
+    "suggested_skill_name": "historical-figure-identification",
+    "testable_facts": []
+  },
+  "6d4c7f7b0477cf76b046f9eb7f0369f6": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify the astronaut with the least time spent in space from a specific NASA group.",
+    "suggested_skill_name": "astronaut-time-in-space",
+    "testable_facts": [
+      {
+        "key": "last_name",
+        "expected": "White",
+        "tolerance": null
+      },
+      {
+        "key": "minutes_in_space",
+        "expected": 5876,
+        "tolerance": null
+      }
+    ]
+  },
+  "febb6fb2929460776e4cf2b5aa81439a": {
+    "is_healthcare": false,
+    "domain": "pharmacology",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze Pfizer's R&D pipeline and financial metrics to assess competitiveness.",
+    "suggested_skill_name": "pharmaceutical-rd-analysis",
+    "testable_facts": [
+      {
+        "key": "total_pipeline_projects_2023",
+        "expected": 83,
+        "tolerance": 0.83
+      },
+      {
+        "key": "phase_1_projects_2023",
+        "expected": 26,
+        "tolerance": 0.26
+      },
+      {
+        "key": "phase_2_projects_2023",
+        "expected": 30,
+        "tolerance": 0.3
+      },
+      {
+        "key": "phase_3_projects_2023",
+        "expected": 23,
+        "tolerance": 0.23
+      },
+      {
+        "key": "registration_projects_2023",
+        "expected": 4,
+        "tolerance": 0.04
+      }
+    ]
+  },
+  "e823bb5ea72d9540ade009dfab17d36a": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Analyze annual reports to evaluate Zegna's financial performance through detailed segment data extraction.",
+    "suggested_skill_name": "financial-report-segment-analysis",
+    "testable_facts": [
+      {
+        "key": "Zegna_Segment_Revenue_2024",
+        "expected": 1348.8,
+        "tolerance": null
+      },
+      {
+        "key": "Zegna_Segment_Revenue_2023",
+        "expected": 1322.0,
+        "tolerance": null
+      },
+      {
+        "key": "Zegna_Segment_Adjusted_EBIT_2024",
+        "expected": 187.6,
+        "tolerance": null
+      },
+      {
+        "key": "Zegna_Segment_Adjusted_EBIT_2023",
+        "expected": 193.5,
+        "tolerance": null
+      },
+      {
+        "key": "Zegna_Brand_DTC_Revenue_2024",
+        "expected": 1004.3,
+        "tolerance": null
+      },
+      {
+        "key": "Zegna_Brand_Wholesale_Revenue_2024",
+        "expected": 159.4,
+        "tolerance": null
+      }
+    ]
+  },
+  "d99197418e931e5c3eef2eb861a77879": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 7,
+    "one_line_summary": "Formulate a strategic financial plan to address operational crises and improve profitability.",
+    "suggested_skill_name": "financial-crisis-management",
+    "testable_facts": []
+  },
+  "2f78407fc8b700f58fa6d3f9be53e3d3": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Draft private equity transaction documents incorporating specific legal and financial requirements.",
+    "suggested_skill_name": "private-equity-transaction-drafting",
+    "testable_facts": [
+      {
+        "key": "investment_amount",
+        "expected": 2222.2222,
+        "tolerance": null
+      },
+      {
+        "key": "subscribed_capital",
+        "expected": 100,
+        "tolerance": null
+      }
+    ]
+  },
+  "590f5b09ea52193d14da27a31eabd61d": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 7,
+    "one_line_summary": "Assessment of compliance and financial risks in a PE fund's investment agreement for a medical device company's IPO.",
+    "suggested_skill_name": "pe-investment-risk-assessment",
+    "testable_facts": []
+  },
+  "3769a8073b78c5e28df27000b6d163db": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate and manage polyarticular pain, renal dysfunction, and anemia for a patient needing Total Knee Arthroplasty.",
+    "suggested_skill_name": "polyarticular-pain-renal-evaluation",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "Acute Kidney Injury on Chronic Kidney Disease",
+        "tolerance": null
+      }
+    ]
+  },
+  "e1fa61e2a77e41d7ba907f880f10468a": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Assess head injury for potential severe traumatic brain injury and associated complications.",
+    "suggested_skill_name": "head-injury-assessment",
+    "testable_facts": [
+      {
+        "key": "nuchal_rigidity",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "glasgow_coma_scale",
+        "expected": "<value indicating comatose>",
+        "tolerance": null
+      },
+      {
+        "key": "diagnosis",
+        "expected": "severe traumatic brain injury",
+        "tolerance": null
+      },
+      {
+        "key": "gastric_ulcer_history",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "cervical_spine_CT_required",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "561a9e9dc3927f44a1e1616ca5feda38": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Formulate treatment for suspected ANCA-associated vasculitis with renal involvement and pulmonary symptoms.",
+    "suggested_skill_name": "anaca-associated-vasculitis-management",
+    "testable_facts": [
+      {
+        "key": "serum_creatinine",
+        "expected": 420,
+        "tolerance": null
+      },
+      {
+        "key": "p-ANCA_positive",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "c-ANCA_negative",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "temperature",
+        "expected": 38.2,
+        "tolerance": 0.1
+      },
+      {
+        "key": "blood_pressure",
+        "expected": "145/95",
+        "tolerance": null
+      }
+    ]
+  },
+  "390c1556606a774e589855991022c3e0": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Improve T-cell transduction efficiency in CAR-T cell production by optimizing T-cell status, transduction conditions, and lentiviral quality.",
+    "suggested_skill_name": "car-t-cell-transduction-optimization",
+    "testable_facts": [
+      {
+        "key": "lentiviral_titer",
+        "expected": 100000000.0,
+        "tolerance": null
+      },
+      {
+        "key": "MOI",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "transduction_efficiency",
+        "expected": 0.1,
+        "tolerance": null
+      }
+    ]
+  },
+  "523967d583b9f42760e4143d6e178971": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 8,
+    "one_line_summary": "Assess need for urgent surgical intervention in a complex abdominal case with potential bowel perforation.",
+    "suggested_skill_name": "complex-abdominal-surgery-assessment",
+    "testable_facts": [
+      {
+        "key": "WBC",
+        "expected": 18.6,
+        "tolerance": 0.5
+      },
+      {
+        "key": "CRP",
+        "expected": 186,
+        "tolerance": 5
+      },
+      {
+        "key": "PCT",
+        "expected": 8.2,
+        "tolerance": 0.2
+      },
+      {
+        "key": "temperature",
+        "expected": 38.5,
+        "tolerance": 0.1
+      },
+      {
+        "key": "heart_rate",
+        "expected": 112,
+        "tolerance": 2
+      }
+    ]
+  },
+  "cbfe2a6de50c1d6bbb514791fedfd9aa": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify and troubleshoot issues in ChIP-qPCR related to the immunoprecipitation step.",
+    "suggested_skill_name": "chip-qpcr-troubleshooting",
+    "testable_facts": []
+  },
+  "f48037e51727a13872b7501bcf49fbe5": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Formulate a treatment plan considering high tumor burden with liver condition constraints in hepatocellular carcinoma.",
+    "suggested_skill_name": "hepatocellular-carcinoma-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "tumor_size",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "child_pugh_score",
+        "expected": 8,
+        "tolerance": null
+      },
+      {
+        "key": "alpha_fetoprotein",
+        "expected": 1200,
+        "tolerance": null
+      },
+      {
+        "key": "ECOG_status",
+        "expected": 1,
+        "tolerance": null
+      }
+    ]
+  },
+  "7fe402b5ab633715365ae5e06dc6e3a3": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify and validate reasons for non-specific band detection in Western blot using different antibodies.",
+    "suggested_skill_name": "western-blot-band-validation",
+    "testable_facts": []
+  },
+  "f90f240452e6dc7494af4d962e1bf025": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate and recommend treatment strategy for esophageal cancer with COPD and assess risks of surgery.",
+    "suggested_skill_name": "esophageal-cancer-management",
+    "testable_facts": [
+      {
+        "key": "CEA",
+        "expected": 8.2,
+        "tolerance": null
+      },
+      {
+        "key": "CYFRA21-1",
+        "expected": 12.5,
+        "tolerance": null
+      },
+      {
+        "key": "esophageal-stenosis-length",
+        "expected": 8,
+        "tolerance": null
+      }
+    ]
+  },
+  "f3bbf17a41e280321d14819f176f759c": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 7,
+    "one_line_summary": "Manage thyroid tumor surgery with pre- and postoperative considerations.",
+    "suggested_skill_name": "thyroid-tumor-surgery-management",
+    "testable_facts": [
+      {
+        "key": "tumor_stage",
+        "expected": "T4a",
+        "tolerance": null
+      },
+      {
+        "key": "total_thyroidectomy_rationale",
+        "expected": "prepare for RAI therapy and facilitate Tg monitoring",
+        "tolerance": null
+      },
+      {
+        "key": "nerve_resection_en_bloc",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "protect_contralateral_rl_nerve",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "test_TgAb_postop",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "6355d9838124de7960b4d2f3798bf0b8": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze causes of variable Glutamine Synthetase expression in IHC staining of HCC samples.",
+    "suggested_skill_name": "ihc-staining-variability-analysis",
+    "testable_facts": []
+  },
+  "8083b165577b69c530f76d85bf04c1d4": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Identify and assess potential causes of postoperative fever and complications in a 70-year-old woman with pyometra and pneumonia.",
+    "suggested_skill_name": "postoperative-fever-assessment",
+    "testable_facts": [
+      {
+        "key": "temperature",
+        "expected": 38.6,
+        "tolerance": null
+      },
+      {
+        "key": "oxygen_saturation",
+        "expected": 90,
+        "tolerance": null
+      },
+      {
+        "key": "heart_rate",
+        "expected": 100,
+        "tolerance": null
+      }
+    ]
+  },
+  "e69532922df58301d14e0ea277dcf660": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnosing and managing Pneumocystis jirovecii pneumonia secondary to immunosuppressive therapy in a rheumatoid arthritis patient.",
+    "suggested_skill_name": "pjp-diagnosis-and-management",
+    "testable_facts": [
+      {
+        "key": "likely_diagnosis",
+        "expected": "Pneumocystis jirovecii pneumonia",
+        "tolerance": null
+      },
+      {
+        "key": "lymphopenia_risk_factor",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "diagnostic_feature",
+        "expected": "bilateral ground-glass opacities",
+        "tolerance": null
+      },
+      {
+        "key": "first_line_therapy",
+        "expected": "trimethoprim–sulfamethoxazole",
+        "tolerance": null
+      }
+    ]
+  },
+  "71dbe90e463f7f143a72f8ecaa984ed0": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a pharmacokinetic and pharmacodynamic sampling schedule for a clinical trial using Stapokibart and a PD-1/PD-L1 inhibitor.",
+    "suggested_skill_name": "clinical-trial-sampling-schedule-design",
+    "testable_facts": [
+      {
+        "key": "Nivolumab-end-infusion-sampling",
+        "expected": "within 15 minutes post-infusion",
+        "tolerance": null
+      },
+      {
+        "key": "Stapokibart-Cycle-1-Day-4-Tmax",
+        "expected": "cycle 1 day 4",
+        "tolerance": null
+      },
+      {
+        "key": "First-cycle-sampling-points",
+        "expected": [
+          "Day 4",
+          "Day 8",
+          "Day 14/15"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "ADA-testing-time-points",
+        "expected": [
+          "Cycle 3 Day 1",
+          "Cycle 5 Day 1"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "Maintenance-phase-sampling-frequency",
+        "expected": "every 18 weeks",
+        "tolerance": null
+      }
+    ]
+  },
+  "d84140be8ad7a0c30501db798f489cd0": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and manage osteoporosis in a patient with renal insufficiency ensuring renal safety.",
+    "suggested_skill_name": "osteoporosis-management-renal-insufficiency",
+    "testable_facts": [
+      {
+        "key": "creatinine",
+        "expected": 280,
+        "tolerance": null
+      },
+      {
+        "key": "eGFR",
+        "expected": 2,
+        "tolerance": null
+      },
+      {
+        "key": "calcium-carbonate-dosage",
+        "expected": "600 mg bid",
+        "tolerance": null
+      },
+      {
+        "key": "serum-phosphorus-threshold",
+        "expected": "<= 1.8 mmol/L",
+        "tolerance": null
+      },
+      {
+        "key": "phosphorus-intake",
+        "expected": "<= 800 mg/day",
+        "tolerance": null
+      },
+      {
+        "key": "calcitriol-dosage",
+        "expected": "0.25 µg once daily",
+        "tolerance": null
+      },
+      {
+        "key": "denosumab-dosage",
+        "expected": "60 mg every 6 months",
+        "tolerance": null
+      }
+    ]
+  },
+  "ed29dd5c72ee564e152bc26276d14aa2": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a variant filtering workflow for trio-WES data analysis in a neurodevelopmental disorder case.",
+    "suggested_skill_name": "trio-wes-variant-filtering",
+    "testable_facts": [
+      {
+        "key": "depth_of_coverage",
+        "expected": ">= 10x",
+        "tolerance": null
+      },
+      {
+        "key": "genotype_quality",
+        "expected": ">= 20",
+        "tolerance": null
+      }
+    ]
+  },
+  "74137594248b85d73f232690317e9b0f": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 6,
+    "one_line_summary": "Assess diabetic retinopathy stage and recommend treatment based on fundus examination.",
+    "suggested_skill_name": "diabetic-retinopathy-management",
+    "testable_facts": [
+      {
+        "key": "right_eye_staging",
+        "expected": "Moderate Non-Proliferative Diabetic Retinopathy",
+        "tolerance": null
+      },
+      {
+        "key": "left_eye_staging",
+        "expected": "Moderate Non-Proliferative Diabetic Retinopathy",
+        "tolerance": null
+      },
+      {
+        "key": "preferred_treatment",
+        "expected": "intravitreal anti-VEGF therapy",
+        "tolerance": null
+      },
+      {
+        "key": "anti-VEGF_agents",
+        "expected": [
+          "aflibercept",
+          "ranibizumab",
+          "bevacizumab"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "c558b670e867c604d3ca4ec215dae1cb": {
+    "is_healthcare": false,
+    "domain": "medical-research",
+    "difficulty_score": 5,
+    "one_line_summary": "Design an experimental protocol using spatial omics technology to study the spatial heterogeneity in Hepatocellular Carcinoma (HCC).",
+    "suggested_skill_name": "spatial-omics-experimental-design",
+    "testable_facts": []
+  },
+  "382d2d1adf159de18733a7ac354f3947": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyzing evidence to exclude parathyroid carcinoma and planning for surgical intervention in a patient with severe primary hyperparathyroidism.",
+    "suggested_skill_name": "parathyroid-carcinoma-exclusion",
+    "testable_facts": [
+      {
+        "key": "serum_calcium",
+        "expected": 3.25,
+        "tolerance": 0.05
+      },
+      {
+        "key": "serum_phosphorus",
+        "expected": 0.65,
+        "tolerance": 0.05
+      },
+      {
+        "key": "alkaline_phosphatase",
+        "expected": 820,
+        "tolerance": 10
+      }
+    ]
+  },
+  "8357ae3c25b1b59c72a2ee95a7951a4e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose complex dental issues including pericoronitis, potential masseteric space infection, and chronic periodontitis in a patient with hypertension.",
+    "suggested_skill_name": "complex-dental-diagnosis",
+    "testable_facts": [
+      {
+        "key": "chief_complaint_diagnosis",
+        "expected": "pericoronitis of tooth 48",
+        "tolerance": null
+      },
+      {
+        "key": "possible_complication",
+        "expected": "masseteric space infection",
+        "tolerance": null
+      },
+      {
+        "key": "confirmatory_examinations",
+        "expected": "complete blood count (CBC)",
+        "tolerance": null
+      },
+      {
+        "key": "additional_diagnosis",
+        "expected": "chronic periodontitis",
+        "tolerance": null
+      }
+    ]
+  },
+  "253a46566a5a4cfa93afcce6ad1d140a": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 5,
+    "one_line_summary": "Diagnosing skeletal Class II malocclusion and vertical growth pattern in a 14-year-old male patient.",
+    "suggested_skill_name": "class-ii-malocclusion-diagnosis",
+    "testable_facts": [
+      {
+        "key": "skeletal_relationship",
+        "expected": "Class II",
+        "tolerance": null
+      },
+      {
+        "key": "SN-MP_angle",
+        "expected": 42,
+        "tolerance": null
+      }
+    ]
+  },
+  "ccce49a7a675dc16996a85e9c4ee1b71": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate and adjust treatment strategy for advanced hepatocellular carcinoma with drug resistance.",
+    "suggested_skill_name": "advanced-hepatocellular-carcinoma-management",
+    "testable_facts": [
+      {
+        "key": "AFP level",
+        "expected": 1920,
+        "tolerance": null
+      },
+      {
+        "key": "current regimen",
+        "expected": "Regorafenib",
+        "tolerance": null
+      },
+      {
+        "key": "imaging evidence",
+        "expected": "residual viable tumor",
+        "tolerance": null
+      }
+    ]
+  },
+  "abbe4fd4c896aafe6b2b4b71dca88f9c": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and manage a critically ill patient with potential drug overdose and seizures.",
+    "suggested_skill_name": "emergency-drug-overdose-management",
+    "testable_facts": [
+      {
+        "key": "initial_temperature",
+        "expected": 38.5,
+        "tolerance": null
+      },
+      {
+        "key": "initial_heart_rate",
+        "expected": 115,
+        "tolerance": null
+      },
+      {
+        "key": "initial_respiration_rate",
+        "expected": 28,
+        "tolerance": null
+      },
+      {
+        "key": "initial_blood_pressure",
+        "expected": "110/70",
+        "tolerance": null
+      },
+      {
+        "key": "arterial_blood_gas_pH",
+        "expected": 7.32,
+        "tolerance": 0.05
+      },
+      {
+        "key": "arterial_blood_gas_HCO3",
+        "expected": 16,
+        "tolerance": null
+      },
+      {
+        "key": "serum_lactate",
+        "expected": 3.2,
+        "tolerance": null
+      },
+      {
+        "key": "ECG_QRS_duration",
+        "expected": 115,
+        "tolerance": null
+      }
+    ]
+  },
+  "b7b43b9243741f2d534c91e95c987c66": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Identify liver mass diagnosis considering tumor markers and imaging findings.",
+    "suggested_skill_name": "liver-mass-diagnosis",
+    "testable_facts": [
+      {
+        "key": "AFP",
+        "expected": 1250,
+        "tolerance": null
+      },
+      {
+        "key": "CEA",
+        "expected": 35,
+        "tolerance": null
+      },
+      {
+        "key": "CA19-9",
+        "expected": 480,
+        "tolerance": null
+      },
+      {
+        "key": "ALT",
+        "expected": 120,
+        "tolerance": null
+      },
+      {
+        "key": "AST",
+        "expected": 185,
+        "tolerance": null
+      },
+      {
+        "key": "TBil",
+        "expected": 85,
+        "tolerance": null
+      },
+      {
+        "key": "DBil",
+        "expected": 70,
+        "tolerance": null
+      },
+      {
+        "key": "ALB",
+        "expected": 32,
+        "tolerance": null
+      },
+      {
+        "key": "HBV-DNA",
+        "expected": 56000.0,
+        "tolerance": null
+      }
+    ]
+  },
+  "06aafb07155ae9afb074dad4344922e2": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate case for myocardial infarction management with cardiac function grading, bleeding risk, and pharmacologic recommendations.",
+    "suggested_skill_name": "mi-management-and-risk-assessment",
+    "testable_facts": [
+      {
+        "key": "cardiac_function_grading",
+        "expected": "Killip Class II",
+        "tolerance": null
+      },
+      {
+        "key": "bleeding_risk_assessment",
+        "expected": "high bleeding risk",
+        "tolerance": null
+      },
+      {
+        "key": "aspirin_loading_dose",
+        "expected": 300,
+        "tolerance": 0
+      },
+      {
+        "key": "clopidogrel_loading_dose",
+        "expected": 600,
+        "tolerance": 0
+      },
+      {
+        "key": "bivalirudin_loading_dose",
+        "expected": 0.75,
+        "tolerance": 0
+      },
+      {
+        "key": "bivalirudin_maintenance_dose",
+        "expected": 1.75,
+        "tolerance": 0
+      }
+    ]
+  },
+  "24d9f65dd1bcb1e4da9cba73c37aeec3": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate and identify causes of repeated severe abdominal pain episodes with neurological symptoms linked to dieting or menstruation.",
+    "suggested_skill_name": "abdominal-pain-neurology-evaluation",
+    "testable_facts": [
+      {
+        "key": "serum_sodium",
+        "expected": 126,
+        "tolerance": null
+      },
+      {
+        "key": "serum_potassium",
+        "expected": 3.4,
+        "tolerance": null
+      },
+      {
+        "key": "blood_pressure",
+        "expected": [
+          165,
+          105
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "heart_rate",
+        "expected": 118,
+        "tolerance": null
+      }
+    ]
+  },
+  "0b4c06f0954b410fe26bb94ba2d9bb84": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the clinical management and staging for a complex case of liver cirrhosis with esophageal variceal bleeding and liver lesion.",
+    "suggested_skill_name": "liver-cirrhosis-management",
+    "testable_facts": [
+      {
+        "key": "Child-Pugh Grade",
+        "expected": "C",
+        "tolerance": null
+      },
+      {
+        "key": "BCLC stage",
+        "expected": "D",
+        "tolerance": null
+      }
+    ]
+  },
+  "959875a07c02d86b1b667ace5b41125d": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and manage dentofacial deformity with obstructive sleep apnea in a pediatric patient.",
+    "suggested_skill_name": "pediatric-dentofacial-diagnosis",
+    "testable_facts": [
+      {
+        "key": "SNA",
+        "expected": 80,
+        "tolerance": null
+      },
+      {
+        "key": "SNB",
+        "expected": 74,
+        "tolerance": null
+      },
+      {
+        "key": "SN-MP",
+        "expected": 32,
+        "tolerance": null
+      },
+      {
+        "key": "U1-PP",
+        "expected": 120,
+        "tolerance": null
+      },
+      {
+        "key": "L1-MP",
+        "expected": 90,
+        "tolerance": null
+      }
+    ]
+  },
+  "34adbbdd4c99c2b95648eef29faf5e8f": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the diagnosis of immune-mediated necrotizing myopathy based on clinical data and laboratory findings.",
+    "suggested_skill_name": "immune-myopathy-diagnosis",
+    "testable_facts": [
+      {
+        "key": "CK-MB/CK ratio",
+        "expected": 2.2,
+        "tolerance": 0.1
+      },
+      {
+        "key": "cTnI level",
+        "expected": 15.6,
+        "tolerance": 0.1
+      },
+      {
+        "key": "LVEF",
+        "expected": 35,
+        "tolerance": 1.0
+      }
+    ]
+  },
+  "cac9b2c11608a42f0dca7ff1f3721cea": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate imaging and biopsy findings to diagnose a submucosal gastric tumor.",
+    "suggested_skill_name": "gastric-tumor-diagnosis",
+    "testable_facts": [
+      {
+        "key": "differential_diagnoses",
+        "expected": [
+          "GIST",
+          "plexiform fibromyxoma"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "gold_standard_diagnosis",
+        "expected": "histopathology and immunohistochemistry",
+        "tolerance": null
+      },
+      {
+        "key": "biopsy_method",
+        "expected": "targeted bite-on-bite biopsy",
+        "tolerance": null
+      },
+      {
+        "key": "tumor_diagnosis",
+        "expected": "plexiform fibromyxoma",
+        "tolerance": null
+      },
+      {
+        "key": "leiomyoma_exclusion",
+        "expected": "Desmin(-)",
+        "tolerance": null
+      }
+    ]
+  },
+  "a8870e6af08b9e8fbaa9237646603302": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose a complex case of abdominal pain with potential comorbidities and vascular issues.",
+    "suggested_skill_name": "chronic-abdominal-pain-diagnosis",
+    "testable_facts": []
+  },
+  "eae3a26a9ec7be1ad5abece37683719e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 6,
+    "one_line_summary": "Diagnose Recurrent Spontaneous Abortion (RSA) based on clinical criteria and plan etiology-graded screening.",
+    "suggested_skill_name": "recurrent-spontaneous-abortion-diagnosis",
+    "testable_facts": [
+      {
+        "key": "RSA_diagnostic_criteria_met",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "biochemical_pregnancies_included",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "48d9045f142b9f2a78217922e3c4b926": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze weak Western Blot signals for Nrf2 protein and suggest protocol modifications.",
+    "suggested_skill_name": "western-blot-signal-optimization",
+    "testable_facts": []
+  },
+  "48fadc8ec6c6588f25f182ecb77b9a06": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 6,
+    "one_line_summary": "Diagnose a patient based on symptoms of fever, joint pain, rash, and history suggesting systemic lupus erythematosus.",
+    "suggested_skill_name": "diagnose-sle-with-symptom-analysis",
+    "testable_facts": [
+      {
+        "key": "initial_diagnosis",
+        "expected": "Systemic Lupus Erythematosus (SLE)",
+        "tolerance": null
+      },
+      {
+        "key": "characteristic_symptom",
+        "expected": "butterfly rash",
+        "tolerance": null
+      },
+      {
+        "key": "risk_factor",
+        "expected": "photosensitivity",
+        "tolerance": null
+      }
+    ]
+  },
+  "ec146919bf7c093cc2e705d2dedac08f": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Identify and manage Bronchiolitis Obliterans Syndrome post-allo-HSCT with cGVHD manifestations.",
+    "suggested_skill_name": "diagnose-bos-gvhd-post-transplant",
+    "testable_facts": [
+      {
+        "key": "core_diagnosis",
+        "expected": "Bronchiolitis Obliterans Syndrome",
+        "tolerance": null
+      },
+      {
+        "key": "disease_severity",
+        "expected": "Severe",
+        "tolerance": null
+      },
+      {
+        "key": "FEV1_value_percentage",
+        "expected": 38,
+        "tolerance": 0.5
+      },
+      {
+        "key": "treatment_recommendation",
+        "expected": "long-term prophylactic use of Azithromycin",
+        "tolerance": null
+      }
+    ]
+  },
+  "bb2d835eb48ba20a08a2aafce0147fd8": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a comprehensive flow-cytometry staining workflow and antibody panel for accurate identification of regulatory T cells.",
+    "suggested_skill_name": "treg-flow-cytometry-analysis",
+    "testable_facts": [
+      {
+        "key": "proportion_of_Tregs",
+        "expected": 0.05,
+        "tolerance": 0.01
+      }
+    ]
+  },
+  "d18d65fc0892184d80948049e52540d1": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze and diagnose a complex case of diabetes with potential complications.",
+    "suggested_skill_name": "diabetes-complications-management",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "type 2 diabetes mellitus",
+        "tolerance": null
+      },
+      {
+        "key": "complication",
+        "expected": "diabetic peripheral neuropathy",
+        "tolerance": null
+      },
+      {
+        "key": "complication",
+        "expected": "suboptimal glycemic control",
+        "tolerance": null
+      }
+    ]
+  },
+  "7f375a45182e534d7c9c4ceed3e6deb2": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate and manage a critical case with severe pulmonary tuberculosis and ARDS, considering drug interactions and risk factors.",
+    "suggested_skill_name": "critical-care-tuberculosis-management",
+    "testable_facts": [
+      {
+        "key": "ALT",
+        "expected": 125,
+        "tolerance": null
+      },
+      {
+        "key": "PaO₂/FiO₂ ratio",
+        "expected": 95,
+        "tolerance": null
+      },
+      {
+        "key": "BMI",
+        "expected": 16.5,
+        "tolerance": null
+      },
+      {
+        "key": "Blood Pressure",
+        "expected": {
+          "systolic": 85,
+          "diastolic": 50
+        },
+        "tolerance": null
+      },
+      {
+        "key": "1,3-β-D-glucan test",
+        "expected": "positive",
+        "tolerance": null
+      },
+      {
+        "key": "Rifampicin",
+        "expected": 0,
+        "tolerance": null
+      },
+      {
+        "key": "Isoniazid",
+        "expected": 0,
+        "tolerance": null
+      },
+      {
+        "key": "Pyrazinamide",
+        "expected": 0,
+        "tolerance": null
+      },
+      {
+        "key": "Linezolid dosage",
+        "expected": 600,
+        "tolerance": null
+      }
+    ]
+  },
+  "6cb3707fb6eccbd0b88d1ab27163b8f2": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and manage multi-step cancer treatment complications and comorbid conditions in a patient with lung neuroendocrine carcinoma.",
+    "suggested_skill_name": "oncology-treatment-complications-diagnosis",
+    "testable_facts": [
+      {
+        "key": "WBC count",
+        "expected": 0.67,
+        "tolerance": null
+      },
+      {
+        "key": "Platelet count",
+        "expected": 14,
+        "tolerance": null
+      },
+      {
+        "key": "Procalcitonin",
+        "expected": 1.17,
+        "tolerance": null
+      },
+      {
+        "key": "Plasma Fibrinogen",
+        "expected": 6.86,
+        "tolerance": null
+      },
+      {
+        "key": "D-dimer",
+        "expected": 3.32,
+        "tolerance": null
+      },
+      {
+        "key": "CRP",
+        "expected": 250.18,
+        "tolerance": null
+      },
+      {
+        "key": "Serum Total Bilirubin",
+        "expected": 37.7,
+        "tolerance": null
+      },
+      {
+        "key": "Serum Direct Bilirubin",
+        "expected": 37.0,
+        "tolerance": null
+      }
+    ]
+  },
+  "d6ed636b0878050891893da5d8e00ebf": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the postoperative adjuvant treatment strategy for a triple-negative breast cancer patient achieving pathological complete response.",
+    "suggested_skill_name": "postoperative-tnbc-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "postoperative_adjuvant_chemotherapy",
+        "expected": false,
+        "tolerance": null
+      },
+      {
+        "key": "continue_pembrolizumab_duration",
+        "expected": 1,
+        "tolerance": null
+      },
+      {
+        "key": "radiotherapy_required",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "radiotherapy_field",
+        "expected": [
+          "chest wall",
+          "regional nodal basins"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "neuropathic_pain_treatment",
+        "expected": "duloxetine",
+        "tolerance": null
+      }
+    ]
+  },
+  "55074be26dca1acd5d79894d8a758b48": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and manage AKI on CKD in a 68-year-old female considering surgical and hemodynamic risks.",
+    "suggested_skill_name": "aki-on-ckd-diagnosis-management",
+    "testable_facts": [
+      {
+        "key": "SCR_first_day",
+        "expected": 2.42,
+        "tolerance": null
+      },
+      {
+        "key": "SCR_third_day",
+        "expected": 2.51,
+        "tolerance": null
+      },
+      {
+        "key": "SCR_fifth_day",
+        "expected": 2.47,
+        "tolerance": null
+      },
+      {
+        "key": "identified_risks",
+        "expected": [
+          "NSAIDs/Analgesics",
+          "Hypotension",
+          "Diuretics"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "74ee90bc9cd759eeb2029067764a79f2": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and plan treatment for a patient with severe traumatic brain injury following a car accident.",
+    "suggested_skill_name": "traumatic-brain-injury-management",
+    "testable_facts": [
+      {
+        "key": "primary_diagnosis",
+        "expected": "重型颅脑损伤",
+        "tolerance": null
+      },
+      {
+        "key": "additional_diagnoses",
+        "expected": [
+          "急性硬膜下血肿",
+          "硬膜外血肿",
+          "创伤性蛛网膜下腔出血",
+          "胃溃疡"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "458f9b6b95bfdd8013cb0403ce86aca6": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine treatment and management plan for a patient with ANCA-associated vasculitis according to KDIGO 2024 guidelines.",
+    "suggested_skill_name": "anca-vasculitis-management",
+    "testable_facts": [
+      {
+        "key": "initial_glucocorticoid_protocol",
+        "expected": "methylprednisolone iv pulse followed by oral taper",
+        "tolerance": null
+      },
+      {
+        "key": "second_week_dose",
+        "expected": 30,
+        "tolerance": 0
+      },
+      {
+        "key": "prophylactic_medication",
+        "expected": "TMP-SMX/Co-trimoxazole",
+        "tolerance": null
+      },
+      {
+        "key": "plex_recommendation",
+        "expected": "weak recommendation",
+        "tolerance": null
+      }
+    ]
+  },
+  "fdf0d60b5816321fb26c856a4cac037c": {
+    "is_healthcare": true,
+    "domain": "pharmacology",
+    "difficulty_score": 8,
+    "one_line_summary": "Optimize T-cell infection efficiency for CAR-T cell preparation by modifying viral and cellular conditions.",
+    "suggested_skill_name": "car-t-cell-preparation-optimization",
+    "testable_facts": [
+      {
+        "key": "virus_titer",
+        "expected": "1×10^8 TU/ml",
+        "tolerance": null
+      },
+      {
+        "key": "MOI_value",
+        "expected": "10",
+        "tolerance": null
+      },
+      {
+        "key": "CAR_expression_rate",
+        "expected": "<10%",
+        "tolerance": null
+      }
+    ]
+  },
+  "783f54ec4d6d37bee479678addaa25f9": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate surgical necessity and urgency in an immunocompromised patient with suspected bowel perforation.",
+    "suggested_skill_name": "acute-abdominal-surgical-evaluation",
+    "testable_facts": [
+      {
+        "key": "CT findings",
+        "expected": "thickened cecum wall, loss of bowel wall layering, unclear appendix, encapsulated air-liquid plane, free air presence",
+        "tolerance": null
+      },
+      {
+        "key": "WBC count",
+        "expected": 18.6,
+        "tolerance": 0.2
+      },
+      {
+        "key": "CRP level",
+        "expected": 186,
+        "tolerance": 5
+      },
+      {
+        "key": "PCT level",
+        "expected": 8.2,
+        "tolerance": 0.1
+      },
+      {
+        "key": "Serum lactic acid",
+        "expected": 3.8,
+        "tolerance": 0.1
+      },
+      {
+        "key": "Existing conditions",
+        "expected": [
+          "Type 2 diabetes",
+          "Rheumatoid arthritis",
+          "Coronary artery disease",
+          "Chronic kidney disease stage 3a"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "Medications",
+        "expected": [
+          "Methotrexate",
+          "Prednisone",
+          "Insulin",
+          "Aspirin"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "df84311e2d9a5613c9582780241e8268": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify and optimize steps in ChIP-qPCR for better repeatability and signal enrichment.",
+    "suggested_skill_name": "chip-qpcr-optimization",
+    "testable_facts": []
+  },
+  "484839cca897490caebeff60ef3b4317": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Develop a treatment plan for a complex liver cancer case with significant tumor burden and compromised liver function.",
+    "suggested_skill_name": "complex-liver-cancer-treatment-planning",
+    "testable_facts": []
+  },
+  "8aa75aea38f44611bc3e5f89b791e5b6": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 6,
+    "one_line_summary": "Identifying reasons for non-specific bands in Western Blot using monoclonal antibodies.",
+    "suggested_skill_name": "western-blot-non-specific-band-identification",
+    "testable_facts": []
+  },
+  "13a94bae4713dc8c6a715b09da09c2ef": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate surgical risks and treatment strategy for esophageal cancer patient with COPD and analyze therapeutic choices.",
+    "suggested_skill_name": "esophageal-surgery-risk-assessment",
+    "testable_facts": [
+      {
+        "key": "clinical_stage",
+        "expected": "cT3N2M0 (Stage III)",
+        "tolerance": null
+      },
+      {
+        "key": "neoadjuvant_therapy",
+        "expected": "Carboplatin + Paclitaxel with concurrent radiotherapy 45Gy",
+        "tolerance": null
+      },
+      {
+        "key": "post-treatment_tumor_thickness",
+        "expected": 8,
+        "tolerance": null
+      },
+      {
+        "key": "surgical_procedure",
+        "expected": "Ivor-Lewis esophagectomy",
+        "tolerance": null
+      },
+      {
+        "key": "FEV1_predicted_value",
+        "expected": "<50%",
+        "tolerance": null
+      }
+    ]
+  },
+  "34fa6a62f65bcfed81e67229b9239fd9": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate and plan surgical intervention for thyroid cancer with considerations for tumor involvement with recurrent laryngeal nerve and subsequent clinical pathway.",
+    "suggested_skill_name": "thyroid-cancer-surgical-planning",
+    "testable_facts": [
+      {
+        "key": "tumor_staging",
+        "expected": "T4a",
+        "tolerance": null
+      },
+      {
+        "key": "surgical_approach",
+        "expected": "total thyroidectomy",
+        "tolerance": null
+      },
+      {
+        "key": "postoperative_tg_level",
+        "expected": 5,
+        "tolerance": null
+      },
+      {
+        "key": "postoperative_treatment_plan",
+        "expected": "consideration of CASTLE vs papillary cancer protocol adjustments",
+        "tolerance": null
+      }
+    ]
+  },
+  "a7e927e18248e13eb085150e85865593": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyzing potential reasons for inconsistent GS marker expression in HCC samples.",
+    "suggested_skill_name": "ihc-gs-expression-analysis",
+    "testable_facts": []
+  },
+  "8c289293067d89ec9a52f785779ad48b": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose cause of post-operative fever in a patient with previous pneumonia and uterine pyometra.",
+    "suggested_skill_name": "post-op-fever-diagnosis",
+    "testable_facts": [
+      {
+        "key": "patient_age",
+        "expected": 70,
+        "tolerance": null
+      },
+      {
+        "key": "post-op_temperature",
+        "expected": 38.6,
+        "tolerance": null
+      },
+      {
+        "key": "oxygen_saturation",
+        "expected": 90,
+        "tolerance": null
+      },
+      {
+        "key": "heart_rate",
+        "expected": 100,
+        "tolerance": null
+      }
+    ]
+  },
+  "a54809963eb89ad75aad06670641ed3d": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Determine the cause of pulmonary changes in a rheumatoid arthritis patient on immunosuppressants and propose a treatment plan for suspected Pneumocystis jirovecii pneumonia.",
+    "suggested_skill_name": "diagnose-and-treat-pjp-in-immunocompromised-patients",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "Pneumocystis jirovecii pneumonia",
+        "tolerance": null
+      },
+      {
+        "key": "treatment",
+        "expected": "trimethoprim-sulfamethoxazole",
+        "tolerance": null
+      },
+      {
+        "key": "TMP dosage range",
+        "expected": "15-20 mg/kg/day",
+        "tolerance": null
+      },
+      {
+        "key": "SMX dosage range",
+        "expected": "75-100 mg/kg/day",
+        "tolerance": null
+      }
+    ]
+  },
+  "bc9e6fd3f6c16cf436eec91e3fe1153b": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Designing PK and PD sparse sampling points for a clinical trial combining Sipuleucel-T and PD1/PDL1 inhibitors in lymphoma patients.",
+    "suggested_skill_name": "clinical-trial-design-sampling",
+    "testable_facts": [
+      {
+        "key": "sampling_points_Cycle1",
+        "expected": [
+          "Day4",
+          "Day8",
+          "Day14/15"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "ada_testing_cycles",
+        "expected": [
+          "C3 Day1",
+          "C5 Day1"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "0e965d66bae005b5ef4df1961344c986": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Develop a treatment plan for osteoporosis with renal impairment following specific guidelines.",
+    "suggested_skill_name": "osteoporosis-renal-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "calcium_supplementation",
+        "expected": "start after phosphate control",
+        "tolerance": null
+      },
+      {
+        "key": "calcium_dosage",
+        "expected": 600,
+        "tolerance": 0
+      },
+      {
+        "key": "calcium_frequency",
+        "expected": "bid",
+        "tolerance": null
+      },
+      {
+        "key": "phosphate_intake_limitation",
+        "expected": 800,
+        "tolerance": 0
+      },
+      {
+        "key": "vitamin_D_form",
+        "expected": "calcitriol",
+        "tolerance": null
+      },
+      {
+        "key": "vitamin_D_start_dosage",
+        "expected": 0.25,
+        "tolerance": 0
+      },
+      {
+        "key": "vitamin_D_frequency",
+        "expected": "daily",
+        "tolerance": null
+      },
+      {
+        "key": "osteoporosis_drug",
+        "expected": "denosumab",
+        "tolerance": null
+      },
+      {
+        "key": "denosumab_dosage",
+        "expected": 60,
+        "tolerance": 0
+      },
+      {
+        "key": "denosumab_frequency",
+        "expected": "every 6 months",
+        "tolerance": null
+      }
+    ]
+  },
+  "9645c21d4228f12e317990a745ac9d0a": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 8,
+    "one_line_summary": "Design a stepwise variant filtering process for Trio-WES to identify candidate genes in a sporadic neurodevelopmental disorder case.",
+    "suggested_skill_name": "trio-wes-variant-filtering",
+    "testable_facts": [
+      {
+        "key": "sequencing_depth_minimum",
+        "expected": 10,
+        "tolerance": null
+      },
+      {
+        "key": "genotype_quality_score_minimum",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "average_sequencing_depth",
+        "expected": 100,
+        "tolerance": null
+      },
+      {
+        "key": "coverage_threshold",
+        "expected": 98,
+        "tolerance": null
+      }
+    ]
+  },
+  "2d896bf2be5cd791270b048d044943a3": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the clinical stage of diabetic retinopathy and suggest treatment for a diabetic patient with retinal changes.",
+    "suggested_skill_name": "diabetic-retinopathy-management",
+    "testable_facts": [
+      {
+        "key": "left_eye_stage",
+        "expected": "Moderate NPDR",
+        "tolerance": null
+      },
+      {
+        "key": "right_eye_stage",
+        "expected": "Moderate NPDR",
+        "tolerance": null
+      },
+      {
+        "key": "treatment_right_eye",
+        "expected": "Initiate intravitreal anti-VEGF therapy",
+        "tolerance": null
+      }
+    ]
+  },
+  "52fbf800ada27cbab237a0c4288d7afb": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Design an experimental plan using spatial transcriptomics for studying HCC spatial heterogeneity.",
+    "suggested_skill_name": "spatial-transcriptomics-hcc-analysis",
+    "testable_facts": []
+  },
+  "ed5ac52d1659d335b3a4e23319eb21ad": {
+    "is_healthcare": true,
+    "domain": "surgery-procedures",
+    "difficulty_score": 8,
+    "one_line_summary": "Handle surgical and postoperative management in a case of suspected parathyroid adenoma with possible malignancy.",
+    "suggested_skill_name": "parathyroidectomy-surgical-planning",
+    "testable_facts": [
+      {
+        "key": "blood_calcium",
+        "expected": 3.25,
+        "tolerance": 0.01
+      },
+      {
+        "key": "blood_phosphate",
+        "expected": 0.65,
+        "tolerance": 0.01
+      },
+      {
+        "key": "alkaline_phosphatase",
+        "expected": 820,
+        "tolerance": 0.5
+      },
+      {
+        "key": "24h_urine_calcium",
+        "expected": 680,
+        "tolerance": 0.5
+      },
+      {
+        "key": "T-score_L1-L4",
+        "expected": -3.8,
+        "tolerance": 0.1
+      },
+      {
+        "key": "thyroid_ultrasound_tumor_size",
+        "expected": [
+          2.5,
+          1.8,
+          1.5
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "15a4500aa3c4c9e1551bdc557549f5a5": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose potential periodontal and dental space infections with relevant supplementary tests.",
+    "suggested_skill_name": "dental-space-infection-diagnosis",
+    "testable_facts": []
+  },
+  "8d0316cd2af3fae5df13268ed866f09e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate orthodontic treatment options and underlying causes for malocclusion in a teenager.",
+    "suggested_skill_name": "orthodontic-treatment-evaluation",
+    "testable_facts": [
+      {
+        "key": "SNA",
+        "expected": 84,
+        "tolerance": null
+      },
+      {
+        "key": "SNB",
+        "expected": 76,
+        "tolerance": null
+      },
+      {
+        "key": "SN-MP",
+        "expected": 42,
+        "tolerance": null
+      },
+      {
+        "key": "U1-PP",
+        "expected": 114,
+        "tolerance": null
+      },
+      {
+        "key": "L1-MP",
+        "expected": 100,
+        "tolerance": null
+      },
+      {
+        "key": "y-axis",
+        "expected": 75,
+        "tolerance": null
+      },
+      {
+        "key": "maxillary_protrusion",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "mandibular_retrusion",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "2ff5ae7520ce00a5d34c7a06d0ed763a": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate liver cancer treatment efficacy and suggest a treatment adjustment based on clinical assessment.",
+    "suggested_skill_name": "liver-cancer-treatment-evaluation",
+    "testable_facts": [
+      {
+        "key": "AFP_level",
+        "expected": 1920.0,
+        "tolerance": null
+      },
+      {
+        "key": "current_treatment_drug",
+        "expected": "瑞戈非尼",
+        "tolerance": null
+      },
+      {
+        "key": "recommended_imaging",
+        "expected": "全身PET-CT or 掩盖胸部、全腹部、盆腔的增强CT",
+        "tolerance": null
+      }
+    ]
+  },
+  "6878be63ea2c989b9a19c7a338f6cf51": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine drug interventions for a patient with seizures and acidosis, assessing opioid overdose risk.",
+    "suggested_skill_name": "emergency-drug-intervention",
+    "testable_facts": [
+      {
+        "key": "initial_drug_intervention",
+        "expected": "intravenous high-dose sodium bicarbonate",
+        "tolerance": null
+      },
+      {
+        "key": "target_blood_ph",
+        "expected": {
+          "min": 7.45,
+          "max": 7.55
+        },
+        "tolerance": null
+      },
+      {
+        "key": "qrs_duration_goal",
+        "expected": "<100 ms",
+        "tolerance": null
+      }
+    ]
+  },
+  "15b41868cd3b3991594b47f53a08f233": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and differentiate liver mass with potential mixed hepatocellular-cholangiocarcinoma and plan treatment.",
+    "suggested_skill_name": "liver-mass-diagnosis-and-management",
+    "testable_facts": [
+      {
+        "key": "AFP",
+        "expected": 1250,
+        "tolerance": 0
+      },
+      {
+        "key": "CEA",
+        "expected": 35,
+        "tolerance": 0
+      },
+      {
+        "key": "CA19-9",
+        "expected": 480,
+        "tolerance": 0
+      },
+      {
+        "key": "HBV-DNA",
+        "expected": 56000.0,
+        "tolerance": 0
+      },
+      {
+        "key": "Child-Pugh",
+        "expected": "B",
+        "tolerance": null
+      },
+      {
+        "key": "ECOG",
+        "expected": 1,
+        "tolerance": 0
+      }
+    ]
+  },
+  "e8b58a9dd77528a8f53771cff5cfc17e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Develop emergency and follow-up treatment plans for a patient with an acute myocardial infarction and assess bleeding risk.",
+    "suggested_skill_name": "acute-mi-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "ST_segment_elevation",
+        "expected": "II, III, AVF",
+        "tolerance": null
+      },
+      {
+        "key": "troponin_level",
+        "expected": 5.04,
+        "tolerance": 0.01
+      },
+      {
+        "key": "bivalirudin_loading_dose",
+        "expected": 0.75,
+        "tolerance": 0.01
+      },
+      {
+        "key": "bivalirudin_maintenance_dose",
+        "expected": 1.75,
+        "tolerance": 0.01
+      },
+      {
+        "key": "killip_classification",
+        "expected": 2,
+        "tolerance": null
+      }
+    ]
+  },
+  "8c89063f623e9f25b83c04382d17bb7e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Complex neurological and electrolyte imbalance case requiring differential diagnosis and treatment planning.",
+    "suggested_skill_name": "neurological-electrolyte-imbalance-management",
+    "testable_facts": [
+      {
+        "key": "blood sodium",
+        "expected": 126,
+        "tolerance": null
+      },
+      {
+        "key": "blood potassium",
+        "expected": 3.4,
+        "tolerance": null
+      },
+      {
+        "key": "urinalysis blood",
+        "expected": "-",
+        "tolerance": null
+      },
+      {
+        "key": "creatine kinase elevated",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "f4f23906fcbc71c3c9e915e64d6c75a6": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate hepatocellular carcinoma treatment options and assess liver function and tumor staging.",
+    "suggested_skill_name": "hcc-treatment-evaluation",
+    "testable_facts": [
+      {
+        "key": "liver_function_grading",
+        "expected": "Child-Pugh C",
+        "tolerance": null
+      },
+      {
+        "key": "tumor_stage",
+        "expected": "BCLC D",
+        "tolerance": null
+      }
+    ]
+  },
+  "ae40d8a129d2adda85c6a430be9c8415": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Provide orthodontic treatment recommendations for a child with dentofacial anomalies and a medical history of sleep apnea and adenoid hypertrophy.",
+    "suggested_skill_name": "orthodontic-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "Angle Class II malocclusion",
+        "tolerance": null
+      },
+      {
+        "key": "SNA_angle",
+        "expected": 80,
+        "tolerance": 0.5
+      },
+      {
+        "key": "SNB_angle",
+        "expected": 74,
+        "tolerance": 0.5
+      },
+      {
+        "key": "SN-MP_angle",
+        "expected": 32,
+        "tolerance": 0.5
+      },
+      {
+        "key": "U1-PP_angle",
+        "expected": 120,
+        "tolerance": 0.5
+      },
+      {
+        "key": "L1-MP_angle",
+        "expected": 90,
+        "tolerance": 0.5
+      },
+      {
+        "key": "adenoidectomy_recommendation",
+        "expected": true,
+        "tolerance": null
+      }
+    ]
+  },
+  "b30af7a9ae66974d88fdebf2d7ce2fa9": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose immune-mediated necrotizing myopathy based on unusual lab results and symptoms.",
+    "suggested_skill_name": "immune-necrotizing-myopathy-diagnosis",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "immune-mediated necrotizing myopathy (IMNM)",
+        "tolerance": null
+      },
+      {
+        "key": "specific_lab_test",
+        "expected": "anti-SRP antibody",
+        "tolerance": null
+      },
+      {
+        "key": "treatment_intervention",
+        "expected": "IVIG or rituximab",
+        "tolerance": null
+      }
+    ]
+  },
+  "ac2eeeb957c5adec4cd4c1418fdc022b": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Differential diagnosis and management of a gastric submucosal tumor with pathological and imaging findings.",
+    "suggested_skill_name": "gastric-tumor-diagnosis-management",
+    "testable_facts": [
+      {
+        "key": "initial_tumor_size_mm",
+        "expected": 15,
+        "tolerance": null
+      },
+      {
+        "key": "followup_tumor_size_mm",
+        "expected": 20,
+        "tolerance": null
+      },
+      {
+        "key": "diagnosis",
+        "expected": "plexiform fibromyxoma",
+        "tolerance": null
+      },
+      {
+        "key": "biopsy_method",
+        "expected": "forceps biopsy targeting depression",
+        "tolerance": null
+      },
+      {
+        "key": "key_differential_diagnosis",
+        "expected": [
+          "GIST",
+          "PF"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "gold_standard",
+        "expected": "histopathological and immunohistochemical analysis",
+        "tolerance": null
+      }
+    ]
+  },
+  "1d41a1ad68549b26a25af82298cb8843": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and plan treatment for chronic mesenteric ischemia with comorbid atherosclerosis.",
+    "suggested_skill_name": "chronic-mesenteric-ischemia-diagnosis",
+    "testable_facts": [
+      {
+        "key": "ABI_left",
+        "expected": 0.93,
+        "tolerance": null
+      },
+      {
+        "key": "ABI_right",
+        "expected": 0.88,
+        "tolerance": null
+      },
+      {
+        "key": "BP_systolic",
+        "expected": 147,
+        "tolerance": null
+      },
+      {
+        "key": "BP_diastolic",
+        "expected": 73,
+        "tolerance": null
+      }
+    ]
+  },
+  "6d22228c75017faa05d9982b3ad46947": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine if Mrs. Li's case qualifies as recurrent miscarriage and outline the primary screening procedures.",
+    "suggested_skill_name": "recurrent-miscarriage-assessment",
+    "testable_facts": [
+      {
+        "key": "recurrent_miscarriage_diagnosis",
+        "expected": true,
+        "tolerance": null
+      },
+      {
+        "key": "embryonic_chromosome_abnormality_rate",
+        "expected": 0.678,
+        "tolerance": null
+      }
+    ]
+  },
+  "c82bcc3c3615a324224f31ad0fe962ec": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 6,
+    "one_line_summary": "Identify experimental issues and improvements for detecting Nrf2 in WB assays.",
+    "suggested_skill_name": "western-blot-troubleshooting",
+    "testable_facts": []
+  },
+  "38ca6f991530419b9b85e36f60896241": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and manage a complex case of suspected systemic lupus erythematosus with multiple comorbidities.",
+    "suggested_skill_name": "complex-autoimmune-disease-management",
+    "testable_facts": [
+      {
+        "key": "initial_diagnosis",
+        "expected": "systemic lupus erythematosus (SLE)",
+        "tolerance": null
+      },
+      {
+        "key": "ANA_titer",
+        "expected": "1:320",
+        "tolerance": null
+      },
+      {
+        "key": "anti-dsDNA_positivity",
+        "expected": "positive (1:80)",
+        "tolerance": null
+      },
+      {
+        "key": "complement_C3_level",
+        "expected": "0.48g/L",
+        "tolerance": null
+      },
+      {
+        "key": "complement_C4_level",
+        "expected": "0.09g/L",
+        "tolerance": null
+      },
+      {
+        "key": "urgent_clinical_issue",
+        "expected": "pulmonary edema and renal impairment",
+        "tolerance": null
+      }
+    ]
+  },
+  "0691b9b4d57cd512137bf3c369878c43": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnosis and management of chronic GVHD with respiratory complications post-allogeneic transplant using ERS/EBMT guidelines.",
+    "suggested_skill_name": "gvhd-chronic-management",
+    "testable_facts": [
+      {
+        "key": "core_diagnosis",
+        "expected": "chronic GVHD with BOS post-allo-HSCT",
+        "tolerance": null
+      },
+      {
+        "key": "FEV1_severity",
+        "expected": "Severe",
+        "tolerance": null
+      },
+      {
+        "key": "GM_test_result",
+        "expected": "negative",
+        "tolerance": null
+      },
+      {
+        "key": "CMV_DNA_result",
+        "expected": "negative",
+        "tolerance": null
+      }
+    ]
+  },
+  "5bd94b23c2e2ba90a7c43e36d170cb0f": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze and design a flow cytometry staining protocol for regulatory T cell activation.",
+    "suggested_skill_name": "regulatory-t-cell-staining-analysis",
+    "testable_facts": [
+      {
+        "key": "regulatory_t_cell_proportion",
+        "expected": 0.05,
+        "tolerance": null
+      }
+    ]
+  },
+  "fd8057f1a4a4f18155656075b6506f8e": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 9,
+    "one_line_summary": "This task requires diagnosing and managing complicated diabetes with ketoacidosis, neuropathy, and nephropathy.",
+    "suggested_skill_name": "complex-diabetes-management",
+    "testable_facts": [
+      {
+        "key": "diagnosis",
+        "expected": "糖尿病酮症酸中毒 (DKA)",
+        "tolerance": null
+      },
+      {
+        "key": "diagnosis",
+        "expected": "2型糖尿病",
+        "tolerance": null
+      },
+      {
+        "key": "diagnosis",
+        "expected": "糖尿病周围神经病变",
+        "tolerance": null
+      },
+      {
+        "key": "diagnosis",
+        "expected": "高血压1级很高危",
+        "tolerance": null
+      }
+    ]
+  },
+  "87a7029d33d2a97cb356909c5cffeb97": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Develop a comprehensive treatment plan for a critically ill patient with severe tuberculosis, ARDS, drug-induced liver injury, and suspected invasive pulmonary aspergillosis.",
+    "suggested_skill_name": "integrated-management-severe-tuberculosis",
+    "testable_facts": [
+      {
+        "key": "GCS_score",
+        "expected": 13,
+        "tolerance": null
+      },
+      {
+        "key": "PaO2/FiO2_ratio",
+        "expected": 95,
+        "tolerance": null
+      },
+      {
+        "key": "ALT_level",
+        "expected": 125,
+        "tolerance": null
+      },
+      {
+        "key": "total_bilirubin",
+        "expected": 38,
+        "tolerance": null
+      },
+      {
+        "key": "rifampicin_dosage",
+        "expected": 0.45,
+        "tolerance": null
+      },
+      {
+        "key": "voriconazole_dosage",
+        "expected": 200,
+        "tolerance": null
+      }
+    ]
+  },
+  "2799ac1e68f02d8a521cff1a904379d8": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 7,
+    "one_line_summary": "Complex diagnostic reasoning involving bone marrow suppression, liver function abnormalities, and cancer progression.",
+    "suggested_skill_name": "oncology-complex-case-management",
+    "testable_facts": [
+      {
+        "key": "white_blood_cell_count",
+        "expected": 0.67,
+        "tolerance": null
+      },
+      {
+        "key": "platelet_count",
+        "expected": 14,
+        "tolerance": null
+      },
+      {
+        "key": "fibrinogen",
+        "expected": 6.86,
+        "tolerance": null
+      },
+      {
+        "key": "d_dimer",
+        "expected": 3.32,
+        "tolerance": null
+      },
+      {
+        "key": "CRP",
+        "expected": 250.18,
+        "tolerance": null
+      },
+      {
+        "key": "serum_total_bilirubin",
+        "expected": 37.7,
+        "tolerance": null
+      },
+      {
+        "key": "serum_direct_bilirubin",
+        "expected": 37.0,
+        "tolerance": null
+      }
+    ]
+  },
+  "99740d72dc34d1fa0b57c9f973fc38b6": {
+    "is_healthcare": true,
+    "domain": "clinical-diagnosis",
+    "difficulty_score": 8,
+    "one_line_summary": "Make post-surgical adjuvant treatment decisions for a patient with triple-negative breast cancer who achieved pCR after neoadjuvant therapy.",
+    "suggested_skill_name": "triple-negative-breast-cancer-treatment-planning",
+    "testable_facts": [
+      {
+        "key": "cancer_stage",
+        "expected": "IIIA",
+        "tolerance": null
+      },
+      {
+        "key": "immunohistochemistry_ER",
+        "expected": "-",
+        "tolerance": null
+      },
+      {
+        "key": "immunohistochemistry_PR",
+        "expected": "-",
+        "tolerance": null
+      },
+      {
+        "key": "immunohistochemistry_HER2",
+        "expected": "0",
+        "tolerance": null
+      },
+      {
+        "key": "Ki-67_index",
+        "expected": "70%",
+        "tolerance": null
+      },
+      {
+        "key": "PD-L1_positive_cells",
+        "expected": "≥1%",
+        "tolerance": null
+      },
+      {
+        "key": "BRCA1/2_mutation",
+        "expected": "no pathogenic germline mutation",
+        "tolerance": null
+      },
+      {
+        "key": "neoadjuvant_therapy_scheme",
+        "expected": "albumin-paclitaxel + carboplatin + pembrolizumab",
+        "tolerance": null
+      },
+      {
+        "key": "surgery",
+        "expected": "left breast modified radical mastectomy + axillary lymph node dissection",
+        "tolerance": null
+      },
+      {
+        "key": "postoperative_pathology",
+        "expected": "ypTis ypN0, pCR achieved",
+        "tolerance": null
+      }
+    ]
+  },
+  "6213b342bd67635ce85460deba29f2fb": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Optimize 5G-Advanced NR-DC technology for low-latency VR/AR services in high-frequency bands.",
+    "suggested_skill_name": "5g-advanced-nr-dc-optimization",
+    "testable_facts": []
+  },
+  "97d577b4f4fb0237b7950a5fa8469052": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 8,
+    "one_line_summary": "Design a robotic manipulator for efficient path planning in greenhouse environments.",
+    "suggested_skill_name": "robotic-manipulator-path-planning",
+    "testable_facts": []
+  },
+  "4c9b38e039c9d869cca6cb6551b1c458": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze and optimize wireless network performance in a hospital setting.",
+    "suggested_skill_name": "wireless-network-optimization",
+    "testable_facts": []
+  },
+  "f2a98b56058a9d409402a0454a1ca678": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 7,
+    "one_line_summary": "Optimize urban 5G NSA network addressing LTE overload and NR underutilization during peak hours.",
+    "suggested_skill_name": "5g-nsa-network-optimization",
+    "testable_facts": []
+  },
+  "36ccd3f518efaf93b98adaa2086628dc": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze and diagnose complex communication network faults in metro system.",
+    "suggested_skill_name": "metro-network-communication-diagnosis",
+    "testable_facts": []
+  },
+  "5fddba3d55e5587d53b92eee7e01d66d": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze network quality issues in a commercial complex during peak hours focusing on uplink instability.",
+    "suggested_skill_name": "network-quality-analysis",
+    "testable_facts": [
+      {
+        "key": "LTE RSRP range",
+        "expected": [
+          -80,
+          -90
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "NR RSRP range",
+        "expected": [
+          -95,
+          -105
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "SS-SINR range",
+        "expected": [
+          3,
+          10
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "5704a0c3089c022ae1d54c2d9c91bd27": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze the impact of model upgrade on CTR and user engagement metrics.",
+    "suggested_skill_name": "ctr-model-performance-analysis",
+    "testable_facts": []
+  },
+  "b66e063931ed28f998cb37fb63c5d3ff": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze underlying causes and solutions for uplink sensitivity shortfall in a telecommunications device.",
+    "suggested_skill_name": "telecom-uplink-sensitivity-analysis",
+    "testable_facts": []
+  },
+  "d02627f10517ca83796369ced1163611": {
+    "is_healthcare": false,
+    "domain": "other",
+    "difficulty_score": 8,
+    "one_line_summary": "Resolve communication timeouts and data acquisition issues in an automotive production line's Profinet network.",
+    "suggested_skill_name": "profinet-network-troubleshooting",
+    "testable_facts": [
+      {
+        "key": "acquisition_latency",
+        "expected": 100,
+        "tolerance": null
+      },
+      {
+        "key": "packet_loss_rate",
+        "expected": 0.1,
+        "tolerance": null
+      }
+    ]
+  },
+  "04a0de7f28f16be2024b20740039fca4": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze and optimize 5G network performance for a specific area within a hospital setting.",
+    "suggested_skill_name": "5g-network-optimization",
+    "testable_facts": []
+  },
+  "3ad7b6ed05e00f84e8758d2e96e6daca": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 8,
+    "one_line_summary": "Diagnose and optimize industrial communication issues related to Profinet IO and Modbus TCP in a manufacturing setting.",
+    "suggested_skill_name": "industrial-network-optimization",
+    "testable_facts": []
+  },
+  "fc6eebe6073a68791b5152bd8ceebe42": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Understanding jurisdiction and applicable law in international marital agreements.",
+    "suggested_skill_name": "international-marital-agreements-jurisdiction",
+    "testable_facts": []
+  },
+  "0c9809b9a7a56721cb56ab4ef8ee92f8": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Analysis of Vietnamese legal procedures and governance for foreign investment in renewable energy projects.",
+    "suggested_skill_name": "foreign-investment-vietnam-energy",
+    "testable_facts": []
+  },
+  "980962e87e92302b931dd75ca4232ee8": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 8,
+    "one_line_summary": "Analyze a legal case involving motorcycle racing to determine negligence and self-endangerment.",
+    "suggested_skill_name": "motorcycle-racing-legal-analysis",
+    "testable_facts": []
+  },
+  "0d2ac020da100e008efd4d019942348b": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 5,
+    "one_line_summary": "Assessing compliance with BAC standards in a legal case under the German Criminal Code.",
+    "suggested_skill_name": "drunk-driving-legal-assessment",
+    "testable_facts": [
+      {
+        "key": "post-accident BAC",
+        "expected": 1.1,
+        "tolerance": null
+      },
+      {
+        "key": "calculated BAC at time of accident",
+        "expected": 1.24,
+        "tolerance": null
+      }
+    ]
+  },
+  "2ae4cb08c610ad9a0eb84ed10fbadf89": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze legal compliance issues for a foreign education group's investment in Thailand.",
+    "suggested_skill_name": "foreign-education-investment-compliance",
+    "testable_facts": []
+  },
+  "a71bb83adeeef04a9669a93995e302dd": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Assess and amend a contract template for a voice actor recording procurement deal.",
+    "suggested_skill_name": "contract-amendment-for-voice-recording",
+    "testable_facts": []
+  },
+  "02325dac1ebe65f3db2f6c806fd2567b": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyzing legal implications under international law involving drone strikes and victim representation.",
+    "suggested_skill_name": "international-legal-reasoning",
+    "testable_facts": []
+  },
+  "ef7b18e6d9f2a580d7679aee3de6b9c2": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Evaluate legal topics for a multinational firm's risk system with emphasis on complex law conflicts.",
+    "suggested_skill_name": "global-legal-risk-evaluation",
+    "testable_facts": []
+  },
+  "dc31b78dce59152615c55d69c7401e0e": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Analyze legal servitude and agreements in a Taiwan property case.",
+    "suggested_skill_name": "legal-servitude-analysis",
+    "testable_facts": []
+  },
+  "825e3db006284b9929e3a692a02df475": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analyze legal compliance of employment contracts and product labeling for a French company operating in Europe.",
+    "suggested_skill_name": "employment-contract-legal-analysis",
+    "testable_facts": [
+      {
+        "key": "employee_R&D_contract_duration",
+        "expected": 3,
+        "tolerance": null
+      },
+      {
+        "key": "back_office_salary",
+        "expected": 1800,
+        "tolerance": null
+      },
+      {
+        "key": "headcount",
+        "expected": 100,
+        "tolerance": null
+      }
+    ]
+  },
+  "71f8ecbbe43a4d4233196818b26309f6": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze a legal scenario involving international trade and AI company financing.",
+    "suggested_skill_name": "international-trade-compliance",
+    "testable_facts": []
+  },
+  "bf958b56232832a9e189e7fd57494330": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Legal analysis for an investment institution on due diligence for a target company in Uzbekistan.",
+    "suggested_skill_name": "legal-dd-analysis",
+    "testable_facts": [
+      {
+        "key": "Article_19_Law_LLC_Uzbekistan",
+        "expected": "allows capital reduction without mandatory creditor notification",
+        "tolerance": null
+      },
+      {
+        "key": "Article_14_Law_LLC_Uzbekistan",
+        "expected": "appraisal needed for non-monetary contributions over 10,000 BCV",
+        "tolerance": null
+      },
+      {
+        "key": "Subsidiary_Approval_Requirement",
+        "expected": "unanimous shareholder agreement",
+        "tolerance": null
+      }
+    ]
+  },
+  "736865b67adda4115d25db18b1d58b67": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 6,
+    "one_line_summary": "Analyze jurisdiction and contractual claims in a legal dispute involving tenancy and rent payment issues.",
+    "suggested_skill_name": "legal-contractual-dispute-analysis",
+    "testable_facts": [
+      {
+        "key": "jurisdiction_article",
+        "expected": "§ 29a of the German Code",
+        "tolerance": null
+      },
+      {
+        "key": "surcharge_claim_article",
+        "expected": "§ 556 (3) of the German Civil Code (BGB)",
+        "tolerance": null
+      },
+      {
+        "key": "rent_claim_article",
+        "expected": "§ 407 (1) BGB",
+        "tolerance": null
+      }
+    ]
+  },
+  "3ad7a93217b451570203cc4e64dbfbdb": {
+    "is_healthcare": false,
+    "domain": "none",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate complex legal scenarios involving international treaties, arbitration, and bilateral investment agreements.",
+    "suggested_skill_name": "international-law-arbitration-analysis",
+    "testable_facts": []
+  },
+  "8f89d62a170a1c6c5b1871d1b769b8d6": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Understanding the details and claims of a legal tort dispute case involving a traffic accident.",
+    "suggested_skill_name": "legal-tort-dispute-comprehension",
+    "testable_facts": []
+  },
+  "9035d3c74c1a6057609eeee2d3961f50": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Analysis of legal implications concerning property inheritance and daily transaction needs under German Civil Code.",
+    "suggested_skill_name": "legal-inheritance-and-contract-analysis",
+    "testable_facts": [
+      {
+        "key": "section_of_law",
+        "expected": "Section 1357 of the German Civil Code",
+        "tolerance": null
+      },
+      {
+        "key": "provisional_heir",
+        "expected": "M",
+        "tolerance": null
+      },
+      {
+        "key": "subsequent_heir",
+        "expected": "S",
+        "tolerance": null
+      }
+    ]
+  },
+  "370b42f1dc73109dfdaf7f156e2348e2": {
+    "is_healthcare": false,
+    "domain": "legal",
+    "difficulty_score": 7,
+    "one_line_summary": "Legal assessment of intentional harm and extortion linked to a personal conflict.",
+    "suggested_skill_name": "case-legal-interpretation",
+    "testable_facts": []
+  },
+  "be8fa78b81f27a4d2145d62fb9b26563": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 5,
+    "one_line_summary": "Legal analysis of whether an individual can file a private prosecution and assess prosecutorial actions.",
+    "suggested_skill_name": "legal-procedure-analysis",
+    "testable_facts": []
+  },
+  "536f4daf3736f84a2c3dae0c40bc887e": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 5,
+    "one_line_summary": "Legal analysis of inheritance rights and validity of a marital agreement.",
+    "suggested_skill_name": "inheritance-agreement-validation",
+    "testable_facts": [
+      {
+        "key": "agreement_validity",
+        "expected": "valid",
+        "tolerance": null
+      },
+      {
+        "key": "B_and_C_inheritance_right",
+        "expected": "acknowledged",
+        "tolerance": null
+      },
+      {
+        "key": "D_E_F_H_inheritance_right",
+        "expected": "acknowledged for husband's share",
+        "tolerance": null
+      }
+    ]
+  },
+  "496a4b5854b84f433f71e74d1af019af": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Evaluate legal aspects and liability regarding worker's compensation for a traffic accident deemed work-related.",
+    "suggested_skill_name": "workers-compensation-legal-evaluation",
+    "testable_facts": []
+  },
+  "909f6750fbd98279fea81118f11daf9d": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 9,
+    "one_line_summary": "Analyze legal compliance risks of AI model testing platform under Chinese laws.",
+    "suggested_skill_name": "legal-compliance-analysis",
+    "testable_facts": []
+  },
+  "27700e3087f537a7ab18466b01ce607f": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify the sources and effects of antimony in steel from various perspectives.",
+    "suggested_skill_name": "antimony-sources-in-steel",
+    "testable_facts": [
+      {
+        "key": "antimony_mineral_forms",
+        "expected": [
+          "berthierite",
+          "ferro-stibnite/jamesonite"
+        ],
+        "tolerance": null
+      },
+      {
+        "key": "ferroalloy_consumption",
+        "expected": "20-45 kg per ton",
+        "tolerance": null
+      },
+      {
+        "key": "china_restriction_standard_sb_content",
+        "expected": "≤0.01%",
+        "tolerance": null
+      }
+    ]
+  },
+  "ca551c6b7c61bfd7c192ec7e37181b3d": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "The task involves understanding the dynamics of a double pendulum system under nonlinear conditions.",
+    "suggested_skill_name": "double-pendulum-dynamics-analysis",
+    "testable_facts": []
+  },
+  "7b4d32414385561679e22d7ffa4d73bf": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Determine the IUPAC name and NMR/MS characteristics of an organic product synthesis involving phenylboronic acid.",
+    "suggested_skill_name": "organic-synthesis-product-identification",
+    "testable_facts": [
+      {
+        "key": "product_chemical_formula",
+        "expected": "C28H23NO3",
+        "tolerance": null
+      },
+      {
+        "key": "product_iupac_name",
+        "expected": "5-methoxy-1-(4-methoxyphenyl)-2,2-diphenylindolin-3-one",
+        "tolerance": null
+      }
+    ]
+  },
+  "75219914d69c759b9b5a0e6e44251380": {
+    "is_healthcare": false,
+    "domain": "pharmacology",
+    "difficulty_score": 5,
+    "one_line_summary": "Identify the IUPAC name and predict NMR, DEPT, and ESI-MS signals for a thiophene-derived compound.",
+    "suggested_skill_name": "thiophene-chemistry-analysis",
+    "testable_facts": [
+      {
+        "key": "IUPAC_name",
+        "expected": "5-甲氧基-1-(4-甲氧基苯基)-2-(4-硝基苯基)-2-(噻吩-3-基)二氢吲哚-3-酮",
+        "tolerance": null
+      },
+      {
+        "key": "chemical_formula",
+        "expected": "C₂₆H₂₀N₂O₅S",
+        "tolerance": null
+      }
+    ]
+  },
+  "6cd1678bce400e698046fc4f7f745559": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "IUPAC naming, NMR and ESI-MS data interpretation of a reaction product.",
+    "suggested_skill_name": "organic-reaction-product-analysis",
+    "testable_facts": [
+      {
+        "key": "IUPAC_name",
+        "expected": "dimethyl(phenyl)(5-phenyl-6-(trifluoromethyl)-2H-pyran-4-yl)silane",
+        "tolerance": null
+      },
+      {
+        "key": "chemical_formula",
+        "expected": "C20H19OF3Si",
+        "tolerance": null
+      }
+    ]
+  },
+  "f904a7f1f297969ac475e32f1d28ff11": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze magnetic aging characteristics of a spin glass sample considering temperature fluctuations.",
+    "suggested_skill_name": "magnetic-aging-characteristics-analysis",
+    "testable_facts": []
+  },
+  "e545542685840a8027e733a3eb98afc5": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 5,
+    "one_line_summary": "Optimize production and preservation of the Ku antigen for laboratory research.",
+    "suggested_skill_name": "ku-antigen-preparation",
+    "testable_facts": [
+      {
+        "key": "manufacturer_ku_antigen",
+        "expected": "Diarect",
+        "tolerance": null
+      },
+      {
+        "key": "expression_system",
+        "expected": "insect",
+        "tolerance": null
+      },
+      {
+        "key": "tags",
+        "expected": [
+          "His-tag on Ku70",
+          "Strep-tag II or FLAG-tag on Ku80"
+        ],
+        "tolerance": null
+      }
+    ]
+  },
+  "1abd0a749375bcf17d9a9b9911be556c": {
+    "is_healthcare": false,
+    "domain": "clinical-research",
+    "difficulty_score": 7,
+    "one_line_summary": "Design an experimental protocol to differentiate Protein X-mediated pathway from canonical EGFR ligand pathway.",
+    "suggested_skill_name": "egfr-bypass-pathway-experiment",
+    "testable_facts": []
+  },
+  "982631b7f36a6996c0904fb6a6d60c25": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 7,
+    "one_line_summary": "Design a microkinetic research program for catalyst characterization in Fischer–Tropsch synthesis.",
+    "suggested_skill_name": "catalyst-characterization-microkinetic-research",
+    "testable_facts": []
+  },
+  "f2de7c57b86a2d19675ae6ac335e4fc6": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze reasons for unsuccessful breast cancer bone metastasis modeling using in vivo imaging.",
+    "suggested_skill_name": "breast-cancer-bone-metastasis-model",
+    "testable_facts": [
+      {
+        "key": "luciferase_expression",
+        "expected": "stable",
+        "tolerance": null
+      },
+      {
+        "key": "tumor_cell_viability",
+        "expected": ">95%",
+        "tolerance": null
+      },
+      {
+        "key": "luciferin_expiration_status",
+        "expected": "within expiry",
+        "tolerance": null
+      }
+    ]
+  },
+  "ac4b8be96c4462bec9be3832b900b664": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 9,
+    "one_line_summary": "Conduct a mutational analysis of a novel genetic disorder linked to a specific gene mutation.",
+    "suggested_skill_name": "genetic-mutation-analysis",
+    "testable_facts": [
+      {
+        "key": "mutation_type",
+        "expected": "point mutation",
+        "tolerance": null
+      },
+      {
+        "key": "wild_type_codon",
+        "expected": "AAG",
+        "tolerance": null
+      },
+      {
+        "key": "mutant_codon",
+        "expected": "UAG",
+        "tolerance": null
+      },
+      {
+        "key": "amino_acid_wild_type",
+        "expected": "Lysine",
+        "tolerance": null
+      },
+      {
+        "key": "amino_acid_mutant",
+        "expected": "stop codon",
+        "tolerance": null
+      }
+    ]
+  },
+  "d1c23edd788ba0874b9abd21274be2be": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate the association between MYC activity and PARPi resistance using RNA-seq data from clinical and preclinical cohorts.",
+    "suggested_skill_name": "parpi-resistance-prediction",
+    "testable_facts": [
+      {
+        "key": "FDR_threshold",
+        "expected": "<0.05",
+        "tolerance": null
+      },
+      {
+        "key": "PDX_models",
+        "expected": 35,
+        "tolerance": null
+      },
+      {
+        "key": "clinical_patients",
+        "expected": 12,
+        "tolerance": null
+      }
+    ]
+  },
+  "ecc2fad90415b8f2800b77c46415cd51": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 6,
+    "one_line_summary": "Design a molecular construction and protein expression strategy for Ku antigen preparation.",
+    "suggested_skill_name": "ku-antigen-preparation",
+    "testable_facts": []
+  },
+  "b5c872dbef8b9b991b24c439bd490f79": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 9,
+    "one_line_summary": "Analyze the molecular consequences of a point mutation in the NXF1 gene associated with a rare neurodegenerative disorder.",
+    "suggested_skill_name": "nxf1-gene-mutation-analysis",
+    "testable_facts": [
+      {
+        "key": "wildtype_codon",
+        "expected": "AAG",
+        "tolerance": null
+      },
+      {
+        "key": "mutant_codon",
+        "expected": "UAG",
+        "tolerance": null
+      },
+      {
+        "key": "protein_change",
+        "expected": "truncated protein",
+        "tolerance": null
+      },
+      {
+        "key": "amino_acid_wildtype",
+        "expected": "Lys",
+        "tolerance": null
+      },
+      {
+        "key": "mutation_type",
+        "expected": "point mutation",
+        "tolerance": null
+      }
+    ]
+  },
+  "75133842b7c1eb6e70780530fa2f5368": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 8,
+    "one_line_summary": "Identify confounding factors that may lead to false positives in predicting PARPi resistance using MYC transcriptional activity.",
+    "suggested_skill_name": "parpi-resistance-myc-confounders",
+    "testable_facts": []
+  },
+  "bcc1868384c522e3bdf546dcf5704d60": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Coordinate onboarding of new employees by following a structured checklist.",
+    "suggested_skill_name": "employee-onboarding-coordination",
+    "testable_facts": []
+  },
+  "ed1bd37139de9be4f91244d7657469fc": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 1,
+    "one_line_summary": "Identify the CFO of Airbnb as of a specific date.",
+    "suggested_skill_name": "identify-current-executive",
+    "testable_facts": []
+  },
+  "b2a6e498a1dd9965c26568cced22def8": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 7,
+    "one_line_summary": "Diagnose and fix a corrupted SQLite WAL file to recover all database records.",
+    "suggested_skill_name": "sqlite-wal-recovery",
+    "testable_facts": []
+  },
+  "920406d21bd4e4e8a2b15e24386db383": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 3,
+    "one_line_summary": "Identify and contact customers based on CRM data analysis and customer tier.",
+    "suggested_skill_name": "crm-customer-follow-up",
+    "testable_facts": []
+  },
+  "e34628b09377f06765571784e7d04ea5": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Analyze conflicting to-do items and calendar schedule for task rescheduling.",
+    "suggested_skill_name": "schedule-conflict-resolution",
+    "testable_facts": []
+  },
+  "12d72c0dc512bbe18947f79a3cd1e3bb": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify expiring contracts and manage CRM for timely renewals.",
+    "suggested_skill_name": "contract-renewal-workflow",
+    "testable_facts": []
+  },
+  "e9ba815ea0c93af44942b1bc05effb41": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Analyze a tennis match video to provide detailed shot-by-shot analysis.",
+    "suggested_skill_name": "tennis-video-analysis",
+    "testable_facts": []
+  },
+  "96d8af69306c2037c6ea7d70d8674146": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Analyze a tennis video clip for match statistics between amateurs and professionals.",
+    "suggested_skill_name": "tennis-match-analysis",
+    "testable_facts": []
+  },
+  "4479a250495db6526c7b416aa43b03e7": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine the number of games in a badminton match and analyze specific points.",
+    "suggested_skill_name": "sports-match-analysis",
+    "testable_facts": []
+  },
+  "440babce94fd88c75c2ddede83729c98": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify and describe instances in a video where a player hits a winning defensive lob.",
+    "suggested_skill_name": "sports-video-analysis",
+    "testable_facts": []
+  },
+  "0580cc0c341db78b8748ad4184fb33ed": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Identify key events and outcomes in a video of a tennis match.",
+    "suggested_skill_name": "tennis-video-event-analysis",
+    "testable_facts": []
+  },
+  "c232fb17d468ec8d2e91986d62d30a2a": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Identify and count break points faced and saved by two tennis players in a video.",
+    "suggested_skill_name": "tennis-break-point-analysis",
+    "testable_facts": []
+  },
+  "02f439d51e1cf25cc9a69b2cf8081bcb": {
+    "is_healthcare": true,
+    "domain": "pharmacology",
+    "difficulty_score": 8,
+    "one_line_summary": "Evaluate drug interactions and risks of combining amiodarone, digoxin, warfarin, and spironolactone in an elderly patient with impaired renal function.",
+    "suggested_skill_name": "polypharmacy-risk-evaluation",
+    "testable_facts": []
+  },
+  "a1f90a8feda35b0234dd1c19a109010d": {
+    "is_healthcare": true,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Understand guidelines for community follow-up and crisis indicators for comorbid patients.",
+    "suggested_skill_name": "community-follow-up-guidelines",
+    "testable_facts": []
+  },
+  "152b9781486378455242ed253c2b26ce": {
+    "is_healthcare": true,
+    "domain": "public-health",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine changes in assessment indicators for chronic disease management in the latest national public health service norms.",
+    "suggested_skill_name": "chronic-disease-assessment-update",
+    "testable_facts": []
+  },
+  "69f48848f098ab009b2ca5b6d37d84d1": {
+    "is_healthcare": true,
+    "domain": "pharmacology",
+    "difficulty_score": 4,
+    "one_line_summary": "Determine if ibuprofen is suitable for post-vaccine fever and the appropriate dosage.",
+    "suggested_skill_name": "post-vaccine-fever-management",
+    "testable_facts": []
+  },
+  "9168f3f24853a3e1e3c1efb9ddb50b05": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Convert U.S. Treasury investments from dollars to yen using specific date conversion rate.",
+    "suggested_skill_name": "currency-conversion-calculation",
+    "testable_facts": []
+  },
+  "4354fafdf7b2ed9062a5709acb0113d9": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 4,
+    "one_line_summary": "Predict the US department of agriculture's outlays using linear regression based on historical data.",
+    "suggested_skill_name": "linear-regression-financial-forecasting",
+    "testable_facts": [
+      {
+        "key": "slope",
+        "expected": 273.28,
+        "tolerance": 0.01
+      },
+      {
+        "key": "y-intercept",
+        "expected": 54244,
+        "tolerance": 1.0
+      },
+      {
+        "key": "predicted_value_1999",
+        "expected": 56703,
+        "tolerance": 1.0
+      }
+    ]
+  },
+  "e6a2ac34cfa81c90f27dc2f7d3d3c40d": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 5,
+    "one_line_summary": "Apply a Hodrick Prescott filter to fiscal year data and compute balances.",
+    "suggested_skill_name": "financial-trend-analysis",
+    "testable_facts": []
+  },
+  "598169e7bb3a8a8b83874c7a0853ec8d": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 3,
+    "one_line_summary": "Determine the change in share and absolute value of Series I bond redemptions from 2000 to 2005.",
+    "suggested_skill_name": "financial-document-analysis",
+    "testable_facts": []
+  },
+  "aa28e8ca16cb6aa60a7ee98574782e1f": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Compute a weighted average of U.S. Federal Securities for specific years.",
+    "suggested_skill_name": "weighted-average-financial-computation",
+    "testable_facts": []
+  },
+  "e231b61fbe81c0cfef55c655f3f56bca": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Perform time series analysis on surplus/deficit values and estimate future financial status.",
+    "suggested_skill_name": "financial-time-series-analysis",
+    "testable_facts": []
+  },
+  "683f0be72304d76fd49a85ca3f4b0813": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 7,
+    "one_line_summary": "Calculate and analyze treasury bill amounts and geometric mean over a specified period.",
+    "suggested_skill_name": "treasury-bill-analysis",
+    "testable_facts": []
+  },
+  "0ca95df7129d44cd02f146daa363ba78": {
+    "is_healthcare": false,
+    "domain": "finance",
+    "difficulty_score": 7,
+    "one_line_summary": "Calculate portfolio loss in billions of JPY for U.S. Treasury securities held by mutual funds with 1% probability.",
+    "suggested_skill_name": "portfolio-loss-calculation",
+    "testable_facts": []
+  },
+  "0b4845c84f203e880faff0901d88852d": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 4,
+    "one_line_summary": "Fit a quadratic model to historical economic data and perform a projection calculation.",
+    "suggested_skill_name": "historical-data-projection",
+    "testable_facts": []
+  },
+  "8e439654b0af0297ee721160297a6388": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 2,
+    "one_line_summary": "Determine the total outstanding amount of specific securities based on U.S. Treasury ownership survey.",
+    "suggested_skill_name": "financial-securities-aggregation",
+    "testable_facts": []
+  },
+  "d2a5ba22bcf19195de14a01d21fa7b15": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the difference in U.S. federal receipts between October 1939 and October 1938.",
+    "suggested_skill_name": "fiscal-receipts-comparison",
+    "testable_facts": []
+  },
+  "4f0aa2ede69d29f6aa18a359e92aa9c8": {
+    "is_healthcare": false,
+    "domain": "N/A",
+    "difficulty_score": 0,
+    "one_line_summary": "Calculate financial ratios and conversions using historical U.S. Treasury data.",
+    "suggested_skill_name": "financial-ratio-conversion",
+    "testable_facts": []
+  },
+  "523f9b17b096eecd450dd5d48cfc6530": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 4,
+    "one_line_summary": "Calculate a financial trend using Treasury auction data post-Black Monday.",
+    "suggested_skill_name": "financial-trend-analysis",
+    "testable_facts": []
+  },
+  "8bb3187d39a3e4f8719986571bec3e17": {
+    "is_healthcare": false,
+    "domain": "public-health",
+    "difficulty_score": 3,
+    "one_line_summary": "Calculate the absolute percentage and absolute difference in marketable securities adjusted for inflation.",
+    "suggested_skill_name": "financial-statistics-calculation",
+    "testable_facts": [
+      {
+        "key": "absolute_percentage_difference",
+        "expected": 0.69,
+        "tolerance": null
+      },
+      {
+        "key": "absolute_difference",
+        "expected": 1061,
+        "tolerance": null
+      }
+    ]
+  },
+  "92d7ac2a239541d3c380489a5997bf3b": {
+    "is_healthcare": false,
+    "domain": "document-qa",
+    "difficulty_score": 2,
+    "one_line_summary": "Calculate the Euclidean norm of the absolute change in Treasury bill amounts over a period.",
+    "suggested_skill_name": "treasury-bill-analysis",
+    "testable_facts": []
+  },
+  "ae01dec0c16818ef2f04ed339ce7a5dc": {
+    "is_healthcare": false,
+    "domain": "health-informatics",
+    "difficulty_score": 5,
+    "one_line_summary": "De-identify patient records while preserving medical data and generate aggregate statistics.",
+    "suggested_skill_name": "data-deidentification-healthcare",
+    "testable_facts": []
+  },
+  "283422727b9f45efe5b9c96da618599b": {
+    "is_healthcare": true,
+    "domain": "document-qa",
+    "difficulty_score": 4,
+    "one_line_summary": "Determine abnormality and classify severity of lab test results based on reference ranges.",
+    "suggested_skill_name": "lab-results-abnormality-detection",
+    "testable_facts": []
+  },
+  "4341a5139fad706f0deb93abee5753d8": {
+    "is_healthcare": true,
+    "domain": "pharmacology",
+    "difficulty_score": 4,
+    "one_line_summary": "Identify and report drug interactions for patients based on their medication records and a known interaction database.",
+    "suggested_skill_name": "medication-interaction-checker",
+    "testable_facts": []
+  },
+  "69942caa731414b39f1dc91984722ff5": {
+    "is_healthcare": true,
+    "domain": "medical-coding",
+    "difficulty_score": 5,
+    "one_line_summary": "Identify ICD-10 codes from clinical notes using a keyword mapping.",
+    "suggested_skill_name": "icd-10-coding-from-notes",
+    "testable_facts": []
+  },
+  "e88c1efe9567ac32b3359f898083afcf": {
+    "is_healthcare": true,
+    "domain": "clinical-research",
+    "difficulty_score": 6,
+    "one_line_summary": "Determine patient eligibility for a clinical trial based on inclusion and exclusion criteria.",
+    "suggested_skill_name": "clinical-trial-patient-screening",
+    "testable_facts": []
+  }
+}

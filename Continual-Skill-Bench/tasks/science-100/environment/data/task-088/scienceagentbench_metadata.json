@@ -1,0 +1,11 @@
+{
+  "instance_id": 8,
+  "domain": "Bioinformatics",
+  "subtask_categories": "Feature Selection, Data Visualization",
+  "github_name": "psa-lab/predicting-activity-by-machine-learning",
+  "src_file_or_path": "code/dkpes_fgroup_analysis.ipynb",
+  "gold_program_name": "dkpes_visualization_3.py",
+  "output_fname": "pred_results/dkpes_feature_selection_analysis_pred.png",
+  "eval_script_name": "eval_dkpes_visualization_3.py",
+  "full_dataset_note": "The ScienceAgentBench public Hugging Face row exposes folder tree and previews, but not the complete original benchmark dataset files in this scrape."
+}

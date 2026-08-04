@@ -1,0 +1,100 @@
+Protocol for isolating amnion cells from human and non-human Amnion collection
+Timing: 1 h
+1.	Place the placenta on a sterile tray. Find the point of rupture in the membranes and lift the fetal membranes (i.e., amnion-chorion-decidua parietalis).
+a.	With sterile scissors, cut the membranes and place them on the tray with the decidua parietalis on the top and the amnion on the bottom. For a correct orientation: the amnion is smooth and shiny while the decidua parietalis is rough (Figure 1A).
+b.	With sterile tweezers, remove the blood clots (Figure 1B).
+c.	Rinse the fetal membranes with washing buffer with antibiotics (Figure 1C).
+d.	Pre-wet a second sterile tray with washing buffer with antibiotics and transfer the fetal membranes.
+2.	With a cell scraper, gently remove the chorion-decidua and collect the amnion (Figures 1D and 1E).
+3.	Weigh and record the amnion weight.
+4.	Place the amnion in a pre-wet sterile Petri dish with washing buffer with antibiotics (Figure 1 F).
+5.	Finely mince the amnion using opposing scalpels (Figure 1G).
+6.	Proceed with either tissue digestion to obtain amnion cell suspension for flow cytometry analysis or RNA extraction for RNA-seq experiments.
+7.	After amnion collection, follow:
+a.	Steps 8–29 for cell isolation and flow cytometry analysis.
+b.	Steps 30–71 for RNA extraction and RNA-seq library preparation.
+Critical: placenta must be collected and processed within 30 min after delivery.
+Amnion digestion, cell isolation, and cell staining for flow cytometry
+Timing: 3 h
+In this section, we describe in detail the steps for optimal amnion tissue digestion and for amnion cell isolation. We recommend beginning with fresh tissues for amnion cell isolation
+8.	Place the minced amnion in a sterile Erlenmeyer flask and add the digestion buffer (see “Digestion buffer” table above) consisting of:
+a.	1 mL of stock solution of collagenase A.
+b.	10 mL of stock solution of dispase II.
+c.	Pre-warmed medium at 37°C (89 mL).
+9.	Seal the flask with parafilm wrapping film and incubate for 30 min at 37°C with rotation (225 RPM) (Figure 2A).
+10.	Move the flask to the safety cabinet and add 200 μL of stock solution of DNaseI (final concentration 4 μg/mL).
+11.	Seal the flask and incubate for 30 min at 37°C with rotation (225 RPM).
+12.	A successful digestion results in the complete amnion dissociation (Figure 2B).
+13.	Filter the digested amnion through a sterile 70-μm nylon mesh to remove cell clumps of residuals of undigested amnion (Figure 2C).
+14.	Pellet the cell suspension for 7 min at 600 × g (RT) (Figure 2D).
+15.	Gently discard the supernatant (see the troubleshooting section – problem 2).
+16.	Resuspend the cell pellet in 50 mL of sterile PBS 1× (Figure 2E).
+17.	Pellet the cell solution for 7 min at 600 × g (RT).
+18.	Repeat steps 16 and 17.
+19.	Proceed with cell count with trypan blue exclusion test and record the cell viability.
+20.	In FACS tubes or in wells of rounded 96-well, resuspend 1 × 106 cells in 50 μL of blocking buffer/tube or well and incubate for 10 min at 4°C.
+21.	Add antibodies: Live/Dead Fixable Aqua Dead Cell Stain Kit and CD45.
+22.	Protect the tubes/plates from the light and incubate for 20 min at 4°C.
+23.	Add 500 μL/tube or 150 μL/well of cold FACS washing buffer.
+24.	Spin the tubes or plates for 4 min at 930 × g at 4°C.
+25.	Carefully aspirate the supernatant without disturbing the cell pellet.
+26.	Repeat steps 23→25.
+27.	Resuspend the cell pellet in 200 μL of BD stabilizing solution.
+28.	Where a plate was used for staining, transfer the cell solution in a FACS tube. If not, proceed directly to step 29.
+29.	Acquire at least 500,000 event/tube. Representative flow cytometry gating strategy is shown in Figure 3.
+Critical: After each centrifugation, carefully aspirate the supernatant because cell pellet may be loose.
+RNA extraction, library preparation, and RNA-seq
+Timing: varies (>3 days)
+30.	Pre-label 3 sets of sterile and nuclease-free tubes:
+a.	2 mL tube.
+b.	2 mL Phasemaker tube.
+c.	1.5 mL tube.
+31.	Pre-cool the minicentrifuge at 4°C.
+32.	Centrifuge the Phasemaker tubes for 30 s at 14,000 × g prior to use.
+33.	Using sterile tweezers, transfer 50–100 mg of minced amnion in a sterile 2 mL tube.
+34.	Add 2 sterile metal beads/tube.
+35.	Add 1 mL of Trizol reagent/tube (Figure S1A).
+36.	Transfer the tube/s into the tissue lyser.
+37.	After 3 min at 30/s check if the amnion is completely lysed (Figure S1B). If not, repeat step 37.
+38.	Transfer each sample in one Phasemaker tube (Figure S1C).
+39.	Incubate for 5 min at RT to allow complete dissociation of the nucleoproteins complex.
+40.	Add 0.2 mL of 80% ethanol and shake the tube/s vigorously by hand for 15 s.
+41.	Incubate for 15 min.
+42.	Centrifuge the tube/s for 5 min at 14,000 × g at 4°C.
+43.	The solution will be separated into three phases: a colorless upper phase containing RNA, an interphase, and a lower red phenol-chloroform phase (Figure S1D).
+44.	Carefully transfer the aqueous upper phase to a new 1.5 mL tube. Proceed to RNA precipitation. Total RNA precipitate forms a white gel-like pellet at the bottom of the tube (Figure S1E). Wash the RNA and solubilize the RNA.
+45.	Measure the concentration of extracted RNA using the Qubit RNA BR Assay, according to the manufacturer’s protocol (see the troubleshooting section – problem 3).
+46.	Evaluate the quality (RNA integrity – RINe, and the DV200) of the extracted RNA using the Agilent TapeStation Eukaryotic RNA Assay (Figure 4B). If the concentration measured in the previous step exceeds 500 ng/μL, then dilute the RNA accordingly (between 20 to 500 ng/μL). Alternatively, equivalent methods such as BioAnalyzer, QIAxcel, LabChip GX, etc., can be used (see the troubleshooting section – problem 4).
+47.	Both human and non-human primate RNA samples are processed according to NEBNext rRNA Depletion Kit (Human/Mouse/Rat). We suggest starting with at least 200 ng of total RNA (see the troubleshooting section – problem 5).
+48.	Referring to the Section 2 of the NEB manual E6350, perform the following steps: hybridization of probes to the RNA; RNase H digestion; DNase I digestion; RNA purification using NEBNext RNA Purification beads. Purified RNA has a volume of 5 μL.
+49.	Proceed with the library preparation using the NEBNext Ultra II Directional RNA kit. For partially degraded samples (RINe 2-7) continue with the fragmentation and priming step (steps 21a→d Section 2 of the NEB manual E6350), while for highly degraded RNA samples (RINe <2, usually Rhesus samples in our experience) skip to the priming step (steps 22a→d Section 2 of the NEB manual E6350).
+50.	PARTIALLY DEGRADED (RIN 2-7) SAMPLES ONLY:
+a.	Mix the rRNA-depleted sample (5 μL) with the 1st strand reaction buffer (4 μL) and random primers (1 μL).
+b.	Incubate the 10 μL reaction for 8 min at 94°C, then immediately transfer the samples on ice.
+c.	Add 8 μL of strand specificity reagent and 2 μL of 1st strand synthesis enzyme mix. Incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).
+d.	Proceed to 2nd strand synthesis (step 23 Section 2 of the NEB manual E6350; downloadable from https://zenodo.org/records/10691497).
+51.	HIGHLY DEGRADED (RIN <2) SAMPLES ONLY:
+a.	Prime the rRNA-depleted RNA by adding 1 μL of random primers and incubate for 5 min at 65°C (heated lid > 90°C).
+b.	Immediately transfer on ice and add 8 μL of Strand Specificity Reagent, 4 μL of 1st strand reaction buffer and 2 μL of 1st strand synthesis enzyme mix.
+c.	Mix by pipetting and incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).
+d.	Proceed to second strand synthesis step 23 (Section 2 of the NEB manual E6350)
+52.	Proceed with the second strand synthesis, the following purification and EndPrep reactions according to the NEB manual (section 2, steps: 2.7, 2.8, 2.9; downloadable from https://zenodo.org/records/10691497).
+53.	Ligate the End-Repaired and dA-tailed cDNA fragments (60 μL) using 2.5 μL of a 10-fold dilution of the NEBNext Adaptor (dilution obtained using the Adaptor Dilution Buffer; kit NEBNext Multiplex Oligos for Illumina - 96 Unique Dual Index Primer Pairs), 1 μL of the ligation enhancer and 30 μL of the Ligation Master Mix.
+54.	Incubate for 15 min at 20°C in a thermocycler with heated lid off (or with open lid).
+55.	Add 3 μL of the USERenzyme and incubate for 15 min at 37°C (heated lid > 50°C).
+56.	Proceed to the purification using 0.9 volumes (87 μL) of the Sample Purification Beads.
+57.	Enrich purified adapter-ligated DNA fragments (15 μL) via PCR by mixing in the following components: 25 μL of NEBNext Ultra II Q5 Master Mix; 10 μL of dual index primer pair. Although discouraged, it is also possible to use:
+a.	Combinatorial dual indexed primers;
+b.	Single indexed i7 primer and universal i5 primer.
+58.	Incubate the reaction for 30 s at 98°C for the initial denaturation; followed by 12 cycles of: 98°C for 10 s; 65°C for 75 s. The final extension is performed at 65°C for 5 min, then hold at 4°C.
+59.	Purify the amplified libraries with 0.9 volumes of Sample Purification beads according to manufacturer’s guidelines, resulting in 20 μL of purified final library.
+60.	Quantify the final libraries using Qubit BR DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (see the troubleshooting section – problems 6 and 7).
+61.	The final libraries are now ready to be enriched for the coding transcriptome using the Illumina TruSeq RNA Exome kit.
+62.	Mix approximately 200 ng for each of four libraries in one pool (4-plex pool). If the number of samples is lower or if a different plexity is desired, please check the reference guide.
+63.	Perform two rounds of hybridization/capture according to the TruSeq RNA Exome Reference Guide (1000000039582; downloadable from https://zenodo.org/records/10691497).
+64.	After the second elution from streptavidin beads is complete, purify libraries using 1.8 volumes (45 μL) of SPRIselect beads.
+65.	Mix the eluted enriched library pool (25 μL) with the Illumina PCR Primer cocktail (5 μL) and Enhanced PCR Mix (20 μL).
+66.	Amplify the 50 μL reaction using the following program: initial denaturation for 30 s at 98°C; 10 cycles of: 98°C for 10 s, 60°C for 30 s, 72°C for 30 s; final elongation at 72°C for 5 min, then hold at 6°C.
+67.	Purify amplified library pools using 1.8 volumes (90 μL) of SPRIselect beads and elute them in 30 μL.
+68.	Quantify purified final library pools using Qubit HS DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (Figure 4C) (see the troubleshooting section – problem 7).
+69.	Dilute library pools and submit them for Next-Generation Sequencing (Illumina) according to the service provider recommendations. The recommended read length for sequencing is 50 paired-end, but other options are allowed (not shorter than 50 single-end).

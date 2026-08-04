@@ -1,0 +1,7 @@
+[START Preview of hiv/HIV_train.csv]
+smiles,activity,HIV_active
+O=C(O)CC(NC(=O)OCc1ccccc1)C(=O)O,CI,0
+O=[N+]([O-])c1ccc(Nc2ccccc2)c2nonc12,CI,0
+CCOC(=O)C(=NNc1ccc(C)cc1)N1C(=S)N(C)N=C(C)C=C1S,CI,0
+...
+[END Preview of hiv/HIV_train.csv]

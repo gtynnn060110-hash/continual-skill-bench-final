@@ -1,0 +1,144 @@
+#!/bin/bash
+set -euo pipefail
+
+# Install curl if not available.
+if command -v apk &> /dev/null; then
+    apk add --no-cache curl bash procps
+elif command -v apt-get &> /dev/null; then
+    apt-get update
+    apt-get install -y curl procps
+fi
+
+if ! command -v curl &> /dev/null; then
+    echo "Error: curl is required" >&2
+    exit 1
+fi
+
+TARGET="{% if version %}{{ version }}{% endif %}"
+DOWNLOAD_DIR="$HOME/.claude/downloads"
+mkdir -p "$DOWNLOAD_DIR"
+
+download_file() {
+    local url="$1"
+    local output="${2:-}"
+
+    if [[ -n "$output" ]]; then
+        curl -fsSL --retry 3 --retry-all-errors --connect-timeout 10 -o "$output" "$url"
+    else
+        curl -fsSL --retry 3 --retry-all-errors --connect-timeout 10 "$url"
+    fi
+}
+
+get_checksum_from_manifest() {
+    local json="$1"
+    local platform="$2"
+
+    json=$(echo "$json" | tr -d '\n\r\t' | sed 's/  */ /g')
+    if [[ $json =~ \"$platform\"[^}]*\"checksum\"[[:space:]]*:[[:space:]]*\"([a-f0-9]{64})\" ]]; then
+        echo "${BASH_REMATCH[1]}"
+        return 0
+    fi
+
+    return 1
+}
+
+resolve_platform() {
+    local os
+    local arch
+    local platform
+
+    case "$(uname -s)" in
+        Darwin) os="darwin" ;;
+        Linux) os="linux" ;;
+        MINGW*|MSYS*|CYGWIN*)
+            echo "Windows is not supported by this script. See https://code.claude.com/docs for installation options." >&2
+            exit 1
+            ;;
+        *)
+            echo "Unsupported operating system: $(uname -s). See https://code.claude.com/docs for supported platforms." >&2
+            exit 1
+            ;;
+    esac
+
+    case "$(uname -m)" in
+        x86_64|amd64) arch="x64" ;;
+        arm64|aarch64) arch="arm64" ;;
+        *)
+            echo "Unsupported architecture: $(uname -m)" >&2
+            exit 1
+            ;;
+    esac
+
+    if [[ "$os" == "darwin" && "$arch" == "x64" ]] && [[ "$(sysctl -n sysctl.proc_translated 2>/dev/null || true)" == "1" ]]; then
+        arch="arm64"
+    fi
+
+    if [[ "$os" == "linux" ]]; then
+        if [[ -f /lib/libc.musl-x86_64.so.1 || -f /lib/libc.musl-aarch64.so.1 ]] || ldd /bin/ls 2>&1 | grep -q musl; then
+            platform="linux-${arch}-musl"
+        else
+            platform="linux-${arch}"
+        fi
+    else
+        platform="${os}-${arch}"
+    fi
+
+    echo "$platform"
+}
+
+DOWNLOAD_BASE_URLS=(
+    "https://ghproxy.com/https://downloads.claude.ai/claude-code-releases"
+    "https://mirror.ghproxy.com/https://downloads.claude.ai/claude-code-releases"
+    "https://downloads.claude.ai/claude-code-releases"
+)
+
+platform="$(resolve_platform)"
+
+for base_url in "${DOWNLOAD_BASE_URLS[@]}"; do
+    if [[ -n "$TARGET" && "$TARGET" != "latest" && "$TARGET" != "stable" ]]; then
+        version="$TARGET"
+    else
+        if ! version="$(download_file "$base_url/latest")"; then
+            continue
+        fi
+    fi
+
+    if ! manifest_json="$(download_file "$base_url/$version/manifest.json")"; then
+        continue
+    fi
+
+    checksum="$(get_checksum_from_manifest "$manifest_json" "$platform" || true)"
+    if [[ -z "$checksum" ]]; then
+        continue
+    fi
+
+    binary_path="$DOWNLOAD_DIR/claude-$version-$platform"
+    if ! download_file "$base_url/$version/$platform/claude" "$binary_path"; then
+        rm -f "$binary_path"
+        continue
+    fi
+
+    if [[ "$platform" == darwin* ]]; then
+        actual="$(shasum -a 256 "$binary_path" | cut -d' ' -f1)"
+    else
+        actual="$(sha256sum "$binary_path" | cut -d' ' -f1)"
+    fi
+
+    if [[ "$actual" != "$checksum" ]]; then
+        echo "Checksum verification failed" >&2
+        rm -f "$binary_path"
+        continue
+    fi
+
+    chmod +x "$binary_path"
+    echo "Setting up Claude Code..."
+    "$binary_path" install
+    rm -f "$binary_path"
+
+    export PATH="$HOME/.local/bin:$PATH"
+    claude --version
+    exit 0
+done
+
+echo "Error: unable to install Claude Code from any available source" >&2
+exit 1

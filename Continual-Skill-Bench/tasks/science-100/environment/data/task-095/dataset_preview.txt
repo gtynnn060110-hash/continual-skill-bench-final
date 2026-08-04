@@ -1,0 +1,7 @@
+[START Preview of ames/train.csv]
+,Drug_ID,Drug,Y
+0,Drug 2589,c1ccc2cnccc2c1,0
+1,Drug 2217,Nc1c2ncn(Cc3ccccc3)c2nc[n+]1[O-],1
+2,Drug 5485,CC1=CC(=C(C#N)C#N)C=C(/C=C/c2ccc(N(C)C)cc2)O1,1
+...
+[END Preview of ames/train.csv]

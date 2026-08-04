@@ -1,0 +1,178 @@
+# Independent trials for healthcare-100 subtasks
+# Usage:
+#   harbor jobs start -c /Users/gtynnn/Documents/Learning/llm_porj/Continual-Skill-Bench/experiments/configs/healthcare_100_independent_trials.yaml
+
+job_name: hc_independent_trials_opus
+jobs_dir: ../jobs
+n_attempts: 1
+timeout_multiplier: 1.0
+debug: true
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 5
+  quiet: false
+  retry:
+    max_retries: 0
+    include_exceptions: null
+    exclude_exceptions:
+      - VerifierTimeoutError
+      - BadRequestError
+      - RateLimitError
+    wait_multiplier: 1.0
+    min_wait_sec: 1.0
+    max_wait_sec: 60.0
+  kwargs: {}
+
+environment:
+  type: docker
+  import_path: null
+  force_build: false
+  delete: false
+  override_cpus: null
+  override_memory_mb: null
+  override_storage_mb: null
+  override_gpus: null
+  kwargs: {}
+
+verifier:
+  override_timeout_sec: null
+  max_timeout_sec: null
+  disable: false
+
+metrics: []
+
+agents:
+  - name: claude-code-seq
+    import_path: null
+    model_name: anthropic/claude-opus-4.7
+    override_timeout_sec: null
+    override_setup_timeout_sec: null
+    max_timeout_sec: null
+    kwargs:
+      reasoning_effort: medium
+      enable_judge_feedback: true
+      judge_model: openai/gpt-5.4
+      judge_pass_threshold: 0.6
+      skill_maintenance_threshold: 0.2
+      max_steps_per_task: 30
+      max_seconds_per_task: 1200
+  # - name: claude-code-seq
+  #   import_path: null
+  #   model_name: ~anthropic/claude-haiku-latest
+  #   override_timeout_sec: null
+  #   override_setup_timeout_sec: 1200
+  #   max_timeout_sec: null
+  #   kwargs: 
+  #       reasoning_effort: "medium"
+  #       enable_judge_feedback: true
+  #       judge_model: openrouter/google/gemini-3.1-pro-preview #must have openrouter prefix, otherwise it will be treated as an anthropic model
+  #       judge_pass_threshold: 0.6
+  #       skill_maintenance_threshold: 0.2
+  #       max_steps_per_task: 30
+  #       max_seconds_per_task: 1200  # 20 min wall-clock cap per subtask
+
+
+datasets:
+  - path: ./tasks/healthcare-100-independent-trials
+    task_names:
+      - hc-ind-001
+      - hc-ind-002
+      - hc-ind-003
+      - hc-ind-004
+      - hc-ind-005
+      - hc-ind-006
+      - hc-ind-007
+      - hc-ind-008
+      - hc-ind-009
+      - hc-ind-010
+      - hc-ind-011
+      - hc-ind-012
+      - hc-ind-013
+      - hc-ind-014
+      - hc-ind-015
+      - hc-ind-016
+      - hc-ind-017
+      - hc-ind-018
+      - hc-ind-019
+      - hc-ind-020
+      - hc-ind-021
+      - hc-ind-022
+      - hc-ind-023
+      - hc-ind-024
+      - hc-ind-025
+      - hc-ind-026
+      - hc-ind-027
+      - hc-ind-028
+      - hc-ind-029
+      - hc-ind-030
+      - hc-ind-031
+      - hc-ind-032
+      - hc-ind-033
+      - hc-ind-034
+      - hc-ind-035
+      - hc-ind-036
+      - hc-ind-037
+      - hc-ind-038
+      - hc-ind-039
+      - hc-ind-040
+      - hc-ind-041
+      - hc-ind-042
+      - hc-ind-043
+      - hc-ind-044
+      - hc-ind-045
+      - hc-ind-046
+      - hc-ind-047
+      - hc-ind-048
+      - hc-ind-049
+      - hc-ind-050
+      - hc-ind-051
+      - hc-ind-052
+      - hc-ind-053
+      - hc-ind-054
+      - hc-ind-055
+      - hc-ind-056
+      - hc-ind-057
+      - hc-ind-058
+      - hc-ind-059
+      - hc-ind-060
+      - hc-ind-061
+      - hc-ind-062
+      - hc-ind-063
+      - hc-ind-064
+      - hc-ind-065
+      - hc-ind-066
+      - hc-ind-067
+      - hc-ind-068
+      - hc-ind-069
+      - hc-ind-070
+      - hc-ind-071
+      - hc-ind-072
+      - hc-ind-073
+      - hc-ind-074
+      - hc-ind-075
+      - hc-ind-076
+      - hc-ind-077
+      - hc-ind-078
+      - hc-ind-079
+      - hc-ind-080
+      - hc-ind-081
+      - hc-ind-082
+      - hc-ind-083
+      - hc-ind-084
+      - hc-ind-085
+      - hc-ind-086
+      - hc-ind-087
+      - hc-ind-088
+      - hc-ind-089
+      - hc-ind-090
+      - hc-ind-091
+      - hc-ind-092
+      - hc-ind-093
+      - hc-ind-094
+      - hc-ind-095
+      - hc-ind-096
+      - hc-ind-097
+      - hc-ind-098
+      - hc-ind-099
+      - hc-ind-100

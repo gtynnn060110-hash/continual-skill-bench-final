@@ -1,0 +1,122 @@
+[
+  {
+    "local_task": "task-081",
+    "source_id": "sab-1",
+    "instance_id": 1,
+    "gold_program_name": "clintox_nn.py",
+    "output_fname": "pred_results/clintox_test_pred.csv",
+    "eval_script_name": "clintox_nn_eval.py"
+  },
+  {
+    "local_task": "task-082",
+    "source_id": "sab-2",
+    "instance_id": 2,
+    "gold_program_name": "mat_feature_select.py",
+    "output_fname": "pred_results/mat_diffusion_features.csv",
+    "eval_script_name": "eval_mat_feature_select.py"
+  },
+  {
+    "local_task": "task-083",
+    "source_id": "sab-3",
+    "instance_id": 3,
+    "gold_program_name": "predict_bulk_modulus.py",
+    "output_fname": "pred_results/compound_bulk_modulus.csv",
+    "eval_script_name": "eval_bulk_modulus.py"
+  },
+  {
+    "local_task": "task-084",
+    "source_id": "sab-4",
+    "instance_id": 4,
+    "gold_program_name": "elk_new.py",
+    "output_fname": "pred_results/Elk_Analysis.png",
+    "eval_script_name": "eval_elk_analysis.py"
+  },
+  {
+    "local_task": "task-085",
+    "source_id": "sab-5",
+    "instance_id": 5,
+    "gold_program_name": "dkpes_model_development_1.py",
+    "output_fname": "pred_results/dkpes_test_pred.csv",
+    "eval_script_name": "eval_dkpes_model_development_1.py"
+  },
+  {
+    "local_task": "task-086",
+    "source_id": "sab-6",
+    "instance_id": 6,
+    "gold_program_name": "dkpes_visualization_1.py",
+    "output_fname": "pred_results/dkpes_molecular_analysis_pred.png",
+    "eval_script_name": "eval_dkpes_visualization_1.py"
+  },
+  {
+    "local_task": "task-087",
+    "source_id": "sab-7",
+    "instance_id": 7,
+    "gold_program_name": "dkpes_visualization_2.py",
+    "output_fname": "pred_results/dkpes_molecular_activity_analysis_pred.png",
+    "eval_script_name": "eval_dkpes_visualization_2.py"
+  },
+  {
+    "local_task": "task-088",
+    "source_id": "sab-8",
+    "instance_id": 8,
+    "gold_program_name": "dkpes_visualization_3.py",
+    "output_fname": "pred_results/dkpes_feature_selection_analysis_pred.png",
+    "eval_script_name": "eval_dkpes_visualization_3.py"
+  },
+  {
+    "local_task": "task-089",
+    "source_id": "sab-9",
+    "instance_id": 9,
+    "gold_program_name": "FACTORS_correlations.py",
+    "output_fname": "pred_results/Factors_correlations.png",
+    "eval_script_name": "FACTORS_correlations_eval.py"
+  },
+  {
+    "local_task": "task-090",
+    "source_id": "sab-10",
+    "instance_id": 10,
+    "gold_program_name": "toronto_new.py",
+    "output_fname": "pred_results/Fire_Service_Analysis.png",
+    "eval_script_name": "eval_toronto_fire.py"
+  },
+  {
+    "local_task": "task-091",
+    "source_id": "sab-11",
+    "instance_id": 11,
+    "gold_program_name": "BBBC002_cell-count.py",
+    "output_fname": "pred_results/cell-count_pred.csv",
+    "eval_script_name": "BBBC002_cell_count_eval.py"
+  },
+  {
+    "local_task": "task-092",
+    "source_id": "sab-12",
+    "instance_id": 12,
+    "gold_program_name": "davis_dti.py",
+    "output_fname": "pred_results/davis_dti_repurposing.txt",
+    "eval_script_name": "davis_dti_eval.py"
+  },
+  {
+    "local_task": "task-093",
+    "source_id": "sab-13",
+    "instance_id": 13,
+    "gold_program_name": "drug_property_model.py",
+    "output_fname": "pred_results/hiv_test_pred.csv",
+    "eval_script_name": "drug_property_eval.py"
+  },
+  {
+    "local_task": "task-094",
+    "source_id": "sab-14",
+    "instance_id": 14,
+    "gold_program_name": "flooding_gpd.py",
+    "output_fname": "pred_results/flooding_analysis.png",
+    "eval_script_name": "eval_flooding_gpd.py"
+  },
+  {
+    "local_task": "task-095",
+    "source_id": "sab-15",
+    "instance_id": 15,
+    "gold_program_name": "aai.py",
+    "output_fname": "pred_results/aai_preds.csv",
+    "eval_script_name": "admet_ai_eval.py"
+  }
+]

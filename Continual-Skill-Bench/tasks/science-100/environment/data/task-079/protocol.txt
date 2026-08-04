@@ -1,0 +1,80 @@
+Lentivirus-mediated organoid transduction
+To study the molecular mechanisms of bacteria-epithelium interaction, it may be necessary 
+Part 1. Preparation of organoid stem cells for viral transduction
+This step allows the generation of small pieces of organoid fractions containing stem cells, which are the targets of viral transduction.
+Day 1. Matrigel coating
+Timing: ∼10 min
+48.	Coat the 24 wells plates with 100 μL Matrigel to evenly cover the wells.
+a.	Wash the wells with 500 μL of cold PBS so that the Matrigel can be evenly spread.
+b.	Using a cold tip, evenly spread 100 μL/well of Matrigel and incubate at 37°C to solidify the Matrigel.
+Day 1. Organoid stem cells for virus infection
+Timing: ∼30 min
+49.	Liquefy the Matrigel containing SC-enriched organoids (Generation of stem cell-enriched organoids to facilitate microinjection).
+a.	Aspirate the medium and add 500 μL/well of Cell Recovery Solution.
+b.	Incubate the plate at 4°C (e.g., in the fridge).
+50.	After 5–10 min, place the plate on ice. Using cold 1 mL pipet tips, scratch the Matrigel several times to break it down.
+51.	Put back the plate at 4°C until the Matrigel is dissolved. This takes total of ∼ 15 min.
+52.	Place the plates on ice. Using 1 mL cold pipet tip, harshly pipet up and down to physically dissociate the organoids into small pieces.
+53.	Collect the organoids in a 15 mL Falcon tube on ice.
+54.	Add at least 3X volume of cold Advanced DMEM/F12 and mix well to be homogenous.
+55.	Centrifuge at 4°C, 300g for 5 min.
+56.	The cell pellet should be visible after the centrifuge. Carefully discard the supernatants. This is to remove the Matrigel component.
+57.	Resuspend well the cell pellet by adding 4 mL of cold Advanced DMEM/F12.
+58.	Centrifuge at 4°C, 150g for 1 min.
+59.	Carefully discard the supernatants to completely remove Matrigel and tap the tube to prevent aggregation of the pellet.
+60.	Add 500 μL of 37°C pre-warmed TrypLE Express. Gently pipet once or twice to mix homogeneously.
+61.	Incubate for 3 min in the 37°C water bath.
+62.	Add warm Advanced DMEM/F12 up to 4 mL and centrifuge at 300g for 5 min.
+63.	Carefully discard the supernatants containing dead cell debris and TrypLE Express.
+64.	Resuspend the pellet by adding 4 mL of warm Advanced DMEM/F12.
+65.	Centrifuge at 200g for 2 min to completely wash out TrypLE Express.
+66.	Discard the supernatants as much as possible, but do not disrupt the pellet.
+67.	Tap-resuspend the cells with the residual Advanced DMEM/F12.
+68.	Label the tube with what will be infected. The virus mixture and the 2.5X concentrated SC-enriching organoid medium (Materials and equipment) will be added to this tube (see the next step).
+Part 2. Virus infection
+This step allows the infection of the organoid stem cells with lentivirus mixture to deliver i) the Tet-activator and ii) the pTREG3-mutant gene of interest into the genome. 
+A negative control for infection is performed by replacing the viral mixture with culture media. This control is important for the antibiotic selection of successful transduction.
+Day 1
+Timing: ∼1 h
+69.	Prepare virus solution from the virus mixture (Materials and equipment).
+a.	Add 100 μL of Enhancer to the Lentivirus mixture to become the final 297.5 μL.
+b.	As the enhancer is viscous, gently tap-resuspend to mix homogeneously (or very gently pipet up and down).
+c.	Add 2.5 μL of TransDux MAX, gently tap-resuspend to mix homogeneously.
+70.	Carefully pipet the virus solution of 300 μL into the tube with organoid stem cells from Step 20.
+71.	Gently tap the tube so that the cells and virus mix homogenously.
+72.	Add the 200 μL of 2.5X medium (pre-warmed, Table 2) so that the final [cell + virus mixture] will be 1X. Gently pipet mix.
+73.	Incubate the tube in a 37°C water bath for 1 h. Within this 1-h incubation, gently tap the tube and mix the cell and the virus every 15 min.
+74.	Carefully pipet the cell-virus mixture and place them in the Matrigel coated well.
+75.	Incubate at 37°C for 1 day. During this 1-day incubation, viable cells will be attached to the Matrigel.
+Day 2. Infected stem cells being sandwiched by the Matrigel
+Timing: 20 min
+76.	Prepare 1X SC-enriching organoid medium (500 μL/well).
+77.	Take out the plate of step 27 from the incubator and carefully discard the medium containing the virus and dead cells. Troubleshooting 4 (∗).
+78.	Place an additional 100 μL/well of liquid Matrigel on the plate so that the viable cells are located at the center between the top and the bottom layer of Matrigel (forming a Matrigel sandwich, Figure 4).
+79.	Place the plate in the 37°C incubator for 5 min to solidify the newly added Matrigel.
+80.	Take out the plate and add the 1X SC-enriching organoid medium to cover the Matrigel.
+81.	Place back the plate into the 37°C incubator and grow the stem cells to form organoids.
+
+Part 3. Antibiotic selection
+This step allows the selection of organoids transduced with both the tet-activator (neomycin-resistant) and the gene of interest (puromycin-resistant). 
+Days 4–5
+Timing: ∼10 min
+82.	2–3 days later, when the transduced stem cells form small but closed organoids, change the medium with fresh SC-enriched organoid medium.
+83.	Grow for 2–3 days more.
+Day ∼6
+Timing: ∼10 min
+84.	The viable organoids should be visible. 
+85.	Replace the medium with a regular ENR medium containing Neomycin and Puromycin.
+86.	Grow until the organoids become big in presence of antibiotics. Change the medium every 2 days.
+87.	When the organoids become sufficiently big with dead cells accumulating in the lumen, passage the organoids in a regular ENR medium containing Neomycin and Puromycin.
+88.	Change the medium every 2–3 days (ENR medium + antibiotics).
+89.	Amplify/grow in sufficient amounts for the maintenance and experiments.
+Note: As the organoids underwent simultaneous infections, the survival in the presence of the two antibiotics can be lower than that of a single infection. Sequential infection can also be done.
+Part 4. Doxycycline induction
+To detect successful induction, we used a bicistronic expression of the fluorescent reporter protein (Figure 4).
+Day ∼20
+Timing: ∼10 min
+90.	Passage the organoids for dox-induction and control (no addition of dox).
+91.	When the organoids grow sufficiently (∼ 4–5 days), add 2 μg/mL doxycycline in the dox-induction well.
+92.	Treat doxycycline for at least 16 h.
+93.	Test the induction based on the detection method.

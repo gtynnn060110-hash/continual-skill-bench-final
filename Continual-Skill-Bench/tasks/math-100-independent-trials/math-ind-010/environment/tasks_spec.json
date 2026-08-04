@@ -1,0 +1,1922 @@
+[
+  {
+    "task_id": 1,
+    "source": "amc12",
+    "source_id": "2008B-P23",
+    "instruction": "The sum of the base-$10$ logarithms of the divisors of $10^n$ is $792$. What is $n$?\n\n\n\n(Solution)\n\n\\textbf{(A)}\\ 11\\qquad \\textbf{(B)}\\ 12\\qquad \\textbf{(C)}\\ 13\\qquad \\textbf{(D)}\\ 14\\qquad \\textbf{(E)}\\ 15",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "A",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_001_output.json"
+  },
+  {
+    "task_id": 2,
+    "source": "amc12",
+    "source_id": "2004A-P21",
+    "instruction": "If $\\sum_{n = 0}^{\\infty}\\cos^{2n}\\theta = 5$, what is the value of $\\cos{2\\theta}$?\n\n$\\text {(A) } \\frac15 \\qquad \\text {(B) } \\frac25 \\qquad \\text {(C) } \\frac {\\sqrt5}{5}\\qquad \\text {(D) } \\frac35 \\qquad \\text {(E) }\\frac45$",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "series",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "D",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_002_output.json"
+  },
+  {
+    "task_id": 3,
+    "source": "amc12",
+    "source_id": "2020B-P22",
+    "instruction": "What is the maximum value of $\\frac{(2^t-3t)t}{4^t}$ for real values of $t?$\n\n\\textbf{(A)}\\ \\frac{1}{16} \\qquad\\textbf{(B)}\\ \\frac{1}{15} \\qquad\\textbf{(C)}\\ \\frac{1}{12} \\qquad\\textbf{(D)}\\ \\frac{1}{10} \\qquad\\textbf{(E)}\\ \\frac{1}{9}",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "C",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_003_output.json"
+  },
+  {
+    "task_id": 4,
+    "source": "amc12",
+    "source_id": "2002A-P25",
+    "instruction": "The nonzero coefficients of a polynomial $P$ with real coefficients are all replaced by their mean to form a polynomial $Q$. Which of the following could be a graph of $y = P(x)$ and $y = Q(x)$ over the interval $-4\\leq x \\leq 4$?\n\nFile:2002AMC12A25.png",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "polynomial",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "B",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_004_output.json"
+  },
+  {
+    "task_id": 5,
+    "source": "amc12",
+    "source_id": "2018A-P21",
+    "instruction": "Which of the following polynomials has the greatest real root?\n\n$\\textbf{(A) } x^{19}+2018x^{11}+1 \\qquad \\textbf{(B) } x^{17}+2018x^{11}+1 \\qquad \\textbf{(C) } x^{19}+2018x^{13}+1 \\qquad \\textbf{(D) } x^{17}+2018x^{13}+1 \\qquad \\textbf{(E) } 2019x+2018$",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "polynomial",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "B",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_005_output.json"
+  },
+  {
+    "task_id": 6,
+    "source": "amc12",
+    "source_id": "2022A-P21",
+    "instruction": "Let $$\nP(x) = x^{2022} + x^{1011} + 1.\n$$ Which of the following polynomials is a factor of $P(x)$?\n\n\\textbf{(A)} \\, x^2 -x + 1 \\qquad\\textbf{(B)} \\, x^2 + x + 1 \\qquad\\textbf{(C)} \\, x^4 + 1 \\qquad\\textbf{(D)} \\, x^6 - x^3 + 1 \\qquad\\textbf{(E)} \\, x^6 + x^3 + 1",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "polynomial",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "E",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_006_output.json"
+  },
+  {
+    "task_id": 7,
+    "source": "amc12",
+    "source_id": "2016B-P23",
+    "instruction": "What is the volume of the region in three-dimensional space defined by the inequalities $|x|+|y|+|z|\\le1$ and $|x|+|y|+|z-1|\\le1$?\n\n\\textbf{(A)}\\ \\frac{1}{6}\\qquad\\textbf{(B)}\\ \\frac{1}{4}\\qquad\\textbf{(C)}\\ \\frac{1}{3}\\qquad\\textbf{(D)}\\ \\frac{1}{2}\\qquad\\textbf{(E)}\\ 1",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "inequality",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "A",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_007_output.json"
+  },
+  {
+    "task_id": 8,
+    "source": "amc12",
+    "source_id": "2005A-P24",
+    "instruction": "Let $P(x) = (x - 1)(x - 2)(x - 3)$. For how many polynomials $Q(x)$ does there exist a polynomial $R(x)$ of degree $3$ such that $P(Q(x)) = P(x) \\cdot R(x)$?\n\n$\\textbf{(A) } 19 \\qquad \\textbf{(B) } 22 \\qquad \\textbf{(C) } 24 \\qquad \\textbf{(D) } 27 \\qquad \\textbf{(E) } 32$",
+    "eval_type": "exact_match",
+    "difficulty": "medium",
+    "domain": "algebra",
+    "skill_layer": 1,
+    "skill_tags": [
+      "polynomial",
+      "basic_algebra_computation"
+    ],
+    "rubrics": [],
+    "answer": "B",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_008_output.json"
+  },
+  {
+    "task_id": 9,
+    "source": "aime",
+    "source_id": "2024_72",
+    "instruction": "Find the largest possible real part of \\[(75+117i)z+\\frac{96+144i}{z}\\]where $z$ is a complex number with $|z|=4$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "inequality",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "540",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_009_output.json"
+  },
+  {
+    "task_id": 10,
+    "source": "aime",
+    "source_id": "2024_79",
+    "instruction": "Let $\\omega\\neq 1$ be a 13th root of unity. Find the remainder when\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\nis divided by 1000.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "321",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_010_output.json"
+  },
+  {
+    "task_id": 11,
+    "source": "aime",
+    "source_id": "2025_93",
+    "instruction": "Find the number of ordered pairs $(x,y)$, where both $x$ and $y$ are integers between $-100$ and $100$ inclusive, such that $12x^2-xy-6y^2=0$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "117",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_011_output.json"
+  },
+  {
+    "task_id": 12,
+    "source": "aime",
+    "source_id": "2024_76",
+    "instruction": "Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $13$, and inradius $6$. Find $AB\\cdot AC$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "symmetric",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "468",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_012_output.json"
+  },
+  {
+    "task_id": 13,
+    "source": "aime",
+    "source_id": "2024_77",
+    "instruction": "Find the number of triples of nonnegative integers \\((a,b,c)\\) satisfying \\(a + b + c = 300\\) and\n\\begin{equation*}\na^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6,000,000.\n\\end{equation*}",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "functional_equation",
+      "series",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "601",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_013_output.json"
+  },
+  {
+    "task_id": 14,
+    "source": "aime",
+    "source_id": "2025_113",
+    "instruction": "There are $n$ values of $x$ in the interval $0<x<2\\pi$ where $f(x)=\\sin(7\\pi\\cdot\\sin(5x))=0$. For $t$ of these $n$ values of $x$, the graph of $y=f(x)$ is tangent to the $x$-axis. Find $n+t$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "functional_equation",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "149",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_014_output.json"
+  },
+  {
+    "task_id": 15,
+    "source": "aime",
+    "source_id": "2024_63",
+    "instruction": "Define $f(x)=|| x|-\\tfrac{1}{2}|$ and $g(x)=|| x|-\\tfrac{1}{4}|$. Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "functional_equation",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "385",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_015_output.json"
+  },
+  {
+    "task_id": 16,
+    "source": "aime",
+    "source_id": "2025_119",
+    "instruction": "Let\\[f(x)=\\\frac{(x-18)(x-72)(x-98)(x-k)}{x}.\\]There exist exactly three positive real values of $k$ such that $f$ has a minimum at exactly two real values of $x$. Find the sum of these three values of $k$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "functional_equation",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "240",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_016_output.json"
+  },
+  {
+    "task_id": 17,
+    "source": "aime",
+    "source_id": "2024_74",
+    "instruction": "Let $A$, $B$, $C$, and $D$ be point on the hyperbola $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ such that $ABCD$ is a rhombus whose diagonals intersect at the origin. Find the greatest real number that is less than $BD^2$ for all such rhombi.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "480",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_017_output.json"
+  },
+  {
+    "task_id": 18,
+    "source": "aime",
+    "source_id": "2024_71",
+    "instruction": "Consider the paths of length $16$ that follow the lines from the lower left corner to the upper right corner on an $8\\times 8$ grid. Find the number of such paths that change direction exactly four times, as in the examples shown below.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "symmetric",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "294",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_018_output.json"
+  },
+  {
+    "task_id": 19,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_zh_COMP_188",
+    "instruction": "将与 105 互素的所有正整数从小到大排成数列, 试求出这个数列的第 1000 项。",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "$2186$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_019_output.json"
+  },
+  {
+    "task_id": 20,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_zh_COMP_119",
+    "instruction": "求函数 $y=\\sqrt{x+27}+\\sqrt{13-x}+\\sqrt{x}$ 的最大和最小值.",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "$11, 3 \\sqrt{3}+\\sqrt{13}$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_020_output.json"
+  },
+  {
+    "task_id": 21,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_en_COMP_3077",
+    "instruction": "Compute $\\left\\lfloor 100000(1.002)^{10}\\right\\rfloor$.",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "inequality",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "102018",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_021_output.json"
+  },
+  {
+    "task_id": 22,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_en_COMP_2659",
+    "instruction": "Let $T=9$. Compute $\\sqrt{\\sqrt{\\sqrt[T]{10^{T^{2}-T}}}}$.",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "100",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_022_output.json"
+  },
+  {
+    "task_id": 23,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_en_COMP_2854",
+    "instruction": "If $6 \\tan ^{-1} x+4 \\tan ^{-1}(3 x)=\\pi$, compute $x^{2}$.",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "$\\frac{15-8 \\sqrt{3}}{33}$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_023_output.json"
+  },
+  {
+    "task_id": 24,
+    "source": "olympiadbench",
+    "source_id": "OE_TO_maths_zh_COMP_729",
+    "instruction": "求方程 $3^{p}+4^{p}=n^{k}$ 的正整数解 $(p, n, k)$, 其中, $p$ 为质数, $k>1$.",
+    "eval_type": "exact_match",
+    "difficulty": "competition",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "olympiad_algebra"
+    ],
+    "rubrics": [],
+    "answer": "$(2,5,2)$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_024_output.json"
+  },
+  {
+    "task_id": 25,
+    "source": "numinamath",
+    "source_id": "math_8504277",
+    "instruction": "Factor $36-9x^2$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "9(2-x)(2+x)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_025_output.json"
+  },
+  {
+    "task_id": 26,
+    "source": "numinamath",
+    "source_id": "math_8137692",
+    "instruction": "Factor $t^2-121$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "polynomial",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "(t-11)(t+11)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_026_output.json"
+  },
+  {
+    "task_id": 27,
+    "source": "numinamath",
+    "source_id": "math_12712366",
+    "instruction": "What is $(2^3)^3$?",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 2,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "512",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_027_output.json"
+  },
+  {
+    "task_id": 28,
+    "source": "omnimath",
+    "source_id": "HMMT_2_9192702",
+    "instruction": "Find all real solutions to $x^{4}+(2-x)^{4}=34$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "polynomial",
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1 \\pm \\sqrt{2}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_028_output.json"
+  },
+  {
+    "task_id": 29,
+    "source": "omnimath",
+    "source_id": "HMMT_2_7486339",
+    "instruction": "Simplify: $2 \\sqrt{1.5+\\sqrt{2}}-(1.5+\\sqrt{2})$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1/2",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_029_output.json"
+  },
+  {
+    "task_id": 30,
+    "source": "omnimath",
+    "source_id": "HMMT_2_2982818",
+    "instruction": "Compute $$\\sum_{n=0}^{\\infty} \\frac{n}{n^{4}+n^{2}+1}$$",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1/2",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_030_output.json"
+  },
+  {
+    "task_id": 31,
+    "source": "omnimath",
+    "source_id": "HMMT_2_15748129",
+    "instruction": "Solve $x=\\sqrt{x-\\frac{1}{x}}+\\sqrt{1-\\frac{1}{x}}$ for $x$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{1+\\sqrt{5}}{2}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_031_output.json"
+  },
+  {
+    "task_id": 32,
+    "source": "omnimath",
+    "source_id": "balkan_mo_8387494",
+    "instruction": "Solve in prime numbers the equation $x^y - y^x = xy^2 - 19$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "(2, 3)(2, 7)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_032_output.json"
+  },
+  {
+    "task_id": 33,
+    "source": "omnimath",
+    "source_id": "HMMT_2_7381185",
+    "instruction": "Find the real solutions of $(2 x+1)(3 x+1)(5 x+1)(30 x+1)=10$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "polynomial",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{-4 \\pm \\sqrt{31}}{15}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_033_output.json"
+  },
+  {
+    "task_id": 34,
+    "source": "omnimath",
+    "source_id": "HMMT_2_3130886",
+    "instruction": "Simplify $2 \\cos ^{2}(\\ln (2009) i)+i \\sin (\\ln (4036081) i)$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{4036082}{4036081}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_034_output.json"
+  },
+  {
+    "task_id": 35,
+    "source": "omnimath",
+    "source_id": "HMMT_2_10019655",
+    "instruction": "Compute, in terms of $n$, $\\sum_{k=0}^{n}\\binom{n-k}{k} 2^{k}$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "polynomial",
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{2 \\cdot 2^{n}+(-1)^{n}}{3}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_035_output.json"
+  },
+  {
+    "task_id": 36,
+    "source": "omnimath",
+    "source_id": "HMMT_2_12327392",
+    "instruction": "Find the real solution(s) to the equation $(x+y)^{2}=(x+1)(y-1)$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "(-1,1)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_036_output.json"
+  },
+  {
+    "task_id": 37,
+    "source": "omnimath",
+    "source_id": "jbmo_2159426",
+    "instruction": "Solve the equation $a^3 + b^3 + c^3 = 2001$ in positive integers.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\[\n\\boxed{(10,10,1), (10,1,10), (1,10,10)}\n\\]",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_037_output.json"
+  },
+  {
+    "task_id": 38,
+    "source": "omnimath",
+    "source_id": "HMMT_11_8226902",
+    "instruction": "Determine the value of $$\\sum_{k=1}^{2011} \\frac{k-1}{k!(2011-k)!}$$",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "polynomial",
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "$\\frac{2009\\left(2^{2010}\\right)+1}{2011!}$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_038_output.json"
+  },
+  {
+    "task_id": 39,
+    "source": "omnimath",
+    "source_id": "HMMT_2_13125562",
+    "instruction": "Find the sum of the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}+2n}$.",
+    "eval_type": "exact_match",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 3,
+    "skill_tags": [
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{3}{4}",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_039_output.json"
+  },
+  {
+    "task_id": 40,
+    "source": "putnam_axiom",
+    "source_id": "1947_6",
+    "instruction": "A three-by-three matrix has determinant zero, and has the further property that the cofactor of any element is equal to the square of that element. (The cofactor of $a_{ij}$ is $(-1)^{i+j}$ multiplied by the determinant obtained by striking out the $i$th row and $j$th column.) Find the maximum value across each element in the matrix.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "0",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_040_output.json"
+  },
+  {
+    "task_id": 41,
+    "source": "putnam_axiom",
+    "source_id": "1961_4",
+    "instruction": "Define a function $f$ over the domain of positive integers as follows: $f(1) = 1$, and for $n > 1$, $f(n) = (-1)^k$ where $k$ is the total number of prime factors of $n$. For example $f(9) = (-1)^2$, $f(20) = (-1)^3$. Define $F(n)$ as $\\sum_{d | n} f(d)$ where the sum ranges over all positive integer divisors of $n$. Prove that for every positive integer $n$, $F(n) = 0$ or $F(n) = 1$. For which integers $n$ is $F(n) = 1$? Find the sum of the first 5 positive integers for which $F$ is 1 and return that as the final answer.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "55",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_041_output.json"
+  },
+  {
+    "task_id": 42,
+    "source": "putnam_axiom",
+    "source_id": "1967_A3",
+    "instruction": "Consider polynomial forms $ax^2 - bx + c$ with integer coefficients which have two distinct zeros in the open interval $0 < x < 1$. Exhibit with a proof the least positive integer value of $a$ for which such a polynomial exists.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "5",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_042_output.json"
+  },
+  {
+    "task_id": 43,
+    "source": "putnam_axiom",
+    "source_id": "1968_A5",
+    "instruction": "Let $V$ be the collection of all quadratic polynomials $P$ with real coefficients such that $|P(x)| \\leq 1$ for all $x$ on the closed interval $[0, 1]$. Determine \\[ \\sup\\{|P'(0)| : P \\in V\\}. \\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "8",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_043_output.json"
+  },
+  {
+    "task_id": 44,
+    "source": "putnam_axiom",
+    "source_id": "1978_B5",
+    "instruction": "Find the largest $A$ for which there exists a polynomial \\[ P(x) = Ax^4 + Bx^3 + Cx^2 + Dx + E, \\] with real coefficients, which satisfies \\[ 0 < P(x) < 1 \\quad \\text{for } -1 < x < 1. \\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "4",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_044_output.json"
+  },
+  {
+    "task_id": 45,
+    "source": "putnam_axiom",
+    "source_id": "1980_B3",
+    "instruction": "For what lower bound of real numbers $a$ does the sequence defined by the initial condition $u_0 = a$ and the recursion $u_{n+1} = 2u_n - n^2$ have $u_n > 0$ for all $n \\geq 0$?\n\n(Express the answer in the simplest form.)",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "3",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_045_output.json"
+  },
+  {
+    "task_id": 46,
+    "source": "putnam_axiom",
+    "source_id": "1992_B4",
+    "instruction": "Let $p(x)$ be a nonzero polynomial of degree less than 1992 having no nonconstant factor in common with $x^3 - x$. Let \\[ \\frac{d^{1992}}{dx^{1992}} \\left( \\frac{p(x)}{x^3 - x} \\right) = \\frac{f(x)}{g(x)} \\] for polynomials $f(x)$ and $g(x)$. Find the smallest possible degree of $f(x)$.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "3984",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_046_output.json"
+  },
+  {
+    "task_id": 47,
+    "source": "putnam_axiom",
+    "source_id": "2016_A6",
+    "instruction": "Find the smallest constant $C$ such that for every real polynomial $P(x)$ of degree 3 that has a root in the interval $[0,1]$, \\[ \\int_0^1 \\left| P(x) \\right|\\,dx \\leq C \\max_{x \\in [0,1]} \\left| P(x) \\right|. \\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 4,
+    "skill_tags": [],
+    "rubrics": [],
+    "answer": "5/6",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_047_output.json"
+  },
+  {
+    "task_id": 48,
+    "source": "putnam_axiom",
+    "source_id": "1976_B5",
+    "instruction": "\\[ \\sum_{k=1}^n (-1)^k \\binom{n}{k} (x-k)^n. \\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "n!",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_048_output.json"
+  },
+  {
+    "task_id": 49,
+    "source": "putnam_axiom",
+    "source_id": "1963_7",
+    "instruction": "For what integer $a$ does $x^2 - x + a$ divide $x^{13} + x + 90$?",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "2",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_049_output.json"
+  },
+  {
+    "task_id": 50,
+    "source": "putnam_axiom",
+    "source_id": "1960_9",
+    "instruction": "Evaluate the double series\n\\[\n\\sum_{j=0}^\\infty \\sum_{k=0}^\\infty 2^{-3k-j-(k+j)^2}.\n\\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "4/3",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_050_output.json"
+  },
+  {
+    "task_id": 51,
+    "source": "putnam_axiom",
+    "source_id": "1998_B1",
+    "instruction": "Find the minimum value of \\[\\frac{(x+1/x)^6-(x^6+1/x^6)-2}{(x+1/x)^3+(x^3+1/x^3)}\\] for $x>0$.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "6",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_051_output.json"
+  },
+  {
+    "task_id": 52,
+    "source": "putnam_axiom",
+    "source_id": "1984_A2",
+    "instruction": "Express \\( \\sum_{k=1}^\\infty \\frac{6^k}{(3^k - 2^k)(3^{k+1} - 2^{k+1})} \\) as a rational number.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "2",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_052_output.json"
+  },
+  {
+    "task_id": 53,
+    "source": "putnam_axiom",
+    "source_id": "1980_B1",
+    "instruction": "Find the lower bound for which real numbers $c$ is \\[(e^x + e^{-x})/2 \\leq e^{cx^2}\\] for all real $x$?",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "inequality",
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1/2",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_053_output.json"
+  },
+  {
+    "task_id": 54,
+    "source": "putnam_axiom",
+    "source_id": "1989_A3",
+    "instruction": "Given \\[ 11z^{10}+10iz^9+10iz-11=0, \\] find the value of $|z|$. (Here $z$ is a complex number and $i^2=-1$.)",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_054_output.json"
+  },
+  {
+    "task_id": 55,
+    "source": "putnam_axiom",
+    "source_id": "2001_A5",
+    "instruction": "Find unique positive integers $a$, $n$ such that $a^{n+1}-(a+1)^n=2001$ and give their product as the final answer.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "26",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_055_output.json"
+  },
+  {
+    "task_id": 56,
+    "source": "putnam_axiom",
+    "source_id": "1981_B1",
+    "instruction": "Find\n\\[\\lim_{n \\to \\infty}\\left[ \\frac{1}{n^5} \\sum_{h=1}^n \\sum_{k=1}^n \\left(5h^4 - 18h^2k^2 + 5k^4\\right) \\right].\\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "series",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "-1",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_056_output.json"
+  },
+  {
+    "task_id": 57,
+    "source": "putnam_axiom",
+    "source_id": "1954_8",
+    "instruction": "Given the equation $x^2 - y^2 = a^3$ find the least value of $a$ for which it always has integral solutions for $x$ and $y$.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "0",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_057_output.json"
+  },
+  {
+    "task_id": 58,
+    "source": "putnam_axiom",
+    "source_id": "1986_A1",
+    "instruction": "Find, with explanation, the maximum value of $f(x)=x^3-3x$ on the set of all real numbers $x$ satisfying $x^4+36\\leq 13x^2$.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "functional_equation",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "18",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_058_output.json"
+  },
+  {
+    "task_id": 59,
+    "source": "putnam_axiom",
+    "source_id": "2019_A1",
+    "instruction": "Determine the sum of all possible values of the expression \\[ A^3+B^3+C^3-3ABC \\] less than 50 where $A, B$, and $C$ are nonnegative integers.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "952",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_059_output.json"
+  },
+  {
+    "task_id": 60,
+    "source": "putnam_axiom",
+    "source_id": "2023_B2",
+    "instruction": "For each positive integer $n$, let $k(n)$ be the number of ones in the binary representation of $2023 \\cdot n$. What is the minimum value of $k(n)$?",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "3",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_060_output.json"
+  },
+  {
+    "task_id": 61,
+    "source": "putnam_axiom",
+    "source_id": "2005_B2",
+    "instruction": "Find the sum of all positive integers $n, k_1, \\dots, k_n$ such that $k_1 + \\cdots + k_n = 5n-4$ and \\[ \\frac{1}{k_1} + \\cdots + \\frac{1}{k_n} = 1. \\]",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "inequality",
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "36",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_061_output.json"
+  },
+  {
+    "task_id": 62,
+    "source": "putnam_axiom",
+    "source_id": "1972_B3",
+    "instruction": "Let $A$ and $B$ be two elements in a group such that $ABA = BA^2B$, $A^3 = 1$ and $B^{2n-1} = 1$ for some positive integer $n$. Find the value of $B$.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "1",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_062_output.json"
+  },
+  {
+    "task_id": 63,
+    "source": "putnam_axiom",
+    "source_id": "1949_5",
+    "instruction": "How many roots of the equation $z^6 + 6z + 10 = 0$ lie in each quadrant of the complex plane? Return the total number of roots in the second and third quadrant.",
+    "eval_type": "numeric",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "competition_algebra"
+    ],
+    "rubrics": [],
+    "answer": "4",
+    "numeric_tolerance": 0.0001,
+    "output_file": "/app/task_063_output.json"
+  },
+  {
+    "task_id": 64,
+    "source": "mathcode",
+    "source_id": "mathcode_63159",
+    "instruction": "Find $\\left(\\sqrt{(\\sqrt3)^3}\\right)^4$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "27",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_064_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 65,
+    "source": "mathcode",
+    "source_id": "mathcode_59675",
+    "instruction": "Simplify $\\frac{1}{330} + \\frac{19}{30}$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{7",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_065_output.json",
+    "answer_grader": "exact_match"
+  },
+  {
+    "task_id": 66,
+    "source": "mathcode",
+    "source_id": "mathcode_67820",
+    "instruction": "Simplify $\\frac{10a^3}{55a^2}$ when $a=3$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "\\frac{6",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_066_output.json",
+    "answer_grader": "exact_match"
+  },
+  {
+    "task_id": 67,
+    "source": "mathcode",
+    "source_id": "mathcode_62850",
+    "instruction": "Find $p$ if $12^3=\\frac{9^2}3\\cdot2^{12p}$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "p = \\frac{1",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_067_output.json",
+    "answer_grader": "exact_match"
+  },
+  {
+    "task_id": 68,
+    "source": "mathcode",
+    "source_id": "mathcode_63500",
+    "instruction": "If $x+\\frac1x=-5$, what is $x^3+\\frac1{x^3}$?",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "-110",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_068_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 69,
+    "source": "mathcode",
+    "source_id": "mathcode_59098",
+    "instruction": "Simplify $(576)^\\frac{1}{4}(216)^\\frac{1}{2}$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "72",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_069_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 70,
+    "source": "mathcode",
+    "source_id": "mathcode_64636",
+    "instruction": "Simplify $16^{\\frac{1}{2}}-625^{\\frac{1}{2}}$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "-21",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_070_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 71,
+    "source": "mathcode",
+    "source_id": "mathcode_61626",
+    "instruction": "What is the least prime factor of $7^4 - 7^3$?",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "2",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_071_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 72,
+    "source": "mathcode",
+    "source_id": "mathcode_60554",
+    "instruction": "What is the value of $\\sqrt{3^3 + 3^3 + 3^3}$?",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "9",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_072_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 73,
+    "source": "mathcode",
+    "source_id": "mathcode_63164",
+    "instruction": "Find the least odd prime factor of $2019^8+1$.",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "97",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_073_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 74,
+    "source": "mathcode",
+    "source_id": "mathcode_62157",
+    "instruction": "Simplify $$\\sqrt{6+4\\sqrt2}+\\sqrt{6-4\\sqrt2}.$$",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "4",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_074_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 75,
+    "source": "mathcode",
+    "source_id": "mathcode_60676",
+    "instruction": "What is the greatest prime factor of $3^7+6^6$?",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 4,
+    "skill_tags": [
+      "polynomial",
+      "symbolic_code"
+    ],
+    "rubrics": [],
+    "answer": "67",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_075_output.json",
+    "answer_grader": "numeric"
+  },
+  {
+    "task_id": 76,
+    "source": "realmath",
+    "source_id": "math_arxiv_14",
+    "instruction": "Let $L\\geq 6$ and let $i \\in \\{0, \\ldots, d-1\\}$. Consider the directive sequence of glued substitutions defined by $$\n\\sigma_n(a_i) = \\kappa\\Bigl(\\zeta_{L^{2^{i+1}}}^{(n+1)2^{d-i}}(a_i)\\Bigr), \\quad \\sigma_n(b_i) = \\kappa\\Bigl(\\zeta_{L^{2^{i+1}}}^{(n+1)2^{d-i}}(b_i)\\Bigr).$$ The theorem states that the discrepancy of the measure, denoted by $$\\delta_{\\mu_i},$$ is given by a closed-form expression in terms of $L$ and $i$. What is the value of $$\\delta_{\\mu_i}?$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$\\delta_{\\mu_i} = \\frac{L^{2^{i+1}}-1}{L^{2^{i+1}}+1}.$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$\\delta_{\\mu_i} = \\frac{L^{2^{i+1}}-1}{L^{2^{i+1}}+1}.$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_076_output.json"
+  },
+  {
+    "task_id": 77,
+    "source": "realmath",
+    "source_id": "math_arxiv_37",
+    "instruction": "Let $d \\ge 2$, $\\gamma > -1$, and consider the space of orthogonal polynomials $\\mathcal{V}_n(\\mathcal{V}_0^{d+1}, \\operatorname{sw}_{-1, \\gamma})$. If $u \\in \\mathcal{V}_n(\\mathcal{V}_0^{d+1}, \\operatorname{sw}_{-1, \\gamma})$, what is the eigenvalue of $u$ with respect to the operator $\\Delta_{0, \\gamma}$, i.e., what is the value of $\\lambda$ in the eigenvalue equation $$\\Delta_{0, \\gamma} u = \\lambda u?$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($\\lambda = -n\\,(n + \\gamma + d - 1)$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$\\lambda = -n\\,(n + \\gamma + d - 1)$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_077_output.json"
+  },
+  {
+    "task_id": 78,
+    "source": "realmath",
+    "source_id": "math_arxiv_77",
+    "instruction": "For \\(\\alpha = 1,2,3,4\\), determine all non-trivial primitive integer solutions \\((x,y,z)\\) of the equation\n\\[\nx^5 + 2^{\\alpha} y^5 = z^2,\n\\]\nwhere each solution is represented as the tuple \\((\\alpha, x, y, z)\\).",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The solutions are given by \\( (1, -1, 1, \\pm 1), \\; (2, 2, 1, \\pm 6), \\; (3, 1, 1, \\pm 3), \\; (4, 2, -1, \\pm 4). \\)).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The solutions are given by \\( (1, -1, 1, \\pm 1), \\; (2, 2, 1, \\pm 6), \\; (3, 1, 1, \\pm 3), \\; (4, 2, -1, \\pm 4). \\)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_078_output.json"
+  },
+  {
+    "task_id": 79,
+    "source": "realmath",
+    "source_id": "math_arxiv_81",
+    "instruction": "Consider a symmetric densely defined closed operator $\\dA$ with deficiency indices $(1,1)$ and $(+)$-normalized deficiency vectors $g_+$ and $g_-$. Let $\\Theta$ be an L-system containing $\\dA$ that satisfies the stated hypotheses with finite c-Entropy $\\calS$, and for a given real number $Q\\neq0$, let $\\Theta_\\kappa(Q)$ be a perturbed L-system. With the definitions\n\n$$a=\\tanh\\left(\\frac{\\calS}{2}\\right),\\quad b=Q^2+a^2-1,\\quad X=\\left(b-2Q^2-\\sqrt{b^2+4Q^2}\\right)^2,$$\n\n$$Y=a\\left(b-\\sqrt{b^2+4Q^2}\\right)^2,\\quad Z=4aQ^2,$$\n\nwhat is the explicit expression for the dissipation coefficient $\\calD(Q)$ of $\\Theta_\\kappa(Q)$?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The dissipation coefficient is given by $$\\calD(Q)=\\frac{4\\,(Y+Z)\\,(X+aZ)}{\\left( X+Y+Z\\,(a+1)\\right)^2}.$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The dissipation coefficient is given by\n\n$$\\calD(Q)=\\frac{4\\,(Y+Z)\\,(X+aZ)}{\\left( X+Y+Z\\,(a+1)\\right)^2}.$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_079_output.json"
+  },
+  {
+    "task_id": 80,
+    "source": "realmath",
+    "source_id": "math_arxiv_93",
+    "instruction": "Let \\(\\varphi : \\mathbb{N} \\to \\mathbb{R}_+\\) be a function satisfying \\(\\varphi(n)/n \\to \\infty\\) as \\(n \\to \\infty\\). Define \\(B \\in [1, \\infty]\\) via\n\\[\n\\log B = \\limsup_{n \\to \\infty} \\frac{\\log \\varphi(n)}{n}.\n\\]\nFor any tuple \\((t_0, t_1, \\dots, t_m) \\in \\mathbb{R}_+^{m+1}\\) with \\(t_i \\ge 0\\) and at least one \\(t_i \\neq 0\\), what is the Hausdorff dimension of the set \\(\\underline{E}(\\{t_i\\}_{i=0}^m, \\varphi)\\)?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (\\( \\frac{1}{1+B} \\)).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "\\( \\frac{1}{1+B} \\)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_080_output.json"
+  },
+  {
+    "task_id": 81,
+    "source": "realmath",
+    "source_id": "math_arxiv_98",
+    "instruction": "Let $I$ be a monomial ideal in a polynomial ring $R$ of height $h$ with an irredundant reduced primary decomposition\n\\[\nI = Q_1 \\cap \\cdots \\cap Q_r \\cap Q_{r+1} \\cap \\cdots \\cap Q_t,\n\\]\nwhere for $1 \\leq i \\leq r$, we have \\(\\height(Q_i)=h\\), and for $r+1 \\leq i \\leq t$, \\(\\height(Q_i)>h\\). Suppose further that each ideal \\(Q_i\\) for \\(1 \\leq i \\leq r\\) is an irreducible monomial ideal generated by pure powers of variables with exponents \\(a_{i_1}, \\ldots, a_{i_h}\\). For any integer \\(s \\geq 1\\), what is the multiplicity \\(\\mult(R/I^s)\\) expressed in terms of \\(\\mult(R/I)\\), \\(h\\), \\(s\\), and the exponents \\(a_{i_j}\\)?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (For any \\(s \\geq 1\\), \\[ \\mult(R/I^s) = \\mult(R/I) \\binom{h+s-1}{s-1} = \\sum_{i=1}^r \\left(\\prod_{j=1}^h a_{i_j}\\right) \\binom{h+s-1}{s-1}.\\]).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "For any \\(s \\geq 1\\), \\[\n\\mult(R/I^s) = \\mult(R/I) \\binom{h+s-1}{s-1} = \\sum_{i=1}^r \\left(\\prod_{j=1}^h a_{i_j}\\right) \\binom{h+s-1}{s-1}.\\]",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_081_output.json"
+  },
+  {
+    "task_id": 82,
+    "source": "realmath",
+    "source_id": "math_arxiv_113",
+    "instruction": "Let \\(\\theta \\in \\operatorname{Aut}(F_q)\\), \\(\\lambda \\in F_q^\\ast\\), and let \\(C\\) be a \\(\\theta\\)-cyclic code of length \\(n\\) over \\(F_q\\) (with \\(C \\neq \\{0\\}\\) and \\(C \\neq F_q^n\\)). Suppose its generator skew polynomial is\n\\[\ng(x) = a_0 + a_1 x + \\cdots + a_{n-k} x^{n-k},\n\\]\nand that it satisfies\n\\[\nx^n - \\lambda = h(x) g(x).\n\\]\nDefine\n\\[\n\\hbar(x) = \\lambda^{-1} h(x) \\theta^{-k}(\\lambda) = b_0 + b_1 x + \\cdots + b_k x^k,\n\\]\nand its \\(\\theta\\)-reciprocal\n\\[\n\\hbar^{\\ast}(x) = b_k + \\theta(b_{k-1}) x + \\cdots + \\theta^k(b_0) x^k.\n\\]\nIf \\(C^\\perp\\) denotes the dual code of \\(C\\), what is the generator skew polynomial \\(g^\\perp(x)\\) of \\(C^\\perp\\) in terms of \\(\\hbar^{\\ast}(x)\\) and \\(b_0\\)?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "skill_layer": 6,
+    "skill_tags": [],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (\\(g^\\perp(x) = \\theta^k(b_0^{-1}) \\hbar^{\\ast}(x)\\)).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "\\(g^\\perp(x) = \\theta^k(b_0^{-1}) \\hbar^{\\ast}(x)\\)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_082_output.json"
+  },
+  {
+    "task_id": 83,
+    "source": "realmath",
+    "source_id": "math_arxiv_87",
+    "instruction": "Determine the dimension of the $\\mathbb{F}_2$-vector space $QP^{\\otimes 5}_{n_1}$.",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($1024$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$1024$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_083_output.json"
+  },
+  {
+    "task_id": 84,
+    "source": "realmath",
+    "source_id": "math_arxiv_180",
+    "instruction": "Determine all primitive positive integer solutions to the equation $$x^4 + y^4 = 97z^4.$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The unique solutions are $$ (x,y,z) = (2,3,1) $$ and $$ (x,y,z) = (3,2,1). $$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The unique solutions are $$ (x,y,z) = (2,3,1) $$ and $$ (x,y,z) = (3,2,1). $$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_084_output.json"
+  },
+  {
+    "task_id": 85,
+    "source": "realmath",
+    "source_id": "math_arxiv_583",
+    "instruction": "Evaluate the infinite series $$\\sum_{n=0}^{\\infty} n^2 (n-1) (9n+1) \\frac{\\Domb(n)}{(-32)^n}.$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "series",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$\\frac{4}{3\\pi}$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$\\frac{4}{3\\pi}$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_085_output.json"
+  },
+  {
+    "task_id": 86,
+    "source": "realmath",
+    "source_id": "math_arxiv_538",
+    "instruction": "For $n \\geq 1$, what is the value of $$EE_N^O(n) - OE_N^O(n)$$ expressed in terms of $$p_e(n)$$?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$2p_e(n)$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$2p_e(n)$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_086_output.json"
+  },
+  {
+    "task_id": 87,
+    "source": "realmath",
+    "source_id": "math_arxiv_229",
+    "instruction": "Determine the generating function $$F_c(1,q)$$ for cylindric partitions with profile $$c=(2,0)$$.",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The generating function is given by $$F_c(1,q)=\\frac{(-q^2;q^2)_\\infty}{(q;q)_\\infty}.$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The generating function is given by $$F_c(1,q)=\\frac{(-q^2;q^2)_\\infty}{(q;q)_\\infty}.$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_087_output.json"
+  },
+  {
+    "task_id": 88,
+    "source": "realmath",
+    "source_id": "math_arxiv_343",
+    "instruction": "What is the discriminant of the polynomial $$f(x)=x^N+Ax+B$$ in terms of $$N$$, $$A$$, and $$B$$?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "polynomial",
+      "functional_equation",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$\\Delta(f)=(-1)^{\\frac{N(N-1)}{2}}\\left(N^N B^{N-1}-(-1)^N (N-1)^{N-1}A^N\\right)$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$\\Delta(f)=(-1)^{\\frac{N(N-1)}{2}}\\left(N^N B^{N-1}-(-1)^N (N-1)^{N-1}A^N\\right)$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_088_output.json"
+  },
+  {
+    "task_id": 89,
+    "source": "realmath",
+    "source_id": "math_arxiv_158",
+    "instruction": "Let $G$ be a solvable group such that $f(G) \\leq 3$. Determine all possibilities for the group $G$.",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "polynomial",
+      "series",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$\\{\\mathsf{C}_{2},\\;\\mathsf{C}_{3},\\;\\mathsf{C}_{4},\\;\\mathsf{S}_{3},\\;\\mathsf{D}_{10},\\;\\mathsf{A}_{4},\\;\\mathsf{D}_{14},\\;\\mathsf{D}_{18},\\;\\mathsf{F}_{20},\\;\\mathsf{F}_{21},\\;\\mathsf{F}_{52}\\}$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$\\{\\mathsf{C}_{2},\\;\\mathsf{C}_{3},\\;\\mathsf{C}_{4},\\;\\mathsf{S}_{3},\\;\\mathsf{D}_{10},\\;\\mathsf{A}_{4},\\;\\mathsf{D}_{14},\\;\\mathsf{D}_{18},\\;\\mathsf{F}_{20},\\;\\mathsf{F}_{21},\\;\\mathsf{F}_{52}\\}$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_089_output.json"
+  },
+  {
+    "task_id": 90,
+    "source": "realmath",
+    "source_id": "math_arxiv_578",
+    "instruction": "Determine the unique solution in $\\mathbb{Q}$ of the cubic Diophantine equation $$3x^3 + 4y^3 + 5z^3 = 0.$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The only solution in $\\mathbb{Q}$ is $$(x,y,z) = (0,0,0).$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The only solution in $\\mathbb{Q}$ is $$(x,y,z) = (0,0,0).$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_090_output.json"
+  },
+  {
+    "task_id": 91,
+    "source": "realmath",
+    "source_id": "math_arxiv_470",
+    "instruction": "What is the value of the dual certificate on the polynomial $$\\prod_{i=1}^{n}\\bar{x}_{i1}$$ in terms of $n$?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "polynomial",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$ -\\frac{(n-2)!}{(n-1)^{n-1}}\\left(1 - \\frac{(-1)^{n-1}}{(n-1)^{n-2}}\\right) $$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$ -\\frac{(n-2)!}{(n-1)^{n-1}}\\left(1 - \\frac{(-1)^{n-1}}{(n-1)^{n-2}}\\right) $$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_091_output.json"
+  },
+  {
+    "task_id": 92,
+    "source": "realmath",
+    "source_id": "math_arxiv_122",
+    "instruction": "Let $$x^4 + 2y^4 = z^3.$$ What are the only non-trivial primitive integer solutions $$(x,y,z)$$ to this equation?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The only non-trivial primitive integer solutions are $$ (x,y,z) = (\\pm 3,\\, \\pm 5,\\, 11) $$.).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The only non-trivial primitive integer solutions are $$ (x,y,z) = (\\pm 3,\\, \\pm 5,\\, 11) $$.",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_092_output.json"
+  },
+  {
+    "task_id": 93,
+    "source": "realmath",
+    "source_id": "math_arxiv_379",
+    "instruction": "What is the maximum cardinality of a code $\\mathcal{C} \\subseteq 2^{\\{1,\\ldots,n\\}}$ that detects up to $t$ deletions?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$\\sum_{\\substack{\\ell=0 \\\\ \\ell \\equiv \\lfloor \\frac{n}{2} \\rfloor \\; (\\operatorname{mod}\\, t+1)}}^{n} \\binom{n}{\\ell}$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$\\sum_{\\substack{\\ell=0 \\\\ \\ell \\equiv \\lfloor \\frac{n}{2} \\rfloor \\; (\\operatorname{mod}\\, t+1)}}^{n} \\binom{n}{\\ell}$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_093_output.json"
+  },
+  {
+    "task_id": 94,
+    "source": "realmath",
+    "source_id": "math_arxiv_79",
+    "instruction": "Determine all triples \\((x,y,z)\\), with \\(x,y,z \\in \\B_{2,1}\\) and \\(x \\le y \\le z\\), that satisfy the equation $$x+y+z=1.$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The equation has exactly two solutions given by: \\[ \\text{Solution 1: } x = 2-\\sqrt{3}, \\quad y = z = \\frac{\\sqrt{3}-1}{2}, \\]\\ \\[ \\text{Solution 2: } x = y = \\frac{2-\\sqrt{2}}{2}, \\quad z = \\sqrt{2}-1. \\]).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The equation has exactly two solutions given by: \n\n\\[\n\\text{Solution 1: } x = 2-\\sqrt{3}, \\quad y = z = \\frac{\\sqrt{3}-1}{2},\n\\]\\\n\\[\n\\text{Solution 2: } x = y = \\frac{2-\\sqrt{2}}{2}, \\quad z = \\sqrt{2}-1.\n\\]",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_094_output.json"
+  },
+  {
+    "task_id": 95,
+    "source": "realmath",
+    "source_id": "math_arxiv_594",
+    "instruction": "What is the generating function for the number of shallow $123$-avoiding persymmetric permutations of length $n$, where $n\\ge3$?",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "symmetric",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The generating function is given by \\[ P_{123}(x) = \\frac{x^6+x^5+x^3-2x^2+1}{(x-1)^2 (x+1)(1-2x^2-x^4)}.\\]).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The generating function is given by \\[\nP_{123}(x) = \\frac{x^6+x^5+x^3-2x^2+1}{(x-1)^2 (x+1)(1-2x^2-x^4)}.\\]",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_095_output.json"
+  },
+  {
+    "task_id": 96,
+    "source": "realmath",
+    "source_id": "math_arxiv_66",
+    "instruction": "Let $x, y \\in \\mathbb{N}_1$ and $m, n \\in \\mathbb{N}_2$. Determine the unique quadruple $(x, m, y, n)$ such that $$x^m - y^n = 1.$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($x=3$,\\ $m=2$,\\ $y=2$,\\ $n=3$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$x=3$,\\ $m=2$,\\ $y=2$,\\ $n=3$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_096_output.json"
+  },
+  {
+    "task_id": 97,
+    "source": "realmath",
+    "source_id": "math_arxiv_421",
+    "instruction": "$$\\text{What is the value of } \\gaussian{m+p}{m} - \\gaussian{m+p-1}{m-1} \\text{ in terms of } q \\text{ and } \\gaussian{m+p-1}{m}?$$",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($$q^m \\gaussian{m+p-1}{m}$$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$$q^m \\gaussian{m+p-1}{m}$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_097_output.json"
+  },
+  {
+    "task_id": 98,
+    "source": "realmath",
+    "source_id": "math_arxiv_230",
+    "instruction": "Determine all the solutions for the triple \\( (x,y,z) \\) in \\( \\B_{2,1} \\) with \\( x \\leq y \\) that satisfy the equation \\( x+y=z \\).",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (The equation \\(x+y=z\\) with \\(x,y,z\\in \\B_{2,1}\\) and \\(x \\leq y\\) has exactly four solutions given by: $$\\begin{aligned} &\\text{(i)}\\quad x=2-\\sqrt{3} = [3,\\overline{1,2}], \\quad y=\\frac{\\sqrt{3}-1}{2} = [\\overline{2,1}], \\quad z=\\frac{3-\\sqrt{3}}{2} = [1,1,1,\\overline{2,1}],\\\\[1mm] &\\text{(ii)}\\quad x= y=\\frac{\\sq...).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "The equation \\(x+y=z\\) with \\(x,y,z\\in \\B_{2,1}\\) and \\(x \\leq y\\) has exactly four solutions given by: \n\n$$\\begin{aligned}\n&\\text{(i)}\\quad x=2-\\sqrt{3} = [3,\\overline{1,2}], \\quad y=\\frac{\\sqrt{3}-1}{2} = [\\overline{2,1}], \\quad z=\\frac{3-\\sqrt{3}}{2} = [1,1,1,\\overline{2,1}],\\\\[1mm]\n&\\text{(ii)}\\quad x= y=\\frac{\\sqrt{3}-1}{2} = [\\overline{2,1}], \\quad z=\\sqrt{3}-1 = [\\overline{1,2}],\\\\[1mm]\n&\\text{(iii)}\\quad x=y=\\frac{2-\\sqrt{2}}{2} = [3,\\overline{2}], \\quad z=2-\\sqrt{2} = [1,1,\\overline{2}],\\\\[1mm]\n&\\text{(iv)}\\quad x=\\frac{2-\\sqrt{2}}{2} = [3,\\overline{2}], \\quad y=\\sqrt{2}-1 = [\\overline{2}], \\quad z=\\frac{\\sqrt{2}}{2} = [1,\\overline{2}].\n\\end{aligned}$$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_098_output.json"
+  },
+  {
+    "task_id": 99,
+    "source": "realmath",
+    "source_id": "math_arxiv_55",
+    "instruction": "Determine the number of non-trivial primitive integer solutions to the Diophantine equation $$x^7+y^7=3z^r$$ for any integer $r\\geq2$.",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer ($0$).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "$0$",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_099_output.json"
+  },
+  {
+    "task_id": 100,
+    "source": "realmath",
+    "source_id": "math_arxiv_382",
+    "instruction": "Determine the limit \\( \\lim_{N \\to \\infty} S_N(k;t) \\) in terms of \\( k \\), \\( t \\), and the Laguerre polynomials \\( L_s^{(-1)}(kt) \\).",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "algebra",
+    "skill_layer": 6,
+    "skill_tags": [
+      "polynomial",
+      "series",
+      "research_algebra_qa"
+    ],
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "The final answer is mathematically equivalent to the reference answer (\\( k - e^{-kt} \\sum_{s=0}^{k-1} (k-s) \\Big ( L_s^{(-1)}(kt) \\Big )^2 \\)).",
+        "rubric_weight": 1,
+        "rubric_tag": "Answer Correctness"
+      }
+    ],
+    "answer": "\\( k - e^{-kt} \\sum_{s=0}^{k-1} (k-s) \\Big ( L_s^{(-1)}(kt) \\Big )^2 \\)",
+    "numeric_tolerance": null,
+    "output_file": "/app/task_100_output.json"
+  }
+]

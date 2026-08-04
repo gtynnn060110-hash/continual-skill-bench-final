@@ -1,0 +1,3 @@
+|-- crystalline_compound/
+|---- compound_elastic_properties_train.csv
+|---- compound_elastic_properties_test.csv

@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-094",
+    "source_id":  "sab-14",
+    "instance_id":  14,
+    "eval_script":  "eval_programs/eval_flooding_gpd.py",
+    "gold_program":  "gold_programs/flooding_gpd.py",
+    "scoring_rubric":  "scoring_rubrics/flooding_gpd_rubric.json",
+    "output_fname":  "pred_results/flooding_analysis.png",
+    "gold_results":  [
+                         "gold_results/flooding_analysis_gold.png"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

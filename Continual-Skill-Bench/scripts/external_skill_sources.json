@@ -1,0 +1,53 @@
+[
+  {
+    "type": "github_repo",
+    "repo": "openai/openai-cookbook",
+    "branch": "main",
+    "include": [
+      "**/*prompt*.md",
+      "**/*evaluation*.md",
+      "**/*skill*.md"
+    ],
+    "max_files": 60
+  },
+  {
+    "type": "github_repo",
+    "repo": "langchain-ai/langchain",
+    "branch": "master",
+    "include": [
+      "**/*tool*.md",
+      "**/*agent*.md",
+      "**/*skill*.md"
+    ],
+    "max_files": 60
+  },
+  {
+    "type": "github_repo",
+    "repo": "iflytek/skillhub",
+    "branch": "main",
+    "include": [
+      "**/skill*.md",
+      "**/*skills*.md",
+      "**/docs/**/*.md",
+      "**/document/**/*.md",
+      "**/*registry*.md",
+      "**/*publish*.md",
+      "**/*install*.md"
+    ],
+    "max_files": 120
+  },
+  {
+    "type": "skillhub_api",
+    "base_url": "https://www.skillhub.club/api/v1",
+    "search_path": "/skills/search",
+    "query": "finance economics",
+    "page_size": 50,
+    "max_pages": 5,
+    "method": "POST"
+  },
+  {
+    "type": "url",
+    "url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/README.md",
+    "name": "generative-ai-reference"
+  }
+]

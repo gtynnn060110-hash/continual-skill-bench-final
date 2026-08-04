@@ -1,0 +1,23 @@
+{
+  "name": "science-100",
+  "description": "100 science tasks spanning physics, chemistry, biology, lab QA, and scientific agents.",
+  "source_urls": {
+    "skillsbench": "https://www.skillsbench.ai/tasks",
+    "scienceagentbench": "https://huggingface.co/datasets/osunlp/ScienceAgentBench",
+    "scienceagentbench_project": "https://osu-nlp-group.github.io/ScienceAgentBench/",
+    "labbench": "https://huggingface.co/datasets/futurehouse/lab-bench",
+    "labbench2": "https://huggingface.co/datasets/EdisonScientific/labbench2",
+    "labbench2_github": "https://github.com/EdisonScientific/labbench2",
+    "astabench": "https://huggingface.co/datasets/allenai/asta-bench",
+    "astabench_project": "https://allenai.org/asta/bench",
+    "astabench_github": "https://github.com/allenai/asta-bench",
+    "scibench": "https://github.com/mandyyyyii/scibench/tree/main/dataset/original",
+    "scibench_project": "https://scibench-ucla.github.io/"
+  },
+  "notes": [
+    "LABBench2 and AstaBench are documented as source candidates but are gated on Hugging Face.",
+    "This pack uses public LAB-Bench rows as the biochemistry/lab QA fallback.",
+    "Self-contained tasks do not keep per-task data directories.",
+    "Only tasks that require background evidence keep per-task data directories."
+  ]
+}

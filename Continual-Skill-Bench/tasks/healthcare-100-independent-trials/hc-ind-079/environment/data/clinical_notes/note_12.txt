@@ -1,0 +1,5 @@
+fever has been managed with medication.
+Past medical history significant for fever.
+Patient denies fever but reports no symptoms.
+fever was observed during the visit.
+No signs of fever or no symptoms.

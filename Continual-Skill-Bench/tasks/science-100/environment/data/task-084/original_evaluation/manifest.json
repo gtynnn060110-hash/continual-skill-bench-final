@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-084",
+    "source_id":  "sab-4",
+    "instance_id":  4,
+    "eval_script":  "eval_programs/eval_elk_analysis.py",
+    "gold_program":  "gold_programs/elk_new.py",
+    "scoring_rubric":  "scoring_rubrics/elk_new_rubric.json",
+    "output_fname":  "pred_results/Elk_Analysis.png",
+    "gold_results":  [
+                         "gold_results/Elk_Analysis_gold.png"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

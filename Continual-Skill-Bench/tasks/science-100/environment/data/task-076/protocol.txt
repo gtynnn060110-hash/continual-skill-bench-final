@@ -1,0 +1,11 @@
+Step 1. Add 450 µL Buffer QG (to the excised gel piece in a 1.5ml microcentrifuge tube)
+Step 2. Dissolve the gel slice in QG for 10 min @ 42 °C
+Step 3. Add 150 μL Isopropanol to the sample and mix by inverting
+Step 4. Transfer sample to spin column and centrifuge at 16 000 x g for 1 min
+Step 5. Discard flow through and add 500 μL Buffer QG
+Step 6. Centrifuge at 16 000 x g for 1 min and discard flow through
+Step 7. Add 700 μL Buffer PE
+Step 8. Centrifuge at 16 000 x g for 1 min and discard flow through
+Step 9. Centrifuge again at 16 000 x g for 1 min to remove residual ethanol
+Step 10. Add 20 μL H2O to column and incubate for 1 min
+Step 11. Centrifuge at 16 000 x g for 1 min to elute and discard the spin column

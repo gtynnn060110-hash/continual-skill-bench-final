@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-092",
+    "source_id":  "sab-12",
+    "instance_id":  12,
+    "eval_script":  "eval_programs/davis_dti_eval.py",
+    "gold_program":  "gold_programs/davis_dti.py",
+    "scoring_rubric":  "scoring_rubrics/davis_dti_rubric.json",
+    "output_fname":  "pred_results/davis_dti_repurposing.txt",
+    "gold_results":  [
+
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

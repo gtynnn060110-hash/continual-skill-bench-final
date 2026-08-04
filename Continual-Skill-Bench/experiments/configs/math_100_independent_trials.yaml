@@ -1,0 +1,178 @@
+# Independent trials for math-100 subtasks
+# Usage:
+#   harbor jobs start -c /Users/gtynnn/Documents/Learning/llm_porj/Continual-Skill-Bench/experiments/configs/math_100_independent_trials.yaml
+
+job_name: math_independent_trials_5.3codex
+jobs_dir: ../jobs
+n_attempts: 1
+timeout_multiplier: 1.0
+debug: true
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 5
+  quiet: false
+  retry:
+    max_retries: 0
+    include_exceptions: null
+    exclude_exceptions:
+      - VerifierTimeoutError
+      - BadRequestError
+      - RateLimitError
+    wait_multiplier: 1.0
+    min_wait_sec: 1.0
+    max_wait_sec: 60.0
+  kwargs: {}
+
+environment:
+  type: docker
+  import_path: null
+  force_build: false
+  delete: false
+  override_cpus: null
+  override_memory_mb: null
+  override_storage_mb: null
+  override_gpus: null
+  kwargs: {}
+
+verifier:
+  override_timeout_sec: null
+  max_timeout_sec: null
+  disable: false
+
+metrics: []
+
+agents:
+  # - name: claude-code-seq
+  #   import_path: null
+  #   model_name: anthropic/claude-opus-4-7
+  #   override_timeout_sec: null
+  #   override_setup_timeout_sec: null
+  #   max_timeout_sec: null
+  #   kwargs:
+  #     reasoning_effort: medium
+  #     enable_judge_feedback: true
+  #     judge_model: openai/gpt-5.4
+  #     judge_pass_threshold: 0.6
+  #     skill_maintenance_threshold: 0.2
+  #     max_steps_per_task: 30
+  #     max_seconds_per_task: 1200
+  - name: codex-seq
+    import_path: null
+    model_name: openai/gpt-5.3-codex
+    override_timeout_sec: null
+    override_setup_timeout_sec: null
+    max_timeout_sec: null
+    kwargs:
+      reasoning_effort: medium
+      enable_judge_feedback: true
+      judge_model: openai/gpt-5.4
+      judge_pass_threshold: 0.6
+      skill_maintenance_threshold: 0.2
+      max_steps_per_task: 30
+      max_seconds_per_task: 1200
+
+
+datasets:
+  - path: ./tasks/math-100-independent-trials
+    task_names:
+      - math-ind-001
+      - math-ind-002
+      - math-ind-003
+      - math-ind-004
+      - math-ind-005
+      - math-ind-006
+      - math-ind-007
+      - math-ind-008
+      - math-ind-009
+      - math-ind-010
+      - math-ind-011
+      - math-ind-012
+      - math-ind-013
+      - math-ind-014
+      - math-ind-015
+      - math-ind-016
+      - math-ind-017
+      - math-ind-018
+      - math-ind-019
+      - math-ind-020
+      - math-ind-021
+      - math-ind-022
+      - math-ind-023
+      - math-ind-024
+      - math-ind-025
+      - math-ind-026
+      - math-ind-027
+      - math-ind-028
+      - math-ind-029
+      - math-ind-030
+      - math-ind-031
+      - math-ind-032
+      - math-ind-033
+      - math-ind-034
+      - math-ind-035
+      - math-ind-036
+      - math-ind-037
+      - math-ind-038
+      - math-ind-039
+      - math-ind-040
+      - math-ind-041
+      - math-ind-042
+      - math-ind-043
+      - math-ind-044
+      - math-ind-045
+      - math-ind-046
+      - math-ind-047
+      - math-ind-048
+      - math-ind-049
+      - math-ind-050
+      - math-ind-051
+      - math-ind-052
+      - math-ind-053
+      - math-ind-054
+      - math-ind-055
+      - math-ind-056
+      - math-ind-057
+      - math-ind-058
+      - math-ind-059
+      - math-ind-060
+      - math-ind-061
+      - math-ind-062
+      - math-ind-063
+      - math-ind-064
+      - math-ind-065
+      - math-ind-066
+      - math-ind-067
+      - math-ind-068
+      - math-ind-069
+      - math-ind-070
+      - math-ind-071
+      - math-ind-072
+      - math-ind-073
+      - math-ind-074
+      - math-ind-075
+      - math-ind-076
+      - math-ind-077
+      - math-ind-078
+      - math-ind-079
+      - math-ind-080
+      - math-ind-081
+      - math-ind-082
+      - math-ind-083
+      - math-ind-084
+      - math-ind-085
+      - math-ind-086
+      - math-ind-087
+      - math-ind-088
+      - math-ind-089
+      - math-ind-090
+      - math-ind-091
+      - math-ind-092
+      - math-ind-093
+      - math-ind-094
+      - math-ind-095
+      - math-ind-096
+      - math-ind-097
+      - math-ind-098
+      - math-ind-099
+      - math-ind-100

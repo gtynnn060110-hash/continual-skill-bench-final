@@ -1,0 +1,163 @@
+# Independent trials for law-100 subtasks
+# Usage:
+#   harbor jobs start -c /Users/gtynnn/Documents/Learning/llm_porj/Continual-Skill-Bench/experiments/configs/law_100_independent_trials.yaml
+
+job_name: law_independent_trials_opus
+jobs_dir: ../jobs
+n_attempts: 1
+timeout_multiplier: 1.0
+debug: true
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 5
+  quiet: false
+  retry:
+    max_retries: 0
+    include_exceptions: null
+    exclude_exceptions:
+      - VerifierTimeoutError
+      - BadRequestError
+      - RateLimitError
+    wait_multiplier: 1.0
+    min_wait_sec: 1.0
+    max_wait_sec: 60.0
+  kwargs: {}
+
+environment:
+  type: docker
+  import_path: null
+  force_build: false
+  delete: false
+  override_cpus: null
+  override_memory_mb: null
+  override_storage_mb: null
+  override_gpus: null
+  kwargs: {}
+
+verifier:
+  override_timeout_sec: null
+  max_timeout_sec: null
+  disable: false
+
+metrics: []
+
+agents:
+  - name: claude-code-seq
+    import_path: null
+    model_name: anthropic/claude-opus-4.7
+    override_timeout_sec: null
+    override_setup_timeout_sec: null
+    max_timeout_sec: null
+    kwargs:
+      reasoning_effort: medium
+      enable_judge_feedback: true
+      judge_model: openai/gpt-5.4
+      judge_pass_threshold: 0.6
+      skill_maintenance_threshold: 0.2
+      max_steps_per_task: 30
+      max_seconds_per_task: 1200
+
+datasets:
+  - path: ./tasks/law-100-independent-trials
+    task_names:
+      - law-ind-001
+      - law-ind-002
+      - law-ind-003
+      - law-ind-004
+      - law-ind-005
+      - law-ind-006
+      - law-ind-007
+      - law-ind-008
+      - law-ind-009
+      - law-ind-010
+      - law-ind-011
+      - law-ind-012
+      - law-ind-013
+      - law-ind-014
+      - law-ind-015
+      - law-ind-016
+      - law-ind-017
+      - law-ind-018
+      - law-ind-019
+      - law-ind-020
+      - law-ind-021
+      - law-ind-022
+      - law-ind-023
+      - law-ind-024
+      - law-ind-025
+      - law-ind-026
+      - law-ind-027
+      - law-ind-028
+      - law-ind-029
+      - law-ind-030
+      - law-ind-031
+      - law-ind-032
+      - law-ind-033
+      - law-ind-034
+      - law-ind-035
+      - law-ind-036
+      - law-ind-037
+      - law-ind-038
+      - law-ind-039
+      - law-ind-040
+      - law-ind-041
+      - law-ind-042
+      - law-ind-043
+      - law-ind-044
+      - law-ind-045
+      - law-ind-046
+      - law-ind-047
+      - law-ind-048
+      - law-ind-049
+      - law-ind-050
+      - law-ind-051
+      - law-ind-052
+      - law-ind-053
+      - law-ind-054
+      - law-ind-055
+      - law-ind-056
+      - law-ind-057
+      - law-ind-058
+      - law-ind-059
+      - law-ind-060
+      - law-ind-061
+      - law-ind-062
+      - law-ind-063
+      - law-ind-064
+      - law-ind-065
+      - law-ind-066
+      - law-ind-067
+      - law-ind-068
+      - law-ind-069
+      - law-ind-070
+      - law-ind-071
+      - law-ind-072
+      - law-ind-073
+      - law-ind-074
+      - law-ind-075
+      - law-ind-076
+      - law-ind-077
+      - law-ind-078
+      - law-ind-079
+      - law-ind-080
+      - law-ind-081
+      - law-ind-082
+      - law-ind-083
+      - law-ind-084
+      - law-ind-085
+      - law-ind-086
+      - law-ind-087
+      - law-ind-088
+      - law-ind-089
+      - law-ind-090
+      - law-ind-091
+      - law-ind-092
+      - law-ind-093
+      - law-ind-094
+      - law-ind-095
+      - law-ind-096
+      - law-ind-097
+      - law-ind-098
+      - law-ind-099
+      - law-ind-100

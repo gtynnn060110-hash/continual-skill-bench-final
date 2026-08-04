@@ -1,0 +1,11 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "FACTORS/FACTORS_training_disguised_combined_full.csv",
+    "FACTORS/FACTORS_test1_disguised_combined.csv",
+    "FACTORS/FACTORS_test2_disguised_combined.csv",
+    "FACTORS/scripts/FACTORS_features.py",
+    "FACTORS/scripts/FACTORS_datasets.py"
+  ],
+  "official_output": "pred_results/Factors_correlations.png"
+}

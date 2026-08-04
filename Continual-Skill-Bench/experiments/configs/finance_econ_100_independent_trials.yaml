@@ -1,0 +1,163 @@
+# Independent trials for finance-econ-100 subtasks
+# Usage:
+#   harbor jobs start -c /Users/gtynnn/Documents/Learning/llm_porj/Continual-Skill-Bench/experiments/configs/finance_econ_100_independent_trials.yaml
+
+job_name: fin_econ_independent_trials_opus_debug
+jobs_dir: ../jobs
+n_attempts: 1
+timeout_multiplier: 1.0
+debug: true
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 1
+  quiet: false
+  retry:
+    max_retries: 0
+    include_exceptions: null
+    exclude_exceptions:
+      - VerifierTimeoutError
+      - BadRequestError
+      - RateLimitError
+    wait_multiplier: 1.0
+    min_wait_sec: 1.0
+    max_wait_sec: 60.0
+  kwargs: {}
+
+environment:
+  type: docker
+  import_path: null
+  force_build: false
+  delete: false
+  override_cpus: null
+  override_memory_mb: null
+  override_storage_mb: null
+  override_gpus: null
+  kwargs: {}
+
+verifier:
+  override_timeout_sec: null
+  max_timeout_sec: null
+  disable: false
+
+metrics: []
+
+agents:
+  - name: claude-code-seq-debug
+    import_path: null
+    model_name: anthropic/claude-opus-4.7
+    override_timeout_sec: null
+    override_setup_timeout_sec: null
+    max_timeout_sec: null
+    kwargs:
+      reasoning_effort: medium
+      enable_judge_feedback: true
+      judge_model: openai/gpt-5.4
+      judge_pass_threshold: 0.6
+      skill_maintenance_threshold: 0.2
+      max_steps_per_task: 30
+      max_seconds_per_task: 1200
+
+datasets:
+  - path: ./tasks/finance-econ-100-independent-trials
+    task_names:
+      - fin-econ-ind-001
+      - fin-econ-ind-002
+      - fin-econ-ind-003
+      - fin-econ-ind-004
+      - fin-econ-ind-005
+      - fin-econ-ind-006
+      - fin-econ-ind-007
+      - fin-econ-ind-008
+      - fin-econ-ind-009
+      - fin-econ-ind-010
+      - fin-econ-ind-011
+      - fin-econ-ind-012
+      - fin-econ-ind-013
+      - fin-econ-ind-014
+      - fin-econ-ind-015
+      - fin-econ-ind-016
+      - fin-econ-ind-017
+      - fin-econ-ind-018
+      - fin-econ-ind-019
+      - fin-econ-ind-020
+      - fin-econ-ind-021
+      - fin-econ-ind-022
+      - fin-econ-ind-023
+      - fin-econ-ind-024
+      - fin-econ-ind-025
+      - fin-econ-ind-026
+      - fin-econ-ind-027
+      - fin-econ-ind-028
+      - fin-econ-ind-029
+      - fin-econ-ind-030
+      - fin-econ-ind-031
+      - fin-econ-ind-032
+      - fin-econ-ind-033
+      - fin-econ-ind-034
+      - fin-econ-ind-035
+      - fin-econ-ind-036
+      - fin-econ-ind-037
+      - fin-econ-ind-038
+      - fin-econ-ind-039
+      - fin-econ-ind-040
+      - fin-econ-ind-041
+      - fin-econ-ind-042
+      - fin-econ-ind-043
+      - fin-econ-ind-044
+      - fin-econ-ind-045
+      - fin-econ-ind-046
+      - fin-econ-ind-047
+      - fin-econ-ind-048
+      - fin-econ-ind-049
+      - fin-econ-ind-050
+      - fin-econ-ind-051
+      - fin-econ-ind-052
+      - fin-econ-ind-053
+      - fin-econ-ind-054
+      - fin-econ-ind-055
+      - fin-econ-ind-056
+      - fin-econ-ind-057
+      - fin-econ-ind-058
+      - fin-econ-ind-059
+      - fin-econ-ind-060
+      - fin-econ-ind-061
+      - fin-econ-ind-062
+      - fin-econ-ind-063
+      - fin-econ-ind-064
+      - fin-econ-ind-065
+      - fin-econ-ind-066
+      - fin-econ-ind-067
+      - fin-econ-ind-068
+      - fin-econ-ind-069
+      - fin-econ-ind-070
+      - fin-econ-ind-071
+      - fin-econ-ind-072
+      - fin-econ-ind-073
+      - fin-econ-ind-074
+      - fin-econ-ind-075
+      - fin-econ-ind-076
+      - fin-econ-ind-077
+      - fin-econ-ind-078
+      - fin-econ-ind-079
+      - fin-econ-ind-080
+      - fin-econ-ind-081
+      - fin-econ-ind-082
+      - fin-econ-ind-083
+      - fin-econ-ind-084
+      - fin-econ-ind-085
+      - fin-econ-ind-086
+      - fin-econ-ind-087
+      - fin-econ-ind-088
+      - fin-econ-ind-089
+      - fin-econ-ind-090
+      - fin-econ-ind-091
+      - fin-econ-ind-092
+      - fin-econ-ind-093
+      - fin-econ-ind-094
+      - fin-econ-ind-095
+      - fin-econ-ind-096
+      - fin-econ-ind-097
+      - fin-econ-ind-098
+      - fin-econ-ind-099
+      - fin-econ-ind-100

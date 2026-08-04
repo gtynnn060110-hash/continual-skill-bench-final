@@ -1,0 +1,84 @@
+#!/bin/bash
+set -euo pipefail
+
+# Skip agent setup when Claude was baked into the image (e.g. Dockerfile RUN install).
+# Must run before apt/apk: prebuilt images already have curl/claude; apt-get update
+# through Harbor's build proxy can take many minutes per trial.
+export PATH="$HOME/.local/bin:$PATH"
+if command -v claude >/dev/null 2>&1; then
+  claude --version
+  exit 0
+fi
+
+# Install curl if not available (GNU coreutils `timeout` is on Ubuntu base images;
+# Alpine needs coreutils for `timeout`.)
+if command -v apk &> /dev/null; then
+    apk add --no-cache curl bash procps coreutils
+elif command -v apt-get &> /dev/null; then
+    if ! command -v curl >/dev/null 2>&1 || ! command -v ps >/dev/null 2>&1; then
+        apt-get update || true
+        apt-get install -y curl procps || true
+    fi
+fi
+
+# Install Claude Code using the official installer.
+# Download to a temp file first: (1) curl --retry skips CURLE_PARTIAL_FILE (18) unless
+# --retry-all-errors; (2) avoids piping a truncated script into bash.
+# Keep --retry and --max-time modest so a dead proxy cannot burn the entire agent setup budget.
+_install_script=$(mktemp)
+trap 'rm -f "$_install_script"' EXIT
+curl -fsSL \
+  --retry 5 \
+  --retry-all-errors \
+  --retry-delay 5 \
+  --connect-timeout 30 \
+  --max-time 240 \
+  -o "$_install_script" \
+  https://claude.ai/install.sh
+
+{% if version %}
+INSTALL_VER="{{ version }}"
+{% else %}
+INSTALL_VER=""
+{% endif %}
+
+# Upstream install.sh runs its own downloads; those can hang on bad networks. Bound each
+# attempt with `timeout` so we fail fast and retry (or exit) instead of stalling to
+# AgentSetupTimeout (often 1800s).
+_install_attempt_secs=420
+_attempt=1
+_max=4
+while [[ $_attempt -le $_max ]]; do
+  _ok=0
+  if [[ -n "$INSTALL_VER" ]]; then
+    if timeout "$_install_attempt_secs" bash "$_install_script" "$INSTALL_VER"; then
+      _ok=1
+    else
+      _ec=$?
+      if [[ "$_ec" -eq 124 ]]; then
+        echo "install.sh timed out after ${_install_attempt_secs}s (attempt $_attempt/$_max)" >&2
+      fi
+    fi
+  else
+    if timeout "$_install_attempt_secs" bash "$_install_script"; then
+      _ok=1
+    else
+      _ec=$?
+      if [[ "$_ec" -eq 124 ]]; then
+        echo "install.sh timed out after ${_install_attempt_secs}s (attempt $_attempt/$_max)" >&2
+      fi
+    fi
+  fi
+  if [[ "$_ok" -eq 1 ]]; then
+    break
+  fi
+  if [[ $_attempt -eq $_max ]]; then
+    echo "Claude install.sh failed after $_max attempts" >&2
+    exit 1
+  fi
+  echo "install.sh failed (attempt $_attempt/$_max); retrying in 20s..." >&2
+  sleep 20
+  _attempt=$((_attempt + 1))
+done
+
+claude --version

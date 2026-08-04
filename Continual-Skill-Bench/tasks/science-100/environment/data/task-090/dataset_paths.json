@@ -1,0 +1,8 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "Toronto_fire/fire_station.geojson",
+    "Toronto_fire/etobicoke.geojson"
+  ],
+  "official_output": "pred_results/Fire_Service_Analysis.png"
+}

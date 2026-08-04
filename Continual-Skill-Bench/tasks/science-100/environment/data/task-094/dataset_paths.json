@@ -1,0 +1,13 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "Flooding/StudyAreaBuildings.shp",
+    "Flooding/StudyAreaBuildings.shx",
+    "Flooding/StudyAreaBuildings.dbf",
+    "Flooding/StudyAreaBuildings.prj",
+    "Flooding/StudyAreaBuildings.cpg",
+    "Flooding/Elevation_2050.tif",
+    "Flooding/Elevation_2050.tfw"
+  ],
+  "official_output": "pred_results/flooding_analysis.png"
+}

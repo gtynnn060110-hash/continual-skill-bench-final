@@ -1,0 +1,10 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "hiv/HIV_train.csv",
+    "hiv/HIV_dev.csv",
+    "hiv/HIV_test.csv",
+    "hiv/HIV_README"
+  ],
+  "official_output": "pred_results/hiv_test_pred.csv"
+}

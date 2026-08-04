@@ -1,0 +1,23 @@
+{
+  "task_id": 100,
+  "source": "SkillsBench",
+  "source_id": "find-topk-similiar-chemicals",
+  "source_url": "https://www.skillsbench.ai/tasks",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/find-topk-similiar-chemicals",
+  "category": "chemistry",
+  "difficulty": "medium",
+  "unit": "",
+  "original_payload": {
+    "benchmark": "SkillsBench",
+    "title": "find-topk-similiar-chemicals",
+    "description": "Find the top k similar chemicals in `molecules.pdf` to any chemicals you are given.",
+    "difficulty": "medium",
+    "category": "chemistry",
+    "tags": "chemistry, PDF, python",
+    "task_id": "find-topk-similiar-chemicals",
+    "url": "https://www.skillsbench.ai/tasks/find-topk-similiar-chemicals",
+    "source_url": "https://www.skillsbench.ai/tasks",
+    "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/find-topk-similiar-chemicals",
+    "scraped_time": "2026-05-20T14:55:14.016745"
+  }
+}

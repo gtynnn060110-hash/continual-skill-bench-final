@@ -1,0 +1,13 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "dti/DAVIS/target_seq.json",
+    "dti/DAVIS/affinity_train.csv",
+    "dti/DAVIS/drug_train.txt",
+    "dti/DAVIS/affinity_val.csv",
+    "dti/DAVIS/drug_val.txt",
+    "dti/antiviral_drugs.tab",
+    "dti/covid_seq.txt"
+  ],
+  "official_output": "pred_results/davis_dti_repurposing.txt"
+}

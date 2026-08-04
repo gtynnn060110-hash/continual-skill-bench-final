@@ -1,0 +1,9 @@
+{
+  "data_type": "literature_evidence",
+  "sources": [
+    "https://doi.org/10.1038/s41586-022-04877-w"
+  ],
+  "is_opensource": true,
+  "tag": "litqa",
+  "version": "1.1-dev"
+}

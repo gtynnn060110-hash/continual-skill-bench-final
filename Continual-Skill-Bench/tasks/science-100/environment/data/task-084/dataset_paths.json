@@ -1,0 +1,7 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "ElkMovement/Elk_in_Southwestern_Alberta_2009.geojson"
+  ],
+  "official_output": "pred_results/Elk_Analysis.png"
+}

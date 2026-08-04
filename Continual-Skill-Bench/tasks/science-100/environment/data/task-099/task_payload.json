@@ -1,0 +1,23 @@
+{
+  "task_id": 99,
+  "source": "SkillsBench",
+  "source_id": "exoplanet-detection-period",
+  "source_url": "https://www.skillsbench.ai/tasks",
+  "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/exoplanet-detection-period",
+  "category": "astronomy",
+  "difficulty": "medium",
+  "unit": "",
+  "original_payload": {
+    "benchmark": "SkillsBench",
+    "title": "exoplanet-detection-period",
+    "description": "You are provided with a lightcurve obtained with the TESS space telescope at `/root/data/tess_lc.txt`, with the columns: Time (MJD), Normalized flux, Quality flag (0 means good data), Flux uncertainty.",
+    "difficulty": "medium",
+    "category": "astronomy",
+    "tags": "science, astronomy, planetary-science",
+    "task_id": "exoplanet-detection-period",
+    "url": "https://www.skillsbench.ai/tasks/exoplanet-detection-period",
+    "source_url": "https://www.skillsbench.ai/tasks",
+    "github_url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/exoplanet-detection-period",
+    "scraped_time": "2026-05-20T14:55:14.015727"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data_type": "figure",
+  "source": "https://doi.org/10.1038/s41586-018-0077-3",
+  "figure_path_in_source_repo": "/home/runner/work/LAB-Bench/LAB-Bench/FigQA/figs/114.jpg",
+  "figure_url": "https://datasets-server.huggingface.co/cached-assets/futurehouse/lab-bench/--/749fc1f31857c7e621275ffdcf6679021fbb8f0a/--/FigQA/train/6/figure/image.jpg?Expires=1779343280&Signature=CU0C1bt-QrCy73vyDyR46yOEq1VOs4A~64ukjaXnTD4A1VE5iJtZBBaIMNS0BfzFDfWGDXqz1q4seCIXawVDjl22I75V3OXOMKBF6T6jOhDc1WE~NfUyGOWnchA4ggWhK1YDzVTf4j54U0rE-y~xE573CLmapZjQyFIw9XyFK5LcMNcOThF9Zs4ZC2HyVNtvR61jGosHDYpzBpx3fOYr3Nbct0E0MWP2tjgVQQRTNIO5SJM-Igrddx5PweZWEnWXK1w-YyQqkWp5XHeXTOq~MFrq19AiBEMwvyqvvJqw9s2tMUyH5yH5Zmp2x3YJjvKFdJ0oOPK8xZL7Ecc7BSifkg__&Key-Pair-Id=K204OQ5RWQVDLD",
+  "width": 3089,
+  "height": 1414
+}

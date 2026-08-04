@@ -1,0 +1,10 @@
+## Task 83: Conduct a mutational analysis of a novel genetic disorder linked to a specific gene mutation.
+
+You may search for relevant legal documents, regulations, and case law online.
+
+Researchers have identified a novel rare disease: "Early-onset Neurodegenerative Syndrome X (ENSX)." Preliminary genetic analysis suggests an association with a gene named NXF1. It is known that the NXF1 gene encodes a critical nuclear mRNA export factor responsible for exporting mRNA from the nucleus to the cytoplasm. The genomic structure of the gene, as well as partial regions of its wild-type and mutant cDNA sequences, are known. Known Information: Genomic Structure: The NXF1 gene contains 12 exons, with Exon 7 containing a critical Lysine (Lys) codon (AAG). Sequence Information: Wild-type cDNA fragment (corresponding to part of Exon 7): 5‘- ...AAC GGA AAG CUC UAC... -3’ (Note: Sequence is mRNA, bases shown). Patient cDNA corresponding fragment: 5’- ...AAC GGA UAG CUC UAC... -3‘. Clinical Samples available: Skin fibroblasts and blood samples from patients and healthy controls. Please conduct a mutational analysis and determine molecular consequences (basic analysis) based on the provided information. Compare the wild-type and patient sequences, identifying the specific type of mutation (base substitution, deletion, etc.) and the change at the DNA level. What amino acid does the "AAG" in the wild-type sequence encode? What is the "UAG" in the patient sequence? What direct impact will this mutation have on the amino acid sequence of the NXF1 protein? Based on the function of the NXF1 protein, hypothesize in which cell types this mutation is most likely to have severe effects. How will this affect the global process of gene expression? Furthermore, how should experiments be designed to verify this hypothesis?
+
+Output requirements:
+- Write your answer to `/app/task_083_output.json`
+- JSON object with your key findings, citations, and conclusions
+- You must write the output to the file. Only responding in chat will receive no score.

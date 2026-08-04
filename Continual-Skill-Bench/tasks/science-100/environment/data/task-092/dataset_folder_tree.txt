@@ -1,0 +1,9 @@
+|-- dti/
+|---- antiviral_drugs.tab
+|---- covid_seq.txt
+|---- DAVIS/
+|------ target_seq.json
+|------ affinity_train.csv
+|------ drug_train.txt
+|------ drug_val.txt
+|------ affinity_val.csv

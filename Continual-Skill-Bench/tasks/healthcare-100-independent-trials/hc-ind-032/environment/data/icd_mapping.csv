@@ -1,0 +1,21 @@
+keyword,icd_code,description
+hypertension,I10,Essential (primary) hypertension
+diabetes,E11.9,Type 2 diabetes mellitus without complications
+asthma,J45.909,"Unspecified asthma, uncomplicated"
+chest pain,R07.9,"Chest pain, unspecified"
+headache,R51,Headache
+fever,R50.9,"Fever, unspecified"
+cough,R05,Cough
+shortness of breath,R06.02,Shortness of breath
+obesity,E66.9,"Obesity, unspecified"
+depression,F32.9,"Major depressive disorder, single episode, unspecified"
+anxiety,F41.9,"Anxiety disorder, unspecified"
+back pain,M54.5,Low back pain
+allergy,T78.40XA,"Allergy, unspecified, initial encounter"
+pneumonia,J18.9,"Pneumonia, unspecified organism"
+migraine,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+arthritis,M19.90,"Osteoarthritis, unspecified site"
+anemia,D64.9,"Anemia, unspecified"
+infection,B99,Other and unspecified infectious diseases
+fracture,S52.501A,"Unspecified fracture of lower end of right radius, initial encounter"
+insomnia,G47.00,"Insomnia, unspecified"

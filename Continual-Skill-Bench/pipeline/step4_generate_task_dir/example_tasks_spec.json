@@ -1,0 +1,82 @@
+[
+  {
+    "task_id": 1,
+    "source": "TAT-QA",
+    "source_id": "2b0dd274d31a4d542e411adf27ccee9b",
+    "instruction": "[Table]\n(in thousands of $)\t2019\t2018\nLiquefaction services revenue\t218,096\t127,625\nRealized and unrealized (losses)/gains on the oil derivative instrument\t(26,001)\t16,767\n\n[Context]\nSummarized financial information of Hilli LLC as of December 31, 2019 and 2018.\n\n[Question]\nIn which years was the financial information recorded for?\n\nWrite your final answer to /app/task_001_output.json as {\"answer\": \"...\"}",
+    "eval_type": "exact_match",
+    "difficulty": "easy",
+    "domain": "corporate",
+    "rubrics": [],
+    "answer": "2019 | 2018",
+    "numeric_tolerance": null
+  },
+  {
+    "task_id": 2,
+    "source": "FinQA",
+    "source_id": "AAL/2018/page_13.pdf-2",
+    "instruction": "[Context]\nAnnual aircraft fuel consumption and costs:\nYear 2017: gallons consumed 3,387 million, cost per gallon $1.73\nYear 2018: gallons consumed 3,465 million, cost per gallon $2.19\n\n[Question]\nWhat is the average annual fuel cost per gallon across 2017 and 2018?\n\nWrite your final answer to /app/task_002_output.json as {\"answer\": \"<number>\"}",
+    "eval_type": "numeric",
+    "difficulty": "easy",
+    "domain": "corporate",
+    "rubrics": [],
+    "answer": "1.96",
+    "numeric_tolerance": 0.01
+  },
+  {
+    "task_id": 3,
+    "source": "OMBench",
+    "source_id": "e1b94c86-b6c9-43f6-8251-2e513e5efc52",
+    "instruction": "You are an international financial risk analyst. Based on the Financial Stability Report released by the Bank of England in October 2025, the five largest US companies account for approximately 30% of the S&P 500 — the highest concentration in nearly 50 years.\n\nPlease analyze:\n1. Why high AI stock concentration may exacerbate systemic risk\n2. How shifts in Fed independence expectations affect financial stability\n\nWrite comprehensive analysis to /app/task_003_output.json as {\"analysis\": \"...\"}",
+    "eval_type": "rubric_judge",
+    "difficulty": "hard",
+    "domain": "risk",
+    "rubrics": [
+      {
+        "rubric_number": 1,
+        "rubric_detail": "Explains the concentration risk mechanism: correlated selling in a few dominant stocks amplifies index-level drawdowns",
+        "rubric_weight": 20,
+        "rubric_tag": "analysis"
+      },
+      {
+        "rubric_number": 2,
+        "rubric_detail": "Identifies at least two channels through which Fed independence concerns affect markets (currency, risk premium, capital flows)",
+        "rubric_weight": 20,
+        "rubric_tag": "analysis"
+      },
+      {
+        "rubric_number": 3,
+        "rubric_detail": "Connects both risks as mutually reinforcing (AI correction + Fed credibility loss → flight to safety)",
+        "rubric_weight": 10,
+        "rubric_tag": "synthesis"
+      }
+    ],
+    "answer": "",
+    "numeric_tolerance": null
+  },
+  {
+    "task_id": 4,
+    "source": "claw-bench",
+    "source_id": "fin-001-portfolio-beta",
+    "instruction": "You are given a CSV file at `/app/workspace/stock_returns.csv` containing daily returns for 5 stocks (AAPL, GOOGL, MSFT, AMZN, META) and a MARKET index over 252 trading days.\n\nYour task:\n1. Read the CSV file\n2. Calculate beta for each stock: Beta = Cov(stock, market) / Var(market)\n3. Calculate portfolio beta assuming equal weights (20% each)\n4. Write results to `/app/workspace/portfolio_analysis.json`:\n```json\n{\"individual_betas\": {\"AAPL\": 1.23, ...}, \"portfolio_beta\": 1.05, \"portfolio_risk_level\": \"moderate\"}\n```\nRisk levels: beta < 0.8 = conservative, 0.8-1.2 = moderate, > 1.2 = aggressive",
+    "eval_type": "programmatic",
+    "difficulty": "medium",
+    "domain": "market",
+    "rubrics": [],
+    "answer": "",
+    "numeric_tolerance": null
+  },
+  {
+    "task_id": 5,
+    "source": "InvestorBench",
+    "source_id": "investorbench_hon",
+    "instruction": "You are an experienced trading manager specializing in Honeywell International Inc. (HON)...\n\nMarket data is available at /root/data/hon.json. Make daily buy/hold/sell decisions for the test period.\nWrite your trading decisions to /app/task_005_output.json:\n{\"decisions\": {\"2020-10-01\": \"buy\", \"2020-10-02\": \"hold\", ...}, \"cumulative_return\": 0.12, \"sharpe_ratio\": 1.3, \"annualized_volatility\": 0.18, \"max_drawdown\": -0.05}",
+    "eval_type": "programmatic",
+    "difficulty": "hard",
+    "domain": "market",
+    "rubrics": [],
+    "answer": "",
+    "numeric_tolerance": null,
+    "eval_metrics": ["cumulative_return", "sharpe_ratio", "annualized_volatility", "max_drawdown"]
+  }
+]

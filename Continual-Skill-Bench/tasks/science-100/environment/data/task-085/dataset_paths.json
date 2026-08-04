@@ -1,0 +1,8 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "dkpes/dkpes_train.csv",
+    "dkpes/dkpes_test.csv"
+  ],
+  "official_output": "pred_results/dkpes_test_pred.csv"
+}

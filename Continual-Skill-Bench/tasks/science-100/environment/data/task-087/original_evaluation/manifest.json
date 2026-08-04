@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-087",
+    "source_id":  "sab-7",
+    "instance_id":  7,
+    "eval_script":  "eval_programs/eval_dkpes_visualization_2.py",
+    "gold_program":  "gold_programs/dkpes_visualization_2.py",
+    "scoring_rubric":  "scoring_rubrics/dkpes_visualization_2_rubric.json",
+    "output_fname":  "pred_results/dkpes_molecular_activity_analysis_pred.png",
+    "gold_results":  [
+                         "gold_results/dkpes_molecular_activity_analysis_gold.png"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

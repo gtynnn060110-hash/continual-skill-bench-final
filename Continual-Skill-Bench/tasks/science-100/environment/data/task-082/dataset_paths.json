@@ -1,0 +1,7 @@
+{
+  "runtime_dataset_root": "/root/benchmark/datasets",
+  "dataset_paths": [
+    "mat_diffusion/diffusion_data_nofeatures_new.xlsx"
+  ],
+  "official_output": "pred_results/mat_diffusion_features.csv"
+}

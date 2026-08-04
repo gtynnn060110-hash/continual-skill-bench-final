@@ -1,0 +1,13 @@
+{
+    "local_task":  "task-085",
+    "source_id":  "sab-5",
+    "instance_id":  5,
+    "eval_script":  "eval_programs/eval_dkpes_model_development_1.py",
+    "gold_program":  "gold_programs/dkpes_model_development_1.py",
+    "scoring_rubric":  "scoring_rubrics/dkpes_model_development_1_rubric.json",
+    "output_fname":  "pred_results/dkpes_test_pred.csv",
+    "gold_results":  [
+                         "gold_results/dkpes_test_gold.csv"
+                     ],
+    "full_archive":  "../../../original_evaluation/scienceagentbench/benchmark"
+}

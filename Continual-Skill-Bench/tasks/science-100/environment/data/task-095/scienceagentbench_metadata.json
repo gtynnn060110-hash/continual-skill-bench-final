@@ -1,0 +1,11 @@
+{
+  "instance_id": 15,
+  "domain": "Bioinformatics",
+  "subtask_categories": "Deep Learning",
+  "github_name": "swansonk14/admet_ai",
+  "src_file_or_path": "scripts/train_tdc_admet_group.py",
+  "gold_program_name": "aai.py",
+  "output_fname": "pred_results/aai_preds.csv",
+  "eval_script_name": "admet_ai_eval.py",
+  "full_dataset_note": "The ScienceAgentBench public Hugging Face row exposes folder tree and previews, but not the complete original benchmark dataset files in this scrape."
+}

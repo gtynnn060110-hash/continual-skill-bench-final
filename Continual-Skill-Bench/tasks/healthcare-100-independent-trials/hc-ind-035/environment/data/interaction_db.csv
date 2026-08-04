@@ -1,0 +1,21 @@
+drug_a,drug_b,severity,effect
+Aspirin,Warfarin,high,Increased risk of bleeding
+Ibuprofen,Paracetamol,low,Mild stomach upset
+Metformin,Lisinopril,moderate,Risk of low blood sugar
+Atorvastatin,Simvastatin,high,Increased risk of muscle damage
+Omeprazole,Clopidogrel,moderate,Reduced effectiveness of Clopidogrel
+Levothyroxine,Amoxicillin,low,Reduced absorption of Levothyroxine
+Hydrochlorothiazide,Lisinopril,moderate,Increased risk of kidney problems
+Gabapentin,Sertraline,moderate,Increased risk of side effects
+Warfarin,Amoxicillin,high,Increased bleeding risk
+Sertraline,Ibuprofen,moderate,Increased risk of bleeding
+Warfarin,Aspirin,high,Increased risk of bleeding
+Paracetamol,Ibuprofen,low,Mild stomach upset
+Lisinopril,Metformin,moderate,Risk of low blood sugar
+Simvastatin,Atorvastatin,high,Increased risk of muscle damage
+Clopidogrel,Omeprazole,moderate,Reduced effectiveness of Clopidogrel
+Amoxicillin,Levothyroxine,low,Reduced absorption of Levothyroxine
+Lisinopril,Hydrochlorothiazide,moderate,Increased risk of kidney problems
+Sertraline,Gabapentin,moderate,Increased risk of side effects
+Amoxicillin,Warfarin,high,Increased bleeding risk
+Ibuprofen,Sertraline,moderate,Increased risk of bleeding

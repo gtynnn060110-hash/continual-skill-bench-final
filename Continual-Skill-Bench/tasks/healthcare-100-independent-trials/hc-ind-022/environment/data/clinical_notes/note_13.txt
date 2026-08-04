@@ -1,0 +1,5 @@
+The patient presents with diabetes.
+Clinical examination reveals diabetes.
+Past medical history significant for diabetes.
+Patient denies diabetes but reports shortness of breath.
+History of diabetes noted.

@@ -1,0 +1,13 @@
+## Task 64: Determine the clinical management and staging for a complex case of liver cirrhosis with esophageal variceal bleeding and liver lesion.
+
+You may search for relevant legal documents, regulations, and case law online.
+
+A 56-year-old male patient was admitted to the ICU via the Emergency Department due to 'sudden onset of confusion accompanied by hematemesis for 2 hours.' The patient has a 15-year history of chronic hepatitis B without regular antiviral therapy; liver cirrhosis (compensated stage) was diagnosed 5 years ago; he has a smoking history of 30 years. Physical examination: T 37.2℃, P 128 bpm, R 26 breaths/min, BP 85/50 mmHg. The patient was in a deep coma, presented with moderate jaundice of the skin and sclera, several spider angiomas on the anterior chest, abdominal distension, and positive shifting dullness. Laboratory tests showed: HGB 65 g/L, WBC 12.0×10⁹/L, PLT 45×10⁹/L; Total Bilirubin 58 μmol/L, Albumin 26 g/L, Prothrombin Time Activity (PTA) 42%; AFP 850 ng/mL. Emergency gastroscopy revealed Esophageal Variceal Bleeding (EVB), for which sclerotherapy was performed. Vital signs are currently stabilizing under rapid fluid resuscitation and vasopressin support. On the second day post-ICU admission, a repeat contrast-enhanced abdominal CT showed: A solitary space-occupying lesion approximately 4.2 cm in diameter in the right hepatic lobe, exhibiting significant heterogeneous enhancement in the arterial phase and washout in the portal venous and delayed phases, consistent with a 'wash-in and wash-out' pattern; a filling defect was observed in the main portal vein trunk with complete distal flow obstruction, accompanied by extensive abdominal collateral circulation. The patient's consciousness has shifted to semicoma; blood gas analysis indicates mild respiratory acidosis complicated by metabolic alkalosis. Based on the "EASL Clinical Practice Guidelines: Management of Hepatocellular Carcinoma (2025)," please answer the following questions:
+1. According to the guidelines, what is the most appropriate anti-tumor treatment regimen for this patient currently? Please explain your reasoning.
+2. Regarding the filling defect in the main portal vein trunk shown on CT, is a needle biopsy or additional imaging required to clarify its nature before formulating a specific follow-up treatment plan? Please provide the basis for your answer.
+3. Please analyze the impact of the patient's change in consciousness on tumor staging assessment and prognosis.
+
+Output requirements:
+- Write your answer to `/app/task_064_output.json`
+- JSON object with your key findings, citations, and conclusions
+- You must write the output to the file. Only responding in chat will receive no score.

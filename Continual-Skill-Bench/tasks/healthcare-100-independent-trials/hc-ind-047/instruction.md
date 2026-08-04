@@ -1,0 +1,15 @@
+## Task 47: Diagnose a patient based on symptoms of fever, joint pain, rash, and history suggesting systemic lupus erythematosus.
+
+You may search for relevant legal documents, regulations, and case law online.
+
+A 52-year-old female patient was admitted due to "fever and joint pain accompanied by rash for 2 weeks, exacerbated for 3 days." Two weeks prior, the patient developed a fever without an obvious precipitating factor, with body temperature fluctuating between 38.5-39.8°C, accompanied by symmetric swelling and pain in the wrists and knees, as well as a non-pruritic erythematous rash on the cheeks, which worsened after sun exposure. In the last 3 days, she experienced exertional dyspnea and orthopnea. The patient reported a history of recurrent oral ulcers but did not seek medical attention. She has a 5-year history of hypertension, controlled with amlodipine; there is no known history of renal disease or hepatitis. Upon admission, physical examination revealed T 39.1°C, BP 145/90 mmHg; the patient was alert. A malar rash (butterfly rash) was observed on the face. Fine crackles were audible at both lung bases. The cardiac silhouette was enlarged with leftward and inferior displacement, and a grade 2/6 systolic murmur was heard at the apex. The abdomen was non-tender. Moderate pitting edema was present in both lower extremities. Ancillary investigations showed: CBC revealed WBC 3.2×10⁹/L, Hb 82 g/L, PLT 85×10⁹/L. Urinalysis showed protein (+++), 5–8 granular casts/HPF; 24-hour urine protein quantification was 3.8 g. Blood biochemistry indicated Albumin 28 g/L, estimated Glomerular Filtration Rate (eGFR) 58 mL/min/1.73m², ALT 85 U/L, AST 92 U/L, total bilirubin normal. Immunological tests showed ANA 1:320 (speckled pattern), anti-dsDNA antibody positive (1:80), anti-Sm antibody negative, Complement C3 0.48 g/L, C4 0.09 g/L. ESR was 98 mm/h, C-reactive protein (CRP) 42 mg/L, and Procalcitonin (PCT) 0.8 ng/mL. Echocardiography showed increased left ventricular end-diastolic internal diameter (LVEDD) accompanied by mild mitral regurgitation. Chest CT indicated small bilateral pleural effusions accompanied by thickening of pulmonary interstitial markings. Please answer:
+1. What is the most likely preliminary diagnosis for this patient? List at least three diagnostic bases.
+2. Which diseases need to be prioritized for differential diagnosis? List two major diseases and explain the key differentiation points.
+3. What is the most urgent clinical problem currently requiring management? What immediate measures should be taken?
+4. To clarify disease activity and guide treatment, which two key laboratory tests need to be urgently completed in addition to those already performed?
+5. Based on the above situation, propose an initial treatment regimen, which must cover specific drug choices for immunosuppressive therapy and complication control.
+
+Output requirements:
+- Write your answer to `/app/task_047_output.json`
+- JSON object with your key findings, citations, and conclusions
+- You must write the output to the file. Only responding in chat will receive no score.
