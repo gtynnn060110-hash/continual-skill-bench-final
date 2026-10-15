@@ -1,58 +1,116 @@
-# Continual Skill Bench
+<div align="center">
 
-This repository packages the Continual Skill Bench tasks together with a slim Harbor-based evaluation harness. Harbor provides the agent execution, sandbox management, job orchestration, verifier execution, and trajectory logging. Continual Skill Bench provides the benchmark tasks, construction pipeline, and experiment configs.
+# ContinualSkillBench
 
-## Repository Layout
+### Can LLM Agents Truly Evolve Their Capabilities?
+
+[![arXiv](https://img.shields.io/badge/arXiv-2608.03874-b31b1b.svg)](https://arxiv.org/abs/2608.03874)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-4b6cb7.svg)](paper/preprint.pdf)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-%E2%89%A53.12-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+
+**A benchmark for evaluating whether LLM agents can accumulate, retain, and reuse skills across long task sequences.**
+
+[[Paper](https://arxiv.org/abs/2608.03874)] · [[Local PDF](paper/preprint.pdf)] · [[Benchmark Documentation](Continual-Skill-Bench/README.md)]
+
+</div>
+
+![ContinualSkillBench construction and evaluation pipeline](figure/continualskillbench_pipeline_update.png)
+
+## Overview
+
+Most agent benchmarks evaluate tasks independently and reset the agent after every episode. **ContinualSkillBench** instead presents agents with ordered streams of related tasks, allowing experience, evaluator feedback, and maintained skills to influence later behavior.
+
+The benchmark contains **500 tasks** organized into five domain-specific streams of 100 tasks each. Its dependency-aware ordering creates opportunities for forward transfer while retaining diverse task formats and evaluation methods.
+
+| Domain | Examples of evaluated capabilities |
+| --- | --- |
+| Finance | Financial analysis, tabular reasoning, and quantitative calculation |
+| Law | Legal reasoning, evidence synthesis, and structured analysis |
+| Healthcare | Clinical reasoning, information extraction, and decision support |
+| Mathematics | Symbolic, numerical, and programmatic problem solving |
+| Office | Document, spreadsheet, and productivity workflows |
+
+ContinualSkillBench is designed around three questions:
+
+1. Does sequential interaction improve downstream task performance?
+2. Do explicit skill repositories provide benefits beyond retained context and feedback?
+3. Can agents consolidate experience into reusable skills, or do their skill libraries become fragmented and task-specific?
+
+## Highlights
+
+- **Long-horizon evaluation:** 100 related tasks per domain, rather than isolated episodes.
+- **Dependency-aware task streams:** tasks are labeled, filtered, and ordered to create meaningful opportunities for skill transfer.
+- **Multiple execution settings:** compare Independent, pure ICL, and skill-maintaining Sequential execution.
+- **Heterogeneous evaluation:** Exact Match, F1, Numeric, Programmatic, and rubric-based evaluators.
+- **Reproducible agent harness:** sandboxed execution, job orchestration, verification, and trajectory logging through Harbor.
+- **Inspectable trajectories:** generated skills, model interactions, evaluator feedback, and per-task rewards are retained for analysis.
+
+## Repository Structure
 
 ```text
 .
-├── src/harbor/                    # Core Harbor harness
-├── pyproject.toml                 # Editable Harbor install target
 ├── Continual-Skill-Bench/
-│   ├── tasks/                     # Benchmark task directories
-│   ├── experiments/configs/       # Example Harbor job configs
-│   ├── pipeline/                  # Benchmark construction pipeline
-│   ├── scripts/                   # Dataset download/filter/generation scripts
-│   └── docs/                      # Benchmark notes
+│   ├── tasks/                  # Sequential and independent benchmark tasks
+│   ├── experiments/configs/    # Example experiment configurations
+│   ├── pipeline/               # Task filtering, dependency analysis, and ordering
+│   ├── scripts/                # Data preparation and analysis utilities
+│   └── docs/                   # Additional benchmark documentation
+├── figure/                     # Paper and README figures
+├── paper/                      # Paper PDF
+├── src/harbor/                 # Harbor-based evaluation harness
+├── pyproject.toml
 └── README.md
-```
-
-The included Harbor harness keeps the core agents used for our experiments:
-
-```text
-codex, codex-seq, codex-seq-icl,
-claude-code, claude-code-seq, claude-code-seq-debug, claude-code-rag,
-nop, oracle
 ```
 
 ## Installation
 
-Create an environment and install Harbor from this repository in editable mode:
+### Requirements
+
+- Python 3.12 or later
+- Docker installed and running
+- API credentials for the model provider being evaluated
+
+Clone the repository and install the included Harbor harness:
 
 ```bash
-cd Continual-Skill-Bench-final
+git clone https://github.com/gtynnn060110-hash/continual-skill-bench-final.git
+cd continual-skill-bench-final
+
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 ```
 
-You should then be able to run:
+Verify the installation:
 
 ```bash
 harbor --help
 harbor jobs start --help
 ```
 
-Most tasks use Docker sandboxes, so Docker should be installed and running. Set the API key required by the agent/model you use, for example:
+Set the credentials required by your selected agent and model, for example:
 
 ```bash
-export OPENAI_API_KEY=...
-export ANTHROPIC_API_KEY=...
+export OPENAI_API_KEY="..."
+export ANTHROPIC_API_KEY="..."
 ```
 
-## Running A Benchmark Task
+## Evaluation Settings
 
-A domain-level sequential task can be run directly with `--path`:
+| Setting | Context and feedback | Skill repository |
+| --- | --- | --- |
+| **Independent (Ind.)** | Reset before every task | Reset before every task |
+| **Pure ICL** | Retained across the ordered stream | Available skills are fixed; the agent cannot maintain or update the repository |
+| **Sequential (Seq.)** | Retained across the ordered stream | The agent can create, modify, and reuse skills |
+
+The repository includes the agents used in our experiments, including `codex`, `codex-seq`, `codex-seq-icl`, `claude-code`, `claude-code-seq`, and `claude-code-rag`.
+
+## Running the Benchmark
+
+### Sequential execution
+
+Run a complete 100-task stream directly from the repository root:
 
 ```bash
 harbor jobs start \
@@ -63,19 +121,19 @@ harbor jobs start \
   --jobs-dir jobs
 ```
 
-Other main domains are:
+The five paper domains are available at:
 
-```text
-Continual-Skill-Bench/tasks/healthcare-100
-Continual-Skill-Bench/tasks/law-100
-Continual-Skill-Bench/tasks/math-100
-Continual-Skill-Bench/tasks/office-100
-Continual-Skill-Bench/tasks/science-100
-```
+| Domain | Sequential task path |
+| --- | --- |
+| Finance | `Continual-Skill-Bench/tasks/finance-econ-100` |
+| Law | `Continual-Skill-Bench/tasks/law-100` |
+| Healthcare | `Continual-Skill-Bench/tasks/healthcare-100` |
+| Mathematics | `Continual-Skill-Bench/tasks/math-100` |
+| Office | `Continual-Skill-Bench/tasks/office-100` |
 
-## Independent Trial Runs
+### Independent execution
 
-Independent-trial task directories are also included. For example:
+Independent-trial directories reset the interaction state for each subtask:
 
 ```bash
 harbor jobs start \
@@ -87,34 +145,22 @@ harbor jobs start \
   --n-concurrent 4
 ```
 
-Equivalent independent-trial directories are provided for healthcare, law, math, and office.
+Equivalent independent-trial directories are included for Law, Healthcare, Mathematics, and Office.
 
-## Running With Config Files
+### Configuration files
 
-Example Harbor job configs live under:
-
-```text
-Continual-Skill-Bench/experiments/configs/
-```
-
-Run a config from the benchmark directory so relative task paths resolve:
+Reusable Harbor configurations are located in `Continual-Skill-Bench/experiments/configs/`. For example:
 
 ```bash
-cd Continual-Skill-Bench
-harbor jobs start -c experiments/configs/finance_econ_100_independent_trials.yaml
+harbor jobs start \
+  -c Continual-Skill-Bench/experiments/configs/finance_econ_100_independent_trials.yaml
 ```
 
-or from the repository root:
-
-```bash
-harbor jobs start -c Continual-Skill-Bench/experiments/configs/finance_econ_100_independent_trials.yaml
-```
-
-If a config contains relative paths such as `./tasks/...`, run it from `Continual-Skill-Bench/` or update the paths.
+If a configuration uses relative task paths such as `./tasks/...`, run it from `Continual-Skill-Bench/` or update the path for your working directory.
 
 ## Outputs
 
-Job outputs are written to the selected `jobs_dir`. A typical trial contains:
+A typical trial directory records the final result, agent trajectory, generated skills, and verifier output:
 
 ```text
 jobs/<job_name>/<trial_name>/
@@ -128,32 +174,25 @@ jobs/<job_name>/<trial_name>/
     └── ctrf.json
 ```
 
-Sequential agents may also create or update skills during the run. These are reflected in the agent logs and trajectory files.
-
-## Benchmark Contents
-
-Continual Skill Bench evaluates whether agents can build, retain, and reuse skills across related subtasks. Each main domain contains a 100-subtask sequence mixing exact-match, numeric, F1, programmatic, and rubric-judge evaluation.
-
-The main task directories are:
-
-| Domain | Path |
-| --- | --- |
-| Finance/Economics | `Continual-Skill-Bench/tasks/finance-econ-100` |
-| Healthcare | `Continual-Skill-Bench/tasks/healthcare-100` |
-| Law | `Continual-Skill-Bench/tasks/law-100` |
-| Mathematics | `Continual-Skill-Bench/tasks/math-100` |
-| Office | `Continual-Skill-Bench/tasks/office-100` |
-| Science | `Continual-Skill-Bench/tasks/science-100` |
-
-See `Continual-Skill-Bench/README.md` for more detail on task format, construction pipeline, and analysis utilities.
-
-## Development Notes
-
-- Use `pip install -e .` after editing Harbor code under `src/harbor/`.
-- Use `harbor jobs start --help` to inspect the current CLI options.
-- The benchmark construction scripts are under `Continual-Skill-Bench/scripts/`.
-- The construction pipeline is documented under `Continual-Skill-Bench/pipeline/`.
+These artifacts support task-level error analysis as well as longitudinal analyses of skill creation, modification, reuse, and fragmentation.
 
 ## Citation
 
-If you use Continual Skill Bench, please cite the accompanying paper. Citation information will be added after release.
+If you find ContinualSkillBench useful, please cite our paper:
+
+```bibtex
+@misc{guan2026continualskillbenchllmagentstruly,
+      title={ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?},
+      author={Tianyi Guan and Yiding Wang and Haotong Yang and Siyuan Cao and Shirui Liu and Yi Hu and Jiaqi Li and Muhan Zhang},
+      year={2026},
+      eprint={2608.03874},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2608.03874}
+}
+```
+
+## License
+
+The repository code is released under the [Apache License 2.0](LICENSE). Tasks derived from external datasets remain subject to their original licenses and terms of use.
+
